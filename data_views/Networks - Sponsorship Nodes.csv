@@ -1,4 +1,4 @@
-ID,Label,Interval,Category,Type,Origin,Roman Citizenship
+ID,Label,TimeInterval,Category,Type,Origin,Roman Citizenship
 1000,Areopagus,"<[-73.0, 350]>",Institution,Public,Athens,
 1001,Boule,"<[-87.5, 350]>",Institution,Public,Athens,
 1002,Demos,"<[-87.5, 350]>",Institution,Public,Athens,
