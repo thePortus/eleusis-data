@@ -1,0 +1,1079 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 9200.16.0629.1945                                -->
+<workbook source-platform='win' version='9.2' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Institutions - Appearances' inline='true' name='textscan.0r6y1dj1w5hmq31a7i34m1fim0vf' version='9.2'>
+      <connection class='textscan' directory='D:/git/brown-diss/data_views' filename='Institutions - Appearances.csv' password='' server='' username=''>
+        <relation name='Institutions - Appearances#csv' table='[Institutions - Appearances#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Institution: Title' ordinal='0' />
+            <column datatype='string' name='Institution: Role' ordinal='1' />
+            <column datatype='string' name='Institution: Origin' ordinal='2' />
+            <column datatype='string' name='Institution: Type' ordinal='3' />
+            <column datatype='integer' name='Inscription: IE' ordinal='4' />
+            <column datatype='string' name='Inscription: Title' ordinal='5' />
+            <column datatype='string' name='Inscription: Object Type' ordinal='6' />
+            <column datatype='string' name='Inscription: Type' ordinal='7' />
+            <column datatype='string' name='Inscription: Suspected Ancient Location' ordinal='8' />
+            <column datatype='real' name='Inscription: Date (Avg.)' ordinal='9' />
+            <column datatype='integer' name='Inscription: Date Span' ordinal='10' />
+            <column datatype='real' name='Inscription: Letter Height (m)' ordinal='11' />
+            <column datatype='integer' name='Institution: Total Appearances' ordinal='12' />
+            <column datatype='integer' name='Institution: Total Offices' ordinal='13' />
+            <column datatype='integer' name='Institution: Total Office Appearances' ordinal='14' />
+            <column datatype='integer' name='Institution: Total Officers' ordinal='15' />
+            <column datatype='integer' name='Institution: Total Officer Appearances' ordinal='16' />
+            <column datatype='integer' name='Institution: Total People Co-Appearances' ordinal='17' />
+            <column datatype='integer' name='Institution: Total Institutional Co-Appearances' ordinal='18' />
+            <column datatype='integer' name='Institution: Total Honors Co-Appearances' ordinal='19' />
+            <column datatype='integer' name='Institution: Total People Co-Appearances with Officers' ordinal='20' />
+            <column datatype='integer' name='Institution: Total Institutional Co-Appearances with Officers' ordinal='21' />
+            <column datatype='integer' name='Inscription: Character Count' ordinal='22' />
+            <column datatype='integer' name='Inscription: Diplomatic Character Count' ordinal='23' />
+            <column datatype='integer' name='Inscription: Word Count' ordinal='24' />
+            <column datatype='integer' name='Inscription: Diplomatic Word Count' ordinal='25' />
+            <column datatype='integer' name='Inscription: Total Institutions' ordinal='26' />
+            <column datatype='integer' name='Inscription: Total Honors' ordinal='27' />
+            <column datatype='integer' name='Inscription: Total People' ordinal='28' />
+            <column datatype='integer' name='Inscription: Total Sponsors' ordinal='29' />
+            <column datatype='integer' name='Inscription: Total Honorands' ordinal='30' />
+            <column datatype='integer' name='Inscription: Total Athenians' ordinal='31' />
+            <column datatype='integer' name='Inscription: Total Romans' ordinal='32' />
+            <column datatype='integer' name='Institution: ID' ordinal='33' />
+            <column datatype='integer' name='Inscription: ID' ordinal='34' />
+            <column datatype='string' name='Institution: Notes' ordinal='35' />
+            <column datatype='string' name='Inscription: Notes' ordinal='36' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Institution: Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Institution: Title]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Institution: Title</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution: Role</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Institution: Role]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Institution: Role</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution: Origin</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Institution: Origin]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Institution: Origin</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution: Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Institution: Type]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Institution: Type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: IE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inscription: IE]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: IE</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Inscription: Title]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Title</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Object Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Inscription: Object Type]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Object Type</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Inscription: Type]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Type</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Suspected Ancient Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Inscription: Suspected Ancient Location]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Suspected Ancient Location</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Date (Avg.)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Inscription: Date (Avg.)]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Date (Avg.)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Date Span</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inscription: Date Span]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Date Span</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Letter Height (m)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Inscription: Letter Height (m)]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Letter Height (m)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution: Total Appearances</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Institution: Total Appearances]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Institution: Total Appearances</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution: Total Offices</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Institution: Total Offices]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Institution: Total Offices</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution: Total Office Appearances</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Institution: Total Office Appearances]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Institution: Total Office Appearances</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution: Total Officers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Institution: Total Officers]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Institution: Total Officers</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution: Total Officer Appearances</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Institution: Total Officer Appearances]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Institution: Total Officer Appearances</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution: Total People Co-Appearances</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Institution: Total People Co-Appearances]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Institution: Total People Co-Appearances</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution: Total Institutional Co-Appearances</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Institution: Total Institutional Co-Appearances]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Institution: Total Institutional Co-Appearances</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution: Total Honors Co-Appearances</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Institution: Total Honors Co-Appearances]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Institution: Total Honors Co-Appearances</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution: Total People Co-Appearances with Officers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Institution: Total People Co-Appearances with Officers]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Institution: Total People Co-Appearances with Officers</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution: Total Institutional Co-Appearances with Officers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Institution: Total Institutional Co-Appearances with Officers]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Institution: Total Institutional Co-Appearances with Officers</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Character Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inscription: Character Count]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Character Count</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Diplomatic Character Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inscription: Diplomatic Character Count]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Diplomatic Character Count</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Word Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inscription: Word Count]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Word Count</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Diplomatic Word Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inscription: Diplomatic Word Count]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Diplomatic Word Count</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Total Institutions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inscription: Total Institutions]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Total Institutions</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Total Honors</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inscription: Total Honors]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Total Honors</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Total People</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inscription: Total People]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Total People</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Total Sponsors</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inscription: Total Sponsors]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Total Sponsors</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Total Honorands</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inscription: Total Honorands]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Total Honorands</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Total Athenians</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inscription: Total Athenians]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Total Athenians</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Total Romans</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inscription: Total Romans]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Total Romans</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution: ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Institution: ID]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Institution: ID</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inscription: ID]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: ID</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution: Notes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Institution: Notes]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Institution: Notes</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription: Notes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Inscription: Notes]</local-name>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias>Inscription: Notes</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Institutions - Appearances#csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Date (Quarter-Century)' datatype='integer' name='[Date (Half-Century) (copy)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='1' formula='[Inscription: Date (Avg.)]' peg='0' size='25' />
+      </column>
+      <column caption='Date (Half-Century)' datatype='integer' name='[Date (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='1' formula='[Inscription: Date (Avg.)]' peg='0' size='50' />
+      </column>
+      <column caption='Character Count' datatype='integer' name='[Inscription: Character Count]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Date' datatype='real' name='[Inscription: Date (Avg.)]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='Date Span' datatype='integer' name='[Inscription: Date Span]' role='dimension' type='ordinal' />
+      <column caption='Diplomatic Character Count' datatype='integer' name='[Inscription: Diplomatic Character Count]' role='measure' type='quantitative' />
+      <column caption='Diplomatic Word Count' datatype='integer' name='[Inscription: Diplomatic Word Count]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Inscription: ID]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='IE' datatype='integer' name='[Inscription: IE]' role='dimension' type='ordinal' />
+      <column caption='Letter Height (m)' datatype='real' name='[Inscription: Letter Height (m)]' role='measure' type='quantitative' />
+      <column datatype='string' hidden='true' name='[Inscription: Notes]' role='dimension' type='nominal' />
+      <column caption='Object Type' datatype='string' name='[Inscription: Object Type]' role='dimension' type='nominal' />
+      <column caption='Possible Ancient Location' datatype='string' name='[Inscription: Suspected Ancient Location]' role='dimension' type='nominal' />
+      <column caption='Inscription Title' datatype='string' name='[Inscription: Title]' role='dimension' type='nominal' />
+      <column caption='Total Athenians' datatype='integer' name='[Inscription: Total Athenians]' role='measure' type='quantitative' />
+      <column caption='Total Honorands' datatype='integer' name='[Inscription: Total Honorands]' role='measure' type='quantitative' />
+      <column caption='Total Honors' datatype='integer' name='[Inscription: Total Honors]' role='measure' type='quantitative' />
+      <column caption='Total Institutions' datatype='integer' name='[Inscription: Total Institutions]' role='measure' type='quantitative' />
+      <column caption='Total People' datatype='integer' name='[Inscription: Total People]' role='measure' type='quantitative' />
+      <column caption='Total Romans' datatype='integer' name='[Inscription: Total Romans]' role='measure' type='quantitative' />
+      <column caption='Total Sponsors' datatype='integer' name='[Inscription: Total Sponsors]' role='measure' type='quantitative' />
+      <column caption='Inscription Type' datatype='string' name='[Inscription: Type]' role='dimension' type='nominal' />
+      <column caption='Word Count' datatype='integer' name='[Inscription: Word Count]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Institution: ID]' role='dimension' type='ordinal' />
+      <column datatype='string' hidden='true' name='[Institution: Notes]' role='dimension' type='nominal' />
+      <column caption='Institution Origin' datatype='string' name='[Institution: Origin]' role='dimension' type='nominal' />
+      <column caption='Institution Role' datatype='string' name='[Institution: Role]' role='dimension' type='nominal' />
+      <column caption='Institution' datatype='string' name='[Institution: Title]' role='dimension' type='nominal' />
+      <column datatype='integer' hidden='true' name='[Institution: Total Appearances]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Institution: Total Honors Co-Appearances]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Institution: Total Institutional Co-Appearances with Officers]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Institution: Total Institutional Co-Appearances]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Institution: Total Office Appearances]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Institution: Total Officer Appearances]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Institution: Total Officers]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Institution: Total Offices]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Institution: Total People Co-Appearances with Officers]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Institution: Total People Co-Appearances]' role='measure' type='quantitative' />
+      <column caption='Institution Type' datatype='string' name='[Institution: Type]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.454435' measure-ordering='alphabetic' measure-percentage='0.545565' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sponsorship - Boule'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Institutions - Appearances' name='textscan.0r6y1dj1w5hmq31a7i34m1fim0vf' />
+          </datasources>
+          <datasource-dependencies datasource='textscan.0r6y1dj1w5hmq31a7i34m1fim0vf'>
+            <column caption='Date (Half-Century)' datatype='integer' name='[Date (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='1' formula='[Inscription: Date (Avg.)]' peg='0' size='50' />
+            </column>
+            <column aggregation='Sum' caption='Date' datatype='real' name='[Inscription: Date (Avg.)]' role='dimension' type='ordinal' />
+            <column caption='Institution Role' datatype='string' name='[Institution: Role]' role='dimension' type='nominal' />
+            <column caption='Institution' datatype='string' name='[Institution: Title]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[Institution: Role]' derivation='None' name='[none:Institution: Role:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Institution: Title]' derivation='None' name='[none:Institution: Title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[textscan.0r6y1dj1w5hmq31a7i34m1fim0vf].[none:Institution: Role:nk]'>
+            <groupfilter function='member' level='[none:Institution: Role:nk]' member='&quot;Sponsor&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[textscan.0r6y1dj1w5hmq31a7i34m1fim0vf].[none:Institution: Title:nk]'>
+            <groupfilter function='member' level='[none:Institution: Title:nk]' member='&quot;Boule&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[textscan.0r6y1dj1w5hmq31a7i34m1fim0vf].[none:Institution: Title:nk]</column>
+            <column>[textscan.0r6y1dj1w5hmq31a7i34m1fim0vf].[none:Institution: Role:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[textscan.0r6y1dj1w5hmq31a7i34m1fim0vf].[sum:Number of Records:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[textscan.0r6y1dj1w5hmq31a7i34m1fim0vf].[sum:Number of Records:qk]</rows>
+        <cols>[textscan.0r6y1dj1w5hmq31a7i34m1fim0vf].[Date (bin)]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='200' maxwidth='600' minheight='200' minwidth='600' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='100000' id='1' name='Sponsorship - Boule' show-title='true' w='100000' x='0' y='0' />
+        </zone>
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows source-height='28'>
+    <window class='worksheet' name='Sponsorship - Boule'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[textscan.0r6y1dj1w5hmq31a7i34m1fim0vf].[Date (bin)]</field>
+            <field>[textscan.0r6y1dj1w5hmq31a7i34m1fim0vf].[none:Inscription: Date (Avg.):ok]</field>
+            <field>[textscan.0r6y1dj1w5hmq31a7i34m1fim0vf].[none:Institution: Role:nk]</field>
+            <field>[textscan.0r6y1dj1w5hmq31a7i34m1fim0vf].[none:Institution: Title:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sponsorship - Boule'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sponsorship - Boule' width='192'>
+      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
+      /Bf8y67DuYokqAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
