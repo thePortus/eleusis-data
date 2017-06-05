@@ -60,7 +60,7 @@ CREATE FUNCTION public."Persons Combined Stats"(
 ) RETURNS SETOF record AS
 $BODY$
 SELECT person."ID" AS "ID",
-       person."Name" AS "Person",
+       person."Person" AS "Person",
        person."Category" AS "Origin",
        person."Gender" AS "Gender",
        (CASE
@@ -70,7 +70,7 @@ SELECT person."ID" AS "ID",
         END) AS "Athenian with Roman Citizenship",
        person."Family" AS "Family",
        person."Extended" AS "Extended",
-       person."Demotic" AS "Deme",
+       person."Deme" AS "Deme",
        COALESCE(inscription_stats."Total Inscriptions", 0) AS "Total Inscriptions",
        COALESCE(inscription_stats."Bases", 0) AS "Bases",
        COALESCE(inscription_stats."Buildings/Monuments", 0) AS "Buildings/Monuments",

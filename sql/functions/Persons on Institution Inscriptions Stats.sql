@@ -53,43 +53,43 @@ SELECT person_appearance."Person ID" AS "Person ID",
                       END) AS "As Genos Non-Honorand",
        COUNT(DISTINCT CASE
                           WHEN person_appearance."Role" = 'Honorand'
-                               AND institution."Name" = 'Areopagus' THEN person_appearance."Inscription ID"
+                               AND institution."Institution" = 'Areopagus' THEN person_appearance."Inscription ID"
                       END) AS "As Areopagus Honorand",
        COUNT(DISTINCT CASE
                           WHEN person_appearance."Role" != 'Honorand'
-                               AND institution."Name" = 'Areopagus' THEN person_appearance."Inscription ID"
+                               AND institution."Institution" = 'Areopagus' THEN person_appearance."Inscription ID"
                       END) AS "As Areopagus Non-Honorand",
        COUNT(DISTINCT CASE
                           WHEN person_appearance."Role" = 'Honorand'
-                               AND institution."Name" = 'Boule' THEN person_appearance."Inscription ID"
+                               AND institution."Institution" = 'Boule' THEN person_appearance."Inscription ID"
                       END) AS "As Boule Honorand",
        COUNT(DISTINCT CASE
                           WHEN person_appearance."Role" != 'Honorand'
-                               AND institution."Name" = 'Boule' THEN person_appearance."Inscription ID"
+                               AND institution."Institution" = 'Boule' THEN person_appearance."Inscription ID"
                       END) AS "As Boule Non-Honorand",
        COUNT(DISTINCT CASE
                           WHEN person_appearance."Role" = 'Honorand'
-                               AND institution."Name" = 'Demos' THEN person_appearance."Inscription ID"
+                               AND institution."Institution" = 'Demos' THEN person_appearance."Inscription ID"
                       END) AS "As Demos Honorand",
        COUNT(DISTINCT CASE
                           WHEN person_appearance."Role" != 'Honorand'
-                               AND institution."Name" = 'Demos' THEN person_appearance."Inscription ID"
+                               AND institution."Institution" = 'Demos' THEN person_appearance."Inscription ID"
                       END) AS "As Demos Non-Honorand",
        COUNT(DISTINCT CASE
                           WHEN person_appearance."Role" = 'Honorand'
-                               AND institution."Name" = 'Eumolpidai' THEN person_appearance."Inscription ID"
+                               AND institution."Institution" = 'Eumolpidai' THEN person_appearance."Inscription ID"
                       END) AS "As Eumolpidai Honorand",
        COUNT(DISTINCT CASE
                           WHEN person_appearance."Role" != 'Honorand'
-                               AND institution."Name" = 'Eumolpidai' THEN person_appearance."Inscription ID"
+                               AND institution."Institution" = 'Eumolpidai' THEN person_appearance."Inscription ID"
                       END) AS "As Eumolpidai Non-Honorand",
        COUNT(DISTINCT CASE
                           WHEN person_appearance."Role" = 'Honorand'
-                               AND institution."Name" = 'Kerykes' THEN person_appearance."Inscription ID"
+                               AND institution."Institution" = 'Kerykes' THEN person_appearance."Inscription ID"
                       END) AS "As Kerykes Honorand",
        COUNT(DISTINCT CASE
                           WHEN person_appearance."Role" != 'Honorand'
-                               AND institution."Name" = 'Kerykes' THEN person_appearance."Inscription ID"
+                               AND institution."Institution" = 'Kerykes' THEN person_appearance."Inscription ID"
                       END) AS "As Kerykes Non-Honorand"
 FROM (public."Person in Inscription" AS person_appearance
       INNER JOIN public."Institution Sponsorship" AS institution_sponsorship ON person_appearance."Inscription ID" = institution_sponsorship."Inscription ID"

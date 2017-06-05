@@ -24,4 +24,4 @@ WITH (
   OIDS=FALSE
 );
 ALTER TABLE public."Person Honor Display"
-  OWNER TO dthomas;
+  OWNER TO postgres;
