@@ -4,10 +4,10 @@
 
 CREATE TABLE public."Text"
 (
+  "ID" integer NOT NULL,
   "Raw Text" text,
   "Text" text,
   "Lemmata" text,
-  "ID" integer NOT NULL,
   "Word Count" integer,
   "Character Count" integer,
   CONSTRAINT "Text_pkey" PRIMARY KEY ("ID"),
