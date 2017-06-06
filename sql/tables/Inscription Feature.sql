@@ -6,7 +6,7 @@ CREATE TABLE public."Inscription Feature"
 (
   "ID" integer NOT NULL,
   "Inscription ID" integer,
-  "Feature" integer,
+  "Feature" Text,
   "Uncertain" boolean,
   "Notes" text,
   CONSTRAINT "Inscription Feature_pkey" PRIMARY KEY ("ID"),
