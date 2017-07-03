@@ -1,7 +1,7 @@
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person Appearance__" AS
 SELECT DISTINCT sponsor."Institution" AS "Sponsor",
                 person."Person" AS "Person",
-                inscription."Inscription" AS "Inscription",
+                inscription."IE" AS "IE",
                 sponsor."Category" AS "Sponsor Origin",
                 sponsor."Type" AS "Sponsor Type",
                 person."Category" AS "Person Origin",
@@ -17,7 +17,7 @@ SELECT DISTINCT sponsor."Institution" AS "Sponsor",
                 person."Extended" AS "Person Extended Family",
                 person."Deme" AS "Person Deme",
                 person_appearance."Role" AS "Person Role",
-                inscription."IE" AS "IE",
+                inscription."Inscription" AS "Inscription",
                 inscription."Object Type" AS "Object Type",
                 inscription."Inscription Type" AS "Inscription Type",
                 inscription."Location" AS "Location",
@@ -26,6 +26,7 @@ SELECT DISTINCT sponsor."Institution" AS "Sponsor",
                 inscription."Word Count" AS "Word Count",
                 inscription."Character Count" AS "Character Count",
                 inscription."Text" AS "Text",
+                inscription."References" AS "References",
                 sponsor."ID" AS "Sponsor ID",
                 person."ID" AS "Person ID",
                 inscription."ID" AS "Inscription ID",
@@ -33,7 +34,7 @@ SELECT DISTINCT sponsor."Institution" AS "Sponsor",
 FROM public."Institution Sponsorship" AS institution_sponsorship
 INNER JOIN public."Person in Inscription" AS person_appearance ON institution_sponsorship."Inscription ID" = person_appearance."Inscription ID"
 INNER JOIN public."Institution" AS sponsor ON institution_sponsorship."Institution ID" = sponsor."ID"
-INNER JOIN public."Inscription with Text"() AS inscription ON institution_sponsorship."Inscription ID" = inscription."ID"
+INNER JOIN public."Inscription Full"() AS inscription ON institution_sponsorship."Inscription ID" = inscription."ID"
 INNER JOIN public."Person" AS person ON person_appearance."Person ID" = person."ID"
 ORDER BY sponsor."ID",
          person."ID",

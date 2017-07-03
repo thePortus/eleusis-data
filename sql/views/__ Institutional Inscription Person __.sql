@@ -21,7 +21,7 @@ SELECT DISTINCT sponsor."Institution" AS "Sponsor",
 FROM public."Institution Sponsorship" AS institution_sponsorship
 INNER JOIN public."Person in Inscription" AS person_appearance ON institution_sponsorship."Inscription ID" = person_appearance."Inscription ID"
 INNER JOIN public."Institution" AS sponsor ON institution_sponsorship."Institution ID" = sponsor."ID"
-INNER JOIN public."Inscription with Text"() AS inscription ON institution_sponsorship."Inscription ID" = inscription."ID"
+INNER JOIN public."Inscription Full"() AS inscription ON institution_sponsorship."Inscription ID" = inscription."ID"
 INNER JOIN public."Person" AS person ON person_appearance."Person ID" = person."ID"
 GROUP BY person."ID", sponsor."ID"
 ORDER BY sponsor."ID",

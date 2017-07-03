@@ -1,6 +1,7 @@
 CREATE OR REPLACE VIEW public."__ Inscription Sponsor __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
                 sponsor."Person" AS "Sponsor",
+                inscription."Insctription" AS "Inscription",
                 inscription."Object Type" AS "Object Type",
                 inscription."Inscription Type" AS "Inscription Type",
                 inscription."Location" AS "Location",
@@ -9,6 +10,7 @@ SELECT DISTINCT inscription."IE" AS "IE",
                 inscription."Word Count" AS "Word Count",
                 inscription."Character Count" AS "Character Count",
                 inscription."Text" AS "Text",
+                inscription."References" AS "References",
                 'Person' AS "Sponsor Class",
                 sponsor."Category" AS "Sponsor Origin",
                 CASE
@@ -27,7 +29,7 @@ SELECT DISTINCT inscription."IE" AS "IE",
                 sponsor."ID" AS "Sponsor ID",
                 sponsor."Uncertain Person" AS "Sponsor Uncertainty"
 FROM public."Person in Inscription" AS sponsor_inscription
-INNER JOIN public."Inscription with Text"() AS inscription ON sponsor_inscription."Inscription ID" = inscription."ID"
+INNER JOIN public."Inscription Full"() AS inscription ON sponsor_inscription."Inscription ID" = inscription."ID"
 INNER JOIN public."Person" AS sponsor ON sponsor_inscription."Person ID" = sponsor."ID"
 WHERE sponsor_inscription."Role" = 'Sponsor'
 UNION ALL
@@ -53,7 +55,7 @@ SELECT DISTINCT inscription."IE" AS "IE",
                 sponsor."ID" AS "Sponsor ID",
                 sponsor_inscription."Uncertain" AS "Sponsor Uncertainty"
 FROM public."Institution Sponsorship" AS sponsor_inscription
-INNER JOIN public."Inscription with Text"() AS inscription ON sponsor_inscription."Inscription ID" = inscription."ID"
+INNER JOIN public."Inscription Full"() AS inscription ON sponsor_inscription."Inscription ID" = inscription."ID"
 INNER JOIN public."Institution" AS sponsor ON sponsor_inscription."Institution ID" = sponsor."ID"
 ORDER BY "Inscription ID",
          "Sponsor ID"

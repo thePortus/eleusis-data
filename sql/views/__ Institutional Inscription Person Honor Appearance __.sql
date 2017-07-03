@@ -2,7 +2,7 @@ CREATE OR REPLACE VIEW public."__ Institutional Inscription Person Honor Appeara
 SELECT DISTINCT sponsor."Institution" AS "Institution",
                 honor."Honor" AS "Honor",
                 person."Person" AS "Person",
-                inscription."Inscription" AS "Inscription",
+                inscription."IE" AS "IE",
                 sponsor."Category" AS "Institution Origin",
                 sponsor."Type" AS "Institution Type",
                 honor."Type" AS "Honor Type",
@@ -21,7 +21,7 @@ SELECT DISTINCT sponsor."Institution" AS "Institution",
                 person."Extended" AS "Person Extended Family",
                 person."Deme" AS "Person Deme",
                 person_appearance."Role" AS "Person Role",
-                inscription."IE" AS "IE",
+                inscription."Inscription" AS "Inscription",
                 inscription."Object Type" AS "Object Type",
                 inscription."Inscription Type" AS "Inscription Type",
                 inscription."Location" AS "Location",
@@ -30,6 +30,7 @@ SELECT DISTINCT sponsor."Institution" AS "Institution",
                 inscription."Word Count" AS "Word Count",
                 inscription."Character Count" AS "Character Count",
                 inscription."Text" AS "Text",
+                inscription."References" AS "References",
                 sponsor."ID" AS "Institution ID",
                 honor."ID" AS "Office ID",
                 person."ID" AS "Person ID",
@@ -40,7 +41,7 @@ INNER JOIN public."Person Honor Display" AS person_honor ON institution_sponsors
 INNER JOIN public."Person in Inscription" AS person_appearance ON person_honor."Person ID" = person_appearance."Person ID"
 AND person_honor."Inscription ID" = person_appearance."Inscription ID"
 INNER JOIN public."Institution" AS sponsor ON institution_sponsorship."Institution ID" = sponsor."ID"
-INNER JOIN public."Inscription with Text"() AS inscription ON institution_sponsorship."Inscription ID" = inscription."ID"
+INNER JOIN public."Inscription Full"() AS inscription ON institution_sponsorship."Inscription ID" = inscription."ID"
 INNER JOIN public."Person" AS person ON person_honor."Person ID" = person."ID"
 AND person_appearance."Person ID" = person."ID"
 INNER JOIN public."Honor" AS honor ON person_honor."Honor ID" = honor."ID"

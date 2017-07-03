@@ -13,7 +13,11 @@ SELECT appearance."Sponsor ID" AS "Source",
         inscription."Inscription Type" AS "Inscription Type",
         inscription."Location" AS "Location",
         inscription."Date" AS "Date",
-        inscription."Date Span" AS "Date Span"
+        inscription."Date Span" AS "Date Span",
+        inscription."Word Count" AS "Word Count",
+        inscription."Character Count" AS "Character Count",
+        inscription."Text" AS "Text",
+        inscription."References" AS "References"
  FROM (
            (SELECT sponsor_appearance."Person ID" AS "Sponsor ID",
                    honorand_appearance."Person ID" AS "Honorand ID",
@@ -21,7 +25,7 @@ SELECT appearance."Sponsor ID" AS "Source",
             FROM public."Person in Inscription" AS sponsor_appearance
             INNER JOIN public."Person in Inscription" AS honorand_appearance ON sponsor_appearance."Inscription ID" = honorand_appearance."Inscription ID"
             AND sponsor_appearance."Person ID" != honorand_appearance."Person ID") AS appearance
-       INNER JOIN public."Inscription with Text"() AS inscription ON appearance."Inscription ID" = inscription."ID")
+       INNER JOIN public."Inscription Full"() AS inscription ON appearance."Inscription ID" = inscription."ID")
  UNION ALL SELECT appearance."Sponsor ID" AS "Source",
                   appearance."Honorand ID" AS "Target",
                   'Directed' AS "Type",
@@ -36,11 +40,15 @@ SELECT appearance."Sponsor ID" AS "Source",
                   inscription."Inscription Type" AS "Inscription Type",
                   inscription."Location" AS "Location",
                   inscription."Date" AS "Date",
-                  inscription."Date Span" AS "Date Span"
+                  inscription."Date Span" AS "Date Span",
+                  inscription."Word Count" AS "Word Count",
+                  inscription."Character Count" AS "Character Count",
+                  inscription."Text" AS "Text",
+                  inscription."References" AS "References"
  FROM (
            (SELECT sponsor_appearance."Institution ID" AS "Sponsor ID",
                    honorand_appearance."Person ID" AS "Honorand ID",
                    sponsor_appearance."Inscription ID" AS "Inscription ID"
             FROM public."Institution Sponsorship" AS sponsor_appearance
             INNER JOIN public."Person in Inscription" AS honorand_appearance ON sponsor_appearance."Inscription ID" = honorand_appearance."Inscription ID") AS appearance
-       INNER JOIN public."Inscription with Text"() AS inscription ON appearance."Inscription ID" = inscription."ID")
+       INNER JOIN public."Inscription Full"() AS inscription ON appearance."Inscription ID" = inscription."ID")

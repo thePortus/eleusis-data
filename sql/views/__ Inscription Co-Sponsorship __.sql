@@ -4,6 +4,7 @@ SELECT DISTINCT inscription."IE" AS "IE",
                 'Person-Person' AS "Co-Sponsorship Type",
                 sponsor."Person" AS "Sponsor",
                 cosponsor."Person" AS "Co-Sponsor",
+                inscription."Inscription" AS "Inscription",
                 inscription."Object Type" AS "Object Type",
                 inscription."Inscription Type" AS "Inscription Type",
                 inscription."Location" AS "Location",
@@ -12,6 +13,7 @@ SELECT DISTINCT inscription."IE" AS "IE",
                 inscription."Word Count" AS "Word Count",
                 inscription."Character Count" AS "Character Count",
                 inscription."Text" AS "Text",
+                inscription."References" AS "References",
                 'Person' AS "Sponsor Class",
                 sponsor."Category" AS "Sponsor Origin",
                 CASE
@@ -48,7 +50,7 @@ SELECT DISTINCT inscription."IE" AS "IE",
 FROM
 public."Person in Inscription" AS sponsorship
 INNER JOIN public."Person in Inscription" AS cosponsorship ON sponsorship."Inscription ID" = cosponsorship."Inscription ID"
-INNER JOIN public."Inscription with Text"() AS inscription ON sponsorship."Inscription ID" = inscription."ID"
+INNER JOIN public."Inscription Full"() AS inscription ON sponsorship."Inscription ID" = inscription."ID"
 INNER JOIN public."Person" AS sponsor ON sponsorship."Person ID" = sponsor."ID"
 INNER JOIN public."Person" AS cosponsor ON cosponsorship."Person ID" = cosponsor."ID"
 WHERE sponsorship."Person ID" != cosponsorship."Person ID" AND sponsorship."Role" = 'Sponsor' AND cosponsorship."Role" = 'Sponsor'
@@ -58,6 +60,7 @@ SELECT DISTINCT inscription."IE" AS "IE",
                 'Person-Institution' AS "Co-Sponsorship Type",
                 sponsor."Person" AS "Sponsor",
                 cosponsor."Institution" AS "Co-Sponsor",
+                inscription."Inscription" AS "Inscription",
                 inscription."Object Type" AS "Object Type",
                 inscription."Inscription Type" AS "Inscription Type",
                 inscription."Location" AS "Location",
@@ -66,6 +69,7 @@ SELECT DISTINCT inscription."IE" AS "IE",
                 inscription."Word Count" AS "Word Count",
                 inscription."Character Count" AS "Character Count",
                 inscription."Text" AS "Text",
+                inscription."References" AS "References",
                 'Person' AS "Sponsor Class",
                 sponsor."Category" AS "Sponsor Origin",
                 CASE
@@ -96,7 +100,7 @@ SELECT DISTINCT inscription."IE" AS "IE",
 FROM
 public."Person in Inscription" as sponsorship
 INNER JOIN public."Institution Sponsorship" as cosponsorship ON sponsorship."Inscription ID" = cosponsorship."Inscription ID"
-INNER JOIN public."Inscription with Text"() as inscription on sponsorship."Inscription ID" = inscription."ID"
+INNER JOIN public."Inscription Full"() as inscription on sponsorship."Inscription ID" = inscription."ID"
 INNER JOIN public."Person" AS sponsor ON sponsorship."Person ID" = sponsor."ID"
 INNER JOIN public."Institution" AS cosponsor ON cosponsorship."Institution ID" = cosponsor."ID"
 WHERE sponsorship."Role" = 'Sponsor'
@@ -106,6 +110,7 @@ SELECT DISTINCT inscription."IE" AS "IE",
                 'Institution-Institution' AS "Co-Sponsorship Type",
                 sponsor."Institution" AS "Sponsor",
                 cosponsor."Institution" AS "Co-Sponsor",
+                inscription."Inscription" AS "Inscription",
                 inscription."Object Type" AS "Object Type",
                 inscription."Inscription Type" AS "Inscription Type",
                 inscription."Location" AS "Location",
@@ -114,6 +119,7 @@ SELECT DISTINCT inscription."IE" AS "IE",
                 inscription."Word Count" AS "Word Count",
                 inscription."Character Count" AS "Character Count",
                 inscription."Text" AS "Text",
+                inscription."References" AS "References",
                 'Institution' AS "Sponsor Class",
                 sponsor."Category" AS "Sponsor Origin",
                 NULL AS "Sponsor Status",
@@ -138,7 +144,7 @@ SELECT DISTINCT inscription."IE" AS "IE",
 FROM
 public."Institution Sponsorship" as sponsorship
 INNER JOIN public."Institution Sponsorship" as cosponsorship ON sponsorship."Inscription ID" = cosponsorship."Inscription ID"
-INNER JOIN public."Inscription with Text"() as inscription on sponsorship."Inscription ID" = inscription."ID"
+INNER JOIN public."Inscription Full"() as inscription on sponsorship."Inscription ID" = inscription."ID"
 INNER JOIN public."Institution" AS sponsor ON sponsorship."Institution ID" = sponsor."ID"
 INNER JOIN public."Institution" AS cosponsor ON cosponsorship."Institution ID" = cosponsor."ID"
 WHERE sponsorship."Role" = 'Sponsor' AND sponsor."ID" != cosponsor."ID"
