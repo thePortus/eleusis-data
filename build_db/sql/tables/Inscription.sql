@@ -9,7 +9,7 @@ CREATE TABLE public."Inscription"
   "Inscription" character varying(500),
   "Object Type" character varying(200),
   "Inscription Type" character varying(200),
-  "Suspected Location" character varying(200),
+  "Location" character varying(200),
   "Low Date" integer,
   "High Date" integer,
   "Date" real,
