@@ -33,7 +33,8 @@ functions = [
     'Persons on Inscriptions Stats',
     'Persons on Institution Inscriptions Stats',
     'Persons with Honor Stats',
-    'Persons Combined Stats'
+    'Persons Combined Stats',
+    'Earliest Date'
 ]
 
 views = [

@@ -3,7 +3,7 @@
 
 
 -- =============START OF TABLES=============
--- Table from: D:\git\brown-diss\build_db\sql\tables\Inscription.sql
+-- Table from: /Users/davidthomas/Git/brown-diss/build_db/sql/tables/Inscription.sql
 
 -- Table: public."Inscription"
 
@@ -29,11 +29,9 @@ CREATE TABLE public."Inscription"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Inscription"
-  OWNER TO postgres;
 
 
--- Table from: D:\git\brown-diss\build_db\sql\tables\Inscription Text.sql
+-- Table from: /Users/davidthomas/Git/brown-diss/build_db/sql/tables/Inscription Text.sql
 
 -- Table: public."Text"
 
@@ -55,11 +53,9 @@ CREATE TABLE public."Text"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Text"
-  OWNER TO postgres;
 
 
--- Table from: D:\git\brown-diss\build_db\sql\tables\Inscription Reference.sql
+-- Table from: /Users/davidthomas/Git/brown-diss/build_db/sql/tables/Inscription Reference.sql
 
 -- Table: public."Inscription Reference"
 
@@ -75,16 +71,14 @@ CREATE TABLE public."Inscription Reference"
   CONSTRAINT "Inscription Reference_pkey" PRIMARY KEY ("Inscription ID", "Publication", "Number"),
   CONSTRAINT "Ref_Inscription Reference_to_Inscription" FOREIGN KEY ("Inscription ID")
       REFERENCES public."Inscription" ("ID") MATCH SIMPLE
-      ON UPDATE NO ACTION ON DELETE NO ACTION,
+      ON UPDATE NO ACTION ON DELETE NO ACTION
 )
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Inscription Reference"
-  OWNER TO postgres;
 
 
--- Table from: D:\git\brown-diss\build_db\sql\tables\Inscription Feature.sql
+-- Table from: /Users/davidthomas/Git/brown-diss/build_db/sql/tables/Inscription Feature.sql
 
 -- Table: public."Inscription Feature"
 
@@ -105,11 +99,9 @@ CREATE TABLE public."Inscription Feature"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Inscription Feature"
-  OWNER TO postgres;
 
 
--- Table from: D:\git\brown-diss\build_db\sql\tables\Inscription Macroscopic.sql
+-- Table from: /Users/davidthomas/Git/brown-diss/build_db/sql/tables/Inscription Macroscopic.sql
 
 -- Table: public."Inscription Macroscopic"
 
@@ -133,11 +125,9 @@ CREATE TABLE public."Inscription Macroscopic"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Inscription Macroscopic"
-  OWNER TO postgres;
 
 
--- Table from: D:\git\brown-diss\build_db\sql\tables\Institution.sql
+-- Table from: /Users/davidthomas/Git/brown-diss/build_db/sql/tables/Institution.sql
 
 -- Table: public."Institution"
 
@@ -156,11 +146,9 @@ CREATE TABLE public."Institution"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Institution"
-  OWNER TO postgres;
 
 
--- Table from: D:\git\brown-diss\build_db\sql\tables\Honor.sql
+-- Table from: /Users/davidthomas/Git/brown-diss/build_db/sql/tables/Honor.sql
 
 -- Table: public."Honor"
 
@@ -179,11 +167,9 @@ CREATE TABLE public."Honor"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Honor"
-  OWNER TO postgres;
 
 
--- Table from: D:\git\brown-diss\build_db\sql\tables\Person.sql
+-- Table from: /Users/davidthomas/Git/brown-diss/build_db/sql/tables/Person.sql
 
 -- Table: public."Person"
 
@@ -216,11 +202,9 @@ CREATE TABLE public."Person"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Person"
-  OWNER TO postgres;
 
 
--- Table from: D:\git\brown-diss\build_db\sql\tables\Institution Honor.sql
+-- Table from: /Users/davidthomas/Git/brown-diss/build_db/sql/tables/Institution Honor.sql
 
 -- Table: public."Institution Honor"
 
@@ -242,11 +226,9 @@ CREATE TABLE public."Institution Honor"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Institution Honor"
-  OWNER TO postgres;
 
 
--- Table from: D:\git\brown-diss\build_db\sql\tables\Honor in Inscription.sql
+-- Table from: /Users/davidthomas/Git/brown-diss/build_db/sql/tables/Honor in Inscription.sql
 
 -- Table: public."Honor in Inscription"
 
@@ -269,11 +251,9 @@ CREATE TABLE public."Honor in Inscription"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Honor in Inscription"
-  OWNER TO postgres;
 
 
--- Table from: D:\git\brown-diss\build_db\sql\tables\Institution Sponsorship.sql
+-- Table from: /Users/davidthomas/Git/brown-diss/build_db/sql/tables/Institution Sponsorship.sql
 
 -- Table: public."Institution Sponsorship"
 
@@ -297,11 +277,9 @@ CREATE TABLE public."Institution Sponsorship"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Institution Sponsorship"
-  OWNER TO postgres;
 
 
--- Table from: D:\git\brown-diss\build_db\sql\tables\Person in Inscription.sql
+-- Table from: /Users/davidthomas/Git/brown-diss/build_db/sql/tables/Person in Inscription.sql
 
 -- Table: public."Person in Inscription"
 
@@ -324,11 +302,9 @@ CREATE TABLE public."Person in Inscription"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Person in Inscription"
-  OWNER TO postgres;
 
 
--- Table from: D:\git\brown-diss\build_db\sql\tables\Person Honor Display.sql
+-- Table from: /Users/davidthomas/Git/brown-diss/build_db/sql/tables/Person Honor Display.sql
 
 -- Table: public."Person Honor Display"
 
@@ -355,14 +331,12 @@ CREATE TABLE public."Person Honor Display"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Person Honor Display"
-  OWNER TO postgres;
 
 
 -- =============END OF TABLES=============
 
 -- =============START OF FUNCTIONS=============
--- Function from: D:\git\brown-diss\build_db\sql\functions\Inscription Full.sql
+-- Function from: /Users/davidthomas/Git/brown-diss/build_db/sql/functions/Inscription Full.sql
 
 CREATE FUNCTION public."Inscription Full"(
     OUT "ID" INTEGER,
@@ -421,7 +395,7 @@ $BODY$
 LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: D:\git\brown-diss\build_db\sql\functions\Inscription Honors Stats.sql
+-- Function from: /Users/davidthomas/Git/brown-diss/build_db/sql/functions/Inscription Honors Stats.sql
 
 CREATE FUNCTION public."Inscription Honors Stats"(
     OUT "Inscription ID" integer,
@@ -478,7 +452,7 @@ SELECT honor_appearance."Inscription ID" AS "Inscription ID",
  LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: D:\git\brown-diss\build_db\sql\functions\Inscription Institutions Stats.sql
+-- Function from: /Users/davidthomas/Git/brown-diss/build_db/sql/functions/Inscription Institutions Stats.sql
 
 CREATE FUNCTION public."Inscription Institutions Stats"(
     OUT "Inscription ID" integer,
@@ -532,7 +506,7 @@ SELECT institution_sponsorship."Inscription ID" AS "Inscription ID",
  LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: D:\git\brown-diss\build_db\sql\functions\Inscription People Stats.sql
+-- Function from: /Users/davidthomas/Git/brown-diss/build_db/sql/functions/Inscription People Stats.sql
 
 CREATE FUNCTION public."Inscription People Stats"(
     OUT "Inscription ID" integer,
@@ -590,7 +564,7 @@ SELECT person_appearance."Inscription ID" AS "Inscription ID",
  LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: D:\git\brown-diss\build_db\sql\functions\Persons on Inscriptions Stats.sql
+-- Function from: /Users/davidthomas/Git/brown-diss/build_db/sql/functions/Persons on Inscriptions Stats.sql
 
 CREATE FUNCTION public."Persons on Inscriptions Stats"(
     OUT "Person ID" integer,
@@ -705,7 +679,7 @@ SELECT person_appearance."Person ID" AS "Person ID",
  LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: D:\git\brown-diss\build_db\sql\functions\Persons on Institution Inscriptions Stats.sql
+-- Function from: /Users/davidthomas/Git/brown-diss/build_db/sql/functions/Persons on Institution Inscriptions Stats.sql
 
 CREATE FUNCTION public."Persons on Institution Inscriptions Stats"(
     OUT "Person ID" integer,
@@ -808,7 +782,7 @@ $BODY$
 LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: D:\git\brown-diss\build_db\sql\functions\Persons with Honor Stats.sql
+-- Function from: /Users/davidthomas/Git/brown-diss/build_db/sql/functions/Persons with Honor Stats.sql
 
 CREATE FUNCTION public."Persons with Honor Stats"(
     OUT "Person ID" integer,
@@ -865,7 +839,7 @@ SELECT person_honor."Person ID" AS "Person ID",
  LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: D:\git\brown-diss\build_db\sql\functions\Persons Combined Stats.sql
+-- Function from: /Users/davidthomas/Git/brown-diss/build_db/sql/functions/Persons Combined Stats.sql
 
 CREATE FUNCTION public."Persons Combined Stats"(
     OUT "ID" INTEGER,
@@ -998,12 +972,37 @@ $BODY$
 LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
+-- Function from: /Users/davidthomas/Git/brown-diss/build_db/sql/functions/Earliest Date.sql
+
+CREATE FUNCTION public."Earliest Date"(
+    IN thing_id INTEGER,
+    OUT "Date" REAL
+) RETURNS REAL AS
+$BODY$
+SELECT MIN(inscription."Date") AS "Date"
+FROM public."Person in Inscription" as person_appearance
+INNER JOIN public."Inscription" AS inscription ON person_appearance."Inscription ID" = inscription."ID"
+WHERE person_appearance."Person ID" = thing_id
+UNION ALL
+SELECT MIN(inscription."Date") AS "Date"
+FROM public."Institution Sponsorship" as institution_sponsorship
+INNER JOIN public."Inscription" AS inscription ON institution_sponsorship."Inscription ID" = inscription."ID"
+WHERE institution_sponsorship."Institution ID" = thing_id
+UNION ALL
+SELECT MIN(inscription."Date") AS "Date"
+FROM public."Honor in Inscription" as honor_appearance
+INNER JOIN public."Inscription" AS inscription ON honor_appearance."Inscription ID" = inscription."ID"
+WHERE honor_appearance."Honor ID" = thing_id
+$BODY$
+LANGUAGE sql STABLE NOT LEAKPROOF;
+
+
 
 -- =============END OF FUNCTIONS=============
 
 
 -- =============START OF VIEWS=============
--- View from: D:\git\brown-diss\build_db\sql\views\__ Inscription Co-Sponsorship __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Inscription Co-Sponsorship __.sql
 
 CREATE OR REPLACE VIEW public."__ Inscription Co-Sponsorship __" AS
 -- Person to Person Cosponsorships
@@ -1157,7 +1156,7 @@ INNER JOIN public."Institution" AS cosponsor ON cosponsorship."Institution ID" =
 WHERE sponsorship."Role" = 'Sponsor' AND sponsor."ID" != cosponsor."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Inscription Honor with Institution __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Inscription Honor with Institution __.sql
 
 CREATE OR REPLACE VIEW public."__ Inscription Honor with Institution __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
@@ -1190,7 +1189,7 @@ ORDER BY inscription."ID",
          honor."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Inscription Person __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Inscription Person __.sql
 
 CREATE OR REPLACE VIEW public."__ Inscription Person __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
@@ -1228,7 +1227,7 @@ ORDER BY inscription."ID",
          person."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Inscription Sponsor __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Inscription Sponsor __.sql
 
 CREATE OR REPLACE VIEW public."__ Inscription Sponsor __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
@@ -1295,7 +1294,7 @@ ORDER BY "Inscription ID",
          "Sponsor ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Inscription Sponsorship of Honorand __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Inscription Sponsorship of Honorand __.sql
 
 CREATE OR REPLACE VIEW public."__ Inscription Sponsorship of Honorand __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
@@ -1399,7 +1398,7 @@ ORDER BY "Inscription ID",
          "Sponsor ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Institutional Honor __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Institutional Honor __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Honor __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
@@ -1419,7 +1418,7 @@ ORDER BY institution."ID",
          honor."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Institutional Honor Appearance __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Institutional Honor Appearance __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Honor Appearance __" AS
 SELECT institution."Institution" AS "Institution",
@@ -1454,7 +1453,7 @@ ORDER BY institution."ID",
        honor."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Institutional Inscription __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Institutional Inscription __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Inscription __" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
@@ -1480,7 +1479,7 @@ ORDER BY sponsor."ID",
          inscription."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Institutional Inscription Honor __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Institutional Inscription Honor __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Honor __" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
@@ -1503,7 +1502,7 @@ ORDER BY sponsor."ID",
          honor."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Institutional Inscription Honor Appearance __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Institutional Inscription Honor Appearance __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Honor Appearance __" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
@@ -1537,7 +1536,7 @@ ORDER BY sponsor."ID",
          inscription."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Institutional Inscription Person __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Institutional Inscription Person __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person __" AS
 SELECT DISTINCT sponsor."Institution" AS "Sponsor",
@@ -1569,7 +1568,7 @@ ORDER BY sponsor."ID",
          person."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Institutional Inscription Person Appearance __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Institutional Inscription Person Appearance __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person Appearance__" AS
 SELECT DISTINCT sponsor."Institution" AS "Sponsor",
@@ -1614,7 +1613,7 @@ ORDER BY sponsor."ID",
          inscription."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Institutional Inscription Person Honor __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Institutional Inscription Person Honor __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person Honor __" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
@@ -1656,7 +1655,7 @@ ORDER BY sponsor."ID",
          person."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Institutional Inscription Person Honor Appearance __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Institutional Inscription Person Honor Appearance __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person Honor Appearance__" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
@@ -1711,7 +1710,7 @@ ORDER BY sponsor."ID",
          inscription."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Institutional Officer __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Institutional Officer __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Officer __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
@@ -1755,7 +1754,7 @@ ORDER BY institution."ID",
          officer."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Institutional Officer Appearance __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Institutional Officer Appearance __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Officer Appearance __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
@@ -1808,7 +1807,7 @@ ORDER BY institution."ID",
          inscription."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Institutional Officer Appearance as Officer __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Institutional Officer Appearance as Officer __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Officer Appearance as Officer __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
@@ -1861,7 +1860,7 @@ ORDER BY institution."ID",
          inscription."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Institutional Officer Other Honor __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Institutional Officer Other Honor __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Officer Other Honor __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
@@ -1921,7 +1920,7 @@ ORDER BY institution."ID",
          other_institution."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Institutional Officer Other Honor Appearance __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Institutional Officer Other Honor Appearance __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Officer Other Honor Appearance __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
@@ -1991,7 +1990,7 @@ ORDER BY institution."ID",
          inscription. "ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Personal Honor __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Personal Honor __.sql
 
 CREATE OR REPLACE VIEW public."__ Personal Honor __" AS
 SELECT DISTINCT person."Person" AS "Person",
@@ -2032,7 +2031,7 @@ ORDER BY
     honor."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\__ Personal Honor Appearance __.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/__ Personal Honor Appearance __.sql
 
 CREATE OR REPLACE VIEW public."__ Personal Honor Appearance __" AS
 SELECT DISTINCT person."Person" AS "Person",
@@ -2082,7 +2081,7 @@ ORDER BY
     inscription."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\- Gephi Coappearances Edges -.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/- Gephi Coappearances Edges -.sql
 
 CREATE OR REPLACE VIEW public."- Gephi Coappearance Edges -" AS
 SELECT appearance."Sponsor ID" AS "Source",
@@ -2140,7 +2139,7 @@ SELECT appearance."Sponsor ID" AS "Source",
        INNER JOIN public."Inscription Full"() AS inscription ON appearance."Inscription ID" = inscription."ID");
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\- Gephi Coappearances Nodes -.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/- Gephi Coappearances Nodes -.sql
 
 CREATE OR REPLACE VIEW public."- Gephi Coappearance Nodes -" AS
 SELECT DISTINCT sponsor."ID" AS "ID",
@@ -2267,7 +2266,7 @@ INNER JOIN public."Institution Sponsorship" AS sponsor_appearance ON honorand_ap
 INNER JOIN public."Person" AS honorand ON honorand_appearance."Person ID" = honorand."ID";
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\- Gephi Sponsorship and People Appearing Edges -.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/- Gephi Sponsorship and People Appearing Edges -.sql
 
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of People Appearing Edges -" AS
 SELECT appearance."Sponsor ID" AS "Source",
@@ -2328,7 +2327,7 @@ FROM (
       INNER JOIN public."Inscription Full"() AS inscription ON appearance."Inscription ID" = inscription."ID");
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\- Gephi Sponsorship and People Appearing Nodes -.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/- Gephi Sponsorship and People Appearing Nodes -.sql
 
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of People Appearing Nodes -" AS
 SELECT DISTINCT sponsor."ID" AS "ID",
@@ -2459,7 +2458,7 @@ INNER JOIN public."Person" AS honorand ON honorand_appearance."Person ID" = hono
 WHERE sponsor_appearance."Role" = 'Sponsor';
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\- Gephi Sponsorship of Honorands Edges -.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/- Gephi Sponsorship of Honorands Edges -.sql
 
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of Honorands Edges -" AS
 SELECT appearance."Sponsor ID" AS "Source",
@@ -2521,7 +2520,7 @@ FROM (
       INNER JOIN public."Inscription Full"() AS inscription ON appearance."Inscription ID" = inscription."ID");
 
 
--- View from: D:\git\brown-diss\build_db\sql\views\- Gephi Sponsorship of Honorands Nodes -.sql
+-- View from: /Users/davidthomas/Git/brown-diss/build_db/sql/views/- Gephi Sponsorship of Honorands Nodes -.sql
 
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of Honorands Nodes -" AS
 SELECT DISTINCT sponsor."ID" AS "ID",
