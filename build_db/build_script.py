@@ -34,11 +34,13 @@ def build_sql_type(list_of_paths, type_of_paths):
     # Loop through filepaths for each table
     for table_path in list_of_paths:
         # Preceed each table SQL with comment indicating source file
-        sql_lines.append('-- ' + type_of_paths + ' from: ' + table_path)
+        sql_lines.append(
+            '-- ' + type_of_paths + ' from: ' + table_path + '\n\n'
+        )
         # Add list of SQL lines from the table
         sql_lines += read_sql_file(table_path)
         # Add blank line for readability
-        sql_lines.append(' ')
+        sql_lines.append('\n\n')
     # Return list of strings with all files of a particular SQL type
     return sql_lines
 

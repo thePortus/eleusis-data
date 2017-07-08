@@ -26,8 +26,6 @@ tables = [
 ]
 
 functions = [
-    'Inscription with Text',
-    'Inscription with References',
     'Inscription Full',
     'Inscription Honors Stats',
     'Inscription Institutions Stats',

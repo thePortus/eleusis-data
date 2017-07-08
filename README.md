@@ -79,7 +79,8 @@ To rebuild the master SQL file from the component SQL files, you need to do the
 following...
 1. Install [Python 3.6x](https://python.org)
 2. Navigate to the directory repository in your terminal or command prompt
-3. Type the following `python run_to_rebuild_sql.py`
+3. Enter `pip install -r requirements.txt`
+3. Enter `python run_to_rebuild_sql.py`
 4. That's it, you should see a message saying the build and export worked.
 
 ---
