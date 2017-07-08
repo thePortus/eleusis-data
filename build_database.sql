@@ -193,10 +193,6 @@ CREATE TABLE public."Person"
   "Patronym" character varying(100),
   "Deme" character varying(100),
   "Uncertain Person" boolean,
-  "PA" character varying(40),
-  "PAA" character varying(40),
-  "LGPN" uuid,
-  "RCA" character varying(40),
   CONSTRAINT "Person_pkey" PRIMARY KEY ("ID")
 )
 WITH (
