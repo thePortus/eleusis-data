@@ -19,5 +19,3 @@ CREATE TABLE public."Person in Inscription"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Person in Inscription"
-  OWNER TO postgres;

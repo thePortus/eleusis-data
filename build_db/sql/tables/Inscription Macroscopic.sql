@@ -20,5 +20,3 @@ CREATE TABLE public."Inscription Macroscopic"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Inscription Macroscopic"
-  OWNER TO postgres;

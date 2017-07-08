@@ -15,5 +15,3 @@ CREATE TABLE public."Honor"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Honor"
-  OWNER TO postgres;

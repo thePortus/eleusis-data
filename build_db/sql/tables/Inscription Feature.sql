@@ -17,5 +17,3 @@ CREATE TABLE public."Inscription Feature"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Inscription Feature"
-  OWNER TO postgres;

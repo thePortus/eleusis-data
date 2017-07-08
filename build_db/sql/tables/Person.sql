@@ -29,5 +29,3 @@ CREATE TABLE public."Person"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Person"
-  OWNER TO postgres;

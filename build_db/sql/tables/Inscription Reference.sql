@@ -12,10 +12,8 @@ CREATE TABLE public."Inscription Reference"
   CONSTRAINT "Inscription Reference_pkey" PRIMARY KEY ("Inscription ID", "Publication", "Number"),
   CONSTRAINT "Ref_Inscription Reference_to_Inscription" FOREIGN KEY ("Inscription ID")
       REFERENCES public."Inscription" ("ID") MATCH SIMPLE
-      ON UPDATE NO ACTION ON DELETE NO ACTION,
+      ON UPDATE NO ACTION ON DELETE NO ACTION
 )
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Inscription Reference"
-  OWNER TO postgres;

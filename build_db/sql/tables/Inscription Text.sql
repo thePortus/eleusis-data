@@ -18,5 +18,3 @@ CREATE TABLE public."Text"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Text"
-  OWNER TO postgres;

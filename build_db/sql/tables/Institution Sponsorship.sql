@@ -20,5 +20,3 @@ CREATE TABLE public."Institution Sponsorship"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Institution Sponsorship"
-  OWNER TO postgres;

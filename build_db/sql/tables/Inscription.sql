@@ -22,5 +22,3 @@ CREATE TABLE public."Inscription"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Inscription"
-  OWNER TO postgres;

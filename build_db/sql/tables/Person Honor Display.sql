@@ -23,5 +23,3 @@ CREATE TABLE public."Person Honor Display"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."Person Honor Display"
-  OWNER TO postgres;
