@@ -31,7 +31,7 @@ WITH (
 );
 
 
--- Table from: /Users/davidthomas/Git/brown-diss/build_db/sql/tables/Inscription Text.sql
+-- Table from: /Users/davidthomas/Git/brown-diss/build_db/sql/tables/Text.sql
 
 -- Table: public."Text"
 
@@ -346,6 +346,8 @@ CREATE FUNCTION public."Inscription Full"(
     OUT "Word Count" INTEGER,
     OUT "Character Count" INTEGER,
     OUT "Text" TEXT,
+    OUT "Raw Text" TEXT,
+    OUT "Lemmata" TEXT,
     OUT "Features" TEXT,
     OUT "References" CHARACTER VARYING
 ) RETURNS SETOF record AS
@@ -361,8 +363,10 @@ SELECT inscription."ID" AS "ID",
        inscription_text."Word Count" AS "Word Count",
        inscription_text."Character Count" AS "Character Count",
        inscription_text."Text" AS "Text",
-        features."Features" AS "Features",
-        reference."References" AS "References"
+       inscription_text."Raw Text" AS "Raw Text",
+       inscription_text."Lemmata" AS "Lemmata",
+       features."Features" AS "Features",
+       reference."References" AS "References"
 -- Inscription
 FROM public."Inscription" AS inscription
 -- Inscription Text

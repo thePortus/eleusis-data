@@ -11,7 +11,7 @@ first, then functions, then views, in the order in which they appear below.
 
 tables = [
     'Inscription',
-    'Inscription Text',
+    'Text',
     'Inscription Reference',
     'Inscription Feature',
     'Inscription Macroscopic',
