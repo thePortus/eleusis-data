@@ -35,6 +35,11 @@ VIEWS_DIR = os.path.join(SQL_DIR, 'views')
 SQL_EXPORT_FILE = os.path.join(ROOT_DIR, 'build_database.sql')
 
 
+def relative_path(absolute_path):
+    """Gives relative path of project file given its absolute path"""
+    return os.path.relpath(absolute_path, ROOT_DIR)
+
+
 def table_paths():
     """Uses build_order to join filenams with directorys for tables"""
     paths = []
