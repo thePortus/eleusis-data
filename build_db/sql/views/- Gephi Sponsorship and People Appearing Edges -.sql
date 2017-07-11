@@ -1,4 +1,4 @@
-DROP VIEW public."- Gephi Sponsorship of People Appearing Edges -" IF EXISTS;
+DROP VIEW IF EXISTS public."- Gephi Sponsorship of People Appearing Edges -";
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of People Appearing Edges -" AS
 SELECT appearance."Sponsor ID" AS "Source",
        appearance."Honorand ID" AS "Target",

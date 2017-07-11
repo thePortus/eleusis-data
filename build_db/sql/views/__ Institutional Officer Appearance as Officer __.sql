@@ -1,4 +1,4 @@
-DROP VIEW public."__ Institutional Officer Appearance as Officer __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Officer Appearance as Officer __";
 CREATE OR REPLACE VIEW public."__ Institutional Officer Appearance as Officer __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
                 office."Honor" AS "Office",

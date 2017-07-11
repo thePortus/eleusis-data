@@ -1004,7 +1004,7 @@ LANGUAGE sql STABLE NOT LEAKPROOF;
 -- =============START OF VIEWS=============
 -- View from: build_db\sql\views\__ Inscription Co-Sponsorship __.sql
 
-DROP VIEW public."__ Inscription Co-Sponsorship __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Inscription Co-Sponsorship __";
 CREATE OR REPLACE VIEW public."__ Inscription Co-Sponsorship __" AS
 -- Person to Person Cosponsorships
 SELECT DISTINCT inscription."IE" AS "IE",
@@ -1159,7 +1159,7 @@ WHERE sponsorship."Role" = 'Sponsor' AND sponsor."ID" != cosponsor."ID";
 
 -- View from: build_db\sql\views\__ Inscription Honor with Institution __.sql
 
-DROP VIEW public."__ Inscription Honor with Institution __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Inscription Honor with Institution __";
 CREATE OR REPLACE VIEW public."__ Inscription Honor with Institution __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
                 honor."Honor" AS "Honor",
@@ -1193,7 +1193,7 @@ ORDER BY inscription."ID",
 
 -- View from: build_db\sql\views\__ Inscription Person __.sql
 
-DROP VIEW public."__ Inscription Person __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Inscription Person __";
 CREATE OR REPLACE VIEW public."__ Inscription Person __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
                 person."Person" AS "Person",
@@ -1232,7 +1232,7 @@ ORDER BY inscription."ID",
 
 -- View from: build_db\sql\views\__ Inscription Sponsor __.sql
 
-DROP VIEW public."__ Inscription Sponsor __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Inscription Sponsor __";
 CREATE OR REPLACE VIEW public."__ Inscription Sponsor __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
                 sponsor."Person" AS "Sponsor",
@@ -1300,7 +1300,7 @@ ORDER BY "Inscription ID",
 
 -- View from: build_db\sql\views\__ Inscription Sponsorship of Honorand __.sql
 
-DROP VIEW public."__ Inscription Sponsorship of Honorand __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Inscription Sponsorship of Honorand __";
 CREATE OR REPLACE VIEW public."__ Inscription Sponsorship of Honorand __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
                 sponsor."Person" AS "Sponsor",
@@ -1405,7 +1405,7 @@ ORDER BY "Inscription ID",
 
 -- View from: build_db\sql\views\__ Institutional Honor __.sql
 
-DROP VIEW public."__ Institutional Honor __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Honor __";
 CREATE OR REPLACE VIEW public."__ Institutional Honor __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
                 honor."Honor" AS "Honor",
@@ -1426,7 +1426,7 @@ ORDER BY institution."ID",
 
 -- View from: build_db\sql\views\__ Institutional Honor Appearance __.sql
 
-DROP VIEW public."__ Institutional Honor Appearance __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Honor Appearance __";
 CREATE OR REPLACE VIEW public."__ Institutional Honor Appearance __" AS
 SELECT institution."Institution" AS "Institution",
         institution."Origin" AS "Institution Origin",
@@ -1462,7 +1462,7 @@ ORDER BY institution."ID",
 
 -- View from: build_db\sql\views\__ Institutional Inscription __.sql
 
-DROP VIEW public."__ Institutional Inscription __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Inscription __";
 CREATE OR REPLACE VIEW public."__ Institutional Inscription __" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
                 inscription."IE" AS "IE",
@@ -1489,7 +1489,7 @@ ORDER BY sponsor."ID",
 
 -- View from: build_db\sql\views\__ Institutional Inscription Honor __.sql
 
-DROP VIEW public."__ Institutional Inscription Honor __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Inscription Honor __";
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Honor __" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
                 honor."Honor" AS "Honor",
@@ -1513,7 +1513,7 @@ ORDER BY sponsor."ID",
 
 -- View from: build_db\sql\views\__ Institutional Inscription Honor Appearance __.sql
 
-DROP VIEW public."__ Institutional Inscription Honor Appearance __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Inscription Honor Appearance __";
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Honor Appearance __" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
                 honor."Honor" AS "Honor",
@@ -1548,7 +1548,7 @@ ORDER BY sponsor."ID",
 
 -- View from: build_db\sql\views\__ Institutional Inscription Person __.sql
 
-DROP VIEW public."__ Institutional Inscription Person __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Inscription Person __";
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person __" AS
 SELECT DISTINCT sponsor."Institution" AS "Sponsor",
                 person."Person" AS "Person",
@@ -1581,7 +1581,7 @@ ORDER BY sponsor."ID",
 
 -- View from: build_db\sql\views\__ Institutional Inscription Person Appearance __.sql
 
-DROP VIEW public."__ Institutional Inscription Person Appearance__" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Inscription Person Appearance__";
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person Appearance__" AS
 SELECT DISTINCT sponsor."Institution" AS "Sponsor",
                 person."Person" AS "Person",
@@ -1627,7 +1627,7 @@ ORDER BY sponsor."ID",
 
 -- View from: build_db\sql\views\__ Institutional Inscription Person Honor __.sql
 
-DROP VIEW public."__ Institutional Inscription Person Honor __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Inscription Person Honor __";
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person Honor __" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
                 honor."Honor" AS "Honor",
@@ -1670,7 +1670,7 @@ ORDER BY sponsor."ID",
 
 -- View from: build_db\sql\views\__ Institutional Inscription Person Honor Appearance __.sql
 
-DROP VIEW public."__ Institutional Inscription Person Honor Appearance__" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Inscription Person Honor Appearance__";
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person Honor Appearance__" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
                 honor."Honor" AS "Honor",
@@ -1726,7 +1726,7 @@ ORDER BY sponsor."ID",
 
 -- View from: build_db\sql\views\__ Institutional Officer __.sql
 
-DROP VIEW public."__ Institutional Officer __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Officer __";
 CREATE OR REPLACE VIEW public."__ Institutional Officer __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
                 office."Honor" AS "Office",
@@ -1771,7 +1771,7 @@ ORDER BY institution."ID",
 
 -- View from: build_db\sql\views\__ Institutional Officer Appearance __.sql
 
-DROP VIEW public."__ Institutional Officer Appearance __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Officer Appearance __";
 CREATE OR REPLACE VIEW public."__ Institutional Officer Appearance __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
                 office."Honor" AS "Office",
@@ -1825,7 +1825,7 @@ ORDER BY institution."ID",
 
 -- View from: build_db\sql\views\__ Institutional Officer Appearance as Officer __.sql
 
-DROP VIEW public."__ Institutional Officer Appearance as Officer __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Officer Appearance as Officer __";
 CREATE OR REPLACE VIEW public."__ Institutional Officer Appearance as Officer __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
                 office."Honor" AS "Office",
@@ -1879,7 +1879,7 @@ ORDER BY institution."ID",
 
 -- View from: build_db\sql\views\__ Institutional Officer Other Honor __.sql
 
-DROP VIEW public."__ Institutional Officer Other Honor __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Officer Other Honor __";
 CREATE OR REPLACE VIEW public."__ Institutional Officer Other Honor __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
                 office."Honor" AS "Office",
@@ -1940,7 +1940,7 @@ ORDER BY institution."ID",
 
 -- View from: build_db\sql\views\__ Institutional Officer Other Honor Appearance __.sql
 
-DROP VIEW public."__ Institutional Officer Other Honor Appearance __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Officer Other Honor Appearance __";
 CREATE OR REPLACE VIEW public."__ Institutional Officer Other Honor Appearance __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
                 office."Honor" AS "Office",
@@ -2011,7 +2011,7 @@ ORDER BY institution."ID",
 
 -- View from: build_db\sql\views\__ Personal Honor __.sql
 
-DROP VIEW public."__ Personal Honor __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Personal Honor __";
 CREATE OR REPLACE VIEW public."__ Personal Honor __" AS
 SELECT DISTINCT person."Person" AS "Person",
                 honor."Honor" AS "Honor",
@@ -2053,7 +2053,7 @@ ORDER BY
 
 -- View from: build_db\sql\views\__ Personal Honor Appearance __.sql
 
-DROP VIEW public."__ Personal Honor Appearance __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Personal Honor Appearance __";
 CREATE OR REPLACE VIEW public."__ Personal Honor Appearance __" AS
 SELECT DISTINCT person."Person" AS "Person",
                 honor."Honor" AS "Honor",
@@ -2104,7 +2104,7 @@ ORDER BY
 
 -- View from: build_db\sql\views\- Gephi Coappearances Edges -.sql
 
-DROP VIEW public."- Gephi Coappearance Edges -" IF EXISTS;
+DROP VIEW IF EXISTS public."- Gephi Coappearance Edges -";
 CREATE OR REPLACE VIEW public."- Gephi Coappearance Edges -" AS
 SELECT appearance."Sponsor ID" AS "Source",
         appearance."Honorand ID" AS "Target",
@@ -2163,7 +2163,7 @@ SELECT appearance."Sponsor ID" AS "Source",
 
 -- View from: build_db\sql\views\- Gephi Coappearances Nodes -.sql
 
-DROP VIEW public."- Gephi Coappearance Nodes -" IF EXISTS;
+DROP VIEW IF EXISTS public."- Gephi Coappearance Nodes -";
 CREATE OR REPLACE VIEW public."- Gephi Coappearance Nodes -" AS
 SELECT DISTINCT sponsor."ID" AS "ID",
                 sponsor."Person" AS "Label",
@@ -2291,7 +2291,7 @@ INNER JOIN public."Person" AS honorand ON honorand_appearance."Person ID" = hono
 
 -- View from: build_db\sql\views\- Gephi Sponsorship and People Appearing Edges -.sql
 
-DROP VIEW public."- Gephi Sponsorship of People Appearing Edges -" IF EXISTS;
+DROP VIEW IF EXISTS public."- Gephi Sponsorship of People Appearing Edges -";
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of People Appearing Edges -" AS
 SELECT appearance."Sponsor ID" AS "Source",
        appearance."Honorand ID" AS "Target",
@@ -2353,7 +2353,7 @@ FROM (
 
 -- View from: build_db\sql\views\- Gephi Sponsorship and People Appearing Nodes -.sql
 
-DROP VIEW public."- Gephi Sponsorship of People Appearing Nodes -" IF EXISTS;
+DROP VIEW IF EXISTS public."- Gephi Sponsorship of People Appearing Nodes -";
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of People Appearing Nodes -" AS
 SELECT DISTINCT sponsor."ID" AS "ID",
                 sponsor."Person" AS "Label",
@@ -2485,7 +2485,7 @@ WHERE sponsor_appearance."Role" = 'Sponsor';
 
 -- View from: build_db\sql\views\- Gephi Sponsorship of Honorands Edges -.sql
 
-DROP VIEW public."- Gephi Sponsorship of Honorands Edges -" IF EXISTS;
+DROP VIEW IF EXISTS public."- Gephi Sponsorship of Honorands Edges -";
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of Honorands Edges -" AS
 SELECT appearance."Sponsor ID" AS "Source",
        appearance."Honorand ID" AS "Target",
@@ -2548,7 +2548,7 @@ FROM (
 
 -- View from: build_db\sql\views\- Gephi Sponsorship of Honorands Nodes -.sql
 
-DROP VIEW public."- Gephi Sponsorship of Honorands Nodes -" IF EXISTS;
+DROP VIEW IF EXISTS public."- Gephi Sponsorship of Honorands Nodes -";
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of Honorands Nodes -" AS
 SELECT DISTINCT sponsor."ID" AS "ID",
                 sponsor."Person" AS "Label",

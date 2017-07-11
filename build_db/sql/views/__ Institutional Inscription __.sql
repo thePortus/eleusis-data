@@ -1,4 +1,4 @@
-DROP VIEW public."__ Institutional Inscription __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Inscription __";
 CREATE OR REPLACE VIEW public."__ Institutional Inscription __" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
                 inscription."IE" AS "IE",

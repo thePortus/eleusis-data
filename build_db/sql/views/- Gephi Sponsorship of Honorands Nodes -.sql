@@ -1,4 +1,4 @@
-DROP VIEW public."- Gephi Sponsorship of Honorands Nodes -" IF EXISTS;
+DROP VIEW IF EXISTS public."- Gephi Sponsorship of Honorands Nodes -";
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of Honorands Nodes -" AS
 SELECT DISTINCT sponsor."ID" AS "ID",
                 sponsor."Person" AS "Label",

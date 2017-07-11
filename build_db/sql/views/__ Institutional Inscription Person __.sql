@@ -1,4 +1,4 @@
-DROP VIEW public."__ Institutional Inscription Person __" IF EXISTS;
+DROP VIEW IF EXISTS public."__ Institutional Inscription Person __";
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person __" AS
 SELECT DISTINCT sponsor."Institution" AS "Sponsor",
                 person."Person" AS "Person",

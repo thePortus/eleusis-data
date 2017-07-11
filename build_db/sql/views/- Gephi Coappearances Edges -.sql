@@ -1,4 +1,4 @@
-DROP VIEW public."- Gephi Coappearance Edges -" IF EXISTS;
+DROP VIEW IF EXISTS public."- Gephi Coappearance Edges -";
 CREATE OR REPLACE VIEW public."- Gephi Coappearance Edges -" AS
 SELECT appearance."Sponsor ID" AS "Source",
         appearance."Honorand ID" AS "Target",
