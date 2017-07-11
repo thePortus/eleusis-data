@@ -51,7 +51,7 @@ LEFT JOIN (
 LEFT JOIN (
     SELECT
     inscription_features."Inscription ID" AS "ID",
-    string_agg(inscription_features."Feature", ',') AS "Features"
+    string_agg(inscription_features."Feature", ', ') AS "Features"
     FROM public."Inscription Feature" AS inscription_features
     GROUP BY inscription_features."Inscription ID"
 ) AS features ON inscription."ID" = features."ID"
