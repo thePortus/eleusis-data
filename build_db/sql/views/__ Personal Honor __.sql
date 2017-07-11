@@ -1,3 +1,4 @@
+DROP VIEW public."__ Personal Honor __" IF EXISTS;
 CREATE OR REPLACE VIEW public."__ Personal Honor __" AS
 SELECT DISTINCT person."Person" AS "Person",
                 honor."Honor" AS "Honor",

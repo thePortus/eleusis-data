@@ -1,3 +1,4 @@
+DROP VIEW public."__ Institutional Officer __" IF EXISTS;
 CREATE OR REPLACE VIEW public."__ Institutional Officer __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
                 office."Honor" AS "Office",

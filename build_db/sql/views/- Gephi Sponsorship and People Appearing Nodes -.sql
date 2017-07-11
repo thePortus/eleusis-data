@@ -1,3 +1,4 @@
+DROP VIEW public."- Gephi Sponsorship of People Appearing Nodes -" IF EXISTS;
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of People Appearing Nodes -" AS
 SELECT DISTINCT sponsor."ID" AS "ID",
                 sponsor."Person" AS "Label",

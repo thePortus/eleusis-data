@@ -1,3 +1,4 @@
+DROP VIEW public."- Gephi Coappearance Nodes -" IF EXISTS;
 CREATE OR REPLACE VIEW public."- Gephi Coappearance Nodes -" AS
 SELECT DISTINCT sponsor."ID" AS "ID",
                 sponsor."Person" AS "Label",

@@ -1,3 +1,4 @@
+DROP VIEW public."__ Institutional Officer Other Honor Appearance __" IF EXISTS;
 CREATE OR REPLACE VIEW public."__ Institutional Officer Other Honor Appearance __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
                 office."Honor" AS "Office",

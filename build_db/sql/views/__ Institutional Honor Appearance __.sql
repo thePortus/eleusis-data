@@ -1,3 +1,4 @@
+DROP VIEW public."__ Institutional Honor Appearance __" IF EXISTS;
 CREATE OR REPLACE VIEW public."__ Institutional Honor Appearance __" AS
 SELECT institution."Institution" AS "Institution",
         institution."Origin" AS "Institution Origin",

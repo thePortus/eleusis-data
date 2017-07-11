@@ -1,3 +1,4 @@
+DROP VIEW public."__ Inscription Person __" IF EXISTS;
 CREATE OR REPLACE VIEW public."__ Inscription Person __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
                 person."Person" AS "Person",

@@ -1,3 +1,4 @@
+DROP VIEW public."__ Institutional Inscription Person Honor Appearance__" IF EXISTS;
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person Honor Appearance__" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
                 honor."Honor" AS "Honor",

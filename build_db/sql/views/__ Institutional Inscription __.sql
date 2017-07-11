@@ -1,3 +1,4 @@
+DROP VIEW public."__ Institutional Inscription __" IF EXISTS;
 CREATE OR REPLACE VIEW public."__ Institutional Inscription __" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
                 inscription."IE" AS "IE",

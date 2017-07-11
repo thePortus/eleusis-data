@@ -1,3 +1,4 @@
+DROP VIEW public."__ Inscription Sponsorship of Honorand __" IF EXISTS;
 CREATE OR REPLACE VIEW public."__ Inscription Sponsorship of Honorand __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
                 sponsor."Person" AS "Sponsor",

@@ -1,3 +1,4 @@
+DROP VIEW public."__ Personal Honor Appearance __" IF EXISTS;
 CREATE OR REPLACE VIEW public."__ Personal Honor Appearance __" AS
 SELECT DISTINCT person."Person" AS "Person",
                 honor."Honor" AS "Honor",
