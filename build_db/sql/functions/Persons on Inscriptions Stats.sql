@@ -76,27 +76,27 @@ SELECT person_appearance."Person ID" AS "Person ID",
                 ELSE 0
             END) AS "Other/Uncertain Inscriptions",
         SUM(CASE
-                WHEN inscription."Suspected Location" = 'Before the Telesterion' THEN 1
+                WHEN inscription."Location" = 'Before the Telesterion' THEN 1
                 ELSE 0
             END) AS "Before the Telesterion",
         SUM(CASE
-                WHEN inscription."Suspected Location" = 'Between the Propylaea' THEN 1
+                WHEN inscription."Location" = 'Between the Propylaea' THEN 1
                 ELSE 0
             END) AS "Between the Propylaea",
         SUM(CASE
-                WHEN inscription."Suspected Location" = 'North of the Telesterion' THEN 1
+                WHEN inscription."Location" = 'North of the Telesterion' THEN 1
                 ELSE 0
             END) AS "North of the Telesterion",
         SUM(CASE
-                WHEN inscription."Suspected Location" = 'Outer Courtyard' THEN 1
+                WHEN inscription."Location" = 'Outer Courtyard' THEN 1
                 ELSE 0
             END) AS "Outer Courtyard",
         SUM(CASE
-                WHEN inscription."Suspected Location" = 'South Wall' THEN 1
+                WHEN inscription."Location" = 'South Wall' THEN 1
                 ELSE 0
             END) AS "South Wall",
         SUM(CASE
-                WHEN inscription."Suspected Location" = 'Upper Terrace' THEN 1
+                WHEN inscription."Location" = 'Upper Terrace' THEN 1
                 ELSE 0
             END) AS "Upper Terrace",
         ROUND(CAST(AVG(inscription."Date") AS NUMERIC), 2) AS "Mean Inscription Date",

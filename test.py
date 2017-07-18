@@ -24,7 +24,7 @@ with open(load_path, 'r+', encoding='utf-8') as readfile:
             r'\n+', '\n', record['Raw Text']
         ).strip()
         cleaned_records.append(clean_record)
-with open(save_path, 'w+', encoding='utf=8', newline='') as savefile:
+with open(save_path, 'w+', encoding='utf=8') as savefile:
     fieldnames = [
         "ID", "Raw Text", "Text", "Lemmata", "Word Count", "Character Count"
     ]
