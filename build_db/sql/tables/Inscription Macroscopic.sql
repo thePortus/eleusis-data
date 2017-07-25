@@ -1,6 +1,6 @@
 -- Table: public."Inscription Macroscopic"
 
--- DROP TABLE public."Inscription Macroscopic";
+DROP TABLE IF EXISTS public."Inscription Macroscopic";
 
 CREATE TABLE public."Inscription Macroscopic"
 (

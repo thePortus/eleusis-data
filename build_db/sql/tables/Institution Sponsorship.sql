@@ -1,6 +1,6 @@
 -- Table: public."Institution Sponsorship"
 
--- DROP TABLE public."Institution Sponsorship";
+DROP TABLE IF EXISTS public."Institution Sponsorship";
 
 CREATE TABLE public."Institution Sponsorship"
 (

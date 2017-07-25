@@ -1,6 +1,6 @@
 -- Table: public."Inscription Feature"
 
--- DROP TABLE public."Inscription Feature";
+DROP TABLE IF EXISTS public."Inscription Feature";
 
 CREATE TABLE public."Inscription Feature"
 (

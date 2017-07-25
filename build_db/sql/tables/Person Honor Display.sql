@@ -1,6 +1,6 @@
 -- Table: public."Person Honor Display"
 
--- DROP TABLE public."Person Honor Display";
+DROP TABLE IF EXISTS public."Person Honor Display";
 
 CREATE TABLE public."Person Honor Display"
 (

@@ -1,6 +1,6 @@
 -- Table: public."Inscription Reference"
 
--- DROP TABLE public."Inscription Reference";
+DROP TABLE IF EXISTS public."Inscription Reference";
 
 CREATE TABLE public."Inscription Reference"
 (

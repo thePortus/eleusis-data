@@ -1,6 +1,6 @@
 -- Table: public."Institution Honor"
 
--- DROP TABLE public."Institution Honor";
+DROP TABLE IF EXISTS public."Institution Honor";
 
 CREATE TABLE public."Institution Honor"
 (

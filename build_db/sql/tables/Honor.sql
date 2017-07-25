@@ -1,6 +1,6 @@
 -- Table: public."Honor"
 
--- DROP TABLE public."Honor";
+DROP TABLE IF EXISTS public."Honor";
 
 CREATE TABLE public."Honor"
 (

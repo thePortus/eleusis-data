@@ -1,6 +1,6 @@
 -- Table: public."Person in Inscription"
 
--- DROP TABLE public."Person in Inscription";
+DROP TABLE IF EXISTS public."Person in Inscription";
 
 CREATE TABLE public."Person in Inscription"
 (

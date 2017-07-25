@@ -1,6 +1,6 @@
 -- Table: public."Honor in Inscription"
 
--- DROP TABLE public."Honor in Inscription";
+DROP TABLE IF EXISTS public."Honor in Inscription";
 
 CREATE TABLE public."Honor in Inscription"
 (

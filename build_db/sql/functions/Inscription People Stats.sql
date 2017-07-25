@@ -1,3 +1,4 @@
+DROP FUNCTION IF EXISTS public."Inscription People Stats";
 CREATE FUNCTION public."Inscription People Stats"(
     OUT "Inscription ID" integer,
     OUT "People" bigint,

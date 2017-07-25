@@ -1,6 +1,6 @@
 -- Table: public."Person"
 
--- DROP TABLE public."Person";
+DROP TABLE IF EXISTS public."Person";
 
 CREATE TABLE public."Person"
 (

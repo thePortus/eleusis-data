@@ -1,6 +1,6 @@
 -- Table: public."Text"
 
--- DROP TABLE public."Text";
+DROP TABLE IF EXISTS public."Text";
 
 CREATE TABLE public."Text"
 (
