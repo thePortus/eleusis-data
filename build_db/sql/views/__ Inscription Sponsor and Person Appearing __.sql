@@ -1,5 +1,5 @@
-DROP VIEW IF EXISTS public."__ Inscription Sponsorship and Person Appearing __";
-CREATE OR REPLACE VIEW public."__ Inscription Sponsorship and Person Aoppearing __" AS
+DROP VIEW IF EXISTS public."__ Inscription Sponsor and Person Appearing __";
+CREATE OR REPLACE VIEW public."__ Inscription Sponsor and Person Appearing __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
                 sponsor."Person" AS "Sponsor",
                 honorand."Person" AS "Honorand",
