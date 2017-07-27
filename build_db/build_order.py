@@ -45,6 +45,7 @@ views = [
     '__ Inscription Person __',
     '__ Inscription Sponsor __',
     '__ Inscription Sponsorship of Honorand __',
+    '__ Inscription Sponsorship and Person Appearing __',
     '__ Institutional Honor __',
     '__ Institutional Honor Appearance __',
     '__ Institutional Inscription __',
