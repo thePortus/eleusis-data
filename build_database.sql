@@ -3,11 +3,11 @@
 
 
 -- =============START OF TABLES=============
--- Table from: build_db\sql\tables\Inscription.sql
+-- Table from: build_db/sql/tables/Inscription.sql
 
 -- Table: public."Inscription"
 
--- DROP TABLE public."Inscription";
+DROP TABLE IF EXISTS public."Inscription";
 
 CREATE TABLE public."Inscription"
 (
@@ -31,11 +31,11 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Text.sql
+-- Table from: build_db/sql/tables/Text.sql
 
 -- Table: public."Text"
 
--- DROP TABLE public."Text";
+DROP TABLE IF EXISTS public."Text";
 
 CREATE TABLE public."Text"
 (
@@ -55,11 +55,11 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Inscription Reference.sql
+-- Table from: build_db/sql/tables/Inscription Reference.sql
 
 -- Table: public."Inscription Reference"
 
--- DROP TABLE public."Inscription Reference";
+DROP TABLE IF EXISTS public."Inscription Reference";
 
 CREATE TABLE public."Inscription Reference"
 (
@@ -78,11 +78,11 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Inscription Feature.sql
+-- Table from: build_db/sql/tables/Inscription Feature.sql
 
 -- Table: public."Inscription Feature"
 
--- DROP TABLE public."Inscription Feature";
+DROP TABLE IF EXISTS public."Inscription Feature";
 
 CREATE TABLE public."Inscription Feature"
 (
@@ -101,11 +101,11 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Inscription Macroscopic.sql
+-- Table from: build_db/sql/tables/Inscription Macroscopic.sql
 
 -- Table: public."Inscription Macroscopic"
 
--- DROP TABLE public."Inscription Macroscopic";
+DROP TABLE IF EXISTS public."Inscription Macroscopic";
 
 CREATE TABLE public."Inscription Macroscopic"
 (
@@ -127,11 +127,11 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Institution.sql
+-- Table from: build_db/sql/tables/Institution.sql
 
 -- Table: public."Institution"
 
--- DROP TABLE public."Institution";
+DROP TABLE IF EXISTS public."Institution";
 
 CREATE TABLE public."Institution"
 (
@@ -148,11 +148,11 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Honor.sql
+-- Table from: build_db/sql/tables/Honor.sql
 
 -- Table: public."Honor"
 
--- DROP TABLE public."Honor";
+DROP TABLE IF EXISTS public."Honor";
 
 CREATE TABLE public."Honor"
 (
@@ -169,11 +169,11 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Person.sql
+-- Table from: build_db/sql/tables/Person.sql
 
 -- Table: public."Person"
 
--- DROP TABLE public."Person";
+DROP TABLE IF EXISTS public."Person";
 
 CREATE TABLE public."Person"
 (
@@ -200,11 +200,11 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Institution Honor.sql
+-- Table from: build_db/sql/tables/Institution Honor.sql
 
 -- Table: public."Institution Honor"
 
--- DROP TABLE public."Institution Honor";
+DROP TABLE IF EXISTS public."Institution Honor";
 
 CREATE TABLE public."Institution Honor"
 (
@@ -224,11 +224,11 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Honor in Inscription.sql
+-- Table from: build_db/sql/tables/Honor in Inscription.sql
 
 -- Table: public."Honor in Inscription"
 
--- DROP TABLE public."Honor in Inscription";
+DROP TABLE IF EXISTS public."Honor in Inscription";
 
 CREATE TABLE public."Honor in Inscription"
 (
@@ -249,11 +249,11 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Institution Sponsorship.sql
+-- Table from: build_db/sql/tables/Institution Sponsorship.sql
 
 -- Table: public."Institution Sponsorship"
 
--- DROP TABLE public."Institution Sponsorship";
+DROP TABLE IF EXISTS public."Institution Sponsorship";
 
 CREATE TABLE public."Institution Sponsorship"
 (
@@ -275,11 +275,11 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Person in Inscription.sql
+-- Table from: build_db/sql/tables/Person in Inscription.sql
 
 -- Table: public."Person in Inscription"
 
--- DROP TABLE public."Person in Inscription";
+DROP TABLE IF EXISTS public."Person in Inscription";
 
 CREATE TABLE public."Person in Inscription"
 (
@@ -300,11 +300,11 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Person Honor Display.sql
+-- Table from: build_db/sql/tables/Person Honor Display.sql
 
 -- Table: public."Person Honor Display"
 
--- DROP TABLE public."Person Honor Display";
+DROP TABLE IF EXISTS public."Person Honor Display";
 
 CREATE TABLE public."Person Honor Display"
 (
@@ -332,8 +332,9 @@ WITH (
 -- =============END OF TABLES=============
 
 -- =============START OF FUNCTIONS=============
--- Function from: build_db\sql\functions\Inscription Full.sql
+-- Function from: build_db/sql/functions/Inscription Full.sql
 
+DROP FUNCTION IF EXISTS public."Inscription Full";
 CREATE FUNCTION public."Inscription Full"(
     OUT "ID" INTEGER,
     OUT "IE" CHARACTER VARYING,
@@ -395,8 +396,9 @@ $BODY$
 LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Inscription Honors Stats.sql
+-- Function from: build_db/sql/functions/Inscription Honors Stats.sql
 
+DROP FUNCTION IF EXISTS public."Inscription Honors Stats";
 CREATE FUNCTION public."Inscription Honors Stats"(
     OUT "Inscription ID" integer,
     OUT "Total Honors" bigint,
@@ -452,8 +454,9 @@ SELECT honor_appearance."Inscription ID" AS "Inscription ID",
  LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Inscription Institutions Stats.sql
+-- Function from: build_db/sql/functions/Inscription Institutions Stats.sql
 
+DROP FUNCTION IF EXISTS public."Inscription Institutions Stats";
 CREATE FUNCTION public."Inscription Institutions Stats"(
     OUT "Inscription ID" integer,
     OUT "Total Institutions" bigint,
@@ -506,8 +509,9 @@ SELECT institution_sponsorship."Inscription ID" AS "Inscription ID",
  LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Inscription People Stats.sql
+-- Function from: build_db/sql/functions/Inscription People Stats.sql
 
+DROP FUNCTION IF EXISTS public."Inscription People Stats";
 CREATE FUNCTION public."Inscription People Stats"(
     OUT "Inscription ID" integer,
     OUT "People" bigint,
@@ -564,8 +568,9 @@ SELECT person_appearance."Inscription ID" AS "Inscription ID",
  LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Persons on Inscriptions Stats.sql
+-- Function from: build_db/sql/functions/Persons on Inscriptions Stats.sql
 
+DROP FUNCTION IF EXISTS public."Persons on Inscriptions Stats";
 CREATE FUNCTION public."Persons on Inscriptions Stats"(
     OUT "Person ID" integer,
     OUT "Total Inscriptions" bigint,
@@ -679,8 +684,9 @@ SELECT person_appearance."Person ID" AS "Person ID",
  LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Persons on Institution Inscriptions Stats.sql
+-- Function from: build_db/sql/functions/Persons on Institution Inscriptions Stats.sql
 
+DROP FUNCTION IF EXISTS public."Persons on Institution Inscriptions Stats";
 CREATE FUNCTION public."Persons on Institution Inscriptions Stats"(
     OUT "Person ID" integer,
     OUT "As Institution Honorand" bigint,
@@ -782,8 +788,9 @@ $BODY$
 LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Persons with Honor Stats.sql
+-- Function from: build_db/sql/functions/Persons with Honor Stats.sql
 
+DROP FUNCTION IF EXISTS public."Persons with Honor Stats";
 CREATE FUNCTION public."Persons with Honor Stats"(
     OUT "Person ID" integer,
     OUT "Total Honors" bigint,
@@ -839,8 +846,9 @@ SELECT person_honor."Person ID" AS "Person ID",
  LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Persons Combined Stats.sql
+-- Function from: build_db/sql/functions/Persons Combined Stats.sql
 
+DROP FUNCTION IF EXISTS public."Persons Combined Stats";
 CREATE FUNCTION public."Persons Combined Stats"(
     OUT "ID" INTEGER,
     OUT "Person" CHARACTER VARYING,
@@ -972,8 +980,9 @@ $BODY$
 LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Earliest Date.sql
+-- Function from: build_db/sql/functions/Earliest Date.sql
 
+DROP FUNCTION IF EXISTS public."Earliest Date";
 CREATE FUNCTION public."Earliest Date"(
     IN thing_id INTEGER,
     OUT "Date" REAL
@@ -997,12 +1006,101 @@ $BODY$
 LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
+-- Function from: build_db/sql/functions/Person is Institution Officer.sql
+
+DROP FUNCTION IF EXISTS public."Person is Institution Officer";
+CREATE FUNCTION public."Person is Institution Officer"(
+    IN person_id INTEGER,
+    IN institution_id INTEGER,
+    OUT "Is Officer" BOOLEAN
+) RETURNS BOOLEAN AS
+$BODY$
+SELECT
+    CASE
+        WHEN COUNT(institution_honor."Institution ID") > 0 THEN TRUE
+        ELSE FALSE
+    END AS "Is Officer"
+FROM public."Person" as person
+    LEFT JOIN public."Person Honor Display" as person_honor
+        ON person."ID" = person_honor."Person ID"
+    INNER JOIN public."Institution Honor" as institution_honor
+        ON person_honor."Honor ID" = institution_honor."Honor ID"
+WHERE
+    person_honor."Person ID" = person_id and institution_honor."Institution ID" = institution_id
+GROUP BY
+    institution_honor."Institution ID"
+$BODY$
+LANGUAGE sql STABLE NOT LEAKPROOF;
+
+
+-- Function from: build_db/sql/functions/Person Full.sql
+
+DROP FUNCTION IF EXISTS public."Person Full";
+CREATE FUNCTION public."Person Full"(
+    OUT "ID" INTEGER,
+    OUT "Person" CHARACTER VARYING,
+    OUT "Category" CHARACTER VARYING,
+    OUT "Origin" CHARACTER VARYING,
+    OUT "Gender" CHARACTER VARYING,
+    OUT "Status" CHARACTER VARYING,
+    OUT "Family" CHARACTER VARYING,
+    OUT "Extended" CHARACTER VARYING,
+    OUT "Praenomen" CHARACTER VARYING,
+    OUT "Nomen" CHARACTER VARYING,
+    OUT "Cognomen" CHARACTER VARYING,
+    OUT "Onomos" CHARACTER VARYING,
+    OUT "Patronym" CHARACTER VARYING,
+    OUT "Deme" CHARACTER VARYING,
+    OUT "Earliest Date" NUMERIC
+    OUT "Areopagus Officer" BOOLEAN
+    OUT "Boule Officer" BOOLEAN
+    OUT "Demos Officer" BOOLEAN
+    OUT "Kerykes Officer" BOOLEAN
+    OUT "Eumolpidai Officer" BOOLEAN
+    OUT "Philleidai Officer" BOOLEAN
+    OUT "Uncertain Person" BOOLEAN
+) RETURNS SETOF record AS
+$BODY$
+SELECT person."ID" AS "ID",
+       person."Person" AS "Person",
+       person."Category" AS "Category",
+       person."Origin" AS "Origin",
+       person."Gender" AS "Gender",
+       CASE
+           WHEN person."Category" = 'Athenian'
+                AND person."Roman Citizen" = FALSE THEN 'Athenian without Roman Citizenship'
+           WHEN person."Category" = 'Athenian'
+                AND person."Roman Citizen" = TRUE THEN 'Athenian with Roman Citizenship'
+           ELSE 'Non-Athenian'
+       END AS "Status",
+       person."Family" AS "Family",
+       person."Extended" AS "Extended",
+       person."Praenomen" AS "Praenomen",
+       person."Nomen" AS "Nomen",
+       person."Cognomen" AS "Cognomen",
+       person."Onomos" AS "Onomos",
+       person."Patronym" AS "Patronym",
+       person."Deme" AS "Deme",
+       public."Earliest Date"(person."ID") AS "Earliest Date",
+       public."Person is Institution Officer"(person."ID", 1000) AS "Areopagus Officer",
+       public."Person is Institution Officer"(person."ID", 1001) AS "Boule Officer",
+       public."Person is Institution Officer"(person."ID", 1002) AS "Demos Officer",
+       public."Person is Institution Officer"(person."ID", 1016) AS "Kerykes Officer",
+       public."Person is Institution Officer"(person."ID", 1015) AS "Eumolpidai Officer",
+       public."Person is Institution Officer"(person."ID", 1007) AS "Phileidai Officer",
+       person."Uncertain Person" AS "Uncertain Person"
+-- Person
+FROM public."Person" AS person
+$BODY$
+LANGUAGE sql STABLE NOT LEAKPROOF;
+
+
 
 -- =============END OF FUNCTIONS=============
 
 
 -- =============START OF VIEWS=============
--- View from: build_db\sql\views\__ Inscription Co-Sponsorship __.sql
+-- View from: build_db/sql/views/__ Inscription Co-Sponsorship __.sql
 
 DROP VIEW IF EXISTS public."__ Inscription Co-Sponsorship __";
 CREATE OR REPLACE VIEW public."__ Inscription Co-Sponsorship __" AS
@@ -1157,7 +1255,7 @@ INNER JOIN public."Institution" AS cosponsor ON cosponsorship."Institution ID" =
 WHERE sponsorship."Role" = 'Sponsor' AND sponsor."ID" != cosponsor."ID";
 
 
--- View from: build_db\sql\views\__ Inscription Honor with Institution __.sql
+-- View from: build_db/sql/views/__ Inscription Honor with Institution __.sql
 
 DROP VIEW IF EXISTS public."__ Inscription Honor with Institution __";
 CREATE OR REPLACE VIEW public."__ Inscription Honor with Institution __" AS
@@ -1191,7 +1289,7 @@ ORDER BY inscription."ID",
          honor."ID";
 
 
--- View from: build_db\sql\views\__ Inscription Person __.sql
+-- View from: build_db/sql/views/__ Inscription Person __.sql
 
 DROP VIEW IF EXISTS public."__ Inscription Person __";
 CREATE OR REPLACE VIEW public."__ Inscription Person __" AS
@@ -1230,7 +1328,7 @@ ORDER BY inscription."ID",
          person."ID";
 
 
--- View from: build_db\sql\views\__ Inscription Sponsor __.sql
+-- View from: build_db/sql/views/__ Inscription Sponsor __.sql
 
 DROP VIEW IF EXISTS public."__ Inscription Sponsor __";
 CREATE OR REPLACE VIEW public."__ Inscription Sponsor __" AS
@@ -1298,7 +1396,7 @@ ORDER BY "Inscription ID",
          "Sponsor ID";
 
 
--- View from: build_db\sql\views\__ Inscription Sponsorship of Honorand __.sql
+-- View from: build_db/sql/views/__ Inscription Sponsorship of Honorand __.sql
 
 DROP VIEW IF EXISTS public."__ Inscription Sponsorship of Honorand __";
 CREATE OR REPLACE VIEW public."__ Inscription Sponsorship of Honorand __" AS
@@ -1403,7 +1501,7 @@ ORDER BY "Inscription ID",
          "Sponsor ID";
 
 
--- View from: build_db\sql\views\__ Institutional Honor __.sql
+-- View from: build_db/sql/views/__ Institutional Honor __.sql
 
 DROP VIEW IF EXISTS public."__ Institutional Honor __";
 CREATE OR REPLACE VIEW public."__ Institutional Honor __" AS
@@ -1424,7 +1522,7 @@ ORDER BY institution."ID",
          honor."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Honor Appearance __.sql
+-- View from: build_db/sql/views/__ Institutional Honor Appearance __.sql
 
 DROP VIEW IF EXISTS public."__ Institutional Honor Appearance __";
 CREATE OR REPLACE VIEW public."__ Institutional Honor Appearance __" AS
@@ -1460,7 +1558,7 @@ ORDER BY institution."ID",
        honor."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Inscription __.sql
+-- View from: build_db/sql/views/__ Institutional Inscription __.sql
 
 DROP VIEW IF EXISTS public."__ Institutional Inscription __";
 CREATE OR REPLACE VIEW public."__ Institutional Inscription __" AS
@@ -1487,7 +1585,7 @@ ORDER BY sponsor."ID",
          inscription."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Inscription Honor __.sql
+-- View from: build_db/sql/views/__ Institutional Inscription Honor __.sql
 
 DROP VIEW IF EXISTS public."__ Institutional Inscription Honor __";
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Honor __" AS
@@ -1511,7 +1609,7 @@ ORDER BY sponsor."ID",
          honor."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Inscription Honor Appearance __.sql
+-- View from: build_db/sql/views/__ Institutional Inscription Honor Appearance __.sql
 
 DROP VIEW IF EXISTS public."__ Institutional Inscription Honor Appearance __";
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Honor Appearance __" AS
@@ -1546,7 +1644,7 @@ ORDER BY sponsor."ID",
          inscription."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Inscription Person __.sql
+-- View from: build_db/sql/views/__ Institutional Inscription Person __.sql
 
 DROP VIEW IF EXISTS public."__ Institutional Inscription Person __";
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person __" AS
@@ -1579,7 +1677,7 @@ ORDER BY sponsor."ID",
          person."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Inscription Person Appearance __.sql
+-- View from: build_db/sql/views/__ Institutional Inscription Person Appearance __.sql
 
 DROP VIEW IF EXISTS public."__ Institutional Inscription Person Appearance__";
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person Appearance__" AS
@@ -1625,7 +1723,7 @@ ORDER BY sponsor."ID",
          inscription."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Inscription Person Honor __.sql
+-- View from: build_db/sql/views/__ Institutional Inscription Person Honor __.sql
 
 DROP VIEW IF EXISTS public."__ Institutional Inscription Person Honor __";
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person Honor __" AS
@@ -1668,7 +1766,7 @@ ORDER BY sponsor."ID",
          person."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Inscription Person Honor Appearance __.sql
+-- View from: build_db/sql/views/__ Institutional Inscription Person Honor Appearance __.sql
 
 DROP VIEW IF EXISTS public."__ Institutional Inscription Person Honor Appearance__";
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person Honor Appearance__" AS
@@ -1724,7 +1822,7 @@ ORDER BY sponsor."ID",
          inscription."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Officer __.sql
+-- View from: build_db/sql/views/__ Institutional Officer __.sql
 
 DROP VIEW IF EXISTS public."__ Institutional Officer __";
 CREATE OR REPLACE VIEW public."__ Institutional Officer __" AS
@@ -1769,7 +1867,7 @@ ORDER BY institution."ID",
          officer."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Officer Appearance __.sql
+-- View from: build_db/sql/views/__ Institutional Officer Appearance __.sql
 
 DROP VIEW IF EXISTS public."__ Institutional Officer Appearance __";
 CREATE OR REPLACE VIEW public."__ Institutional Officer Appearance __" AS
@@ -1823,7 +1921,7 @@ ORDER BY institution."ID",
          inscription."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Officer Appearance as Officer __.sql
+-- View from: build_db/sql/views/__ Institutional Officer Appearance as Officer __.sql
 
 DROP VIEW IF EXISTS public."__ Institutional Officer Appearance as Officer __";
 CREATE OR REPLACE VIEW public."__ Institutional Officer Appearance as Officer __" AS
@@ -1877,7 +1975,7 @@ ORDER BY institution."ID",
          inscription."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Officer Other Honor __.sql
+-- View from: build_db/sql/views/__ Institutional Officer Other Honor __.sql
 
 DROP VIEW IF EXISTS public."__ Institutional Officer Other Honor __";
 CREATE OR REPLACE VIEW public."__ Institutional Officer Other Honor __" AS
@@ -1938,7 +2036,7 @@ ORDER BY institution."ID",
          other_institution."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Officer Other Honor Appearance __.sql
+-- View from: build_db/sql/views/__ Institutional Officer Other Honor Appearance __.sql
 
 DROP VIEW IF EXISTS public."__ Institutional Officer Other Honor Appearance __";
 CREATE OR REPLACE VIEW public."__ Institutional Officer Other Honor Appearance __" AS
@@ -2009,7 +2107,7 @@ ORDER BY institution."ID",
          inscription. "ID";
 
 
--- View from: build_db\sql\views\__ Personal Honor __.sql
+-- View from: build_db/sql/views/__ Personal Honor __.sql
 
 DROP VIEW IF EXISTS public."__ Personal Honor __";
 CREATE OR REPLACE VIEW public."__ Personal Honor __" AS
@@ -2051,7 +2149,7 @@ ORDER BY
     honor."ID";
 
 
--- View from: build_db\sql\views\__ Personal Honor Appearance __.sql
+-- View from: build_db/sql/views/__ Personal Honor Appearance __.sql
 
 DROP VIEW IF EXISTS public."__ Personal Honor Appearance __";
 CREATE OR REPLACE VIEW public."__ Personal Honor Appearance __" AS
@@ -2102,7 +2200,7 @@ ORDER BY
     inscription."ID";
 
 
--- View from: build_db\sql\views\- Gephi Coappearances Edges -.sql
+-- View from: build_db/sql/views/- Gephi Coappearance Edges -.sql
 
 DROP VIEW IF EXISTS public."- Gephi Coappearance Edges -";
 CREATE OR REPLACE VIEW public."- Gephi Coappearance Edges -" AS
@@ -2161,7 +2259,7 @@ SELECT appearance."Sponsor ID" AS "Source",
        INNER JOIN public."Inscription Full"() AS inscription ON appearance."Inscription ID" = inscription."ID");
 
 
--- View from: build_db\sql\views\- Gephi Coappearances Nodes -.sql
+-- View from: build_db/sql/views/- Gephi Coappearance Nodes -.sql
 
 DROP VIEW IF EXISTS public."- Gephi Coappearance Nodes -";
 CREATE OR REPLACE VIEW public."- Gephi Coappearance Nodes -" AS
@@ -2289,7 +2387,7 @@ INNER JOIN public."Institution Sponsorship" AS sponsor_appearance ON honorand_ap
 INNER JOIN public."Person" AS honorand ON honorand_appearance."Person ID" = honorand."ID";
 
 
--- View from: build_db\sql\views\- Gephi Sponsorship and People Appearing Edges -.sql
+-- View from: build_db/sql/views/- Gephi Sponsorship and People Appearing Edges -.sql
 
 DROP VIEW IF EXISTS public."- Gephi Sponsorship of People Appearing Edges -";
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of People Appearing Edges -" AS
@@ -2351,7 +2449,7 @@ FROM (
       INNER JOIN public."Inscription Full"() AS inscription ON appearance."Inscription ID" = inscription."ID");
 
 
--- View from: build_db\sql\views\- Gephi Sponsorship and People Appearing Nodes -.sql
+-- View from: build_db/sql/views/- Gephi Sponsorship and People Appearing Nodes -.sql
 
 DROP VIEW IF EXISTS public."- Gephi Sponsorship of People Appearing Nodes -";
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of People Appearing Nodes -" AS
@@ -2483,7 +2581,7 @@ INNER JOIN public."Person" AS honorand ON honorand_appearance."Person ID" = hono
 WHERE sponsor_appearance."Role" = 'Sponsor';
 
 
--- View from: build_db\sql\views\- Gephi Sponsorship of Honorands Edges -.sql
+-- View from: build_db/sql/views/- Gephi Sponsorship of Honorands Edges -.sql
 
 DROP VIEW IF EXISTS public."- Gephi Sponsorship of Honorands Edges -";
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of Honorands Edges -" AS
@@ -2546,7 +2644,7 @@ FROM (
       INNER JOIN public."Inscription Full"() AS inscription ON appearance."Inscription ID" = inscription."ID");
 
 
--- View from: build_db\sql\views\- Gephi Sponsorship of Honorands Nodes -.sql
+-- View from: build_db/sql/views/- Gephi Sponsorship of Honorands Nodes -.sql
 
 DROP VIEW IF EXISTS public."- Gephi Sponsorship of Honorands Nodes -";
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of Honorands Nodes -" AS

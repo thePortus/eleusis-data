@@ -34,7 +34,9 @@ functions = [
     'Persons on Institution Inscriptions Stats',
     'Persons with Honor Stats',
     'Persons Combined Stats',
-    'Earliest Date'
+    'Earliest Date',
+    'Person is Institution Officer',
+    'Person Full'
 ]
 
 views = [
@@ -63,8 +65,8 @@ views = [
     # '__ Institutional Officer Co-Appearer Honor Appearance __',
     '__ Personal Honor __',
     '__ Personal Honor Appearance __',
-    '- Gephi Coappearances Edges -',
-    '- Gephi Coappearances Nodes -',
+    '- Gephi Coappearance Edges -',
+    '- Gephi Coappearance Nodes -',
     '- Gephi Sponsorship and People Appearing Edges -',
     '- Gephi Sponsorship and People Appearing Nodes -',
     '- Gephi Sponsorship of Honorands Edges -',
