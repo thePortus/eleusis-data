@@ -1,5 +1,5 @@
-DROP VIEW IF EXISTS public."- Inscription Co-Appearance -";
-CREATE OR REPLACE VIEW public."- Inscription Co-Appearance -" AS
+DROP VIEW IF EXISTS public."__ Inscription Co-Appearance __";
+CREATE OR REPLACE VIEW public."__ Inscription Co-Appearance __" AS
 -- FOR COAPPEARANCES BETWEEN INDIVIDUALS
 SELECT DISTINCT
 -- Party A Fields
