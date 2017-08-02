@@ -9024,55 +9024,6 @@
         <cols>[federated.0w8hf7612v0kw912itcj00v5ijz3].[none:Other Institution:nk]</cols>
       </table>
     </worksheet>
-    <worksheet name='Sheet 8'>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='__ Institutional Inscription Honor Appearance __ (eleusis)' name='federated.1qhb5y6124emca15w7a45113ohgb' />
-          </datasources>
-          <datasource-dependencies datasource='federated.1qhb5y6124emca15w7a45113ohgb'>
-            <column datatype='string' name='[Institution]' role='dimension' type='nominal' />
-            <column-instance column='[Institution]' derivation='None' name='[none:Institution:nk]' pivot='key' type='nominal' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.1qhb5y6124emca15w7a45113ohgb].[none:Institution:nk]'>
-            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[none:Institution:nk]' />
-              <groupfilter function='union'>
-                <groupfilter function='member' level='[none:Institution:nk]' member='&quot;Boule of Korinth&quot;' />
-                <groupfilter function='member' level='[none:Institution:nk]' member='&quot;Dionysiac Technitai&quot;' />
-                <groupfilter function='member' level='[none:Institution:nk]' member='&quot;Lykomidai&quot;' />
-                <groupfilter function='member' level='[none:Institution:nk]' member='&quot;Praxiergidai&quot;' />
-                <groupfilter function='member' level='[none:Institution:nk]' member='&quot;Sophiai&quot;' />
-                <groupfilter function='member' level='[none:Institution:nk]' member='&quot;Tribe of Antiochis&quot;' />
-              </groupfilter>
-            </groupfilter>
-          </filter>
-          <slices>
-            <column>[federated.1qhb5y6124emca15w7a45113ohgb].[none:Institution:nk]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style />
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-            <style>
-              <style-rule element='mark'>
-                <format attr='mark-labels-show' value='false' />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows />
-        <cols />
-        <show-full-range>
-          <column>[federated.1n29fd21po1ixr1fejn291e4k3vq].[Date (bin)]</column>
-        </show-full-range>
-      </table>
-    </worksheet>
     <worksheet name='Status of People on All Public Inscriptions'>
       <table>
         <view>
@@ -9567,7 +9518,7 @@
         </highlight>
       </viewpoint>
     </window>
-    <window class='dashboard' name='Officer Representation'>
+    <window class='dashboard' maximized='true' name='Officer Representation'>
       <viewpoints>
         <viewpoint name='Officers of Major Institutions Over Time'>
           <zoom type='fit-width' />
@@ -9577,37 +9528,6 @@
         </viewpoint>
       </viewpoints>
       <active id='-1' />
-    </window>
-    <window class='worksheet' maximized='true' name='Sheet 8'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='31'>
-            <card type='title' />
-          </strip>
-        </edge>
-      </cards>
-      <viewpoint>
-        <highlight>
-          <color-one-way>
-            <field>[federated.1qhb5y6124emca15w7a45113ohgb].[none:Date (bin):ok]</field>
-            <field>[federated.1qhb5y6124emca15w7a45113ohgb].[none:Honor:nk]</field>
-            <field>[federated.1qhb5y6124emca15w7a45113ohgb].[none:Institution:nk]</field>
-          </color-one-way>
-        </highlight>
-      </viewpoint>
     </window>
   </windows>
   <thumbnails>
@@ -13270,36 +13190,6 @@
       48c0tRr5ftOP8bfPJjExirzUXWQcyUchapjx6BxCQ/zlOGhnZ7JYOFZY0N/dkPUjpSjIO4Q5
       KbkAODlJkjDb5YVBzkwQrrgDqswJyAVAJpPJnJQ88CeTyWROSi4AMplM5qTkAiCTyWROSi4A
       MplM5qTkAiCTyWRO6r8BzjZZqVFTNZEAAAAASUVORK5CYII=
-    </thumbnail>
-    <thumbnail height='384' name='Sheet 8' width='384'>
-      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
-      AAAFeElEQVR4nO3YsQ1CMRQEQYPQi91/ib8Jk9KBkXamgstWutc55ywAct63BwBwhwAARAkA
-      QJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABE
-      CQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAER9bg/49TzPmpnbMwAS/ioAM7P2
-      3rdnACS4gACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAg
-      SgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIE
-      ACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAA
-      ogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBK
-      AACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQA
-      IEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACi
-      BAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoA
-      AKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAg
-      SgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIE
-      ACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAA
-      ogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBK
-      AACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQA
-      IEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACi
-      BAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoA
-      AKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAg
-      SgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIE
-      ACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAA
-      ogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBK
-      AACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQA
-      IEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACi
-      BAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoA
-      AKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAg
-      SgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKK+
-      npUKEllIGEsAAAAASUVORK5CYII=
     </thumbnail>
     <thumbnail height='384' name='Sponsors, Co-Sponsorship, and Officers' width='384'>
       iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
