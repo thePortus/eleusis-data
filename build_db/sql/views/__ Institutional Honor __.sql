@@ -1,4 +1,3 @@
-DROP VIEW IF EXISTS public."__ Institutional Honor __";
 CREATE OR REPLACE VIEW public."__ Institutional Honor __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
                 honor."Honor" AS "Honor",

@@ -1,4 +1,3 @@
-DROP FUNCTION IF EXISTS public."Earliest Date";
 CREATE FUNCTION public."Earliest Date"(
     IN thing_id INTEGER,
     OUT "Date" REAL

@@ -1,4 +1,3 @@
-DROP VIEW IF EXISTS public."__ Inscription Co-Sponsorship __";
 CREATE OR REPLACE VIEW public."__ Inscription Co-Sponsorship __" AS
 -- Person to Person Cosponsorships
 SELECT DISTINCT inscription."IE" AS "IE",

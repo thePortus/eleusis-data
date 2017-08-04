@@ -1,4 +1,3 @@
-DROP VIEW IF EXISTS public."__ Inscription Sponsor __";
 CREATE OR REPLACE VIEW public."__ Inscription Sponsor __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
                 sponsor."Person" AS "Sponsor",

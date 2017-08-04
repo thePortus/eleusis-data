@@ -1,4 +1,3 @@
-DROP VIEW IF EXISTS public."- Gephi Sponsorship of Honorands Edges -";
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of Honorands Edges -" AS
 SELECT appearance."Sponsor ID" AS "Source",
        appearance."Honorand ID" AS "Target",

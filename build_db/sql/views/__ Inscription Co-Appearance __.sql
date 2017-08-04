@@ -1,4 +1,3 @@
-DROP VIEW IF EXISTS public."__ Inscription Co-Appearance __";
 CREATE OR REPLACE VIEW public."__ Inscription Co-Appearance __" AS
 -- FOR COAPPEARANCES BETWEEN INDIVIDUALS
 SELECT DISTINCT
@@ -158,4 +157,4 @@ FROM public."Institution Sponsorship" as party_a_in_inscription
         ON party_a_in_inscription."Institution ID" = party_a."ID"
 -- Join Party B
     INNER JOIN public."Person" as party_b
-        ON party_b_in_inscription."Person ID" = party_b."ID"
+        ON party_b_in_inscription."Person ID" = party_b."ID";

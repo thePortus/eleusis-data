@@ -1,4 +1,3 @@
-DROP FUNCTION IF EXISTS public."Inscription Full";
 CREATE FUNCTION public."Inscription Full"(
     OUT "ID" INTEGER,
     OUT "IE" CHARACTER VARYING,

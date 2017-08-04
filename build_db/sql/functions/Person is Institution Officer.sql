@@ -1,4 +1,3 @@
-DROP FUNCTION IF EXISTS public."Person is Institution Officer";
 CREATE FUNCTION public."Person is Institution Officer"(
     IN person_id INTEGER,
     IN institution_id INTEGER,

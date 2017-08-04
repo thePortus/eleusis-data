@@ -1,4 +1,3 @@
-DROP VIEW IF EXISTS public."__ Inscription Honor with Institution __";
 CREATE OR REPLACE VIEW public."__ Inscription Honor with Institution __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
                 honor."Honor" AS "Honor",

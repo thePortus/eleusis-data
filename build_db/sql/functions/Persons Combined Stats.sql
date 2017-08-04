@@ -1,4 +1,3 @@
-DROP FUNCTION IF EXISTS public."Persons Combined Stats";
 CREATE FUNCTION public."Persons Combined Stats"(
     OUT "ID" INTEGER,
     OUT "Person" CHARACTER VARYING,

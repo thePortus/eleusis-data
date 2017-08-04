@@ -1,4 +1,3 @@
-DROP FUNCTION IF EXISTS public."Person Full";
 CREATE FUNCTION public."Person Full"(
     OUT "ID" INTEGER,
     OUT "Person" CHARACTER VARYING,
