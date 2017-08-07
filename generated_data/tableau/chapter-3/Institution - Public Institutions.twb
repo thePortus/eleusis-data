@@ -4419,567 +4419,6 @@
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
     </datasource>
-    <datasource caption='__ Institutional Officer Appearance as Officer __ (eleusis)' inline='true' name='federated.08snhbo1nqfnf5138rlt00v18snm' version='10.3'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='47.199.19.150' name='postgres.0ym5zua1lghtna1h9s6q705tuf6n'>
-            <connection authentication='username-password' class='postgres' dbname='eleusis' odbc-native-protocol='' one-time-sql='' port='5432' server='47.199.19.150' username='davidthomas' />
-          </named-connection>
-        </named-connections>
-        <relation connection='postgres.0ym5zua1lghtna1h9s6q705tuf6n' name='__ Institutional Officer Appearance as Officer __' table='[public].[__ Institutional Officer Appearance as Officer __]' type='table' />
-        <metadata-records>
-          <metadata-record class='column'>
-            <remote-name>Institution</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Institution]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Institution</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>100</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Office</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Office]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Office</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>100</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Officer</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Officer]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Officer</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>500</width>
-            <contains-null>true</contains-null>
-            <cast-to-local-type>true</cast-to-local-type>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>IE</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[IE]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>IE</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Institution Origin</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Institution Origin]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Institution Origin</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>200</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Institution Type</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Institution Type]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Institution Type</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>200</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Office Type</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Office Type]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Office Type</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>100</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Office Appearances</remote-name>
-            <remote-type>3</remote-type>
-            <local-name>[Office Appearances]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Office Appearances</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>10</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Officer Origin</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Officer Origin]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Officer Origin</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>100</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Officer Status</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Officer Status]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Officer Status</remote-alias>
-            <ordinal>10</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>8190</width>
-            <contains-null>true</contains-null>
-            <cast-to-local-type>true</cast-to-local-type>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Officer Gender</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Officer Gender]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Officer Gender</remote-alias>
-            <ordinal>11</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>100</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Officer Family</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Officer Family]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Officer Family</remote-alias>
-            <ordinal>12</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>100</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Officer Extended Family</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Officer Extended Family]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Officer Extended Family</remote-alias>
-            <ordinal>13</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>100</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Officer Deme</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Officer Deme]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Officer Deme</remote-alias>
-            <ordinal>14</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>100</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Officer Role</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Officer Role]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Officer Role</remote-alias>
-            <ordinal>15</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>50</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Inscription</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Inscription]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Inscription</remote-alias>
-            <ordinal>16</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Object Type</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Object Type]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Object Type</remote-alias>
-            <ordinal>17</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Inscription Type</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Inscription Type]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Inscription Type</remote-alias>
-            <ordinal>18</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Location</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Location]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Location</remote-alias>
-            <ordinal>19</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Date</remote-name>
-            <remote-type>4</remote-type>
-            <local-name>[Date]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Date</remote-alias>
-            <ordinal>20</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>9</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_REAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_FLOAT&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Date Span</remote-name>
-            <remote-type>4</remote-type>
-            <local-name>[Date Span]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Date Span</remote-alias>
-            <ordinal>21</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>9</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_REAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_FLOAT&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Word Count</remote-name>
-            <remote-type>3</remote-type>
-            <local-name>[Word Count]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Word Count</remote-alias>
-            <ordinal>22</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>10</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Character Count</remote-name>
-            <remote-type>3</remote-type>
-            <local-name>[Character Count]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Character Count</remote-alias>
-            <ordinal>23</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>10</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Text</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Text]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Text</remote-alias>
-            <ordinal>24</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>8190</width>
-            <contains-null>true</contains-null>
-            <cast-to-local-type>true</cast-to-local-type>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>References</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[References]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>References</remote-alias>
-            <ordinal>25</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Inscription ID</remote-name>
-            <remote-type>3</remote-type>
-            <local-name>[Inscription ID]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Inscription ID</remote-alias>
-            <ordinal>26</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>10</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Institution ID</remote-name>
-            <remote-type>3</remote-type>
-            <local-name>[Institution ID]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Institution ID</remote-alias>
-            <ordinal>27</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>10</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Office ID</remote-name>
-            <remote-type>3</remote-type>
-            <local-name>[Office ID]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Office ID</remote-alias>
-            <ordinal>28</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>10</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Officer ID</remote-name>
-            <remote-type>3</remote-type>
-            <local-name>[Officer ID]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Officer ID</remote-alias>
-            <ordinal>29</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>10</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Officer Uncertainty</remote-name>
-            <remote-type>11</remote-type>
-            <local-name>[Officer Uncertainty]</local-name>
-            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
-            <remote-alias>Officer Uncertainty</remote-alias>
-            <ordinal>30</ordinal>
-            <local-type>boolean</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIT&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_BIT&quot;</attribute>
-            </attributes>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column aggregation='None' caption='Date (Half Century)' datatype='integer' name='[Date (bin)]' role='dimension' type='ordinal'>
-        <calculation class='bin' decimals='1' formula='[Date]' peg='0' size='50' />
-      </column>
-      <column aggregation='Sum' datatype='real' name='[Date Span]' role='dimension' type='ordinal' />
-      <column aggregation='Sum' datatype='real' name='[Date]' role='dimension' type='ordinal' />
-      <column datatype='integer' name='[Inscription ID]' role='dimension' type='ordinal' />
-      <column datatype='integer' name='[Institution ID]' role='dimension' type='ordinal' />
-      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
-        <calculation class='tableau' formula='1' />
-      </column>
-      <column datatype='integer' name='[Office ID]' role='dimension' type='ordinal' />
-      <column datatype='integer' name='[Officer ID]' role='dimension' type='ordinal' />
-      <group name='[Good Dating]' name-style='unqualified' user:ui-builder='filter-group'>
-        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
-          <groupfilter function='level-members' level='[Date Span]' />
-          <groupfilter function='union'>
-            <groupfilter function='member' level='[Date Span]' member='78.0' />
-            <groupfilter function='member' level='[Date Span]' member='99.0' />
-            <groupfilter function='member' level='[Date Span]' member='100.0' />
-            <groupfilter function='member' level='[Date Span]' member='199.0' />
-            <groupfilter function='member' level='[Date Span]' member='200.0' />
-            <groupfilter function='member' level='[Date Span]' member='299.0' />
-          </groupfilter>
-        </groupfilter>
-      </group>
-      <layout dim-ordering='alphabetic' dim-percentage='0.765281' group-percentage='0.0562347' measure-ordering='alphabetic' measure-percentage='0.178484' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-    </datasource>
     <datasource caption='__ Inscription Sponsor and Person Appearing __ (eleusis)' inline='true' name='federated.0vfy7xq1rxcud8109h9511iiktgk' version='10.3'>
       <connection class='federated'>
         <named-connections>
@@ -7231,6 +6670,706 @@
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
     </datasource>
+    <datasource caption='__ Institutional Officer Other Honor Appearance __ (eleusis)' inline='true' name='federated.0w8hf7612v0kw912itcj00v5ijz3' version='10.3'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='47.199.19.150' name='postgres.0t6eho005jtnyk1c4tobv1nz7cwu'>
+            <connection authentication='username-password' class='postgres' dbname='eleusis' odbc-native-protocol='' one-time-sql='' port='5432' server='47.199.19.150' username='davidthomas' />
+          </named-connection>
+        </named-connections>
+        <relation connection='postgres.0t6eho005jtnyk1c4tobv1nz7cwu' name='__ Institutional Officer Other Honor Appearance __' table='[public].[__ Institutional Officer Other Honor Appearance __]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Institution</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Institution]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Institution</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Office</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Office]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Office</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Honor</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Other Honor]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Other Honor</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Officer</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Officer]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Officer</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>500</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IE</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[IE]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>IE</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution Origin</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Institution Origin]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Institution Origin</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>200</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Institution Type]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Institution Type</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>200</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Office Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Office Type]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Office Type</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Honor Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Other Honor Type]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Other Honor Type</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Honor Origin</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Other Honor Origin]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Other Honor Origin</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Honor Appearances</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Other Honor Appearances]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Other Honor Appearances</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Institution</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Other Institution]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Other Institution</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Institution Origin</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Other Institution Origin]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Other Institution Origin</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>200</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Institution Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Other Institution Type]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Other Institution Type</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>200</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Officer Origin</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Officer Origin]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Officer Origin</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Officer Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Officer Status]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Officer Status</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>8190</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Officer Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Officer Gender]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Officer Gender</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Officer Family</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Officer Family]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Officer Family</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Officer Extended Family</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Officer Extended Family]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Officer Extended Family</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Officer Deme</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Officer Deme]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Officer Deme</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Officer Role</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Officer Role]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Officer Role</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Inscription]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Inscription</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Object Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Object Type]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Object Type</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Inscription Type]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Inscription Type</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>9</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_REAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_FLOAT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date Span</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[Date Span]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Date Span</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>9</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_REAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_FLOAT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Word Count</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Word Count]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Word Count</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Character Count</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Character Count]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Character Count</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Text</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Text]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Text</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>8190</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>References</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[References]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>References</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Institution ID]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Institution ID</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Office ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Office ID]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Office ID</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Honor ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Honor ID]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Honor ID</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Institution ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Other Institution ID]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Other Institution ID</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Officer ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Officer ID]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Officer ID</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Inscription ID]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Inscription ID</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Officer Uncertainty</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Officer Uncertainty]</local-name>
+            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <remote-alias>Officer Uncertainty</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_BIT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Not Self Referential' datatype='boolean' name='[Calculation_805018469825196032]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[Institution ID] &lt;&gt; [Other Institution ID]' />
+      </column>
+      <column aggregation='None' caption='Date (Half Century)' datatype='integer' name='[Date (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='1' formula='[Date]' peg='0' size='50' />
+      </column>
+      <column aggregation='Sum' datatype='real' name='[Date Span]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='real' name='[Date]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Honor ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Inscription ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Institution ID]' role='dimension' type='ordinal' />
+      <column caption='Institution of Officer' datatype='string' name='[Institution]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Office ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Officer ID]' role='dimension' type='ordinal' />
+      <column caption='Institution of Other Honor Attached' datatype='string' name='[Other Institution]' role='dimension' type='nominal' />
+      <group name='[Good Dating]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[Date Span]' />
+          <groupfilter function='member' level='[Date Span]' member='99.0' />
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' dim-percentage='0.726208' group-percentage='0.0483163' measure-ordering='alphabetic' measure-percentage='0.225476' show-structure='true' user-set-layout='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
     <datasource caption='__ Inscription Sponsorship of Honorand __ (eleusis)' inline='true' name='federated.028xmq30l71zr918d9f4w0sbwjkk' version='10.3'>
       <connection class='federated'>
         <named-connections>
@@ -8391,20 +8530,20 @@
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
     </datasource>
-    <datasource caption='__ Institutional Officer Other Honor Appearance __ (eleusis)' inline='true' name='federated.0w8hf7612v0kw912itcj00v5ijz3' version='10.3'>
+    <datasource caption='__ Institutional Officer Appearance as Officer __ (eleusis)' inline='true' name='federated.08snhbo1nqfnf5138rlt00v18snm' version='10.3'>
       <connection class='federated'>
         <named-connections>
-          <named-connection caption='47.199.19.150' name='postgres.0t6eho005jtnyk1c4tobv1nz7cwu'>
+          <named-connection caption='47.199.19.150' name='postgres.0ym5zua1lghtna1h9s6q705tuf6n'>
             <connection authentication='username-password' class='postgres' dbname='eleusis' odbc-native-protocol='' one-time-sql='' port='5432' server='47.199.19.150' username='davidthomas' />
           </named-connection>
         </named-connections>
-        <relation connection='postgres.0t6eho005jtnyk1c4tobv1nz7cwu' name='__ Institutional Officer Other Honor Appearance __' table='[public].[__ Institutional Officer Other Honor Appearance __]' type='table' />
+        <relation connection='postgres.0ym5zua1lghtna1h9s6q705tuf6n' name='__ Institutional Officer Appearance as Officer __' table='[public].[__ Institutional Officer Appearance as Officer __]' type='table' />
         <metadata-records>
           <metadata-record class='column'>
             <remote-name>Institution</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Institution]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Institution</remote-alias>
             <ordinal>1</ordinal>
             <local-type>string</local-type>
@@ -8422,27 +8561,9 @@
             <remote-name>Office</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Office]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Office</remote-alias>
             <ordinal>2</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>100</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Other Honor</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Other Honor]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
-            <remote-alias>Other Honor</remote-alias>
-            <ordinal>3</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>100</width>
@@ -8458,9 +8579,9 @@
             <remote-name>Officer</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Officer]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Officer</remote-alias>
-            <ordinal>4</ordinal>
+            <ordinal>3</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>500</width>
@@ -8476,9 +8597,9 @@
             <remote-name>IE</remote-name>
             <remote-type>130</remote-type>
             <local-name>[IE]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>IE</remote-alias>
-            <ordinal>5</ordinal>
+            <ordinal>4</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>255</width>
@@ -8494,9 +8615,9 @@
             <remote-name>Institution Origin</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Institution Origin]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Institution Origin</remote-alias>
-            <ordinal>6</ordinal>
+            <ordinal>5</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>200</width>
@@ -8512,9 +8633,9 @@
             <remote-name>Institution Type</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Institution Type]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Institution Type</remote-alias>
-            <ordinal>7</ordinal>
+            <ordinal>6</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>200</width>
@@ -8530,9 +8651,9 @@
             <remote-name>Office Type</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Office Type]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Office Type</remote-alias>
-            <ordinal>8</ordinal>
+            <ordinal>7</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>100</width>
@@ -8545,48 +8666,12 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Other Honor Type</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Other Honor Type]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
-            <remote-alias>Other Honor Type</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>100</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Other Honor Origin</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Other Honor Origin]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
-            <remote-alias>Other Honor Origin</remote-alias>
-            <ordinal>10</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>100</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Other Honor Appearances</remote-name>
+            <remote-name>Office Appearances</remote-name>
             <remote-type>3</remote-type>
-            <local-name>[Other Honor Appearances]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
-            <remote-alias>Other Honor Appearances</remote-alias>
-            <ordinal>11</ordinal>
+            <local-name>[Office Appearances]</local-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
+            <remote-alias>Office Appearances</remote-alias>
+            <ordinal>8</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <precision>10</precision>
@@ -8597,66 +8682,12 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Other Institution</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Other Institution]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
-            <remote-alias>Other Institution</remote-alias>
-            <ordinal>12</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>100</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Other Institution Origin</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Other Institution Origin]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
-            <remote-alias>Other Institution Origin</remote-alias>
-            <ordinal>13</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>200</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Other Institution Type</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Other Institution Type]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
-            <remote-alias>Other Institution Type</remote-alias>
-            <ordinal>14</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>200</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
             <remote-name>Officer Origin</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Officer Origin]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Officer Origin</remote-alias>
-            <ordinal>15</ordinal>
+            <ordinal>9</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>100</width>
@@ -8672,9 +8703,9 @@
             <remote-name>Officer Status</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Officer Status]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Officer Status</remote-alias>
-            <ordinal>16</ordinal>
+            <ordinal>10</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>8190</width>
@@ -8690,9 +8721,9 @@
             <remote-name>Officer Gender</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Officer Gender]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Officer Gender</remote-alias>
-            <ordinal>17</ordinal>
+            <ordinal>11</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>100</width>
@@ -8708,9 +8739,9 @@
             <remote-name>Officer Family</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Officer Family]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Officer Family</remote-alias>
-            <ordinal>18</ordinal>
+            <ordinal>12</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>100</width>
@@ -8726,9 +8757,9 @@
             <remote-name>Officer Extended Family</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Officer Extended Family]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Officer Extended Family</remote-alias>
-            <ordinal>19</ordinal>
+            <ordinal>13</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>100</width>
@@ -8744,9 +8775,9 @@
             <remote-name>Officer Deme</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Officer Deme]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Officer Deme</remote-alias>
-            <ordinal>20</ordinal>
+            <ordinal>14</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>100</width>
@@ -8762,9 +8793,9 @@
             <remote-name>Officer Role</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Officer Role]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Officer Role</remote-alias>
-            <ordinal>21</ordinal>
+            <ordinal>15</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>50</width>
@@ -8780,9 +8811,9 @@
             <remote-name>Inscription</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Inscription]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Inscription</remote-alias>
-            <ordinal>22</ordinal>
+            <ordinal>16</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>255</width>
@@ -8798,9 +8829,9 @@
             <remote-name>Object Type</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Object Type]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Object Type</remote-alias>
-            <ordinal>23</ordinal>
+            <ordinal>17</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>255</width>
@@ -8816,9 +8847,9 @@
             <remote-name>Inscription Type</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Inscription Type]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Inscription Type</remote-alias>
-            <ordinal>24</ordinal>
+            <ordinal>18</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>255</width>
@@ -8834,9 +8865,9 @@
             <remote-name>Location</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Location]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Location</remote-alias>
-            <ordinal>25</ordinal>
+            <ordinal>19</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>255</width>
@@ -8852,9 +8883,9 @@
             <remote-name>Date</remote-name>
             <remote-type>4</remote-type>
             <local-name>[Date]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Date</remote-alias>
-            <ordinal>26</ordinal>
+            <ordinal>20</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <precision>9</precision>
@@ -8868,9 +8899,9 @@
             <remote-name>Date Span</remote-name>
             <remote-type>4</remote-type>
             <local-name>[Date Span]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Date Span</remote-alias>
-            <ordinal>27</ordinal>
+            <ordinal>21</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <precision>9</precision>
@@ -8884,9 +8915,9 @@
             <remote-name>Word Count</remote-name>
             <remote-type>3</remote-type>
             <local-name>[Word Count]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Word Count</remote-alias>
-            <ordinal>28</ordinal>
+            <ordinal>22</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <precision>10</precision>
@@ -8900,9 +8931,9 @@
             <remote-name>Character Count</remote-name>
             <remote-type>3</remote-type>
             <local-name>[Character Count]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Character Count</remote-alias>
-            <ordinal>29</ordinal>
+            <ordinal>23</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <precision>10</precision>
@@ -8916,9 +8947,9 @@
             <remote-name>Text</remote-name>
             <remote-type>130</remote-type>
             <local-name>[Text]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Text</remote-alias>
-            <ordinal>30</ordinal>
+            <ordinal>24</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>8190</width>
@@ -8934,9 +8965,9 @@
             <remote-name>References</remote-name>
             <remote-type>130</remote-type>
             <local-name>[References]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>References</remote-alias>
-            <ordinal>31</ordinal>
+            <ordinal>25</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>255</width>
@@ -8949,12 +8980,28 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
+            <remote-name>Inscription ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Inscription ID]</local-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
+            <remote-alias>Inscription ID</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
             <remote-name>Institution ID</remote-name>
             <remote-type>3</remote-type>
             <local-name>[Institution ID]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Institution ID</remote-alias>
-            <ordinal>32</ordinal>
+            <ordinal>27</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <precision>10</precision>
@@ -8968,41 +9015,9 @@
             <remote-name>Office ID</remote-name>
             <remote-type>3</remote-type>
             <local-name>[Office ID]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Office ID</remote-alias>
-            <ordinal>33</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>10</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Honor ID</remote-name>
-            <remote-type>3</remote-type>
-            <local-name>[Honor ID]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
-            <remote-alias>Honor ID</remote-alias>
-            <ordinal>34</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>10</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Other Institution ID</remote-name>
-            <remote-type>3</remote-type>
-            <local-name>[Other Institution ID]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
-            <remote-alias>Other Institution ID</remote-alias>
-            <ordinal>35</ordinal>
+            <ordinal>28</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <precision>10</precision>
@@ -9016,25 +9031,9 @@
             <remote-name>Officer ID</remote-name>
             <remote-type>3</remote-type>
             <local-name>[Officer ID]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Officer ID</remote-alias>
-            <ordinal>36</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>10</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Inscription ID</remote-name>
-            <remote-type>3</remote-type>
-            <local-name>[Inscription ID]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
-            <remote-alias>Inscription ID</remote-alias>
-            <ordinal>37</ordinal>
+            <ordinal>29</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <precision>10</precision>
@@ -9048,9 +9047,9 @@
             <remote-name>Officer Uncertainty</remote-name>
             <remote-type>11</remote-type>
             <local-name>[Officer Uncertainty]</local-name>
-            <parent-name>[__ Institutional Officer Other Honor Appearance __]</parent-name>
+            <parent-name>[__ Institutional Officer Appearance as Officer __]</parent-name>
             <remote-alias>Officer Uncertainty</remote-alias>
-            <ordinal>38</ordinal>
+            <ordinal>30</ordinal>
             <local-type>boolean</local-type>
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
@@ -9062,31 +9061,32 @@
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
-      <column caption='Not Self Referential' datatype='boolean' name='[Calculation_805018469825196032]' role='dimension' type='nominal'>
-        <calculation class='tableau' formula='[Institution ID] &lt;&gt; [Other Institution ID]' />
-      </column>
       <column aggregation='None' caption='Date (Half Century)' datatype='integer' name='[Date (bin)]' role='dimension' type='ordinal'>
         <calculation class='bin' decimals='1' formula='[Date]' peg='0' size='50' />
       </column>
       <column aggregation='Sum' datatype='real' name='[Date Span]' role='dimension' type='ordinal' />
       <column aggregation='Sum' datatype='real' name='[Date]' role='dimension' type='ordinal' />
-      <column datatype='integer' name='[Honor ID]' role='dimension' type='ordinal' />
       <column datatype='integer' name='[Inscription ID]' role='dimension' type='ordinal' />
       <column datatype='integer' name='[Institution ID]' role='dimension' type='ordinal' />
-      <column caption='Institution of Officer' datatype='string' name='[Institution]' role='dimension' type='nominal' />
       <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
         <calculation class='tableau' formula='1' />
       </column>
       <column datatype='integer' name='[Office ID]' role='dimension' type='ordinal' />
       <column datatype='integer' name='[Officer ID]' role='dimension' type='ordinal' />
-      <column caption='Institution of Other Honor Attached' datatype='string' name='[Other Institution]' role='dimension' type='nominal' />
       <group name='[Good Dating]' name-style='unqualified' user:ui-builder='filter-group'>
         <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
           <groupfilter function='level-members' level='[Date Span]' />
-          <groupfilter function='member' level='[Date Span]' member='99.0' />
+          <groupfilter function='union'>
+            <groupfilter function='member' level='[Date Span]' member='78.0' />
+            <groupfilter function='member' level='[Date Span]' member='99.0' />
+            <groupfilter function='member' level='[Date Span]' member='100.0' />
+            <groupfilter function='member' level='[Date Span]' member='199.0' />
+            <groupfilter function='member' level='[Date Span]' member='200.0' />
+            <groupfilter function='member' level='[Date Span]' member='299.0' />
+          </groupfilter>
         </groupfilter>
       </group>
-      <layout dim-ordering='alphabetic' dim-percentage='0.72479' group-percentage='0.0483193' measure-ordering='alphabetic' measure-percentage='0.226891' show-structure='true' user-set-layout='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.812591' group-percentage='0.033675' measure-ordering='alphabetic' measure-percentage='0.153734' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
@@ -10583,15 +10583,14 @@
     </dashboard>
     <dashboard name='Officers'>
       <style />
-      <size maxheight='600' maxwidth='700' minheight='600' minwidth='700' sizing-mode='fixed' />
+      <size maxheight='400' maxwidth='700' minheight='400' minwidth='700' sizing-mode='fixed' />
       <zones>
         <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
           <zone h='100000' id='9' param='vert' type='layout-flow' w='100000' x='0' y='0'>
-            <zone h='7668' id='8' type='title' w='100000' x='0' y='0' />
-            <zone h='92332' id='5' param='horz' type='layout-flow' w='100000' x='0' y='7668'>
-              <zone h='92332' id='3' type='layout-basic' w='99429' x='0' y='7668'>
-                <zone h='46166' id='1' name='Officers of Major Institutions Over Time' w='99429' x='0' y='7668' />
-                <zone h='46166' id='7' name='Other Honors Attached to Officers in Inscriptions' w='99429' x='0' y='53834' />
+            <zone h='11500' id='8' type='title' w='100000' x='0' y='0' />
+            <zone h='88500' id='5' param='horz' type='layout-flow' w='100000' x='0' y='11500'>
+              <zone h='88500' id='3' type='layout-basic' w='99429' x='0' y='11500'>
+                <zone h='88500' id='1' name='Officers of Major Institutions Over Time' w='99429' x='0' y='11500' />
               </zone>
             </zone>
           </zone>
@@ -11130,12 +11129,9 @@
       </viewpoints>
       <active id='-1' />
     </window>
-    <window class='dashboard' name='Officers'>
+    <window class='dashboard' maximized='true' name='Officers'>
       <viewpoints>
         <viewpoint name='Officers of Major Institutions Over Time'>
-          <zoom type='fit-width' />
-        </viewpoint>
-        <viewpoint name='Other Honors Attached to Officers in Inscriptions'>
           <zoom type='fit-width' />
         </viewpoint>
       </viewpoints>
@@ -11303,7 +11299,7 @@
       </viewpoints>
       <active id='-1' />
     </window>
-    <window class='worksheet' maximized='true' name='Times Institutions Linked By Multual Officer Appearing'>
+    <window class='worksheet' name='Times Institutions Linked By Multual Officer Appearing'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -12596,290 +12592,228 @@
     </thumbnail>
     <thumbnail height='192' name='Officers' width='192'>
       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
-      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
-      AABJRU5ErkJggg==
+      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
+      TkSuQmCC
     </thumbnail>
     <thumbnail height='124' name='Officers of Institutions by Type and Half Century' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAAB8CAYAAAA/1L8JAAAACXBIWXMAAA7DAAAOwwHHb6hk
