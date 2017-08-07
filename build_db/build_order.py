@@ -40,6 +40,7 @@ functions = [
 ]
 
 views = [
+    '__ Inscription All __',
     '__ Inscription Co-Sponsorship __',
     '__ Inscription Honor with Institution __',
     '__ Inscription Person __',

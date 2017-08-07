@@ -367,7 +367,7 @@
       </column>
       <column datatype='integer' name='[Office ID]' role='dimension' type='ordinal' />
       <column datatype='integer' name='[Officer ID]' role='dimension' type='ordinal' />
-      <layout dim-ordering='alphabetic' dim-percentage='0.641304' group-percentage='0.0597826' measure-ordering='alphabetic' measure-percentage='0.298913' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.684343' measure-ordering='alphabetic' measure-percentage='0.315657' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
@@ -9038,6 +9038,12 @@
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
+      <column caption='Number of Inscriptions' datatype='integer' name='[Calculation_95420053522370560]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([Inscription ID])' />
+      </column>
+      <column caption='Ratio Per Inscription' datatype='real' name='[Calculation_95420053522575361]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Number of Records] / [Calculation_95420053522370560]) * 100' />
+      </column>
       <column aggregation='None' caption='Date (Half Century)' datatype='integer' name='[Date (bin)]' role='dimension' type='ordinal'>
         <calculation class='bin' decimals='1' formula='[Date]' peg='0' size='50' />
       </column>
@@ -9047,6 +9053,12 @@
       <column datatype='integer' name='[Inscription ID]' role='dimension' type='ordinal' />
       <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
         <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[Sponsor Class]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Institution&quot;' value='Institutions' />
+          <alias key='&quot;Person&quot;' value='People' />
+        </aliases>
       </column>
       <column datatype='integer' name='[Sponsor ID]' role='dimension' type='ordinal' />
       <group name='[Good Dating]' name-style='unqualified' user:ui-builder='filter-group'>
@@ -9061,7 +9073,7 @@
           </groupfilter>
         </groupfilter>
       </group>
-      <layout dim-ordering='alphabetic' dim-percentage='0.788618' group-percentage='0.0623306' measure-ordering='alphabetic' measure-percentage='0.149051' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.8' group-percentage='0.0582278' measure-ordering='alphabetic' measure-percentage='0.141772' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
@@ -9801,21 +9813,40 @@
             <datasource caption='__ Inscription Sponsorship of Honorand __ (eleusis)' name='federated.028xmq30l71zr918d9f4w0sbwjkk' />
           </datasources>
           <datasource-dependencies datasource='federated.028xmq30l71zr918d9f4w0sbwjkk'>
+            <column caption='Number of Inscriptions' datatype='integer' name='[Calculation_95420053522370560]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Inscription ID])' />
+            </column>
+            <column caption='Ratio Per Inscription' datatype='real' name='[Calculation_95420053522575361]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Number of Records] / [Calculation_95420053522370560]) * 100' />
+            </column>
             <column aggregation='None' caption='Date (Half Century)' datatype='integer' name='[Date (bin)]' role='dimension' type='ordinal'>
               <calculation class='bin' decimals='1' formula='[Date]' peg='0' size='50' />
             </column>
             <column aggregation='Sum' datatype='real' name='[Date Span]' role='dimension' type='ordinal' />
             <column aggregation='Sum' datatype='real' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Inscription ID]' role='dimension' type='ordinal' />
             <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
               <calculation class='tableau' formula='1' />
             </column>
-            <column datatype='string' name='[Sponsor Class]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sponsor Class]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Institution&quot;' value='Institutions' />
+                <alias key='&quot;Person&quot;' value='People' />
+              </aliases>
+            </column>
             <column datatype='string' name='[Sponsor]' role='dimension' type='nominal' />
             <column-instance column='[Date (bin)]' derivation='None' name='[none:Date (bin):ok]' pivot='key' type='ordinal' />
             <column-instance column='[Sponsor Class]' derivation='None' name='[none:Sponsor Class:nk]' pivot='key' type='nominal' />
             <column-instance column='[Sponsor]' derivation='None' name='[none:Sponsor:nk]' pivot='key' type='nominal' />
             <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_95420053522575361]' derivation='User' name='[usr:Calculation_95420053522575361:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.028xmq30l71zr918d9f4w0sbwjkk].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.028xmq30l71zr918d9f4w0sbwjkk].[sum:Number of Records:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.028xmq30l71zr918d9f4w0sbwjkk].[usr:Calculation_95420053522575361:qk]&quot;' />
+            </groupfilter>
+          </filter>
           <filter class='categorical' column='[federated.028xmq30l71zr918d9f4w0sbwjkk].[Good Dating]' />
           <filter class='categorical' column='[federated.028xmq30l71zr918d9f4w0sbwjkk].[none:Sponsor:nk]'>
             <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
@@ -9835,12 +9866,16 @@
           <slices>
             <column>[federated.028xmq30l71zr918d9f4w0sbwjkk].[none:Sponsor:nk]</column>
             <column>[federated.028xmq30l71zr918d9f4w0sbwjkk].[Good Dating]</column>
+            <column>[federated.028xmq30l71zr918d9f4w0sbwjkk].[:Measure Names]</column>
           </slices>
           <aggregation value='true' />
         </view>
         <style>
           <style-rule element='mark'>
             <encoding attr='size-bar' field='[federated.028xmq30l71zr918d9f4w0sbwjkk].[sum:Number of Records:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
           </style-rule>
         </style>
         <panes>
@@ -9850,9 +9885,19 @@
             </view>
             <mark class='Square' />
             <encodings>
-              <color column='[federated.028xmq30l71zr918d9f4w0sbwjkk].[sum:Number of Records:qk]' />
+              <color column='[federated.028xmq30l71zr918d9f4w0sbwjkk].[Multiple Values]' />
               <text column='[federated.028xmq30l71zr918d9f4w0sbwjkk].[sum:Number of Records:qk]' />
+              <text column='[federated.028xmq30l71zr918d9f4w0sbwjkk].[usr:Calculation_95420053522575361:qk]' />
             </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.028xmq30l71zr918d9f4w0sbwjkk].[sum:Number of Records:qk]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.028xmq30l71zr918d9f4w0sbwjkk].[usr:Calculation_95420053522575361:qk]</run>
+                <run>&gt;%</run>
+              </formatted-text>
+            </customized-label>
             <style>
               <style-rule element='mark'>
                 <format attr='has-stroke' value='false' />
@@ -10500,7 +10545,7 @@
       </zones>
     </dashboard>
   </dashboards>
-  <windows source-height='428'>
+  <windows source-height='402'>
     <window class='worksheet' name='Institutional Sponsors by Type and Century'>
       <cards>
         <edge name='left'>
@@ -11092,13 +11137,14 @@
         </highlight>
       </viewpoint>
     </window>
-    <window class='worksheet' name='Public and Private Sponsorship'>
+    <window class='worksheet' maximized='true' name='Public and Private Sponsorship'>
       <cards>
         <edge name='left'>
           <strip size='160'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
+            <card type='measures' />
           </strip>
         </edge>
         <edge name='top'>
@@ -11114,14 +11160,16 @@
         </edge>
         <edge name='right'>
           <strip size='160'>
-            <card pane-specification-id='0' param='[federated.028xmq30l71zr918d9f4w0sbwjkk].[sum:Number of Records:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.028xmq30l71zr918d9f4w0sbwjkk].[Multiple Values]' type='color' />
           </strip>
         </edge>
       </cards>
       <viewpoint>
         <highlight>
           <color-one-way>
+            <field>[federated.028xmq30l71zr918d9f4w0sbwjkk].[:Measure Names]</field>
             <field>[federated.028xmq30l71zr918d9f4w0sbwjkk].[Good Dating]</field>
+            <field>[federated.028xmq30l71zr918d9f4w0sbwjkk].[Multiple Values]</field>
             <field>[federated.028xmq30l71zr918d9f4w0sbwjkk].[none:Date (bin):ok]</field>
             <field>[federated.028xmq30l71zr918d9f4w0sbwjkk].[none:Sponsor Class:nk]</field>
             <field>[federated.028xmq30l71zr918d9f4w0sbwjkk].[none:Sponsor:nk]</field>
@@ -11129,7 +11177,7 @@
         </highlight>
       </viewpoint>
     </window>
-    <window class='dashboard' maximized='true' name='Sponsorship and the Public Assemblies'>
+    <window class='dashboard' name='Sponsorship and the Public Assemblies'>
       <viewpoints>
         <viewpoint name='Public and Private Sponsorship'>
           <zoom type='fit-width' />
@@ -13077,60 +13125,119 @@
       gsjduFBJ+tr/R9D1eb/oNYKAgEmUFr8BwuGwEWhusKZY8yvBBmsbY9bRYE1jCMBgTWMIwGBN
       YwjAYE1jCMBgTWMIwGBN8/8Dr0HKOHf5WDwAAAAASUVORK5CYII=
     </thumbnail>
-    <thumbnail height='84' name='Public and Private Sponsorship' width='192'>
-      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
-      9n/eHYjwk9gBPAAAAABJRU5ErkJggg==
+    <thumbnail height='112' name='Public and Private Sponsorship' width='192'>
+      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
+      P5gxAt9qIO9kAAAAAElFTkSuQmCC
     </thumbnail>
     <thumbnail height='124' name='Roman Status of Public Honorands' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAAB8CAYAAAA/1L8JAAAACXBIWXMAAA7DAAAOwwHHb6hk
