@@ -367,7 +367,7 @@
       </column>
       <column datatype='integer' name='[Office ID]' role='dimension' type='ordinal' />
       <column datatype='integer' name='[Officer ID]' role='dimension' type='ordinal' />
-      <layout dim-ordering='alphabetic' dim-percentage='0.684343' measure-ordering='alphabetic' measure-percentage='0.315657' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.684492' measure-ordering='alphabetic' measure-percentage='0.315508' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
@@ -7912,542 +7912,18 @@
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
     </datasource>
-    <datasource caption='__ Inscription Sponsor __ (eleusis)' inline='true' name='federated.177b32q07nboir196iiuo1d2dack' version='10.3'>
+    <datasource caption='eleusis' inline='true' name='federated.0p5i9cu12z1c4o1feq6nj00laj71' version='10.3'>
       <connection class='federated'>
         <named-connections>
-          <named-connection caption='47.199.19.150' name='postgres.00b4qel0rqsybi13h64rw12po81q'>
+          <named-connection caption='47.199.19.150' name='postgres.01djchb1fz50t61dwlsjj0s7p3gn'>
             <connection authentication='username-password' class='postgres' dbname='eleusis' odbc-native-protocol='' one-time-sql='' port='5432' server='47.199.19.150' username='davidthomas' />
           </named-connection>
         </named-connections>
-        <relation connection='postgres.00b4qel0rqsybi13h64rw12po81q' name='__ Inscription Sponsor __' table='[public].[__ Inscription Sponsor __]' type='table' />
-        <metadata-records>
-          <metadata-record class='column'>
-            <remote-name>IE</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[IE]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>IE</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Sponsor</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Sponsor]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Sponsor</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Inscription</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Inscription]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Inscription</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Object Type</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Object Type]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Object Type</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Inscription Type</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Inscription Type]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Inscription Type</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Location</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Location]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Location</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Date</remote-name>
-            <remote-type>4</remote-type>
-            <local-name>[Date]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Date</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>9</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_REAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_FLOAT&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Date Span</remote-name>
-            <remote-type>4</remote-type>
-            <local-name>[Date Span]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Date Span</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>9</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_REAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_FLOAT&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Word Count</remote-name>
-            <remote-type>3</remote-type>
-            <local-name>[Word Count]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Word Count</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>10</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Character Count</remote-name>
-            <remote-type>3</remote-type>
-            <local-name>[Character Count]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Character Count</remote-alias>
-            <ordinal>10</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>10</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Text</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Text]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Text</remote-alias>
-            <ordinal>11</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>8190</width>
-            <contains-null>true</contains-null>
-            <cast-to-local-type>true</cast-to-local-type>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>References</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[References]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>References</remote-alias>
-            <ordinal>12</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Sponsor Class</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Sponsor Class]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Sponsor Class</remote-alias>
-            <ordinal>13</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>8190</width>
-            <contains-null>true</contains-null>
-            <cast-to-local-type>true</cast-to-local-type>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Sponsor Origin</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Sponsor Origin]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Sponsor Origin</remote-alias>
-            <ordinal>14</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Sponsor Status</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Sponsor Status]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Sponsor Status</remote-alias>
-            <ordinal>15</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>8190</width>
-            <contains-null>true</contains-null>
-            <cast-to-local-type>true</cast-to-local-type>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Sponsor Type</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Sponsor Type]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Sponsor Type</remote-alias>
-            <ordinal>16</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>8190</width>
-            <contains-null>true</contains-null>
-            <cast-to-local-type>true</cast-to-local-type>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Sponsor Gender</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Sponsor Gender]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Sponsor Gender</remote-alias>
-            <ordinal>17</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Sponsor Family</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Sponsor Family]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Sponsor Family</remote-alias>
-            <ordinal>18</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Sponsor Extended Family</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Sponsor Extended Family]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Sponsor Extended Family</remote-alias>
-            <ordinal>19</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Sponsor Deme</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Sponsor Deme]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Sponsor Deme</remote-alias>
-            <ordinal>20</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>255</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Inscription ID</remote-name>
-            <remote-type>3</remote-type>
-            <local-name>[Inscription ID]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Inscription ID</remote-alias>
-            <ordinal>21</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>10</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Sponsor ID</remote-name>
-            <remote-type>3</remote-type>
-            <local-name>[Sponsor ID]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Sponsor ID</remote-alias>
-            <ordinal>22</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>10</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Sponsor Uncertainty</remote-name>
-            <remote-type>11</remote-type>
-            <local-name>[Sponsor Uncertainty]</local-name>
-            <parent-name>[__ Inscription Sponsor __]</parent-name>
-            <remote-alias>Sponsor Uncertainty</remote-alias>
-            <ordinal>23</ordinal>
-            <local-type>boolean</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIT&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_BIT&quot;</attribute>
-            </attributes>
-          </metadata-record>
-        </metadata-records>
       </connection>
-      <aliases enabled='yes' />
-      <column aggregation='None' caption='Date (Half-Century)' datatype='integer' name='[Date (bin)]' role='dimension' type='ordinal'>
-        <calculation class='bin' decimals='1' formula='[Date]' peg='0' size='50' />
-      </column>
-      <column aggregation='Sum' datatype='real' name='[Date Span]' role='dimension' type='ordinal' />
-      <column aggregation='Sum' datatype='real' name='[Date]' role='dimension' type='ordinal' />
-      <column datatype='integer' name='[Inscription ID]' role='dimension' type='ordinal' />
       <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
         <calculation class='tableau' formula='1' />
       </column>
-      <column datatype='string' name='[Sponsor Category]' role='dimension' type='nominal'>
-        <calculation class='categorical-bin' column='[Sponsor]' new-bin='true'>
-          <bin default-name='false' value='&quot;Foreign Cities&quot;'>
-            <value>&quot;Boule of Korinth&quot;</value>
-            <value>&quot;Samian Boule&quot;</value>
-            <value>&quot;Samian Demos&quot;</value>
-          </bin>
-          <bin default-name='false' value='&quot;Gene&quot;'>
-            <value>&quot;Eumolpidai&quot;</value>
-            <value>&quot;Kerykes&quot;</value>
-            <value>&quot;Lykomidai&quot;</value>
-            <value>&quot;Praxiergidai&quot;</value>
-          </bin>
-          <bin default-name='false' value='&quot;Minor Organizations&quot;'>
-            <value>&quot;Dionysiac Technitai&quot;</value>
-            <value>&quot;Philoi&quot;</value>
-            <value>&quot;Sophiai&quot;</value>
-            <value>&quot;Tribe of Antiochis&quot;</value>
-          </bin>
-          <bin default-name='false' value='&quot;Panhellenic &amp; Imperial&quot;'>
-            <value>&quot;Panhellenes&quot;</value>
-            <value>&quot;Sacred Gerousia&quot;</value>
-          </bin>
-          <bin default-name='false' value='&quot;Private&quot;'>
-            <value>&quot;[?] Father&quot;</value>
-            <value>&quot;[?] Imperial Priest&quot;</value>
-            <value>&quot;[?] Mother&quot;</value>
-            <value>&quot;[?] Woman&quot;</value>
-            <value>&quot;[.]kleides&quot;</value>
-            <value>&quot;[.]okleia wife of Metrodoros&quot;</value>
-            <value>&quot;Agothokles Marathonios&quot;</value>
-            <value>&quot;Ail. Kh[?]&quot;</value>
-            <value>&quot;Ail. Philiste Praxagorou&quot;</value>
-            <value>&quot;Ail. Zenonos&quot;</value>
-            <value>&quot;Ana[.]n Krateros&quot;</value>
-            <value>&quot;Annia Aristokleia&quot;</value>
-            <value>&quot;Annius Thrasyllos&quot;</value>
-            <value>&quot;Antio Metrodorou&quot;</value>
-            <value>&quot;Apolexis I&quot;</value>
-            <value>&quot;Aur. Epaphrodeitos Asklepiadou&quot;</value>
-            <value>&quot;Aur. Magna II Magnou&quot;</value>
-            <value>&quot;Cocceius Censorinus&quot;</value>
-            <value>&quot;Cornelia [?]&quot;</value>
-            <value>&quot;Dionysios Dionysiou&quot;</value>
-            <value>&quot;Diopeithes&quot;</value>
-            <value>&quot;Diphila Diokleous&quot;</value>
-            <value>&quot;Eimertos Polykharmos&quot;</value>
-            <value>&quot;Epiphaneia Hermolykou&quot;</value>
-            <value>&quot;Eurydike&quot;</value>
-            <value>&quot;Fl. Laodameia Kleitou&quot;</value>
-            <value>&quot;Fl. Sophia&quot;</value>
-            <value>&quot;Fl. Xenion&quot;</value>
-            <value>&quot;G. Iul. Polkhos Sounieus&quot;</value>
-            <value>&quot;Iul. Kephisodora&quot;</value>
-            <value>&quot;Iul. Theodotos&quot;</value>
-            <value>&quot;Iun. Patron&quot;</value>
-            <value>&quot;Kallikleia&quot;</value>
-            <value>&quot;Kallikratides Syndromou&quot;</value>
-            <value>&quot;Khrysothemis Phaidrou&quot;</value>
-            <value>&quot;Kl. [?] Asklepiodorou&quot;</value>
-            <value>&quot;Kl. [?] Father of Seilianos&quot;</value>
-            <value>&quot;Kl. [?] Mother of Seilianos&quot;</value>
-            <value>&quot;Kleophatra Iophontos&quot;</value>
-            <value>&quot;Ktesikleia Apollonioiu&quot;</value>
-            <value>&quot;L. Nummius Andreas Menidos&quot;</value>
-            <value>&quot;Ladameia Lysandrou&quot;</value>
-            <value>&quot;Licinius Kallistomakhos&quot;</value>
-            <value>&quot;M. Iul. Praxis&quot;</value>
-            <value>&quot;Medeios Medeiou&quot;</value>
-            <value>&quot;Metrodoros II Metrodorou&quot;</value>
-            <value>&quot;Nummia Bassa&quot;</value>
-            <value>&quot;Onesime Papiou&quot;</value>
-            <value>&quot;P. Ail Apollonios&quot;</value>
-            <value>&quot;P. Ail. Herennia&quot;</value>
-            <value>&quot;P. Fulvius Metrodoros&quot;</value>
-            <value>&quot;P. Pom. Hegios II&quot;</value>
-            <value>&quot;Phainarete Att[.]&quot;</value>
-            <value>&quot;Philanthes&quot;</value>
-            <value>&quot;Polemon Heroxenou&quot;</value>
-            <value>&quot;Pompeia Polla&quot;</value>
-            <value>&quot;Pose Poseous&quot;</value>
-            <value>&quot;Praxagora [?]&quot;</value>
-            <value>&quot;T. Fl. Leosthenes II&quot;</value>
-            <value>&quot;T. Kl. Lysiades Patronos&quot;</value>
-            <value>&quot;Theophilos&quot;</value>
-            <value>&quot;Theophilos Eudoxou&quot;</value>
-            <value>&quot;Thrasyllos Ammoniou&quot;</value>
-            <value>&quot;Ti. Kl. Eukles Sostratou&quot;</value>
-            <value>&quot;Ti. Kl. Herodes Attikos Kl. Attikou&quot;</value>
-            <value>&quot;Ti. Kl. Hipparkhos Herodou&quot;</value>
-            <value>&quot;Vipsania Lailiane&quot;</value>
-            <value>&quot;Xenagoras I&quot;</value>
-          </bin>
-          <bin default-name='false' value='&quot;Public Assemblies&quot;'>
-            <value>&quot;Areopagus&quot;</value>
-            <value>&quot;Boule&quot;</value>
-            <value>&quot;Demos&quot;</value>
-          </bin>
-        </calculation>
-      </column>
-      <column datatype='integer' name='[Sponsor ID]' role='dimension' type='ordinal' />
-      <column datatype='string' name='[Sponsor]' role='dimension' type='nominal' />
-      <group name='[Good Dating]' name-style='unqualified' user:ui-builder='filter-group'>
-        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
-          <groupfilter function='level-members' level='[Date Span]' />
-          <groupfilter function='union'>
-            <groupfilter function='member' level='[Date Span]' member='78.0' />
-            <groupfilter function='member' level='[Date Span]' member='99.0' />
-            <groupfilter function='member' level='[Date Span]' member='100.0' />
-            <groupfilter function='member' level='[Date Span]' member='199.0' />
-            <groupfilter function='member' level='[Date Span]' member='299.0' />
-            <groupfilter function='member' level='[Date Span]' member='300.0' />
-          </groupfilter>
-        </groupfilter>
-      </group>
-      <layout dim-ordering='alphabetic' dim-percentage='0.750678' group-percentage='0.0623306' measure-ordering='alphabetic' measure-percentage='0.186992' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.337176' group-percentage='0.331412' measure-ordering='alphabetic' measure-percentage='0.331412' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
@@ -9038,12 +8514,6 @@
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
-      <column caption='Number of Inscriptions' datatype='integer' name='[Calculation_95420053522370560]' role='measure' type='quantitative'>
-        <calculation class='tableau' formula='COUNTD([Inscription ID])' />
-      </column>
-      <column caption='Ratio Per Inscription' datatype='real' name='[Calculation_95420053522575361]' role='measure' type='quantitative'>
-        <calculation class='tableau' formula='([Number of Records] / [Calculation_95420053522370560]) * 100' />
-      </column>
       <column aggregation='None' caption='Date (Half Century)' datatype='integer' name='[Date (bin)]' role='dimension' type='ordinal'>
         <calculation class='bin' decimals='1' formula='[Date]' peg='0' size='50' />
       </column>
@@ -9073,7 +8543,547 @@
           </groupfilter>
         </groupfilter>
       </group>
-      <layout dim-ordering='alphabetic' dim-percentage='0.8' group-percentage='0.0582278' measure-ordering='alphabetic' measure-percentage='0.141772' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.787129' group-percentage='0.0569307' measure-ordering='alphabetic' measure-percentage='0.155941' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='__ Inscription Sponsor __ (eleusis)' inline='true' name='federated.177b32q07nboir196iiuo1d2dack' version='10.3'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='47.199.19.150' name='postgres.00b4qel0rqsybi13h64rw12po81q'>
+            <connection authentication='username-password' class='postgres' dbname='eleusis' odbc-native-protocol='' one-time-sql='' port='5432' server='47.199.19.150' username='davidthomas' />
+          </named-connection>
+        </named-connections>
+        <relation connection='postgres.00b4qel0rqsybi13h64rw12po81q' name='__ Inscription Sponsor __' table='[public].[__ Inscription Sponsor __]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>IE</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[IE]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>IE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sponsor</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sponsor]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Sponsor</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Inscription]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Inscription</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Object Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Object Type]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Object Type</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Inscription Type]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Inscription Type</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>9</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_REAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_FLOAT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date Span</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[Date Span]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Date Span</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>9</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_REAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_FLOAT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Word Count</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Word Count]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Word Count</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Character Count</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Character Count]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Character Count</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Text</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Text]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Text</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>8190</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>References</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[References]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>References</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sponsor Class</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sponsor Class]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Sponsor Class</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>8190</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sponsor Origin</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sponsor Origin]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Sponsor Origin</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sponsor Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sponsor Status]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Sponsor Status</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>8190</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sponsor Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sponsor Type]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Sponsor Type</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>8190</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sponsor Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sponsor Gender]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Sponsor Gender</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sponsor Family</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sponsor Family]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Sponsor Family</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sponsor Extended Family</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sponsor Extended Family]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Sponsor Extended Family</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sponsor Deme</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sponsor Deme]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Sponsor Deme</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inscription ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Inscription ID]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Inscription ID</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sponsor ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Sponsor ID]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Sponsor ID</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sponsor Uncertainty</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Sponsor Uncertainty]</local-name>
+            <parent-name>[__ Inscription Sponsor __]</parent-name>
+            <remote-alias>Sponsor Uncertainty</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_BIT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='None' caption='Date (Half-Century)' datatype='integer' name='[Date (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='1' formula='[Date]' peg='0' size='50' />
+      </column>
+      <column aggregation='Sum' datatype='real' name='[Date Span]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='real' name='[Date]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Inscription ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[Sponsor Category]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Sponsor]' new-bin='true'>
+          <bin default-name='false' value='&quot;Foreign Cities&quot;'>
+            <value>&quot;Boule of Korinth&quot;</value>
+            <value>&quot;Samian Boule&quot;</value>
+            <value>&quot;Samian Demos&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Gene&quot;'>
+            <value>&quot;Eumolpidai&quot;</value>
+            <value>&quot;Kerykes&quot;</value>
+            <value>&quot;Lykomidai&quot;</value>
+            <value>&quot;Praxiergidai&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Minor Organizations&quot;'>
+            <value>&quot;Dionysiac Technitai&quot;</value>
+            <value>&quot;Philoi&quot;</value>
+            <value>&quot;Sophiai&quot;</value>
+            <value>&quot;Tribe of Antiochis&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Panhellenic &amp; Imperial&quot;'>
+            <value>&quot;Panhellenes&quot;</value>
+            <value>&quot;Sacred Gerousia&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Private&quot;'>
+            <value>&quot;[?] Father&quot;</value>
+            <value>&quot;[?] Imperial Priest&quot;</value>
+            <value>&quot;[?] Mother&quot;</value>
+            <value>&quot;[?] Woman&quot;</value>
+            <value>&quot;[.]kleides&quot;</value>
+            <value>&quot;[.]okleia wife of Metrodoros&quot;</value>
+            <value>&quot;Agothokles Marathonios&quot;</value>
+            <value>&quot;Ail. Kh[?]&quot;</value>
+            <value>&quot;Ail. Philiste Praxagorou&quot;</value>
+            <value>&quot;Ail. Zenonos&quot;</value>
+            <value>&quot;Ana[.]n Krateros&quot;</value>
+            <value>&quot;Annia Aristokleia&quot;</value>
+            <value>&quot;Annius Thrasyllos&quot;</value>
+            <value>&quot;Antio Metrodorou&quot;</value>
+            <value>&quot;Apolexis I&quot;</value>
+            <value>&quot;Aur. Epaphrodeitos Asklepiadou&quot;</value>
+            <value>&quot;Aur. Magna II Magnou&quot;</value>
+            <value>&quot;Cocceius Censorinus&quot;</value>
+            <value>&quot;Cornelia [?]&quot;</value>
+            <value>&quot;Dionysios Dionysiou&quot;</value>
+            <value>&quot;Diopeithes&quot;</value>
+            <value>&quot;Diphila Diokleous&quot;</value>
+            <value>&quot;Eimertos Polykharmos&quot;</value>
+            <value>&quot;Epiphaneia Hermolykou&quot;</value>
+            <value>&quot;Eurydike&quot;</value>
+            <value>&quot;Fl. Laodameia Kleitou&quot;</value>
+            <value>&quot;Fl. Sophia&quot;</value>
+            <value>&quot;Fl. Xenion&quot;</value>
+            <value>&quot;G. Iul. Polkhos Sounieus&quot;</value>
+            <value>&quot;Iul. Kephisodora&quot;</value>
+            <value>&quot;Iul. Theodotos&quot;</value>
+            <value>&quot;Iun. Patron&quot;</value>
+            <value>&quot;Kallikleia&quot;</value>
+            <value>&quot;Kallikratides Syndromou&quot;</value>
+            <value>&quot;Khrysothemis Phaidrou&quot;</value>
+            <value>&quot;Kl. [?] Asklepiodorou&quot;</value>
+            <value>&quot;Kl. [?] Father of Seilianos&quot;</value>
+            <value>&quot;Kl. [?] Mother of Seilianos&quot;</value>
+            <value>&quot;Kleophatra Iophontos&quot;</value>
+            <value>&quot;Ktesikleia Apollonioiu&quot;</value>
+            <value>&quot;L. Nummius Andreas Menidos&quot;</value>
+            <value>&quot;Ladameia Lysandrou&quot;</value>
+            <value>&quot;Licinius Kallistomakhos&quot;</value>
+            <value>&quot;M. Iul. Praxis&quot;</value>
+            <value>&quot;Medeios Medeiou&quot;</value>
+            <value>&quot;Metrodoros II Metrodorou&quot;</value>
+            <value>&quot;Nummia Bassa&quot;</value>
+            <value>&quot;Onesime Papiou&quot;</value>
+            <value>&quot;P. Ail Apollonios&quot;</value>
+            <value>&quot;P. Ail. Herennia&quot;</value>
+            <value>&quot;P. Fulvius Metrodoros&quot;</value>
+            <value>&quot;P. Pom. Hegios II&quot;</value>
+            <value>&quot;Phainarete Att[.]&quot;</value>
+            <value>&quot;Philanthes&quot;</value>
+            <value>&quot;Polemon Heroxenou&quot;</value>
+            <value>&quot;Pompeia Polla&quot;</value>
+            <value>&quot;Pose Poseous&quot;</value>
+            <value>&quot;Praxagora [?]&quot;</value>
+            <value>&quot;T. Fl. Leosthenes II&quot;</value>
+            <value>&quot;T. Kl. Lysiades Patronos&quot;</value>
+            <value>&quot;Theophilos&quot;</value>
+            <value>&quot;Theophilos Eudoxou&quot;</value>
+            <value>&quot;Thrasyllos Ammoniou&quot;</value>
+            <value>&quot;Ti. Kl. Eukles Sostratou&quot;</value>
+            <value>&quot;Ti. Kl. Herodes Attikos Kl. Attikou&quot;</value>
+            <value>&quot;Ti. Kl. Hipparkhos Herodou&quot;</value>
+            <value>&quot;Vipsania Lailiane&quot;</value>
+            <value>&quot;Xenagoras I&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Public Assemblies&quot;'>
+            <value>&quot;Areopagus&quot;</value>
+            <value>&quot;Boule&quot;</value>
+            <value>&quot;Demos&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='integer' name='[Sponsor ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Sponsor]' role='dimension' type='nominal' />
+      <group name='[Good Dating]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[Date Span]' />
+          <groupfilter function='union'>
+            <groupfilter function='member' level='[Date Span]' member='78.0' />
+            <groupfilter function='member' level='[Date Span]' member='99.0' />
+            <groupfilter function='member' level='[Date Span]' member='100.0' />
+            <groupfilter function='member' level='[Date Span]' member='199.0' />
+            <groupfilter function='member' level='[Date Span]' member='299.0' />
+            <groupfilter function='member' level='[Date Span]' member='300.0' />
+          </groupfilter>
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' dim-percentage='0.782828' group-percentage='0.0580808' measure-ordering='alphabetic' measure-percentage='0.159091' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
@@ -9810,69 +9820,29 @@
       <table>
         <view>
           <datasources>
-            <datasource caption='__ Inscription Sponsorship of Honorand __ (eleusis)' name='federated.028xmq30l71zr918d9f4w0sbwjkk' />
+            <datasource caption='__ Inscription Sponsor __ (eleusis)' name='federated.177b32q07nboir196iiuo1d2dack' />
           </datasources>
-          <datasource-dependencies datasource='federated.028xmq30l71zr918d9f4w0sbwjkk'>
-            <column caption='Number of Inscriptions' datatype='integer' name='[Calculation_95420053522370560]' role='measure' type='quantitative'>
-              <calculation class='tableau' formula='COUNTD([Inscription ID])' />
-            </column>
-            <column caption='Ratio Per Inscription' datatype='real' name='[Calculation_95420053522575361]' role='measure' type='quantitative'>
-              <calculation class='tableau' formula='([Number of Records] / [Calculation_95420053522370560]) * 100' />
-            </column>
-            <column aggregation='None' caption='Date (Half Century)' datatype='integer' name='[Date (bin)]' role='dimension' type='ordinal'>
+          <datasource-dependencies datasource='federated.177b32q07nboir196iiuo1d2dack'>
+            <column aggregation='None' caption='Date (Half-Century)' datatype='integer' name='[Date (bin)]' role='dimension' type='ordinal'>
               <calculation class='bin' decimals='1' formula='[Date]' peg='0' size='50' />
             </column>
             <column aggregation='Sum' datatype='real' name='[Date Span]' role='dimension' type='ordinal' />
             <column aggregation='Sum' datatype='real' name='[Date]' role='dimension' type='ordinal' />
             <column datatype='integer' name='[Inscription ID]' role='dimension' type='ordinal' />
-            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
-              <calculation class='tableau' formula='1' />
-            </column>
-            <column datatype='string' name='[Sponsor Class]' role='dimension' type='nominal'>
-              <aliases>
-                <alias key='&quot;Institution&quot;' value='Institutions' />
-                <alias key='&quot;Person&quot;' value='People' />
-              </aliases>
-            </column>
-            <column datatype='string' name='[Sponsor]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sponsor Class]' role='dimension' type='nominal' />
+            <column-instance column='[Inscription ID]' derivation='CountD' name='[ctd:Inscription ID:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Date (bin)]' derivation='None' name='[none:Date (bin):ok]' pivot='key' type='ordinal' />
             <column-instance column='[Sponsor Class]' derivation='None' name='[none:Sponsor Class:nk]' pivot='key' type='nominal' />
-            <column-instance column='[Sponsor]' derivation='None' name='[none:Sponsor:nk]' pivot='key' type='nominal' />
-            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Calculation_95420053522575361]' derivation='User' name='[usr:Calculation_95420053522575361:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
-          <filter class='categorical' column='[federated.028xmq30l71zr918d9f4w0sbwjkk].[:Measure Names]'>
-            <groupfilter function='union' user:op='manual'>
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.028xmq30l71zr918d9f4w0sbwjkk].[sum:Number of Records:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.028xmq30l71zr918d9f4w0sbwjkk].[usr:Calculation_95420053522575361:qk]&quot;' />
-            </groupfilter>
-          </filter>
-          <filter class='categorical' column='[federated.028xmq30l71zr918d9f4w0sbwjkk].[Good Dating]' />
-          <filter class='categorical' column='[federated.028xmq30l71zr918d9f4w0sbwjkk].[none:Sponsor:nk]'>
-            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[none:Sponsor:nk]' />
-              <groupfilter function='union'>
-                <groupfilter function='member' level='[none:Sponsor:nk]' member='&quot;Boule of Korinth&quot;' />
-                <groupfilter function='member' level='[none:Sponsor:nk]' member='&quot;Dionysiac Technitai&quot;' />
-                <groupfilter function='member' level='[none:Sponsor:nk]' member='&quot;Eumolpidai&quot;' />
-                <groupfilter function='member' level='[none:Sponsor:nk]' member='&quot;Kerykes&quot;' />
-                <groupfilter function='member' level='[none:Sponsor:nk]' member='&quot;Lykomidai&quot;' />
-                <groupfilter function='member' level='[none:Sponsor:nk]' member='&quot;Panhellenes&quot;' />
-                <groupfilter function='member' level='[none:Sponsor:nk]' member='&quot;Sacred Gerousia&quot;' />
-                <groupfilter function='member' level='[none:Sponsor:nk]' member='&quot;Sophiai&quot;' />
-              </groupfilter>
-            </groupfilter>
-          </filter>
+          <filter class='categorical' column='[federated.177b32q07nboir196iiuo1d2dack].[Good Dating]' />
           <slices>
-            <column>[federated.028xmq30l71zr918d9f4w0sbwjkk].[none:Sponsor:nk]</column>
-            <column>[federated.028xmq30l71zr918d9f4w0sbwjkk].[Good Dating]</column>
-            <column>[federated.028xmq30l71zr918d9f4w0sbwjkk].[:Measure Names]</column>
+            <column>[federated.177b32q07nboir196iiuo1d2dack].[Good Dating]</column>
           </slices>
           <aggregation value='true' />
         </view>
         <style>
           <style-rule element='mark'>
-            <encoding attr='size-bar' field='[federated.028xmq30l71zr918d9f4w0sbwjkk].[sum:Number of Records:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='size-bar' field='[federated.177b32q07nboir196iiuo1d2dack].[ctd:Inscription ID:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
           </style-rule>
           <style-rule element='worksheet'>
             <format attr='display-field-labels' scope='rows' value='false' />
@@ -9885,19 +9855,9 @@
             </view>
             <mark class='Square' />
             <encodings>
-              <color column='[federated.028xmq30l71zr918d9f4w0sbwjkk].[Multiple Values]' />
-              <text column='[federated.028xmq30l71zr918d9f4w0sbwjkk].[sum:Number of Records:qk]' />
-              <text column='[federated.028xmq30l71zr918d9f4w0sbwjkk].[usr:Calculation_95420053522575361:qk]' />
+              <color column='[federated.177b32q07nboir196iiuo1d2dack].[ctd:Inscription ID:qk]' />
+              <text column='[federated.177b32q07nboir196iiuo1d2dack].[ctd:Inscription ID:qk]' />
             </encodings>
-            <customized-label>
-              <formatted-text>
-                <run>&lt;</run>
-                <run>[federated.028xmq30l71zr918d9f4w0sbwjkk].[sum:Number of Records:qk]</run>
-                <run>&gt;&#10;&lt;</run>
-                <run>[federated.028xmq30l71zr918d9f4w0sbwjkk].[usr:Calculation_95420053522575361:qk]</run>
-                <run>&gt;%</run>
-              </formatted-text>
-            </customized-label>
             <style>
               <style-rule element='mark'>
                 <format attr='has-stroke' value='false' />
@@ -9914,8 +9874,8 @@
             </style>
           </pane>
         </panes>
-        <rows>[federated.028xmq30l71zr918d9f4w0sbwjkk].[none:Sponsor Class:nk]</rows>
-        <cols>[federated.028xmq30l71zr918d9f4w0sbwjkk].[none:Date (bin):ok]</cols>
+        <rows>[federated.177b32q07nboir196iiuo1d2dack].[none:Sponsor Class:nk]</rows>
+        <cols>[federated.177b32q07nboir196iiuo1d2dack].[none:Date (bin):ok]</cols>
       </table>
     </worksheet>
     <worksheet name='Roman Status of Public Honorands'>
@@ -10545,7 +10505,7 @@
       </zones>
     </dashboard>
   </dashboards>
-  <windows source-height='402'>
+  <windows source-height='401'>
     <window class='worksheet' name='Institutional Sponsors by Type and Century'>
       <cards>
         <edge name='left'>
@@ -11137,14 +11097,13 @@
         </highlight>
       </viewpoint>
     </window>
-    <window class='worksheet' maximized='true' name='Public and Private Sponsorship'>
+    <window class='worksheet' name='Public and Private Sponsorship'>
       <cards>
         <edge name='left'>
-          <strip size='160'>
+          <strip size='236'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
-            <card type='measures' />
           </strip>
         </edge>
         <edge name='top'>
@@ -11160,7 +11119,7 @@
         </edge>
         <edge name='right'>
           <strip size='160'>
-            <card pane-specification-id='0' param='[federated.028xmq30l71zr918d9f4w0sbwjkk].[Multiple Values]' type='color' />
+            <card pane-specification-id='0' param='[federated.177b32q07nboir196iiuo1d2dack].[ctd:Inscription ID:qk]' type='color' />
           </strip>
         </edge>
       </cards>
@@ -11169,15 +11128,19 @@
           <color-one-way>
             <field>[federated.028xmq30l71zr918d9f4w0sbwjkk].[:Measure Names]</field>
             <field>[federated.028xmq30l71zr918d9f4w0sbwjkk].[Good Dating]</field>
-            <field>[federated.028xmq30l71zr918d9f4w0sbwjkk].[Multiple Values]</field>
             <field>[federated.028xmq30l71zr918d9f4w0sbwjkk].[none:Date (bin):ok]</field>
             <field>[federated.028xmq30l71zr918d9f4w0sbwjkk].[none:Sponsor Class:nk]</field>
             <field>[federated.028xmq30l71zr918d9f4w0sbwjkk].[none:Sponsor:nk]</field>
+            <field>[federated.028xmq30l71zr918d9f4w0sbwjkk].[sum:Number of Records:qk]</field>
+            <field>[federated.028xmq30l71zr918d9f4w0sbwjkk].[usr:Calculation_95420053522370560:ok]</field>
+            <field>[federated.177b32q07nboir196iiuo1d2dack].[Good Dating]</field>
+            <field>[federated.177b32q07nboir196iiuo1d2dack].[none:Date (bin):ok]</field>
+            <field>[federated.177b32q07nboir196iiuo1d2dack].[none:Sponsor Class:nk]</field>
           </color-one-way>
         </highlight>
       </viewpoint>
     </window>
-    <window class='dashboard' name='Sponsorship and the Public Assemblies'>
+    <window class='dashboard' maximized='true' name='Sponsorship and the Public Assemblies'>
       <viewpoints>
         <viewpoint name='Public and Private Sponsorship'>
           <zoom type='fit-width' />
@@ -13125,119 +13088,55 @@
       gsjduFBJ+tr/R9D1eb/oNYKAgEmUFr8BwuGwEWhusKZY8yvBBmsbY9bRYE1jCMBgTWMIwGBN
       YwjAYE1jCMBgTWMIwGBN8/8Dr0HKOHf5WDwAAAAASUVORK5CYII=
     </thumbnail>
-    <thumbnail height='112' name='Public and Private Sponsorship' width='192'>
-      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
-      P5gxAt9qIO9kAAAAAElFTkSuQmCC
+    <thumbnail height='84' name='Public and Private Sponsorship' width='192'>
+      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
     </thumbnail>
     <thumbnail height='124' name='Roman Status of Public Honorands' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAAB8CAYAAAA/1L8JAAAACXBIWXMAAA7DAAAOwwHHb6hk
@@ -13679,283 +13578,281 @@
     </thumbnail>
     <thumbnail height='192' name='Sponsorship and the Public Assemblies' width='192'>
       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
-      AAAgAElEQVR4nOy913MdV57n+cnM6w2AC+DCe0OAXhJFiZQoSpSrUlV1dVX1VEf3TE9MT0Tv
-      PuwfsI+7eth9mZeN2Y3diI7YmJ3pmuqqLnVVydOTAEnQggThvb8w13ubbh9IUaKRAy4JUsjP
-      A4P3IvOXv8yb32N+55zfEXRd1zEw2KaIW+2AgcFWYgjAYFtjCMBgW2MIwGBb85AAlmdGOX/+
-      HOfO9xKMZ7fCJ3wjF7k6tn7fd7evXSCcVop2jVOff46i3f2gqQRDkXt/+9MfP0D9DjYKkSX+
-      8OdPOXfuHH3XB1C0h+MJcm6Njz7uu++72f5T3F6IQ8rP2euj33iN6PIYv/+05zt48/354F//
-      eN9nObHOhycvAdDbcxZVe9RZPyzuE4CSDnLuxgxHXz/GkcMvYpW2xilVzpGT738Fd+4/SJm9
-      eA5lMpmvXDDH+YvX731Mp9PfyYaS9ENpO8eOHaOCAJcGFx46RtdVMpn7CxI5nyEva+Co4PC+
-      jm+8xqW+fgqhOfyZ7yLJ70c69cB9airpTA6Al146jCgU/ZJPHaavfhBNVjLhVYLxDDUeJxZg
-      8MwfGE5XUmPPE8ub+dVfvMX1c8eJqRaysTAvvPkXJEZOcitko8ljYjWU429+/SM++v0fKK2q
-      w+Iu58iLezjz+Sdgc5OIJTn2k58y+NmHCHVl9J69zd//x19xqW+QGm8pDR17sQHjgzcQolPM
-      +kL8/d/9mr4Tf2Tn23/HyOnfkHPUY9MyZM3l/PztVwDIp0JcvDyArsukcfGXPzrIf/5P/xfP
-      v/wSQd8Se479JfWmGCcu3KKiwoMvEL971zozY0NMTY5y7pyD519+mWR4lUsXLpAKLFGx5232
-      VWt8evoyZW4rUmkTb72y/76HKAgC3movM3NJTn/0Ia/89Bc4TVn++28/569/9TLLsxP09ggs
-      +wL89Ff/5ssTc6v8+cQ8f/vzQxz/+EMspZWUeRs4uK/r7gEFInkT777czo1bk/zsyC4unvyQ
-      lOhCEq28/sarnP/4D0glXkwmF0deP8jVU5+REexEwzF++qtf0vO7/4KptQs9sk6kYKWpuoSF
-      lTB/+zf/hnR0jYsXLxBcW6b9hbfYVfmlax/++c/8+m//HbcvniKYE0hHo7z6458THu9jNqzg
-      MMOBV9+m3LlFpWSRuK8GEK0l/A//8O+ZunmRf/mXP7AazaJrOntfPMzb776HRw+xtrbCTMTM
-      j995m1/+8j36zp5F02Hfi69w7M13cCMjazLReIaGti4OvbCX1PokKWsT77z9Nm+/3MGVm5Oo
-      aoJAwcP/+r/8zzjlJHnM7HnuRTobq4A7Jf7rbxzDqaXJA6qqoOugimZefPkV3nnvZyT9c3zR
-      6LA4ymhuqMJktrE4OYUClNU08/rrb/DWS7tY9sfou3CJo+/9BW8ee4OGqtK7Zwp07NrHjq7d
-      vPnmUTxOK+6KOo4cPcpP3zjAxMwy/RfPsfe1H/HaG28Tmh3kq4Xx1MgNzp07R2//Iodf6r7j
-      592/KeqdJltjezevv/EWbx1spn9o4StPXEdVVNYnr2Npfol33nrrKy8/BMev4G55jpL6LlYm
-      b6ED0WgET1UDr736MhZRIBKNUV3fyiuHD0BinfmYyNEjr3JkVzmXBpfQdSsvHz3Km2+8RklF
-      OUdfP4ZDT1FQwemp5bXXjvKLv/w5Q/1X7nsxVFUFFIZmVnnjtSO8fngXV6/dJh6L4iit5OVX
-      j+JxPPtdyPvuQNc1RIuDo2//mF+9+wJnzl/7yt90ZFnHYjGh6yq6DppSANH8CKsO/v4f/h4p
-      F+a//eb3qJKEdvdlkGUZUZIAJ68culOSVrTs59/+xev4Jm/x0cm+h+09Cl1HB76opYcvHWdd
-      LuWNY8doqCr72tOEL854oLmu61/f4BV0jbGhAQYGBmjdtZ+v3vGOPQd58803+dVf/ZIKpwUd
-      /Y5vus6DQ4y5bB6r3fqQfUkyoSrKXT++PKlvcJEqc4zBkSnMhQRriQI/++v/QEu5hU9+/08s
-      x2X+5j/8A2XmAn/83X8nlNEJry8xMDDAUsrG3ubyr72nr6LKeSST5VF3TjK8xsDAANO+BPt3
-      tXH43V/x4o4arp76EzemA9/J/tPMfU0gJZem98JFBJONfDrBa0feJDbwGYPXL+F3yNjqd1NZ
-      Uc2eejMnz5whl0hw7J2fEB3vRZPuvFh2px2hkKbn0hVApLyyCre3gyrTKU6fOUM6lePYj3/M
-      cGgaSbhzTnR9kf7RWQStgLeqFskcwibeqVqdTicCYHc4kURAznLt8iXs5OjY8/I93ytrG5gc
-      HaU3ukA8pwICTqcTANFswWaW2H34Jc4c/5jqqgqi2a90qE02Kq15Tp+9wIuHXr53HqIJp93C
-      gQPvcPL8NXLmEkxY7qlOMFlw2u57hDTUlnP+7BlKXSYEix1BNJGLr3P27GlSOfjRjxpYuT2B
-      1SyCYMLptOHtPIDl1AnOnF2mtKqeg3u7QC+gmj0ceeVOE6+jysrI1Dx+2U8kK2NyleOyily/
-      eIa0ZsZeWoG7vIbD+9qIpzOYRNAQsDudiIAgSthtd8TnuPtMXRaN8+fPkYzHee3YuyAmcTps
-      9547SLzx2mFW42msJgFVg+nRmyz7ExQEKxWljo2/eU8JwrdNhbh96l8Qdv+c/fX2J+XTN3Li
-      o9+z//VfUFtm22pXDH4AmL7tgNqOvVDyrYc9MTp37sVte3r8MXi2+dYawMDgh8yz3403MNgE
-      hgAMtjWGAAy2NYYADLY1hgAMtjWGAAy2NV8RgMbl8yc5d+4cV/qHUB+Y2htdnmR49suh7/ji
-      bQaXYmTiEVK5jU9T7rl04d7/F8ZvcvL0Wc73XiSWLnzlKJ1AIPittmLx+Nf+TZVz3LxyifM9
-      PSyuhTfs73cmvkjP4NK9j3I2QTS5NdPLDb6e+wSwGk5z7NgxSgurjPmiRCIxQCcUDKEW8gTW
-      fAyPTSGrGqqcIVtQkfNpFF1AU/KMjwyxFowBoGsKMxOjjE3No+kQD0dYW1lgfHoBTddR8mlG
-      BgeZXVq758Gab4k9B4/yyvPt9PReJRIJk4oG8IcT5LJZcqk4yewdYYTDYXKpGEO3b7MajJNN
-      hPnt7/6ZgdsjZGWV0NoSY1ML96b8rE4NIHvaOHrkFcrdNlLRGCu++bv+3JnXNDE6zFooDmhE
-      QgEmR4dZDyfQdY2F6XEmZhZQdZ1sKsrQ4BCpnIImZ4nGUizMLZDPZxgZGsTnj6CrMrFYhOHB
-      IeKZAqosU5BVErEwi3PTzC6uYgzBbD2PaALppDMF7FaN69duAhoXzvcCKomMgsdW4OyFm/eO
-      Ds4NEsoKnD1xHEd5NeLdpSRaPoulpAKHvMbl24vc7DnDehaSS5PMh+Ic//RzymsbcFgeHtXN
-      ppJY7U4unvqYWxPLlLisjI2NouWiXL4xipJe5/rgHKl0lrrGRm5fOEfe6sJb5aWlpZGsf4rr
-      E+u49BAX+6cB8DZ2sD52lQtXBjBZbczevMx8QsOSX+di/zi9p09gKfMy2X+BlWicj//0MSXe
-      Wq5cOE9scYjRtQKlDhOFbILjp/uora3m+PHjyAkf//TbP6NbnfSfP42lvBZBvSPSleVVamor
-      6Om9RCq4wpI/wWDfGeKak+TiAAOLkYfu3eDJcp8AEkEf53t6Ket8ifYq5wOHSjQ0NtDQthMt
-      +0BzRJORBTfNddVUeysAiK4vMzA4yLRvjUQ4htlaQkdHC5VlJchyHNFcQ11VBW6X4ytmsly5
-      1MOUX+Gdoy9gcVfw2qED2K135l86KpogucLQ0AR7n9/D7PgwtwcHCayvkdetOBxOPGWlhJbX
-      SCTCzKwkyGfvvGS2Ei9/+ctfcGBnPcdPnAOstLY20rJjL6nIIlnFSlt9DTvbqlkPJqhpbKG2
-      qhK7TaKkvhuPFqK//zaR4Dr2mla8VdWUWCQKCOza/zKt9V72HTzI0ugAg2OTqDo0d+zAW+FF
-      Er8s6U12J00Ndezd28Xq8rc36wweL/cVv+W1zbx57NjdTwqZ2Ao9vRcJJLIIJoGZmzcJz2rU
-      7XgRQfAhIiCIEkgWassFTp85S1VDG/u7W8lnMygqmO1WdF1EkiQEQBQlBLEUs77GmfM9LK19
-      WQqabG5eOfAGdaV3XniT2czdCaNIkgSCyI5mL+dHAvz9ITtT6RSisxKr1YIAeEwap3r6eHF3
-      J/bAIAgCzU1NAIRX57g5OodJUKmqbYTYItcvXcSSidP10ttklwc4fuo0hVyBY+/uJrIwe++6
-      mXiQrCagynlURzWmcC9nz66h2kqxCAJm852Zq8FgENFsJhNPoenCndmrCPd8FwUBJZfm8oXz
-      5JMRXvvRzx/X72rwHdm2c4EGz5yl8tXXqLc/ah784+PKuU/Z+crPMCazPh1sWwGkojHMpSVY
-      xScbCU7EwjhKKjAZAeingm0rAAMDMAbCDLY5hgAMtjWGAAy2NYYAniGCvll6L10jK39zkqy5
-      qUmWV1dRNR3fiu/L89f85HMpVgIx0GRuXu0jGM99Lx+SAR8L/uiG/H8aMRbXPkMszY7T3nWQ
-      4yfPs7u5DMVeRd/JD3j1R7/GlAlgKm+mrdrG9HIYkzZNScmb9F29zIHuTjImD9HpCdJKiLru
-      Y/hG+6ja/RoOKce1vpu0dXfjm5vGVlrJmeOf8KOf/pzy6kbUTJhMMk4qK9PU0kpKNzM9NEDz
-      O2/yQ0gcZ9QAzxhmRwmCmmJhbpnec73Ute2kvdrM+Us3mZycRE1HEUvKUXMpBm8PkMqpzC0s
-      cq63B4Dq+haqK0tJ51XKXDZWhy4xthJiZPgWMdnM/PQM7Z3d1NlTzPiTjI2N0Hd9kKZqN6dP
-      niCSBqFQoHhZWrcWowZ4hiivrGbg6mVefOUoi8O32F3ZQHOFhem1HHt2tuKqqcXkrkSP36Sl
-      ax9t7TspcdvIxmPs2VVLvacUq9uC02bmlVcO03f5Ii2tXdQlF2hobEUyOyh4nGjZKOtZO/GF
-      UWrqGqiqbcZV5iWfzdPRWIp/3vGDeXGMcYAfICtLC1TWNWEt4mibnE0Szeo49AxJwUVtuato
-      trcSQwAG2xqjD2CwrZHef//997faia+yPDtAz+VZ3FqIM32XSebhas85loIpOlobNmxXSUf4
-      p3/5AN3sYPR6L/2jc3Tu6ETaZBJ8JR3ggz99xlo0S3tz3aZsfcHHH/wWXyxPcnWaa9dvYCpv
-      pty18Ul7Ad80n52+Qb0HPj15DklPc6HvOpGcRFNtxYZsxoMrfPDRGXZ31fKb/++3CHY3w1cv
-      MDgxT2tnB6YNPFddyXHpQi/XByYJr0xz9fogkp6m9/J1ZFMpNRXuDfm6ODXMhZ4LxNMpzvVe
-      weZ0cPnsGcYW/E9PDaDKOW7236SmtQMrOhMrQd577yf4bhyndOerKNnQhm37l2aYWFrDbbOS
-      SoVQdC8tLgtRefOxjMTaPI0H3kROrn/7wd8Rq81CJpVkOZzkx2+9yMLE0ref9A1UNbRQYjWx
-      srrCC6+/w5WxMC+/9WOia1MbtlnqrcdbYkdX8thsJaQiQfLOGhoqTMTT8saMSlYaqz2UlFcS
-      VwSOdLk4fmOdd390jLWV2Q37WtfYhCCaKHHbcZhNpALLiLW7MZN5egQgmW0cePEA82NDTE6N
-      Uul2c/zzz6h57h0ioxfB/PUpz7+N6qYOOptqqayoJBBKI2h+ZuMZPObNb+7grmlh8cZZRHvl
-      tx/8nVCoqqwlHg5TUWLn+JnrNHQ2bsri0swYk1PjYHLR33OSg10erpw5Tom3bcM2A8szTE5N
-      MrsUpaqujGA8gymxymIgR4njESnzvwNKOsifTlzE7bTiFhQujMV453kvJ0+co6qmZcO+nvrw
-      Dyi2EkwmGx6PjVBWQPYNk1MtRifYYHtzL5yby+XIZh9/1oKsoqAVWXOyopLNF39oRjKbij7a
-      qUPRF8MLgCQVvzIvpPM8tJPIJpHMJqRHrAPfDAJgM2/s/p94DfD5/DSJQuHbD/weDE76OX15
-      vqg2AWr2NiEWecFMQVaRi7z9oihAS8WDa7g3z/U/9KEV2dfGfc3U724qqk2zJPBO13fbDedB
-      Hvp184kAU0sPd+ji8Ri6UiCaSBKPJ+59r+sa8USCfDpJ+jGUwl+Hf2qYa6fOky3CJd0uF6/v
-      aqa+zMkr3U00F2W9okZ84jrZjE5qcYz127dQ1c2XNRUuJ0eaqii1mjnUVE2NbfP9mEIyxNrE
-      JCgZFq/0EFzwfftJ34rEy891cqDdS6W3kqP7m7EUoTrNRdYIzM5DIcbshR4iaxsPjsAjpkIU
-      UmFmF6OsTI5jKi2nTEyRN5dyrec47/zkLwnFwty4cJW3336Pxl11LN2a5sTVK7z35quYnB6W
-      Z6Zo6+5icXIOU2k5r720/1HX3TT+pRU8DZ0UY6+MfD7HRCBJS6UHm6Sxu7GKxdjmIi8AzlIL
-      yRwokQioGnJBQ9ykv8lsjvm0hd3eEibWQrRUlhBY39zsTMnqQsCPmo6TK4C3YmOl6f1o+MNJ
-      2iuclNe48a+uUwT9Y3J60INzFEJpFHMJTk/pt5/0DTy6flczZCklGVgjk06zuh6mpbOLZq+T
-      pGKmo3snlnSYSCKEPyHR1d2FTU8xMTZKfWcH47du3Tv/cVG/cw/WyBQLwc1XAS63kxI9z43Z
-      VQaWY+SVYuzJK2KyWgEdTZewOsyoRaghy90OyKZZyKrYTFJRwniSxYYoCmB1UdfdxfrI7SIY
-      FUknEggmM/lcHsXkpqXy4Q0Cvy8mq+1OphB3HfWddawODmzO3oNf2Mrq2LezDDQrqDWkY2vY
-      zeVUWvL4Yhp7O9pJ+0VsZVWsLKyze28HsYCKyVPFa00lTI+NcPjYMbIZDdSaTTn3TYhajqip
-      hn2VJoY3mV/KLEo0VJchE6a6ooybc8UQboHgXAjFLFNWV00ykqO01IKibK5NbRYlmr0eJv1h
-      6irKmFzffJrHjH+BdDCAyVlGLrBE5Y7dm7aJDq1NtaysBlhO6extKOF6KE/dJscKE0uTpIMB
-      rKUVJJZmqd59YFP2nngn+NO5aRKFfFFtjkwHOXd1oag2AWr3NCIUuROcl1UKRalhvkQUBJrL
-      i79j440/XkEtcie4aW8z9bs2PqL/KCySuOFO8BMXwD8OjBLOfr9VSN+GwyJSZi/+BN36UjOi
-      UNxA6Ewoy0KkuAWAALisxb//CX+qyEFQ6PI66PAWV6xWSeKXHd0bOveh4i0b93Pm9Gmml/yb
-      dqz46ETnx4lGM2RCPiau9qMV8RfSNYWZ65dZ9RUzZaHO6tQo1y/2s8nWDwD5eIj1+SXUfJq5
-      qxeI3E1GvBnkTJzliWl0VWbhRh/h4Ndn2f7uaMRnBslmIR9ZYWVggGJWJnomzNWTZ1hd3VwT
-      8KFiIx32UdrQzcjAdfIhL4rdiyUfQ3KUEFxdprV7F3MT4zR27SY4M4Zsr+CVF/duyonvjo7V
-      DOFknmhglcY6CytrWbpaihMDT6zOEM+ZqC4pbkzd5a2jLDJKshgFv2RByayjaxXUdO8m5Ful
-      wrvxaSIAui6i5LOkQ8tYvW1EFqao8B7ctKs2U55kRiMzPk5p+26KWZkmlhax1jRR6fVsys4j
-      G7gjt66ze28n587eYH19lcnJBWq9bsKhMAPXrlHa2MHQrcsE4zLxwMKmHPi+7jpKNjYj8Lug
-      6zqSJDLRf6uodiO+JUrb9+Ipwl7jVlfJnYiNkiW8FqZ+185N27Q43ZiKnqpOxOq+81sJokjW
-      P0MylCqadXNVA+WWAsPXihwFclY08N573dSUO8gfiyDbvZQ3N2G32amo9NLU2YVvdornD76G
-      mknDE10dqrAwPkcib6Z1RwPLiwF2vFS8HexL6zpwrl7H0bSjaDbRdRLRCCvrMVyvHdm0udjC
-      OLG1FQRBIB30E7A5qNvENHGA5Ooc0dUVLCX7yAfnqGjds2k/ocDq9DqyRaZ6RydhXwhXefFq
-      VskkEl4N0PLCoU3ZMTrB34DRCf7hd4LvCeBJTYZTNK3oDxV4LCk6ivzuA6DrFLXjDnfv/TH4
-      WuxJi8CdlPpF9lUApA2Gq43p0AbbmqdmQYyBwVZgCMBgW2MIwGBbYwjAYFtjCMBgW2MIwGBb
-      YwjAYFtjCMBgW2MIwGBbYwjAYFtjCMBgW2MIwGBbYwjAYFtjCMBgW2MIwGBbYwjAYFtjCMBg
-      W2MIwGBbYwjAYFtjCMBgW2MIwGBbYwjAYFtznwAS4TUu9Pay5I88ltw9DzIwNPgErmJg8PXc
-      E4CWT3Dq0gCHX30FJRVD0zRkWSaXy91JkKTryIU8+YKMroOqKshy4c5nQFXuHqvp6LpOPpdD
-      VlTQdVRVRZFlVE2jUMiTzxfQdZ2V1RUK+bvHqQWmZxfQNfXudfNF303RwOBB7uXTEyQLZjnJ
-      4Ngse7o7kGJz/N8fD/JCaxlJzcXzzXZuTPqxk6Nm58ss3zyJs6aD4MI0R37+1/Sd/Jia2jqa
-      duwjPHOTYF4iHQ5w5L2fc/aP/4yntpXO5gr6RxapqfZy4OABQisL3Lx1i9mVIH/3i7eYmfbh
-      EcKc6F+jyWtFtnp565XntvL5GPzAuVcDCCYbP/+rX1NXIvLhRx+TV3Xauvdz5Ogx1LSf2XEf
-      R999h7ffOcLS2AwWl4dDhw6zv72cZMFMXVUFiWQKWVFYjmZ5642jvHe4gxsT60g2D2+//Tp1
-      dXWU2ARS6TSqqlNZ38rhw69Q5rLc51TXvgMcPfYO6VAxdis0MPh67tUASj7D4MgonjIPdqsJ
-      HQiu+ZgYTWByVdPghZvXbuEhTlVbB/HFLzfm0jQVt6eC8nKF8Yk5Ku0it0cniczPsfe1bobW
-      nQiAXJCpbW4nvjTGUjj9tU6t+5YYzS3irGx8nPduYPCV3KC6TjIeIRxL4a2pw5lZ5LdXAry2
-      v5X6+hokIBxcpyBYqaksJ5NO4nC6kXNJsLjIJUJEk3lq6+owizprKyvYSisodztIpTO4XE50
-      TSWwvoYq2aitqiCVTuN2uUimUridDlLpHLnAODd9Ars7G6ir8RY9O7OBwVf5+uS4uRhzUWir
-      3dzuI9+XbNxPXHVRU8Rc8gYGX4eRHdpgW2MMhBlsawwBGGxrDAEYbGsMATxDpOJRAqHIt2xd
-      pLPq85HOZNE1hUwmf+/7bDaLnM/c3aleJx4Jksp8v/3K1HyK5fXQRm/hqUN6//33399qJwy+
-      G6c+/5RsOsJyXMCipFAFkdOfH6eqvoFYyI/J5kRNrDK8lGRuZIjWRiufnJvF41TRJBOXenqZ
-      H+nH2diFvDbOpbE1PKVu8qkoqmAmFYuQyOS5deUcur0ciyggywVyuSypRAIkM7KiMDpwk7rm
-      ViTx2Q9RF39rQYPHhtnu5sCL+zl+dpDFgWUyVg/2fIrQ3C3+fO42zx1+k53OLN66DsbGr9LT
-      m6AgV3H++Kfk3c3UugUURWJlZoSUb5Vdb/yYKjHAf/5/PqB11y70XAEJDdGcoV7Pc7N/Fsji
-      983z/EuHuH7zFvaSGsxmnUxeweIwb/Uj2TSGAJ4hbJLC2Z5+9u3pYmBQwVPqplSzI5tL6Whv
-      o63BS4kQYSWWpLFjNy++0Mz5y7PElRoqK8sptYvYK8rpfP4lpK4AJ3vPke9sY0dnG60dLWSS
-      MhY1i8WpEYmmSUZ9iG4vje3dtHd2M3brOp0vvc7cYBCLWdrqx1EUjHGAHxi6rjIyPMbuvXsp
-      ZgtFyaeYmFmlu6OWkek19u/Z8Vi2pn3SGAIw2NYYUSCDbc1TFwVanh3i1ugaHnOK0+cvIjg8
-      3Lp4Fn9Kp7HWu2G7Wi7Bh598Rk634JscYGh6hbaWpk1PtlMLSU5+doJoXqS+umJTtr6g99Sn
-      zK7HEdNBLl7tp6yuBZd1423ugG+Gi9cnqC83c+rUWdwOgQsXLlMwlVJV7tqQzXhwhZM9N+hs
-      rebjP/6JvGRnaewWI7NrtDQ3bui56kqOvou9TMz7SYcXuXprEo9D5WzPFSwlVXjctg35ujQ9
-      TN+VG+iCzoULfYg2J6M3+phbTzw9NYCuqYRDIerbWsnHkwyMz3Lsx28zcvr3CHXPEV2f3bDt
-      bDpBKBIiFktgs6qEYhLleo5IQdm030nfBK4dhwj5pjdt6wvW/WvYrFZG5328+9ouhm/Pbcpe
-      VUMz5DIszk7R9fJRzl6fZ9/Rt1icvLVhm6Xeeqx6ATUfJRCWsQoygYIDjzlFJL3B5ypZ2bOz
-      k2w6zUIwwQu1Kn84PcnRt15lenJ0w77Wt+zAbdaJhAMkMxpWJUrS3kQ2vvY0CUAjmUwRCvgJ
-      hvy4rRaGB2/jrN9F0jeJguXbjXwNci5LQbdw5NVDDN4eRVNirCUzOKXNRzJspRWE5kbRRPum
-      bd1B4eXDb+KbHkMSYGhkhrJN1izxSJBgKIBotjI/MUxbjZXZ0SFM9vIN20zHIwRDQWIpkTfe
-      PMDQ8Bh6OkwwmsO+wdpKy8X44KPT7Nm3G4sqM76UZHezg+GhMRzujft6+fRH5N0NtLV0cOiF
-      FgbGFpHDy+QK+tPXCQ4HVkmk81TX1hEJhaipqyMeWsfiKsftsG7YrqYqrK2u4i6vQlKzZBSJ
-      yvKSTUcydF0n5F/DUebFaStGXFwnElhHFm14S+2sBmLU1dVsKqITjwSIxNNUVNWQiUeorKoi
-      6PdTXl2H1bSxMjAdjxCIxCn1lJNJxiitqEGU02Q1E5Wekg3Z1JQCvpUVBLMDb5mDaEqmprKE
-      1VU/1XV1mDb4EKKhdWLJHOWVFSSiUSqq65BTETSL60sBFAoF8vnvNyxuYPCsc28gzGQyITyj
-      q6/WMwmmE4Gi270wm0Atcv0oqxqyqhXVpiQKdHkdRbUJ8Ptz0yhF9rWuppSaKndRbVokkXe6
-      NrZw654ARFFEFO9Uh4tTE3iaOiixPRsDxaJJQhc3353RdQ3f9Cw17Z2YJcjroG1WALqGb+Aq
-      2Tw0HTiEIOrIRRCVrmRZvnWbqv0v4bRLKEUqvHLRdTKai/IKF6mCirqJB1DlKUOSN7UAABon
-      SURBVCObjGF3l9Fdbuf6/BpZVSNf5PsvcQgb/v0ffsN1mdvXz+GMm9hZYyInQyqyRmXzLlLr
-      M4il9UjZIIGkzu62KgZG5zlw8HnGBvopr23C6S4FNY+cCBKW7Ty3s22z9/rEUHJpEqEAJQ2d
-      lBarQBVEGp4/zMrwAJJJRNPUopiNTo/hamohMD5G6wt7i2JT1xUWb1xGrjtIecXGwqNfIiA4
-      nDQpMWwlVq4u+CkUsTL56v2XHNi3YTsPCSC5NsNS2oJpqJ/4lMLRI3v59OYcO4IxTK4K5Lkb
-      5CWRZofEleEY8aVRPgut09a1n7Hh2zhqOtAzQSyFJHlbNfDsCMBsd+PZYFz8m1AyEbCVYxIp
-      2ksg2Z1EluYwuzc+NvIgockB1gIJ1MISu/dsNiOHjj+RpRII5xRe725maG6xGG4Cxbv/hwSQ
-      li387b/99wQWp9AxUVHXxJ6WNerau4mvzSO2dLIwfIWQq4u2ahcrWieVtfXcuHSW0qYupKQf
-      q6eSMsFGIPtsTZjKp8JMj87hzth54YUdxbObzFDZ1lw0ewC20lL0VT+Oso2HBx/E232QN1o6
-      8ccowjwfkZfrS/AoEtNpyOezxPIaxZJrse5/Q2HQeDxOSWnpvYekFjLMzvtoaGnDYX3y/YaV
-      dIyJmL/ods9MxTbfB3iAgqIiF9moJMKu6uLXXP/1+Pim+gCPoqGulLqa0qLatEgCP921sbGS
-      Db2tpaX334BkcbCj67uVmOeXF0jJ8kYu+7XEsgXWU8UP4W40Rv5N2EwiepFTD0uCgMNcfF9r
-      miqKLoC6cgcNpRub0vB1mKSN11dPvLhOyTKJQnFf1mRBISsXN1wHPJ6kXMK9f4qGKID4GFZn
-      mc0SYpFrQLNZxFLkgkXahLmHTo0sDvKb3/+ZP358igdfqcTaBP2jxevIbAbfyE0uffAHwpni
-      2VRSIYZOfY7fV8wxBZ3Fa71MXr1JceI/d8gHF7l9+hSRUKJ4NpMhbp46xcDVYqStVwlf+5ho
-      VCd4+xKLvWcoFCP+exd5bYJLn54msBb59oO/gYcEoKkK3fsPIioZzp/+lM8/+oBPTvSxsjzO
-      6FyQyMoU//v773P2xsSmLrxZGvYcoKGuHFnZ/IS2L0jHQtTtPYyaiRbNJrqKIrmob/aQjheK
-      Zja8HmbHkdfJRdaLZtPqrmTfKwfQitJElajo7ETXNbCUUrWjnkK6eE1f3VHDi+8eoZAssgCs
-      rnLWZoYorWrAW+ZBsFXSWW9jdGqF8kovTc0tvPDSQWq3OHXh/K0r+ONKUdu+7qpGIrMDKPrG
-      J949hCBR4jaxNL2CtYhraKvbWli4dgnBWrxR1WxohYHLt3B5PEWwVsA/sUhybhSrVSfiS+Eo
-      Ld5zlfNJpi5dQrRvrkP9xCfDfTI3XfQ+QDyrENroFNwfAKIArRXF7VgCfDQcKPpUkCaPjcay
-      Ys2cvYMkwp6ajY1cPvFOsM0kIOvF7QTNToU43ztVVJsAna/vQdxMD+sR2M0StiJHbEyigP0x
-      RIGysoaiFTe4IBdbUQA6ZDYYBHniAhBFoej5ZArZAqG1WFFtAjTIKlKRfy9JFIoeBdF0HkuO
-      HlXXi14DPI4Gh87G52w99EvEfKP87g9/5vMzl74lA9nWsjxyi4t//FdCX7/Pxnem0lvBu4d2
-      s7uxnDcP7qTUVsQXVFdZvdHLwpUrKEUsTNPrC0z1nmCqf+MrpR4knwpz7fhJBq6PFMGawK7G
-      elptUO8pZX9lcQfq5MAMlz/ffBTooRpAKeTo2HeI0Nw1ej77gBujPg49txt/MgaCmdLyCrKJ
-      OPayaqLzN9lx6Ce80N2yKSc2Ql3HDpJJGXsR+lWhUJSlEjvRWIq4Yqb44X8dJb5CJqVSaivO
-      9BBnTQvlsSj25u6i2AOwOMtp3tFMXtzYgpb70RkLpegSYD6WxOUp7nTtXFrGbN78kOIji7rJ
-      oX4yio1cXmHP/t0IisaOjjaa2jpIJaJogkQum6LC42FoeGvCobdOnySRyaHKm+/8du9sp7PC
-      jt3uYN+OBnY3VxbBw7sIIo5yL4KtHLuziHOjdJl0TsRpL57N5Oo0t66NoxThmYLAnuoSuipL
-      aPSUstNbittUvJJFdLlx2a1E19Y2ZeehKJCuqeQLMmazBQGNgqxiNpkQRNAR7mx7qiiIJjOa
-      UkCQzJhN3/1HOOubJSVvPh6uFPIoqobFauNm/wIffXR7w7ZE8c7opKJqSJKIrmkUFI3n/uow
-      0ve4t0ejo8kyuiAhmSScFglXMeZL6TqariOKIiZR4KXmzYdDdU2lkC8gSibMFjP/eNmHsomp
-      EBZJRABUHSQBCqpGR6WD9srNh9B1XUPOFzBZrZhEYcNRsHu/RC6XI5vN3vvDff//RhPf/NcH
-      seYV9GKsMhLMd7xXdZpLHby6u37zNh+g2W1FKErn8st2ms0sFX2OkSSAsyhTQQQw3V13LWs8
-      X2Yr+lygGoeZqqLcvgiOOy+9KAgbvv+nblG8gcGT5KlJi2JgsBUYAjDY1hgCMNjWGAIw2NYY
-      AjDY1hgCMNjWGAIw2NYYAjDY1hgCMNjWGAIw2NYYAjDY1hgCMNjWGAIw2NYYAjDY1hgCMNjW
-      GAIw2NZ8RQAa/X09nDt3noGRqaKuBMqn41y5dIHL126SzivkctlHZpzQVIVcfmPLJXUlx5kT
-      nzE26wMguDTFqTNnuXDxMvHMwzavXL32lQXVCtcu94Omkkw9Os3E1PQXeYdUFhYef37Um9cv
-      FzWLhMGjuU8AC2sRjh17A1N0mjFfHE0tsLy4QCKTA00lHo/jW1oilc7gW1oknZPR1AIry4us
-      ByPoQCqVJBRYYz0Y5Yt3/GJPDzteOMT+7lbkfJYTn3zA2OQcqZxMPBxgYXGZvKKxOn2Lj0/3
-      shaMkE6n0HQdOZcmU1DJJKMsLC6R/crm1qlYmCXfGqquszI3wnpSx3t3i87VqUlanz/CS/t3
-      cOZMD5lkCg3IZ9LkFJVIJMTK8hKxZBbQiUZioCuEwnfyC8XDAZZX1u8lCL49/MWaY4WJ8UkA
-      YmE/vrUAug7ZVIpYNIRv1Y+m62hKnqXFRZKZPLqmkk6nCQcDFGSF9ZVlVtaD6LpOKpUkGlpn
-      1R9GB9RCjqXFRZZ8q2g6hP2rLK+uoxoL9x4L9zWBsskIE+PjrEQLlJdYOXviM9J5hUunTxBP
-      Jfjgo8/I5aL85p/+QDaf5fS5C+RTMRJZmdnBK0yvJTj58Z9ZDSe4cuE8KeVOPuT2ljounT+P
-      L5LB/UAek2AoiJKPc/b8lfu+v3K1j7ys4Z+8wu35ICdOnkOV88Tid0roTGieM1eGycb9nL1w
-      A11T+bp3RJIkbvZeIg3M3bzKdDBJMhIiW1A4f/xTUl9oSssyMbFEcH6Yy8NzZOIJvkjnKmcS
-      jI+PMz4+SSqnEJof5srwPHH/PBf6R7ndc5zB+XUWR24wvRrn7MnPSedlek58RiyV4Pf//N9Y
-      9EeRcyniqSzB6X7658KcOf4nlv1xRq+fYz2e5dTxE2QKCgVZQY3NcfLqJLlUjEzeqA4eB/cJ
-      wGS2kVifRS1roa7MTkEw0b2jg92tZSwG09Q0tNGxo43qimo6O7sxiQVC66ssLCwQCoaJxFI4
-      PVXs2tlFdVkJhbvNqNbdB/nJ20fJrIxyayZApddLU0sLLrPC5Pg0y741goEQ5RVeqmvrqPU+
-      sO2NaGZnRwPTM9MEInEA1mdn6T5wiK5d+1CSITyVlXiravGWf5HTRuFGXy83hmd5+62jD914
-      SUU17e1t7KyzE3ig1TO77OfAi8/TtWsHX2zNLZoslJWVUVZWhlkSmZ1d58ChA+za9wLJ4Com
-      i4s9u/fQ2lhNPpdBFhzs3NHB3iYniyGZ2radvLCni0wswOzcPJFolDV/FKu7gn27u2isKSWb
-      iCC7aunubKeyzIVUUk+jS2Z6Zo5UrniZpQ2+5D4BmG0OXj72M2pY49KtKUosIhcu9nF7LkV7
-      zaMze4UDQUw2B3bb1+/iPjXcz7X+W4SSBdwuO2UOK1cvXyYYixCJ57E77IiCgNnuYn1ugpHp
-      RbwOE5euXOHm8BRoKpm8jMtpZW31Tu7+hp27Ge07zcULPTirHrWhm4mDr77Oa6++jMtmxu0W
-      uHKhj8GxGQByiRBXr/QxEhRpfCAP1M6OZq709tJ38Tq5u99JFhu1tbXU1lZjNYvs3N1K3+mz
-      XOg5T1XjgxsBmnGbZXov9jGwLNNeZcZivlPzJaJhVNGCw257aJ8MwVaKEFvk0uWrLK6Fyadi
-      6FYnJi1HKFqEFHgGD/GVrBA6iqJiMpnQ9S/+L5LPFzCZLZhEAUXTMEkiiqJhMkkoqookCneO
-      MZkQRBF0HVGS0FQVURQRBAFd08gX7uabMZkAjXy+gNliRVMK6IhIoohkEpELMrogYv7i2iYJ
-      QTSBpiArKhaL9d5uKKoiI6saVosF0NE0HUm6k8dHUxUQpXu7vHyR70iSTEgmCU1RUFQVs8WC
-      JAqoyp2cQKqmIUkSilxA0cBqtSAAiqJgMpkAHVX98hhVA4vFgqapiKKErquAiCDo956dJApo
-      d+3qukYhX0AymUAQEdCQJBOaqoIogqZRkGUkkwmTJCEXCugIWCyWx5CxzsBIi2KwrTHGAQy2
-      NYYADLY1hgAMtjWGAAy2NYYAnkEKmfidwbhQcMM2IpE7I/fry7MsrBRzW9hnC+n9999/f6ud
-      MPh+hGZvspgpZeDKWdobaxmamMdlF5mYmMLsKGF1doy86CQTXyeWSDMzMYnVVcLywjSRtEJ8
-      fZHTfbfYt6eNTz89S2tLA2f+9K8USiqILs+RV+Ff//l3lNfWomkS2UwK//IcsbxImbu4G11s
-      NU98jzCD4jB44xKB9RAX+i7T2eTlk8+HaO3sovfsZ5TV7yQ9fYFwLMDP332NiZlp5tfWMTlK
-      0AsLuBuex+OyAhYOH+imp6+fWk8V9V4nlwdvEBqZpbq6lhp3nqvja5BZJh5eo6rjBVrqirh5
-      yFOAIYBnEFuJlzeOPUdgYYSqEivjC36ee24PrpIKHA4bId8i3qZWGlobsJokSj1VeKs82Fwe
-      1HySkH8ae0k5AjkWFoPU1tXRXiawMLeKzeGmrboMj5hlJQYp/ySemjpqrToF5Yc3HcMYCDPY
-      1hidYINtjSEAg22NIQCDbY0hgKcUvRDl4+O96JpGNBZldW6UeP6RR36n8QBVzhKJxohEE4yP
-      T/Do5TUakUgUgNWpEU6cOsmML7yJu3j6MaJATymLI8P4A2ssri7y5z9/xvPtVUTH19jT3cHq
-      4jS1zS3MTy5ir6jEZVLIxgJMLIVprHaxvLxO14tHya8vYLYJpHGgpUPkMhkuXJmitkJibnmV
-      5zrrGZ5aoLOzHbPTQyy0TM+Jc/z6P/6PBJf87D50kP6eqwRnTaiOGqxKlHA0BZjY/dxuZkaG
-      ad63n9kbQ9hrGjhycM9WP7bvjSGAp5Th6Xm8tgJjizm6unbgsReo8tZws6+HBE485SFUSxXp
-      4AoZSSXgS7OwvIos72RHYyW+YJxdthS/7Y/SxApVXQeQdStd3d2IpHBLGpeHJjh2qJue0zdp
-      2Pcc8ZRMe1c3NR4nAfJ8+Jt/4uW3fkZkaRUlvohikai26ThsTvqvD6Kkl4lNl1FiryTlXwee
-      PQEYYdCnlLX1dWpqvKyvBoiF13CWeSkrK0WWVRamxqhqbscs2UHNIgggZ6KE0ho1VZW47Bby
-      2Khwi0xNr2OTFLwN1aQzGhHfLJaSSlx2Kw6nhYHBKZ5/fhdjQ+PUtXciR5axetuwy2ksFZUE
-      fMuo2Ri6sxaHRcMq6kiimbwi4/OtUtPcgkkT0VWZ6tqqrX5s3xtDAAbbmi3tBMej0XudMU2V
-      yeeVbzz+O6MpZPJ38jnouk44uE40kfpeJnRNIRjwU/ieu9prikyuIH/7gUVG1zXGb19neGqR
-      dCZNNptF1zUymcw3nqepOZaWVgFIZ569dceZVJyCqpHNZL/2mHw2RforSQWy2S+fydZNhtPy
-      /Pf/8z9h7TjAjTPHsZry9A/6qKyuIJeMkC6AnE0QiiZJB1eQJTuBQACb1UQwEEAVzJiRycoa
-      mVQWVc0xP7PA9auX8Th0jl+bobaqHJsJPvz0U1bn5qlqaSUcDGG1SPjX/WQyGQoqZJNhknkN
-      JZ8mHEngdDkZuHSGcA7MapYFn49bg1OYyVHQBAL+EFabxJo/jM0E/kAYyWwm5F8lG12hb2SR
-      qopyFhbmMAs64Xgat9v54Br4opJYm2LcL3JgdwujQ/2c+PATXHV1+OYXWJwaYT2hsDY/TloT
-      mZ8bI5GFqaFbKCaJi2fOoZgcBP3LpMN+hibnqK6txyw9/UHCzz7+HbG8manhcaqrSoinZVBz
-      BAJhHG43ogAXT37C2Gqc9MooEb2E/r5TlHpqsIjq1nWCowtDWFp2M3ilHyF5J9WJXEhw8cxZ
-      luensVW3UWYqYJKhpNpFWTpD76kzdO/ZjWopQclM8tPXOzl94hpR1U5zjYN8XCaeTKADslyg
-      p/civ/zJm6RjQZSSZoavXMRiFRm6FUd0lBGJCljMWdxagturebrqXVhNEqajP8UfzfL2q/tI
-      zl/DF4VkKsPa4hS1XSX09F7A64b55QA7u1rRS+vJDwziX13h4It7kOUCvRd7kUSYGhqk1Cmi
-      2n9BU9njfNw6+l2FBSNx2jo6aW+s5OzoDCV2Hbcpw7nbM+yVROq725g8extFz4HTQVVjK4Hl
-      GRA14rJIbZ2dOX+KPY2lj9Hf4mByVUNylbxcoPfCdUShgKzKlJp0FkP7KXNZWA7GyKkpyhrs
-      iKqOIitc7uuBTHzraoCZ2WU6du5FycTxllrB5qLcW4dZEHDYzTS1d+Jy2Kn1lCI5bWiyjGR1
-      UOHxUNvcjkkt0NjWzcjt2+zs8OKuasGkC1S4RXSzE1tZLW6zSmN9LQXBTKXDhMPlxB9M0NhQ
-      Q3V9EzZrKS6bRjabw+2ppKa6ivrqClyeaiodGldvDeNwOLGV15MJr1Be7iEVDZGQrTQ3VOIo
-      q6Kuwk118w70fBaTlgebi5rGNqzksNkdRNd86PZyurt3YJUeXx1gdXqQY8sE0zr11ZVUl7sI
-      pXW8ZXb862Hc1c1UukTKaxqprqjAZbah6jJV9U3UVFZQWVmBt7KS9fkpsq46nu9uwSQ+/Wko
-      QuEwe3c0MLIQo6ZEIi/YqfGW01zvxV69gzaPQqLgpKnSit1TQzKr4SmxUeEpweV0Gp3gx83y
-      4hKNzU1b7cZ3ppAvYL6bCmY7cE8AuVyObPbrOxLF4r/eniGSfeSQ5rag02unrcK+1W5sGdPB
-      LHPhx/+efVfuNUptNhs2mw0ARZYRTaZ7SaWKyXRGwZfYHgLQFBlBMqHJBXQdJIsFh8dKvVXa
-      ateeKKosoyFgNpvwySqDj57TsSU83M3XNf70X/4Prk2tU8jnyWZzpJMJCrJKNp0im5fJZdMk
-      kmlUuUAsnkDTNJKJOLlcnoKsUJBl8tkMqW8ITf3wUYkPHCcW1UktTeI7/xn5rLrVTj15NIVr
-      J09y5cRZUvLT19p+KCxRSKygV3QwP3Sb1RvrdO3u4k8fn6Njz3M4TBqaZkJV4lg0kfqOZk59
-      9hkvHn2TbFpGU7KUNuyATIjUyjSW+v38+LUDW3FfTwESnvZOooiUtHYhKyZsjm0480QQ8VSU
-      sjg9Rzz59GW4fqgGWFsJUNvYgsOqUVHfTldnO13du9i7swOLqGFzudDyWRSznVQ8wfPP78Vs
-      tiFnkyiihejSNKm8RnNzC+urK1txT08JBYKjk8SmhymEVnHUP5hAd5sgCFisFizlTVSVPX1N
-      vw1FgWZnZ2ltb7+nHjkdpe/6bTr2vECD95tjx//TZ1fwJb55dPKHzOGWEl5qKvn2A3+gXJ6P
-      c2M5udVu3OOJh0H/t4sD+NPbVwBuq4R7m3WCv0pG1sjKT09T6Ik3Sr0uC6L09DyAJ00glWc5
-      9vREQZ40DWVWmsufnjDwQ32AZGCejz/5nJ4rt3iwashEfcwsbTwb2fZCYbHvBOGEzurwDYZ7
-      esg/hVGQx4dKsP8syRQkF8dZvtnP95xX+ER4qAbIpyLUduzDN36T4Vt5Iok87tIqWhrcrPpW
-      CKcFTvzL/8vON37JWwe7t8LnZwQTzZ0NLOcEGve8iHyth9xTVPU/fiS8rXWE8hqFcIrqHW0o
-      eRn4+p2EtoKHBCBKJiYGb2Cz2gj6g8QSOXRF4fJKGq+3ClFT8LZ0U1vu3Ap/nyHyTPcPEbTm
-      0T15ovEMZbIC26b5X2B1aISEpUBlmc7q7QG8+45stVMP8cQ7wf84MEo4m/v2A3+gBFJ5wukn
-      v17gaaGhzEpdqW2r3bjHE+8EmyUBy2OcFfm0kw0lWF8IbbUbW0bBW0K4wr3VbtzjiQvAIglY
-      zU//QovHRSYYZ31kaavd2DLCdZWYa5+eGvChNzEdXuazz49za3T2oSiQwfdBZflGD5Gkjn9i
-      kMHei+S3VSdY5MX9HRzqqqG6porX9zdjeQor/odqgGw8QFXrfnxTVygRM8yvhGn0ullYDyKK
-      ErVNLYSW5yir66AQmsVVv4vd7Q1b4ftTjkhNbQkrWahv7aKQG6RQ2E5Fis7IpI8X2r3s7ygn
-      4vej6k9fJrZH+6OryIrO5Qu9qGqWlaUANdUVuCurGB24hrWqg6WZcXJ5maWl5Sfs8rOCgNli
-      BiAwM0Fp2z7czm0TAgIE9rZ7uT7mI5NOE1OstHqfrhAoPKIGcFe3kb0xyKtv/hinluD2xDJd
-      bc1Y7FY0RNqamgguTNF65HXC8yM0VLdvhd/PAHkmxkPIlluUOVTmB/rpfOnQVjv15BAlrDY7
-      h3fWcXPaz75GN9fn80h1T08HGL4SBtU0DVV9/PPV/3Vqmlhu+04FGLg2y/DN+a12Y8sw11Rg
-      qvZstRv3uCeAQqFAPr99X0yD7YmxKN5gW/O0dcoNDJ4ohgAMtjWGAAz+/41oMJoBRsGIBgAa
-      /MyVdhNffgAAAABJRU5ErkJggg==
+      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
+      TnQqtQwAAAAASUVORK5CYII=
     </thumbnail>
     <thumbnail height='192' name='Status of People on All Public Inscriptions' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
