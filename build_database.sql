@@ -3,7 +3,7 @@
 
 
 -- =============START OF TABLES=============
--- Table from: build_db\sql\tables\Inscription.sql
+-- Table from: build_db/sql/tables/Inscription.sql
 
 -- Table: public."Inscription"
 
@@ -31,7 +31,7 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Text.sql
+-- Table from: build_db/sql/tables/Text.sql
 
 -- Table: public."Text"
 
@@ -55,7 +55,7 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Inscription Reference.sql
+-- Table from: build_db/sql/tables/Inscription Reference.sql
 
 -- Table: public."Inscription Reference"
 
@@ -78,7 +78,7 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Inscription Feature.sql
+-- Table from: build_db/sql/tables/Inscription Feature.sql
 
 -- Table: public."Inscription Feature"
 
@@ -101,7 +101,7 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Inscription Macroscopic.sql
+-- Table from: build_db/sql/tables/Inscription Macroscopic.sql
 
 -- Table: public."Inscription Macroscopic"
 
@@ -127,7 +127,7 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Institution.sql
+-- Table from: build_db/sql/tables/Institution.sql
 
 -- Table: public."Institution"
 
@@ -148,7 +148,7 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Honor.sql
+-- Table from: build_db/sql/tables/Honor.sql
 
 -- Table: public."Honor"
 
@@ -169,7 +169,7 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Person.sql
+-- Table from: build_db/sql/tables/Person.sql
 
 -- Table: public."Person"
 
@@ -200,7 +200,7 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Institution Honor.sql
+-- Table from: build_db/sql/tables/Institution Honor.sql
 
 -- Table: public."Institution Honor"
 
@@ -224,7 +224,7 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Honor in Inscription.sql
+-- Table from: build_db/sql/tables/Honor in Inscription.sql
 
 -- Table: public."Honor in Inscription"
 
@@ -249,7 +249,7 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Institution Sponsorship.sql
+-- Table from: build_db/sql/tables/Institution Sponsorship.sql
 
 -- Table: public."Institution Sponsorship"
 
@@ -275,7 +275,7 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Person in Inscription.sql
+-- Table from: build_db/sql/tables/Person in Inscription.sql
 
 -- Table: public."Person in Inscription"
 
@@ -300,7 +300,7 @@ WITH (
 );
 
 
--- Table from: build_db\sql\tables\Person Honor Display.sql
+-- Table from: build_db/sql/tables/Person Honor Display.sql
 
 -- Table: public."Person Honor Display"
 
@@ -332,7 +332,7 @@ WITH (
 -- =============END OF TABLES=============
 
 -- =============START OF FUNCTIONS=============
--- Function from: build_db\sql\functions\Inscription Full.sql
+-- Function from: build_db/sql/functions/Inscription Full.sql
 
 CREATE FUNCTION public."Inscription Full"(
     OUT "ID" INTEGER,
@@ -395,7 +395,7 @@ $BODY$
 LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Inscription Honors Stats.sql
+-- Function from: build_db/sql/functions/Inscription Honors Stats.sql
 
 CREATE FUNCTION public."Inscription Honors Stats"(
     OUT "Inscription ID" integer,
@@ -452,7 +452,7 @@ SELECT honor_appearance."Inscription ID" AS "Inscription ID",
  LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Inscription Institutions Stats.sql
+-- Function from: build_db/sql/functions/Inscription Institutions Stats.sql
 
 CREATE FUNCTION public."Inscription Institutions Stats"(
     OUT "Inscription ID" integer,
@@ -506,7 +506,7 @@ SELECT institution_sponsorship."Inscription ID" AS "Inscription ID",
  LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Inscription People Stats.sql
+-- Function from: build_db/sql/functions/Inscription People Stats.sql
 
 CREATE FUNCTION public."Inscription People Stats"(
     OUT "Inscription ID" integer,
@@ -564,7 +564,7 @@ SELECT person_appearance."Inscription ID" AS "Inscription ID",
  LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Persons on Inscriptions Stats.sql
+-- Function from: build_db/sql/functions/Persons on Inscriptions Stats.sql
 
 CREATE FUNCTION public."Persons on Inscriptions Stats"(
     OUT "Person ID" integer,
@@ -679,7 +679,7 @@ SELECT person_appearance."Person ID" AS "Person ID",
  LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Persons on Institution Inscriptions Stats.sql
+-- Function from: build_db/sql/functions/Persons on Institution Inscriptions Stats.sql
 
 CREATE FUNCTION public."Persons on Institution Inscriptions Stats"(
     OUT "Person ID" integer,
@@ -782,7 +782,7 @@ $BODY$
 LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Persons with Honor Stats.sql
+-- Function from: build_db/sql/functions/Persons with Honor Stats.sql
 
 CREATE FUNCTION public."Persons with Honor Stats"(
     OUT "Person ID" integer,
@@ -839,7 +839,7 @@ SELECT person_honor."Person ID" AS "Person ID",
  LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Persons Combined Stats.sql
+-- Function from: build_db/sql/functions/Persons Combined Stats.sql
 
 CREATE FUNCTION public."Persons Combined Stats"(
     OUT "ID" INTEGER,
@@ -972,7 +972,7 @@ $BODY$
 LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Earliest Date.sql
+-- Function from: build_db/sql/functions/Earliest Date.sql
 
 CREATE FUNCTION public."Earliest Date"(
     IN thing_id INTEGER,
@@ -997,7 +997,7 @@ $BODY$
 LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Person is Institution Officer.sql
+-- Function from: build_db/sql/functions/Person is Institution Officer.sql
 
 CREATE FUNCTION public."Person is Institution Officer"(
     IN person_id INTEGER,
@@ -1023,7 +1023,7 @@ $BODY$
 LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
--- Function from: build_db\sql\functions\Person Full.sql
+-- Function from: build_db/sql/functions/Person Full.sql
 
 CREATE FUNCTION public."Person Full"(
     OUT "ID" INTEGER,
@@ -1089,15 +1089,15 @@ LANGUAGE sql STABLE NOT LEAKPROOF;
 
 
 -- =============START OF VIEWS=============
--- View from: build_db\sql\views\__ Inscription All __.sql
+-- View from: build_db/sql/views/__ Inscription All __.sql
 
 CREATE OR REPLACE VIEW public."__ Inscription All __" AS
 SELECT
 *
-FROM public."Inscription Full"()
+FROM public."Inscription Full"();
 
 
--- View from: build_db\sql\views\__ Inscription Co-Sponsorship __.sql
+-- View from: build_db/sql/views/__ Inscription Co-Sponsorship __.sql
 
 CREATE OR REPLACE VIEW public."__ Inscription Co-Sponsorship __" AS
 -- Person to Person Cosponsorships
@@ -1251,7 +1251,7 @@ INNER JOIN public."Institution" AS cosponsor ON cosponsorship."Institution ID" =
 WHERE sponsorship."Role" = 'Sponsor' AND sponsor."ID" != cosponsor."ID";
 
 
--- View from: build_db\sql\views\__ Inscription Honor with Institution __.sql
+-- View from: build_db/sql/views/__ Inscription Honor with Institution __.sql
 
 CREATE OR REPLACE VIEW public."__ Inscription Honor with Institution __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
@@ -1284,7 +1284,7 @@ ORDER BY inscription."ID",
          honor."ID";
 
 
--- View from: build_db\sql\views\__ Inscription Person __.sql
+-- View from: build_db/sql/views/__ Inscription Person __.sql
 
 CREATE OR REPLACE VIEW public."__ Inscription Person __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
@@ -1322,7 +1322,7 @@ ORDER BY inscription."ID",
          person."ID";
 
 
--- View from: build_db\sql\views\__ Inscription Sponsor __.sql
+-- View from: build_db/sql/views/__ Inscription Sponsor __.sql
 
 CREATE OR REPLACE VIEW public."__ Inscription Sponsor __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
@@ -1389,7 +1389,7 @@ ORDER BY "Inscription ID",
          "Sponsor ID";
 
 
--- View from: build_db\sql\views\__ Inscription Co-Appearance __.sql
+-- View from: build_db/sql/views/__ Inscription Co-Appearance __.sql
 
 CREATE OR REPLACE VIEW public."__ Inscription Co-Appearance __" AS
 -- FOR COAPPEARANCES BETWEEN INDIVIDUALS
@@ -1553,7 +1553,7 @@ FROM public."Institution Sponsorship" as party_a_in_inscription
         ON party_b_in_inscription."Person ID" = party_b."ID";
 
 
--- View from: build_db\sql\views\__ Inscription Sponsorship of Honorand __.sql
+-- View from: build_db/sql/views/__ Inscription Sponsorship of Honorand __.sql
 
 CREATE OR REPLACE VIEW public."__ Inscription Sponsorship of Honorand __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
@@ -1657,7 +1657,7 @@ ORDER BY "Inscription ID",
          "Sponsor ID";
 
 
--- View from: build_db\sql\views\__ Inscription Sponsor and Person Appearing __.sql
+-- View from: build_db/sql/views/__ Inscription Sponsor and Person Appearing __.sql
 
 CREATE OR REPLACE VIEW public."__ Inscription Sponsor and Person Appearing __" AS
 SELECT DISTINCT inscription."IE" AS "IE",
@@ -1762,7 +1762,7 @@ ORDER BY "Inscription ID",
          "Sponsor ID";
 
 
--- View from: build_db\sql\views\__ Institutional Honor __.sql
+-- View from: build_db/sql/views/__ Institutional Honor __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Honor __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
@@ -1782,7 +1782,7 @@ ORDER BY institution."ID",
          honor."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Honor Appearance __.sql
+-- View from: build_db/sql/views/__ Institutional Honor Appearance __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Honor Appearance __" AS
 SELECT institution."Institution" AS "Institution",
@@ -1817,7 +1817,7 @@ ORDER BY institution."ID",
        honor."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Inscription __.sql
+-- View from: build_db/sql/views/__ Institutional Inscription __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Inscription __" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
@@ -1843,7 +1843,7 @@ ORDER BY sponsor."ID",
          inscription."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Inscription Honor __.sql
+-- View from: build_db/sql/views/__ Institutional Inscription Honor __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Honor __" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
@@ -1866,7 +1866,7 @@ ORDER BY sponsor."ID",
          honor."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Inscription Honor Appearance __.sql
+-- View from: build_db/sql/views/__ Institutional Inscription Honor Appearance __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Honor Appearance __" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
@@ -1900,7 +1900,7 @@ ORDER BY sponsor."ID",
          inscription."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Inscription Person __.sql
+-- View from: build_db/sql/views/__ Institutional Inscription Person __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person __" AS
 SELECT DISTINCT sponsor."Institution" AS "Sponsor",
@@ -1932,7 +1932,7 @@ ORDER BY sponsor."ID",
          person."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Inscription Person Appearance __.sql
+-- View from: build_db/sql/views/__ Institutional Inscription Person Appearance __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person Appearance__" AS
 SELECT DISTINCT sponsor."Institution" AS "Sponsor",
@@ -1977,7 +1977,7 @@ ORDER BY sponsor."ID",
          inscription."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Inscription Person Honor __.sql
+-- View from: build_db/sql/views/__ Institutional Inscription Person Honor __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person Honor __" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
@@ -2019,7 +2019,7 @@ ORDER BY sponsor."ID",
          person."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Inscription Person Honor Appearance __.sql
+-- View from: build_db/sql/views/__ Institutional Inscription Person Honor Appearance __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Inscription Person Honor Appearance__" AS
 SELECT DISTINCT sponsor."Institution" AS "Institution",
@@ -2074,7 +2074,7 @@ ORDER BY sponsor."ID",
          inscription."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Officer __.sql
+-- View from: build_db/sql/views/__ Institutional Officer __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Officer __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
@@ -2118,7 +2118,7 @@ ORDER BY institution."ID",
          officer."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Officer Appearance __.sql
+-- View from: build_db/sql/views/__ Institutional Officer Appearance __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Officer Appearance __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
@@ -2171,7 +2171,7 @@ ORDER BY institution."ID",
          inscription."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Officer Appearance as Officer __.sql
+-- View from: build_db/sql/views/__ Institutional Officer Appearance as Officer __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Officer Appearance as Officer __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
@@ -2224,7 +2224,7 @@ ORDER BY institution."ID",
          inscription."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Officer Other Honor __.sql
+-- View from: build_db/sql/views/__ Institutional Officer Other Honor __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Officer Other Honor __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
@@ -2284,7 +2284,7 @@ ORDER BY institution."ID",
          other_institution."ID";
 
 
--- View from: build_db\sql\views\__ Institutional Officer Other Honor Appearance __.sql
+-- View from: build_db/sql/views/__ Institutional Officer Other Honor Appearance __.sql
 
 CREATE OR REPLACE VIEW public."__ Institutional Officer Other Honor Appearance __" AS
 SELECT DISTINCT institution."Institution" AS "Institution",
@@ -2354,7 +2354,7 @@ ORDER BY institution."ID",
          inscription. "ID";
 
 
--- View from: build_db\sql\views\__ Personal Honor __.sql
+-- View from: build_db/sql/views/__ Personal Honor __.sql
 
 CREATE OR REPLACE VIEW public."__ Personal Honor __" AS
 SELECT DISTINCT person."Person" AS "Person",
@@ -2395,7 +2395,7 @@ ORDER BY
     honor."ID";
 
 
--- View from: build_db\sql\views\__ Personal Honor Appearance __.sql
+-- View from: build_db/sql/views/__ Personal Honor Appearance __.sql
 
 CREATE OR REPLACE VIEW public."__ Personal Honor Appearance __" AS
 SELECT DISTINCT person."Person" AS "Person",
@@ -2445,7 +2445,7 @@ ORDER BY
     inscription."ID";
 
 
--- View from: build_db\sql\views\- Gephi Coappearance Edges -.sql
+-- View from: build_db/sql/views/- Gephi Coappearance Edges -.sql
 
 CREATE OR REPLACE VIEW public."- Gephi Coappearance Edges -" AS
 SELECT appearance."Sponsor ID" AS "Source",
@@ -2503,7 +2503,7 @@ SELECT appearance."Sponsor ID" AS "Source",
        INNER JOIN public."Inscription Full"() AS inscription ON appearance."Inscription ID" = inscription."ID");
 
 
--- View from: build_db\sql\views\- Gephi Coappearance Nodes -.sql
+-- View from: build_db/sql/views/- Gephi Coappearance Nodes -.sql
 
 CREATE OR REPLACE VIEW public."- Gephi Coappearance Nodes -" AS
 SELECT DISTINCT sponsor."ID" AS "ID",
@@ -2630,7 +2630,7 @@ INNER JOIN public."Institution Sponsorship" AS sponsor_appearance ON honorand_ap
 INNER JOIN public."Person" AS honorand ON honorand_appearance."Person ID" = honorand."ID";
 
 
--- View from: build_db\sql\views\- Gephi Sponsorship and People Appearing Edges -.sql
+-- View from: build_db/sql/views/- Gephi Sponsorship and People Appearing Edges -.sql
 
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of People Appearing Edges -" AS
 SELECT appearance."Sponsor ID" AS "Source",
@@ -2691,7 +2691,7 @@ FROM (
       INNER JOIN public."Inscription Full"() AS inscription ON appearance."Inscription ID" = inscription."ID");
 
 
--- View from: build_db\sql\views\- Gephi Sponsorship and People Appearing Nodes -.sql
+-- View from: build_db/sql/views/- Gephi Sponsorship and People Appearing Nodes -.sql
 
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of People Appearing Nodes -" AS
 SELECT DISTINCT sponsor."ID" AS "ID",
@@ -2822,7 +2822,7 @@ INNER JOIN public."Person" AS honorand ON honorand_appearance."Person ID" = hono
 WHERE sponsor_appearance."Role" = 'Sponsor';
 
 
--- View from: build_db\sql\views\- Gephi Sponsorship of Honorands Edges -.sql
+-- View from: build_db/sql/views/- Gephi Sponsorship of Honorands Edges -.sql
 
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of Honorands Edges -" AS
 SELECT appearance."Sponsor ID" AS "Source",
@@ -2884,7 +2884,7 @@ FROM (
       INNER JOIN public."Inscription Full"() AS inscription ON appearance."Inscription ID" = inscription."ID");
 
 
--- View from: build_db\sql\views\- Gephi Sponsorship of Honorands Nodes -.sql
+-- View from: build_db/sql/views/- Gephi Sponsorship of Honorands Nodes -.sql
 
 CREATE OR REPLACE VIEW public."- Gephi Sponsorship of Honorands Nodes -" AS
 SELECT DISTINCT sponsor."ID" AS "ID",
