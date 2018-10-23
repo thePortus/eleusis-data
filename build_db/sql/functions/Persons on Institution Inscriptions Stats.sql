@@ -1,5 +1,5 @@
 CREATE FUNCTION public."Persons on Institution Inscriptions Stats"(
-    OUT "Person ID" integer,
+    OUT "Person ID" CHARACTER VARYING,
     OUT "As Institution Honorand" bigint,
     OUT "As Institution Non-Honorand" bigint,
     OUT "As Public Honorand" bigint,

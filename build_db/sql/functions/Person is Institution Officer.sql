@@ -1,6 +1,6 @@
 CREATE FUNCTION public."Person is Institution Officer"(
-    IN person_id INTEGER,
-    IN institution_id INTEGER,
+    IN person_id CHARACTER VARYING,
+    IN institution_id CHARACTER VARYING,
     OUT "Is Officer" BOOLEAN
 ) RETURNS BOOLEAN AS
 $BODY$

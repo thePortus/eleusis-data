@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS public."Honor";
 
 CREATE TABLE public."Honor"
 (
-  "ID" integer NOT NULL,
+  "ID" character varying(50) NOT NULL,
   "Honor" character varying(100),
   "Origin" character varying(100),
   "Category" character varying(100),

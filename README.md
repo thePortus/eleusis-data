@@ -84,6 +84,11 @@ following...
 4. That's it, you should see a message saying the build and export worked.
 
 ---
+## Python Notebooks
+
+There are currently Jupyter iPython notebooks which record various transformations made to the data. These will be removed eventually, but remain now as a record of various steps taken to alter the data, and as a means of replicating those steps. To run them, install Juptyer, `pip install jupyter` then run it with the command `jupyter notebook`. You will find any notebooks inside `notebooks/`.
+
+---
 
 ## Credits
 

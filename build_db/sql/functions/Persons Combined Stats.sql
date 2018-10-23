@@ -1,5 +1,5 @@
 CREATE FUNCTION public."Persons Combined Stats"(
-    OUT "ID" INTEGER,
+    OUT "ID" CHARACTER VARYING,
     OUT "Person" CHARACTER VARYING,
     OUT "Origin" CHARACTER VARYING,
     OUT "Gender" CHARACTER VARYING,

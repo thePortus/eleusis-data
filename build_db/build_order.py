@@ -14,6 +14,7 @@ tables = [
     'Text',
     'Inscription Reference',
     'Inscription Feature',
+    'Inscription Multistone',
     'Inscription Macroscopic',
     'Institution',
     'Honor',

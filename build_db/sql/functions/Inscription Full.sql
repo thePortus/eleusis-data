@@ -1,5 +1,5 @@
 CREATE FUNCTION public."Inscription Full"(
-    OUT "ID" INTEGER,
+    OUT "ID" CHARACTER VARYING,
     OUT "IE" CHARACTER VARYING,
     OUT "Inscription" CHARACTER VARYING,
     OUT "Object Type" CHARACTER VARYING,

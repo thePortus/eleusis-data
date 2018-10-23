@@ -4,8 +4,8 @@ DROP TABLE IF EXISTS public."Institution Sponsorship";
 
 CREATE TABLE public."Institution Sponsorship"
 (
-  "Institution ID" integer NOT NULL,
-  "Inscription ID" integer NOT NULL,
+  "Institution ID" character varying(50) NOT NULL,
+  "Inscription ID" character varying(10) NOT NULL,
   "Role" character varying(20),
   "Uncertain" boolean,
   "Notes" character varying(1000),

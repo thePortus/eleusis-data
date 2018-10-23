@@ -1,5 +1,5 @@
 CREATE FUNCTION public."Earliest Date"(
-    IN thing_id INTEGER,
+    IN thing_id CHARACTER VARYING,
     OUT "Date" REAL
 ) RETURNS REAL AS
 $BODY$

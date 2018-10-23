@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS public."Inscription";
 
 CREATE TABLE public."Inscription"
 (
-  "ID" integer NOT NULL,
+  "ID" character varying(10),
   "IE" character varying(10),
   "Inscription" character varying(500),
   "Object Type" character varying(200),
@@ -16,6 +16,10 @@ CREATE TABLE public."Inscription"
   "Date Span" real,
   "Low Date Uncertain" boolean,
   "High Date Uncertain" boolean,
+  "IG II2" character varying(10),
+  "IG II3" character varying(10),
+  "SEG" character varying(10),
+  "Schmalz" character varying(10),
   "Notes" character varying(1000),
   CONSTRAINT "Inscriptions_pkey" PRIMARY KEY ("ID")
 )

@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS public."Inscription Reference";
 
 CREATE TABLE public."Inscription Reference"
 (
-  "Inscription ID" integer NOT NULL,
+  "Inscription ID" character varying(10) NOT NULL,
   "Publication" character varying(50),
   "Number" character varying(50),
   "Additional" character varying(50),
