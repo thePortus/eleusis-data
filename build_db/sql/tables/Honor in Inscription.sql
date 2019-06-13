@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS public."Honor in Inscription";
 
 CREATE TABLE public."Honor in Inscription"
 (
-  "Honor ID" character varying(50) NOT NULL,
+  "Honor ID" character varying(100) NOT NULL,
   "Inscription ID" character varying(10) NOT NULL,
   "Appearances" integer,
   "Notes" character varying(1000),

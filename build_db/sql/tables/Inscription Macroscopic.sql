@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS public."Inscription Macroscopic";
 
 CREATE TABLE public."Inscription Macroscopic"
 (
-  "ID" character varying(10) NOT NULL,
+  "ID" character varying(100) NOT NULL,
   "Title" character varying(500),
   "Date" integer,
   "Date Strength" character varying(100),

@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS public."Inscription";
 
 CREATE TABLE public."Inscription"
 (
-  "ID" character varying(10),
+  "ID" character varying(100),
   "IE" character varying(10),
   "Inscription" character varying(500),
   "Object Type" character varying(200),

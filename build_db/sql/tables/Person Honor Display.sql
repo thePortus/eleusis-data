@@ -5,8 +5,8 @@ DROP TABLE IF EXISTS public."Person Honor Display";
 CREATE TABLE public."Person Honor Display"
 (
   "Person ID" character varying(100) NOT NULL,
-  "Honor ID" character varying(50) NOT NULL,
-  "Inscription ID" character varying(10) NOT NULL,
+  "Honor ID" character varying(100) NOT NULL,
+  "Inscription ID" character varying(100) NOT NULL,
   "Uncertain" boolean,
   "Appearances" integer,
   CONSTRAINT "Person Honor Display_pkey" PRIMARY KEY ("Honor ID", "Person ID", "Inscription ID"),
