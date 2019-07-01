@@ -1,539 +1,539 @@
-ID,Person,Category,Origin,Gender,Athenian Citizen,Roman Citizen,Family,Extended,Praenomen,Nomen,Cognomen,Onomos,Patronym,Deme,Uncertain Person
-kairion_dionysiou,Khairion Dionysiou,Athenian,Athens,Male,t,f,,,,,,Khairion,Dionysiou,Marathon,f
-unc_hi_1,[?] Heath-Initiate,Athenian,Athens,Uncertain,t,f,,,,,,,,,f
-unc_hi_2,[?] Heath-Initiate,Athenian,Athens,Uncertain,t,f,,,,,,,,,f
-unc_priestess_to_demeter_and_kore_1,[?] Priestess of Demeter & Kore,Athenian,Athens,Female,t,f,,,,,,,,,f
-unc_daduch,[?] Daduch from Hagnous,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,,,Hagnous,f
-dionysios_athenagorou,Dionysios Athenagorou,Athenian,Athens,Male,t,f,Athenagoridai,,,,,Dionysios,Athenagorou,Melite,f
-quintus_pompeius,Quintus Pompeius son of Aulus,Roman,Rome,Male,f,t,,,Quintus,Pompeius,Aulus,,Auli,,f
-aulus_pompeius,Aulus Pompeius son of Aulus,Roman,Rome,Male,f,t,,,Aulus,Pompeius,Aulus,,Auli,,f
-sextus_pompeius,Sextus Pompeius son of Aulus,Roman,Rome,Male,f,t,,,Sextus,Pompeius,Aulus,,Auli,,f
-unc_hierophantis_1,[?] Hierophantis Amphiou,Athenian,Athens,Female,t,f,,,,,,,Amphiou,,f
-l_munatius_plancus,L. Munatius Plancus,Roman,Rome,Male,f,t,,,Lucius,Munatius,Plancus,,,,f
-appius_claudius_pulcher,Ap. Claudius Pulcher,Roman,Rome,Male,f,t,,,Appius,Claudius,Pulcher,,,,f
-pulcher_claudius,Pulcher Claudius,Roman,Rome,Male,f,t,,,Pulcher,Claudius,,,,,f
-rex_marcius,Rex Marcius,Roman,Rome,Male,f,t,,,Rex,Marcius,,,,,f
-khrysothemis_phaidrou,Khrysothemis Phaidrou,Athenian,Athens,Female,t,f,Lysiadidai,,,,,Khrysothemis,Phaidrou,Berenikidai,f
-phaidros_lysiadou,Phaidros Lysiadou,Athenian,Athens,Male,t,f,Lysiadidai,,,,,Phaidros,Lysiadou,Berenikidai,f
-pomponianus_atticus,Pomponianus Atticus,Roman,Rome,Male,f,t,,,Quintus,Pomponianus,Atticus,,,,f
-lysiades_phaidrou,Lysiades Phaidrou,Athenian,Athens,Female,t,f,Lysiadidai,,,,,Lysiades,Phaidrou,Berenikidai,f
-sempronia,Sempronia,Roman,Rome,Female,f,t,,,Sempronia,,,,Lucii,,f
-l_gellius_publicola,L. Gellius Publicola,Roman,Rome,Male,f,t,,,Lucius,Gellius,Publicola,,,,f
-gaius_creperius,G. Creperius,Roman,Rome,Male,f,t,,,Gaius,Creperius,,,,,f
-marcus_titius,M. Titius,Roman,Rome,Male,f,t,,,Marcus,Titius,,,,,f
-kallikratides_syndromou,Kallikratides Syndromou,Athenian,Athens,Male,t,f,Oinophileid,,,,,Kallikratides,Syndromou,,f
-livia_drusilla,Livia Drusilla,Imperial Family Member,Rome,Female,f,t,,,Livia,Drusilla,,,,,f
-emperor_augustus,Emperor Augustus,Imperial Family Member,Rome,Male,f,t,,,Gaius,Iulius,Caesar Augustus,,,,f
-theophrastos_themistokleous,Theophrastos Themistokleous,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Theophrastos,Themistokleous,Hagnous,f
-lamidion_apolexidos,Lamidion Apolexidos,Athenian,Athens,Male,t,f,,,,,,Lamidion,Apolexidos,Oion,f
-apolexis_1,Apolexis I,Athenian,Athens,Male,t,f,,,,,,Apolexis,,Oion,f
-ladameia_lysandrou,Ladameia Lysandrou,Athenian,Athens,Female,t,f,,,,,,Ladameia,Lysandrou,Peiraius,f
-apolexis_2,Apolexis II,Athenian,Athens,Male,t,f,,,,,,Apolexis,Apolexidos,Oion,f
-metrophanes_dionysiou,Metrophanes Dionysiou,Athenian,Athens,Male,t,f,,,,,,Metrophanes,Dionysiou,Athmonon,f
-menophilos_satyrou,Menophilos Satyrou,Athenian,Athens,Male,t,f,,,,,,Menophilos,Satyrou,Berenikidai,f
-diotimos_diodorou,Diotimos Diodorou,Athenian,Athens,Male,t,f,,,,,,Diotimos,Diodorou,Halai Aixonides,f
-epikrates_kallimakhou,Epikrates Kallimakhou,Athenian,Athens,Male,t,f,,,,,,Epikrates,Kallimakhou,Leukonion,f
-leontios_timarkhou_kephesieos,Leontios Timarkhou Kephesieos,Athenian,Athens,Male,t,f,,,,,,Leontios,Timarkhou,Kephesia,f
-dionysios_demostratos,Dionysios Demostratos,Athenian,Athens,Male,t,f,,,,,,Dionysios,Demostratou,Pallene,f
-theophilos_menekrates,Theophilos Menekrates,Athenian,Athens,Male,t,f,,,,,,Theophilos,Menekratous,Kholleidai,f
-gorgippos_eudemos,Gorgippos Eudemos,Athenian,Athens,Male,t,f,,,,,,Gorgippos,Eudemou,Melite,f
-dositheos_kleomenes,Dositheos Kleomenes,Athenian,Athens,Male,t,f,,,,,,Dositheos,Kleomenous,Marathon,f
-aristodemos_argeiou,Aristodemos Argeiou,Athenian,Athens,Male,t,f,,,,,,Aristodemos,Argeiou,Trikorysios,f
-menneos_menneou,Menneos Menneou,Athenian,Athens,Male,t,f,,,,,,Menneos,Menneou,Azenia,f
-philemon_philemonos,Philemon Philemonos,Athenian,Athens,Male,t,f,,,,,,Philemon,Philemonos,Melite,f
-apolexis_apellikontos,Apolexis Apellikontos,Athenian,Athens,Male,t,f,,,,,,Apolexis,Apellikon,Oion,f
-demokhares_menandros,Demokhares Menandros,Athenian,Athens,Male,t,f,,,,,,Demokhares,Menandros,Azenia,f
-sarapion_diokleous,Sarapion Diokleous,Athenian,Athens,Male,t,f,,,,,,Sarapion,Diokleous,Melite,f
-diokles_diokleous,Diokles Diokleous,Athenian,Athens,Male,t,f,,,,,,Diokles,Diokleous,Melite,f
-arkhitimos_arkhitimou,Arkhitimos Arkhitimou,Athenian,Athens,Male,t,f,,,,,,Arkhitimos,Arkhitimou,Sphettos,f
-themistokles_xenokleous,Themistokles Xenokleous,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Themistokles,Xenokleous,Melite,f
-dionysodoros_dionysodorou,Dionysodoros Dionysodorou,Athenian,Athens,Male,t,f,,,,,,Dionysodoros,Dionysodorou,Deiradiotai,f
-kikhesias_leontos,Kikhesias Leontos,Athenian,Athens,Male,t,f,,,,,,Kikhesias,Leontou,Aixone,f
-apollonios_ktesikleous,Apollonios Ktesikleous,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Apollonios,Ktesikleous,Akharnai,f
-demostratos_dionysiou,Demostratos Dionysiou,Athenian,Athens,Male,t,f,,,,,,Demostratos,Dionysiou,Pallene,f
-timosthenes_timarkhou,Timosthenes Timarkhou,Athenian,Athens,Male,t,f,,,,,,Timosthenes,Timarkhou,Kephesia,f
-menandros_demokharous,Menandros Demokharous,Athenian,Athens,Male,t,f,,,,,,Menandros,Demkharous,Azenia,f
-aristaikhmos_ammoniou,Aristaikhmos Ammoniou,Athenian,Athens,Male,t,f,,,,,,Aristaikhmos,Ammoniou,Anaphlystos,f
-sophokles_philotou,Sophokles Philotou,Athenian,Athens,Male,t,f,,,,,,Sophokles,Philotou,Sounion,f
-dionysodoros_deiradiotou,Dionysodoros Deiradiotou,Athenian,Athens,Male,t,f,,,,,,Dionysodoros,,Deiradiotai,f
-iophon_dionysodoros_deiradiotes,Iophon Dionysodoros Deiradiotes,Athenian,Athens,Male,t,f,,,,,,Iophon,Dionysodorou,Deiradiotai,f
-alexandros_agathokleous,Alexandros Agathokleous,Athenian,Athens,Male,t,f,,,,,,Alexandros,Agathokleous,Leukonion,f
-euphron_euphrontos,Euphron Euphrontos,Athenian,Athens,Male,t,f,,,,,,Euphron,Euphrontos,Marathon,f
-seleukos_demeou,Seleukos Demeou,Athenian,Athens,Male,t,f,,,,,,Seleukos,Demeou,Halai Aixonides,f
-mikion_philokratou,Mikion Philokratou,Athenian,Athens,Male,t,f,,,,,,Mikion,Philokratou,Peiraius,f
-themistokles_theophrastou_2,Themistokles II Theophrastou,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Themistokles,Theophrastou,Hagnous,f
-themistokles_theophrastou_1,Themistokles I Theophrastou,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Themistokles,Theophrastou,Hagnous,f
-leontios_sophokleous,Leontios Sophokleous,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Leontios,Sophokleous,Akharnai,f
-philoxenidos_sophokleous,Philoxenidos (Sophokleous),Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Philoxenidos,Sophokleous,Akharnai,f
-kephisodoros,Kephisodoros,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Kephisodoros,,Hagnous,f
-philistides,Philistides,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Philistides,,Hagnous,f
-philoxenis,Philoxenis,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Philoxenis,,Hagnous,f
-themistokles,Themistokles A(TBD),Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Themistokles,,Hagnous,f
-antiphon,Antiphon,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Antiphon,,Hagnous,f
-hermoteimos,Hermoteimos,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Hermoteimos,,,f
-hierokleides,Hierokleides,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Hierokleides,,,f
-semon,Semon,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Semon,,,f
-sophokles_theophrastou,Sophokles Theophrastou,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Sophokles,Leontiou,Akharnai,f
-unc_hearth_initiate_themistokleous,[?] Hearth-Initiate Themistokleous,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,,Themistokleous,Hagnous,f
-antiokhos_demetriou,Antiokhos Demetriou,Athenian,Athens,Male,t,f,,,,,,Antiokhos,Demetriou,,f
-polyainos_nikandrou,Polyainos Nikandrou,Athenian,Athens,Male,t,f,,,,,,Polyainos,Nikandrou,Sounion,f
-theophile,Theophile,Athenian,Athens,Female,t,f,,,,,,Theophile,,,f
-unc_kleides,[.]kleides,Athenian,Athens,Male,t,f,,,,,,,,,t
-phainarete,Phainarete Att[.],Athenian,Athens,Female,t,f,,,,,,Phainarete,,,t
-diotima,Diotima,Athenian,Athens,Female,t,f,,,,,,Diotima,,,f
-diodotos_kalliphontos,Diodotos Kalliphontos,Athenian,Athens,Male,t,f,,,,,,Diodotos,Kalliphontos,Pambotadai,f
-sosibios,Sosibios,Uncertain,Uncertain,Male,f,f,,,,,,Sosibios,,,f
-hipparkhos,Hipparkhos,Athenian,Athens,Male,t,f,,,,,,Hipparkhos,,,f
-dionysios_dionysiou_2,Dionysios Dionysiou,Athenian,Athens,Male,t,f,,,,,,Dionysios,Dionysiou,,f
-unc_diodot,Diodot[.],Athenian,Athens,Male,t,f,,,,,,Diodot,,,t
-unc_heath_initiate_2,[?] Heath-Initiate,Athenian,Athens,Male,t,f,,,,,,,,,t
-ithake,Ithake,Athenian,Athens,Female,t,f,,,,,,Ithake,,,f
-unc_heath_initiate_3,[?] Heath-Initiate,Athenian,Athens,Uncertain,t,f,,,,,,,,,t
-unc_hearth_initiate_4,[?] Hearth-Initiate,Athenian,Athens,Uncertain,t,f,,,,,,,,,t
-attikos_attikou,Attikos Attikou,Athenian,Athens,Male,t,f,,,,,,Attikos,Attikou,,f
-atheno_niketou,Atheno Niketou,Athenian,Athens,Male,t,f,,,,,,Atheno,Niketou,Hagnous,f
-pammenes_pammenous,Pammenes Pammenous,Athenian,Athens,Male,t,f,,,,,,Pammenes,Pammenous,Marathon,f
-hierophantis_mos_unc,Hierophantis Mos[kh.],Athenian,Athens,Female,t,f,,,,,,Hierophantis,,,t
-antamenes_leontikhou,Antamenes Leontikhou,Athenian,Athens,Male,t,f,,,,,,Antamenes,Leontikhou,Epieikidai,f
-dione_pasikratous,Dione Pasikratous,Athenian,Athens,Female,t,f,,,,,,Dione,Pasikratous,,f
-unc_kourotrophos,[?] Kourotrophos,Athenian,Athens,Male,t,f,,,,,,,,,t
-oknia_polykharmou,[O?]knia Polykharmou,Athenian,Athens,Female,f,f,,,,,,Oknia,Polykharmou,,t
-polykharmos_polykritos,Polykharmos Polykritos,Athenian,Athens,Male,t,f,,,,,,Polykharmos,Polykritou,,f
-emperor_tiberius,Emperor Tiberius,Imperial Family Member,Rome,Male,f,t,,,Tiberius,Claudius,Caesar Augustus,,,,f
-theophilos_eudoxou,Theophilos Eudoxou,Athenian,Athens,Male,t,f,,,,,,Theophilos,Eudoxou,Eleusis,f
-menandros_asklepiodotou,Menandros Asklepiodotou,Athenian,Athens,Male,t,f,,,,,,Menandros,Asklepiodotou,Gargettos,f
-kleo_eukleous,Kleo Eukleous,Athenian,Athens,Female,t,f,,,,,,Kleo,Eukleous,Phlya,f
-papios_marathonios,Papios Marathonios,Uncertain,Uncertain,Male,t,f,,,,,,Papios,,Marathon,f
-iulia_augusta,Iulia Augusta,Imperial Family Member,Rome,Female,f,t,,,,Iulia,Augusta,,,,f
-nikodemos_hermeiou,Nikodemos Hermeiou,Athenian,Athens,Male,t,f,,,,,,Nikodemos,Hermeiou,,f
-praxagoras_of_melite,Praxagoras,Athenian,Athens,Male,t,f,,,,,,Praxagoras,,,f
-unc_aulus_marathonios,[.]ios Aulus Marathonios,Roman,Rome,Male,t,t,,,,Aulus,,,,Marathon,t
-polykharmos_eukleous,Polykharmos Eukleous,Athenian,Athens,Male,t,f,Eukleid,Herodian-Eukleid,,,,Polykharmos,Eukleous,Marathon,f
-eimertos_polykharmos,Eimertos Polykharmos,Athenian,Athens,Male,t,f,Eukleid,Herodian-Eukleid,,,,Eimertos,Polykharmou,Marathon,f
-t_statilius_lamprias,T. Statilius Lamprias,Other Greek,Epidaurus,Male,f,t,,,Titus,Statilius,,Lamprias,,,f
-kleophatra_iophontos,Kleophatra Iophontos,Athenian,Athens,Female,t,f,,,,,,Kleopatra,Iophontos,Deiradiotai,f
-publius_papinius_statius,P. Papinius Statius,Roman,Rome,Male,f,t,,,Publius,Papinius,Statius,,,,f
-unc_consul,"[.]on, Consul",Roman,Rome,Male,f,t,,,,,,,,,f
-diokles_themistokles_hagnousios,Diokles Themistokles Hagnousios,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Diokles,Themistokleous,Hagnous,f
-athenais_diokleous,Athenais Diokleous,Athenian,Athens,Female,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Athenais,Dioleous,Hagnous,f
-marcus_porcius_cato,M. Porcius Cato,Roman,Rome,Male,f,t,,,Marcus,Porcius,Cato,,,,f
-seilon_apolloniou,Seilon Apolloniou,Athenian,Athens,Male,t,f,,,,,,Seilon,Apolloniou,Melite,f
-apollonios_seilonos,Apollonios Seilonos,Athenian,Athens,Male,t,f,,,,,,Apollonios,Seilonos,Melite,f
-gaius_caecilius_cassius,G. Caecilius Cassius,Roman,Rome,Male,f,t,,,Gaius,Caecilius,Cassius,,,,f
-statilia,Statilia [.],Athenian,Athens,Female,f,t,,,,Statilia,,,,Sphettos,t
-ti_kl_eukles_sostratou,Ti. Kl. Eukles Sostratou,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,Eukles,Sostratou,,f
-iulia_agrippina,Iulia Agrippina,Roman,Rome,Female,f,t,,,,Iulia,Agrippina,,,,f
-unc_bro_of_ti_kl_eukles_sostratou,[?] Brother of Ti. Kl. Eukles Sostratou,Athenian,Athens,Male,t,t,,,,,,,,,t
-ti_kl_nouios_philinou,Ti. Kl. Nouios Philinou,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,Nouios,Philinou,Oion,f
-g_iul_polkhos_sounieus,G. Iul. Polkhos Sounieus,Athenian,Athens,Male,t,t,,,Gaius,Iulius,,Polkhos,,Sounion,f
-ti_kl_demostratos,Ti. Kl. Demostratos,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,Demostratos,Neikotelous,Sounion,f
-ti_kl_neikotelous,Ti. Kl. Neikotelous,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,Neikoteles,,Sounion,f
-kl_philippe,Klaudia Philippe,Athenian,Athens,Female,t,t,,,,Claudia,,Klaudia,Philippe,Pallene,f
-kl_asklepiodoros,Kl. Asklepiodoros,Athenian,Athens,Male,t,t,,,,Claudius,,Aklepiodoros,,,f
-kl_unc_asklepiodorou,Kl. [?] Asklepiodorou,Athenian,Athens,Female,t,t,,,,Claudia,,,Aklepiodorou,,t
-unc_exegete_of_eumolpidai_1,[?] Exegete of Eumolpidai,Athenian,Athens,Male,f,f,,,,,,,,,t
-iul_nikanor,Iul. Nikanor,Other Greek,Syria,Male,f,t,,,,Iulius,,Nikanor,,,f
-unc_emperor_1,[?] Emperor,Imperial Family Member,Rome,Male,f,t,,,,,,,,,t
-unc_imperial_priest,[?] Imperial Priest,Athenian,Athens,Male,t,f,,,,,,,,,t
-ti_kl_hipparkhos_herodou,Ti. Kl. Hipparkhos Herodou,Athenian,Athens,Male,t,t,Herodian,Herodian-Eukleid,Tiberius,Claudius,,Hipparkhos,Herodou,Marathon,f
-kl_alkia,Kl. Alkia,Athenian,Athens,Female,t,t,Herodian,Herodian-Eukleid,,Claudia,,Alkia,Hipparkou,Marathon,f
-t_fl_sophokles_kononos,T. Fl. Sophokles T. Fl. Kononos,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Sophokles,,Sounion,f
-fl_sophia,Fl. Sophia,Athenian,Athens,Female,t,t,,,,Flavia,,Sophia,,Sounion,f
-t_fl_konon_kononos,T. Fl. Konon Kononos,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Konon,Kononos,Sounion,f
-kl_tartarion_menandrou,Kl. Tartarion Menandrou,Athenian,Athens,Female,t,t,,,,Claudia,,Tartarion,Menandrou,Gargettos,f
-p_fulvius_maximos_sounieus,P. Fulvius Maximos Sounieus,Athenian,Athens,Male,t,t,,,Publius,Fulvius,,Maximos,,Sounion,f
-p_fl_metrodoros,P. Fulvius Metrodoros,Athenian,Athens,Male,t,t,,,Publius,Fulvius,,Metrodoros,,Sounion,f
-kl_philoxena_patronos,Kl. Philoxena Patronos,Athenian,Athens,Female,t,t,,,,Claudia,,Philoxena,Patronos,Melite,f
-t_kl_lysiades_patronos,T. Kl. Lysiades Patronos,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,Lysiades,Patronos,Melite,f
-kl_timothea,Kl. Timothea,Athenian,Athens,Female,t,t,,,,Claudia,,Teimothea,Teimotheou,Gargettos,f
-g_kl_seilianos_polykritos,G. Kl. Seilianos Polykritos,Athenian,Athens,Male,t,t,,,Gaius,Claudius,,Seilianos Poilykritos,,,f
-kl_unc_father_of_seilianos,Kl. [?] Father of Seilianos,Athenian,Athens,Male,t,t,,,,Claudius,,,,,t
-kl_unc_mother_of_seilianos,Kl. [?] Mother of Seilianos,Athenian,Athens,Female,t,t,,,,Claudia,,,,,t
-zophyros_zopyrou,Zophyros Zopyrou,Athenian,Athens,Male,t,f,,,,,,Zophyros,Zopyrou,Peiraius,f
-ammonios_kholleides,Ammonios Kholleides,Athenian,Athens,Male,t,f,,,,,,Ammonios,,Kholleidai,f
-unc_wife_of_ammonios_kholleides,[?] Wife of Ammonios Kholleides,Athenian,Athens,Female,t,f,,,,,,,,,t
-thrasyllos_ammoniou,Thrasyllos Ammoniou,Athenian,Athens,Male,t,f,,,,,,Thrasyllos,Ammoniou,Kholleidai,f
-eraton_eratonos,Eraton Eratonos,Athenian,Athens,Male,t,f,,,,,,Eraton,Eratonos,Besa,f
-unc_priestess_to_demeter_and_kore_2,[?] Priestess of Demeter & Kore,Athenian,Athens,Female,f,f,,,,,,,,,t
-athenais,Athenais,Athenian,Athens,Female,t,f,,,,,,Athenais,,,f
-unc_herokleitou,[.]ppos Herokleitou,Athenian,Athens,Male,t,f,,,,,,[.]ppos,Herokleitou,Gargettos,f
-kl_theophilos,Kl. Theophilos,Athenian,Athens,Female,t,t,,,,Claudius,,Theophilos,,,f
-kl_sostratos,Kl. Sostratos,Athenian,Athens,Male,t,t,,,,Claudius,,Sostratos,,,f
-t_fl_unc,T. Fl [?],Athenian,Uncertain,Uncertain,f,f,,,Titus,Flavius,,,,,t
-l_pompeius_unc,L. Pompeius [?],Roman,Uncertain,Uncertain,f,t,,,Lucius,Pompeius,,,,,f
-l_pompeius_pompeiou,L. Pompeius Pompeiou,Roman,Rome,Male,f,t,,,Lucius,Pompeius,,,,,f
-agothokles_agothokleous,Agothokles Agothokleous,Athenian,Athens,Male,t,f,,,,,,Agothokles,Agothokleous,Kephesia,f
-unc_daughter_of_dionysios,[?] Daughter of Dionysios,Athenian,Athens,Female,f,f,,,,,,,Dionysiou,Phaleron,t
-unc_themistokl_unc,[?] Themistokl[.],Athenian,Athens,Male,f,f,,,,,,,,,t
-unc_son_of_tryphon_phylasios,[?] Son of Tryphon Phylasios,Athenian,Athens,Male,t,f,,,,,,,Tryphonos,Phlya,t
-tryphon_phylasios,Tryphon Phylasios,Athenian,Athens,Male,t,f,,,,,,Tryphon,,Phlya,f
-unc_daughter_of_abans_akharneus,[?] Daughter of [A?]bans Akharneus,Athenian,Athens,Female,t,f,,,,,,Abans,,Akharnai,f
-unc_kanephoros_1,[?] Kanephoros,Athenian,Athens,Male,t,f,,,,,,,,,f
-unc_kl,Kl. [?],Athenian,Athens,Uncertain,t,t,,,,Claudia,,,,,t
-dione,Dione,Athenian,Athens,Female,t,f,,,,,,Dione,,,f
-unc_daughter_of_unc,[?] Daughter of [.]dous,Athenian,Athens,Female,t,f,,,,,,,[.]dous,,f
-unc_wife_of_metrodoros,[.]okleia wife of Metrodoros,Athenian,Athens,Female,t,f,,,,,,[.]okleia,,,f
-metrodoros_metrodorou_2,Metrodoros II Metrodorou,Athenian,Athens,Male,t,f,,,,,,Metrodoros,Metrodorou,Kydathenaion,f
-antio_metrodorou,Antio Metrodorou,Athenian,Athens,Male,t,f,,,,,,Antio,Metrodorou,Kydathenaion,f
-curtia_straontike,Curtia Straontike,Athenian,Athens,Female,t,t,,,,Curtia,,Stratonike,,Besa,f
-kallisto_kallimakhou,Kallisto Kallimakhou,Athenian,Athens,Female,t,f,,,,,,Kallisto,Kallimakhou,,f
-kallikleia,Kallikleia,Athenian,Athens,Female,t,f,,,,,,Kallikleia,,,f
-kallimakhos_1,Kallimakhos,Athenian,Athens,Male,t,f,,,,,,Kallimakhos,,,f
-areios,Areios,Athenian,Athens,Male,t,f,,,,,,Areios,,,f
-apollonios_apolloniou,Apollonios Apolloniou,Athenian,Athens,Male,t,f,,,,,,Apollonios,Apolloniou,Phlya,f
-fl_pamphilie,Fl. Pamphilie,Athenian,Athens,Female,t,t,,,,Flavia,,Pamphile,,,f
-unc_t,T. [?],Athenian,Athens,Uncertain,f,t,,,,,,,,,t
-unc_eubiou,[?] Eubiou,Athenian,Athens,Male,t,f,,,,,,,Eubiou,,t
-unc_son_of_konon,[?] Son of Konon,Athenian,Athens,Male,f,f,,,,,,,Kononos,,t
-unc_priestess_of_demeter_and_kore_3,[?] Priestess of Demeter & Kore,Athenian,Athens,Female,t,f,,,,,,,,,t
-unc_priestess_of_demeter_and_kore_4,[?] Priestess of Demeter & Kore,Athenian,Athens,Female,t,f,,,,,,,,,t
-kl_d_unc,Kl. D[?],Athenian,Athens,Uncertain,t,t,,,,Klaudius,,,,,t
-unc_hearth_initiate_5,[?] Hearth-Initiate,Athenian,Athens,Uncertain,t,f,,,,,,,,,t
-unc_woman,[?] Woman,Athenian,Athens,Female,f,f,,,,,,,,,t
-unc_husband_of_woman,[?] Husband of Woman,Athenian,Athens,Male,t,f,,,,,,,,,t
-hierophantis_perikleous,Hierophantis Perikleous,Athenian,Athens,Female,t,f,,,,,,,Perikleous,Oion,f
-pose_poseous,Pose Poseous,Athenian,Athens,Female,t,f,,,,,,Pose,Poseous,Marathon,f
-fl_laodameia_kleitou,Fl. Laodameia Kleitou,Athenian,Athens,Female,t,t,,,,Flavia,,Laodameia,Kleitou,Phlya,f
-sotas_unc,Sotas And[.],Uncertain,Uncertain,Male,f,f,,,,,,Sotas,,,f
-unc_priest,[?] Priest,Athenian,Athens,Male,t,f,,,,,,,,,t
-ti_kl_herodes_attikos_attikou,Ti. Kl. Herodes Attikos Kl. Attikou,Athenian,Athens,Male,t,t,Herodian,Herodian-Eukleid,Tiberius,Claudius,,Herodes Atticus,Attikou,Marathon,f
-kl_attikou,Kl. Attikou,Athenian,Athens,Male,t,t,Herodian,Herodian-Eukleid,,Claudiua,,,Attikou,Marathon,f
-viboullia_alkia,Viboullia Alkia,Athenian,Athens,Female,t,t,Herodian,Herodian-Eukleid,,Vibullia,,Alkia,,,f
-cocceius_censorinus,Cocceius Censorinus,Roman,Rome,Male,f,t,,,,Cocceius,Censorinus,,,,f
-agrius_saturninus,Agrius Saturninus,Roman,Rome,Male,f,t,,,,Agrius,Saturninus,,,,f
-ael_lysistrate,Ael. Lysistrate,Athenian,Athens,Female,t,t,,,,Aelia,,Lysistrate,,,f
-unc_husband_of_ael_lysistrate,L. P[?] Husband of Ael. Lysistrate,Athenian,Athens,Male,t,t,,,Lucius,,,,,,t
-athenaios_epaphrodeitos_athenaiou,Athenaios Epaphrodeitos Athenaiou,Athenian,Athens,Male,t,f,,,,,,Athenaios,Athenaiou,Phlya,f
-athenaios_perikonikos,Athenaios Perikonikos,Athenian,Athens,Male,t,f,,,,,,Epaphrodeitos,Athenaiou,Phlya,f
-vipsania_lailiane,Vipsania Lailiane,Athenian,Athens,Female,t,t,,,,Vipsania,,Lailiane,,Kephesia,f
-t_vipsanius_flavianos,T. Vipsanius [.] Flavianos,Athenian,Athens,Male,t,t,,,Titus,Vipsanius,,Flavianos,,Kephesia,f
-unc_son_of_heroxenos_marathonios,[?] Son of Heroxenos Marathonios,Athenian,Athens,Male,t,f,,,,,,,Heroxenou,Marathon,t
-polemon_heroxenou,Polemon Heroxenou,Athenian,Athens,Male,t,f,,,,,,Polemon,Heroxenou,Marathon,f
-olympius,Olympius,Athenian,Athens,Male,t,f,,,,,,Olympius,,,f
-demetrios,Demetrios,Athenian,Athens,Male,t,f,,,,,,,,,f
-marcianus,Marcianus,Roman,Rome,Male,f,t,,,,,,,,,f
-g_memmius_sabeinos_peisandros,G. Memmius Sabeinos Peisandros,Athenian,Athens,Male,t,t,,,Gaius,Memmius,Sabinus,Peisandros,,,f
-thrasyllos_kholleides,Thrasyllos Kholleides,Athenian,Athens,Male,t,f,,,,,,Thrasyllos,,Kholleidai,f
-emperor_hadrian,Emperor Hadrian,Imperial Family Member,Rome,Male,f,t,,,Publius,Aelius,Hadrianus,,,,f
-unc_emperor_2,[?] Emperor,Imperial Family Member,Rome,Male,f,t,,,,,,,,,t
-unc_emperor_3,[?] Emperor,Imperial Family Member,Rome,Male,f,t,,,,,,,,,t
-unc_emperor_4,[?] Emperor,Imperial Family Member,Rome,Male,f,t,,,,,,,,,t
-unc_hierophantis_daughter_of_demetrios,Hierophantis Daughter of Demetrios,Athenian,Athens,Female,t,f,,,,,,,Demetriou,,f
-l_vipsanius_aiolion,L. Vipsanius Aiolion,Athenian,Athens,Male,t,t,,,Lucius,Vipsanius,,Aiolion,,Phlya,f
-l_vipsanius_lailianos,L. Vipsanius Lailianos,Athenian,Athens,Male,t,t,,,Lucius,Vipsanius,,Lailianos,,Phlya,f
-unc_relative_of_l_vipsanius_aiolion,[?] Relative of L. Vipsanius Aiolion,Athenian,Athens,Uncertain,t,t,,,,,,[?] Relative,,,t
-iunia_unc_iun_patronos,Iunia [?] Iun. Patronos,Athenian,Athens,Female,t,t,,,,Iunia,,,Patronos,Berenikidai,t
-iun_patron,Iun. Patron,Athenian,Athens,Male,t,t,,,,Iunius,,Patron,,Berenikidai,f
-annia_aristokleia,Annia Aristokleia,Athenian,Athens,Female,t,t,,,,Annia,,Aristokleia,Thrasylos,Kholleidai,f
-annius_thrasyllos,Annius Thrasyllos,Athenian,Athens,Male,t,t,,,,Annius,,Thrasylos,,Kholleidai,f
-l_nummius_andreas_menidos,L. Nummius Andreas Menidos,Athenian,Athens,Male,t,t,,,Lucius,Nummius,,Andreas,Menidos,Phaleron,f
-nummia_bassa,Nummia Bassa,Athenian,Athens,Female,t,t,,,,Nummia,,Bassa,,Gargettos,f
-l_nummius_hierokeryx,L. Nummius Hierokeryx,Athenian,Athens,Male,t,t,,,Lucius,Nummius,,,,Gargettos,f
-nummia_kleo,Nummia Kleo,Athenian,Athens,Female,t,t,,,,Nummia,,Kleo,,,f
-ti_kl_attikos_marathonios,Ti. Kl. Attikos Marathonios,Athenian,Athens,Male,t,t,Herodian,Herodian-Eukleid,Tiberius,Claudius,,Attikos,,Marathon,f
-annia_faustina,Annia Faustina,Roman,Rome,Female,f,t,,,,Annia,Faustina,,,,f
-emperor_antoninus_pius,Emperor Antoninus Pius,Imperial Family Member,Rome,Male,f,t,,,Titus,Aurelius,Fulvus,,,,f
-emperor_marcus_aurelius,Emperor Marcus Aurelius,Imperial Family Member,Rome,Male,f,t,,,Marcus,Annius,Verus,,,,f
-domitia_lucilla,Domitia Lucilla,Imperial Family Member,Rome,Female,f,t,,,,Domitia,Lucilla,,,,f
-nummius_nigreinos,Nummius Nigreinos,Athenian,Athens,Male,t,t,,,,Nummius,,Nigreinos,,,f
-menandra_of_ephesus,Menandra of Ephesus,Other Greek,Ephesus,Female,t,f,,,,,,Menandra,,,f
-unc_relative_of_mindios_amynos,[?] Relative of Mindios Amynos,Athenian,Uncertain,Uncertain,t,f,,,,,,,,,t
-g_kl_titianos,G. Kl. Titianos,Uncertain,Uncertain,Male,t,t,,,Gaius,Claudius,,Titianos,,,f
-philipe_kl_demostratou,Philipe Kl. Demostratou,Athenian,Athens,Female,t,t,,,,,,Philipe,Demostratou,,f
-d_iun_meanneas,D. Iun. Menneas,Athenian,Athens,Male,t,t,,,Decimus,Iunius,,Menneas,,,f
-exegete_patron,Exegete Patron,Athenian,Athens,Male,t,f,,,,,,Patron,,,f
-phirmus_gargettios,Phirmus Gargettios,Athenian,Athens,Male,t,t,,,,,,Phirmos,,Gargettos,f
-d_iun_peiraieus,D. Iun. Peiraieus,Athenian,Athens,Male,t,t,,,Decimus,Iunius,,,,Peiraius,f
-cornelia_unc,Cornelia [?],Athenian,Athens,Female,f,t,,,,Cornelia,,,,,t
-unc_relative_of_ti_cl_lysiades,[?] Relative of Ti. Cl. Lysiades,Athenian,Athens,Male,t,t,Claudii of Melite,Claudii of Melite,Tiberius,Claudius,,,,,t
-ail_praxagoras,Ail. Praxagoras,Athenian,Athens,Male,t,t,Praxagorid,Claudii of Melite,,Aelius,,Praxagoras,,Melite,f
-unc_daughter_or_praxagoras_thorikos,[?] Daughter of Praxagoras Thorikos,Athenian,Athens,Female,t,f,Praxagorid,Claudii of Melite,,,,,,Thorikos,f
-kl_themistokles,Kl. Themistokles,Athenian,Athens,Male,t,t,Leonid,Claudii of Melite,,Claudius,,Themistokles,,,f
-klementiane,Klementiane,Athenian,Athens,Female,t,t,,,,,,Klementiane,,,f
-arrian,Arrian,Other Greek,Nicomedia,Male,t,t,,,Lucius,Flavius,,Arrianos,,,f
-unc_emperor_5,[?] Emperor,Imperial Family Member,Rome,Male,f,t,,,,,,[?] Emperor,,,f
-unc_krateros,Ana[.]n Krateros,Athenian,Athens,Male,t,t,,,,Annia,,,,,f
-unc_claudius_of_melite,[?] Claudius of Melite,Athenian,Athens,Male,t,t,,,,Claudius,,,,Melite,t
-ti_kl_leonides,Ti. Kl. Leonides,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,Leonides,,Melite,f
-sergius_salvidius_scipio_orfitus,Sergius Salvidius Scipio Orfitus,Roman,Rome,Male,f,t,,,Sergius,Salvidius Scipio,Orfitus,Sergius,,,f
-calpurnia_lucia_lepida,Calpurnia L. Lepida,Roman,Rome,Female,f,t,,,,Calpurnia,Lepida,Calpurnia,,,f
-sergius_calpurnius_scipio_orfitus,Sergius Calpurnius Scipio Orfitus,Roman,Rome,Male,f,t,,,Sergius,Calpurnius Scipio,Orfitus,Sergius,,,f
-lucius_calpunius_piso,L. Calpurnius Piso,Roman,Rome,Male,f,t,,,Lucius,Calpurnius,Piso,,,,f
-p_ail_timosthenes,P. Ail. Timosthenes,Athenian,Athens,Male,t,t,,,Publius,Aelius,,Teimosthenes,,Berenikidai,f
-ail_zenonos,Ail. Zenonos,Athenian,Athens,Male,t,t,,,,Aelius,,Zenon,,,f
-elpinike_atria,Elpinike Atria,Athenian,Athens,Female,t,t,Herodian,Herodian-Eukleid,,Appia Annia,Atilia Regilla,Elpinike,Herdou,Marathon,f
-regilla,Regilla,Roman,Rome,Female,t,t,Herodian,Herodian-Eukleid,,Appia Annia Regilla Atilia,Caucidia Tertulla,Appia,,Marathon,f
-appius,Appius,Roman,Rome,Male,f,t,Herodian,Herodian-Eukleid,,Appius,,,,Marathon,f
-t_kl_appius_bradoua,T. Kl. Appius Bradoua,Athenian,Athens,Male,t,t,Herodian,Herodian-Eukleid,Tiberius,Claudius,Appius,Bradoua,,,f
-themistokles_meliteus,Themistokles Meliteus,Athenian,Athens,Male,t,f,Leonid,Claudii of Melite,,,,Themistokles,,Melite,f
-unc_son_of_p_ail_praxagoras,[?] Son of P. Ael. Praxagoras,Athenian,Athens,Male,t,t,Praxagorid,Claudii of Melite,,,,,,,t
-fl_xenion,Fl. Xenion,Athenian,Athens,Male,t,t,,,,Flavius,,Xenion,,Marathon,f
-fl_zenophilos,Fl. Zenophilos,Athenian,Athens,Male,t,t,,,,Flavius,,Zenophilos,,Marathon,f
-emperor_verus,Emperor L. Verus,Imperial Family Member,Rome,Male,f,t,,,Lucius,Aurelius,Verus,,,,f
-unc_ail,Ail. Kh[?],Athenian,Athens,Uncertain,t,t,,,,Aelius,,,,,f
-t_kl_hierophant_alkibiadou,T. Kl. Hierophant Alkibiadou,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,,Alkibiadou,Paiania,f
-t_fl_alkibiades_2,T. Fl. Alkibiades (II),Athenian,Athens,Male,t,t,,,Titus,Flavius,,Alkibiades,,Paiania,f
-t_leosthenes,T. Fl. Leosthenes,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Leosthenes,,Paiania,f
-f_fl_alkibiades_1,T. Fl. Alkibiades (I),Athenian,Athens,Male,t,t,,,Titus,Flavius,,Alkibiades,,Paiania,f
-fl_eisidora,Fl. Eisidora,Athenian,Athens,Female,t,t,,,,Flavia,,Eisidora,,,f
-fl_herakleitos,Fl. Herakleitos,Athenian,Athens,Male,t,t,,,,Flavius,,Herakleitos,,,f
-domitia_laodameia,Domitia Laodameia,Athenian,Athens,Female,t,t,,,,Domitia,,Laodameia,,,f
-krateros,Krateros,Athenian,Athens,Male,t,f,,,,,,Krateros,,,f
-m_aur_miltiades,M. Aur. Miltiades,Athenian,Athens,Male,t,t,,,Marcus,Aurelius,,Miltiades,,Marathon,f
-agothokles_marathonios,Agothokles Marathonios,Athenian,Athens,Male,t,f,,,,,,Agothokles,,Marathon,f
-t_fl_euthykomas_1,T. Fl. Euthykomas,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Euthykomas,,Paiania,f
-t_fl_straton_2,T. Fl. Straton II,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Starton,,Paiania,f
-t_fl_straton_1,T. Fl Straton I,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Straton,,Paiania,f
-fl_unc_krateia,Fl. [.]krateia,Athenian,Athens,Female,t,t,,,,Flavia,,,,,f
-pompeia_polla,Pompeia Polla,Athenian,Athens,Female,t,t,,,,Pompeia,,Polla,,,f
-pompeius_pleistarkhos,Pompeius Pleistarkhos,Athenian,Athens,Male,t,t,,,,Pompeius,,Pleistakhos,,,f
-t_fl_menandros_paianieus,T. Fl. Menandros Paianieus,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Menandros,,Paiania,f
-emperor_severus,Emperor Severus,Roman,Rome,Male,f,t,,,,Severus,,,,,f
-m_iul_apellas,M. Iul Apellas,Athenian,Athens,Male,t,t,,,Marcus,Iulius,,Apellas,,Marathon,f
-m_iul_damianos,M. Iul. Damianos,Athenian,Athens,Male,t,t,,,Marcus,Iulius,,Damianos,,,f
-fl_apella_hypaipenou,Fl. Apella Hypaipenou,Athenian,Athens,Female,t,t,,,,Flavia,,Apellas,Hypaipenou,,f
-fl_polla,Fl. Polla,Athenian,Athens,Female,t,t,,,,Flavia,,Polla,,,f
-iul_apollodotos_meliteus,Iul. Apollodotos Meliteus,Athenian,Athens,Male,t,t,,,,Iulius,,Apollodotos,,Melite,f
-iul_theodotos,Iul. Theodotos,Athenian,Athens,Male,t,t,,,,Iulius,,Theodotus,,Melite,f
-ail_kephisodora,Ail. Kephisodora,Athenian,Athens,Female,t,t,Leonid,Claudii of Melite,,Aelia,,Kephisodora,,,f
-kl_lysiades,Kl. Lysiades,Athenian,Athens,Male,t,t,Leonid,Claudii of Melite,,Claudius,,Lysiades,,,f
-kl_sospis,Kl. Sospis,Athenian,Athens,Male,t,t,Leonid,Claudii of Melite,,Claudius,,Sospis,,,f
-iul_kephisodora,Iul. Kephisodora,Athenian,Athens,Female,t,t,Praxagorid,Claudii of Melite,,Iulia,,Kephisodora,,,f
-m_praxis,M. Iul. Praxis,Athenian,Athens,Male,t,t,,,Marcus,Iulius,,Praxis,,Pallene,f
-unc_emperor_6,[?] Emperor,Imperial Family Member,Rome,Male,f,t,,,,,,,,,f
-iun_melitine,[Iunia] Melitine,Athenian,Athens,Female,t,t,,,,Iunia,,Melitine,,,f
-isidote_eisaiou,Isidote Eisaiou,Athenian,Athens,Female,t,f,,,,,,Isidote,Eisaiou,,f
-eisaios_1,Eisaios I,Athenian,Athens,Male,t,f,,,,,,Eisaios,,,f
-eisaios_2,Eisaios II,Athenian,Athens,Male,t,f,,,,,,Eisaios,Eisaiou,,f
-emperor_commodous,Emperor Commodous,Imperial Family Member,Rome,Male,f,t,,,Lucius,Aurelius,Commodus,,,,f
-l_memmius_altar_priest,L. Memmius Altar-Priest,Athenian,Athens,Male,t,t,,,Lucius,Memmius,,,,Thorikos,f
-fl_amphikles,Fl. Amphikles,Athenian,Athens,Male,t,t,,,,Flavius,,Amphikles,,,f
-lucilla,Lucilla,Imperial Family Member,Rome,Female,f,t,,,,Lucilla,,Lucilla,,,f
-faustina,Faustina,Imperial Family Member,Rome,Female,f,t,,,,Faustina,,Faustina,,,f
-sabina,Sabina,Imperial Family Member,Rome,Female,f,t,,,,Sabina,,Sabina,,,f
-faustina_2,Faustina II,Imperial Family Member,Rome,Female,f,t,,,,Faustina,,Faustina,,,f
-praxagora_demostratou,Praxagora Demostratou,Athenian,Athens,Female,t,f,Praxagorid,Claudii of Melite,,,,Praxagora,Demostratou,,f
-t_kl_demostratos_sospidou,T. Kl. Demostratos Sospidou,Athenian,Athens,Male,t,t,Praxagorid,Claudii of Melite,Tiberius,Claudius,,Demostratos,Sospidou,,f
-ail_philiste_praxagorou,Ail. Philiste Praxagorou,Athenian,Athens,Female,t,t,Praxagorid,Claudii of Melite,,Aelia,,Philiste,,,f
-io_hierophantes,Io. Hierophantes,Athenian,Athens,Male,t,t,,,,Iulius,,,,,f
-aiolion_phlyeos,Aiolion Phlyeos,Athenian,Athens,Male,t,t,,,,,,Aiolion,Aiolionos,Phlya,f
-ail_leu_palleneus,Ail. Leu. Palleneus,Athenian,Athens,Male,t,t,,,,Aeilus,,,,Pallene,f
-demosthenes_anthou,Demosthenes Anthou,Athenian,Athens,Male,t,f,,,,,,Demosthenes,Anthou,Pallene,f
-attikos_anthou,Attikos Anthou,Athenian,Athens,Male,t,f,,,,,,Attikos,Anthou,Pallene,f
-unc_iteles_,[.]iteles,Athenian,Athens,Male,f,f,,,,,,,,Pallene,t
-unc_lo,Lo[.],Athenian,Athens,Male,f,f,,,,,,,,Pallene,t
-unc_ai_f,Ai. F[.],Athenian,Athens,Male,f,f,,,,,,,,Pallene,t
-unc_hiero,Hiero[.],Athenian,Athens,Male,f,f,,,,,,,,Pallene,t
-unc_kl_m,Kl. M[.],Athenian,Athens,Male,f,f,,,,,,,,Pallene,t
-unc_arist,Arist[.],Athenian,Athens,Male,f,f,,,,,,,,Pallene,t
-kletos_epigonou,Kletos Epigonou,Athenian,Athens,Male,t,f,,,,,,Kletos,Epigonou,Pallene,f
-dionysios_glaukou,Dionysios Glaukou,Athenian,Athens,Male,t,f,,,,,,Dionysios,Glaukou,Pallene,f
-kl_nikephoros,Kl. Nikephoros,Athenian,Athens,Male,t,t,,,,Claudius,,Nikephoros,,Pallene,f
-megalinos_aphrodisiou,Megalinos Aphrodisiou,Athenian,Athens,Male,t,f,,,,,,Megalinos,Aphrodisou,Pallene,f
-khaireas_diogenous,Khaireas Diogenous,Athenian,Athens,Male,t,f,,,,,,Khaireas,Diogenous,Pallene,f
-aristoboulos_zosimou,Aristoboulos Zosimou,Athenian,Athens,Male,t,f,,,,,,Aristoboulos,Zosimou,Pallene,f
-fl_stephanos,Fl. Stephanos,Athenian,Athens,Male,t,t,,,,Flavius,,Stephanos,,Pallene,f
-ai_markos,Ai. Markos,Athenian,Athens,Male,t,t,,,,Aelius,,Markos,,Pallene,f
-kl_serapion,Kl. Serapion,Athenian,Athens,Male,t,t,,,,Claudius,,Serapion,,Pallene,f
-iou_kaikilianos,Iou. Kaikilianos,Athenian,Athens,Male,t,t,,,,Iulius,,Kaikilianos,,Pallene,f
-timokrates_kaprodorou,Timokrates Kaprodorou,Athenian,Athens,Male,t,f,,,,,,Timokrates,Kaprodorou,Pallene,f
-eisidoros_eisidorou,Eisidoros Eisidorou,Athenian,Athens,Male,t,f,,,,,,Eisidoros,Eisidorou,Semakhidai,f
-thrasyboulos_artemonos,Thrasyboulos Artemonos,Athenian,Athens,Male,t,f,,,,,,Thrasyboulos,Atemonos,Semakhidai,f
-euripides_preimou,Euripides Preimou,Athenian,Athens,Male,t,f,,,,,,Euripides,Preimou,Semakhidai,f
-epitunkhanon_epitunkhanonos,Epitunkhanon Epitunkhanonos,Athenian,Athens,Male,t,f,,,,,,Epitunkhanon,Epitunkhanonos,Semakhidai,f
-onesimos_eiphikratous,Onesimos Eiphikratous,Athenian,Athens,Male,t,f,,,,,,Onesimos,Eiphikratos,Semakhidai,f
-p_herennios_apolloniou,P. Herennios Apolloniou,Athenian,Athens,Male,t,t,,,Publius,Herennios,,Apolloniou,,Semakhidai,f
-ti_kl_sospis_lysiadou_2,Ti. Kl. Sospis II Lysiadou,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,Sospis,Lysiadou,Semakhidai,f
-unc_aim_1,Aim[.],Athenian,Athens,Male,f,f,,,,,,,,Semakhidai,t
-unc_aim_2,Aim[.],Athenian,Athens,Male,f,f,,,,,,,,Semakhidai,t
-titios_molossios_alopekethen,Titios Molossios Alopekethen,Athenian,Athens,Male,t,t,,,,,,Titios Molossios,,Alopeke,f
-khryseros_khryserou,Khryseros Khryserou,Athenian,Athens,Male,t,f,,,,,,Khryseros,,Semakhidai,f
-dephilos_khareisiou,Dephilos Khareisiou,Athenian,Athens,Male,t,f,,,,,,Dephilos,,Semakhidai,f
-nikomakhos_mikomakhou,Nikomakhos Mikomakhou,Athenian,Athens,Male,t,f,,,,,,Nikomakhos,,Semakhidai,f
-deiphilos_deiphilou,Deiphilos Deiphilou,Athenian,Athens,Male,t,f,,,,,,Deiphilos,,Semakhidai,f
-hygeinos_arkhimhdous,Hygeinos Arkhimhdous,Athenian,Athens,Male,t,f,,,,,,Hygeinos,,Phyrrnesios,f
-nikostratos_nikiou,Nikostratos Nikiou,Athenian,Athens,Male,t,f,,,,,,Nikostratos,,Krioa,f
-emperor_septimius_severus,Emperor Septimius Severus,Imperial Family Member,Rome,Male,f,t,,,Lucius,Septimius,Severus,,,,f
-iul_domna,Iul. Domna,Imperial Family Member,Rome,Female,f,t,,,,Iulia,Domna,,,,f
-kl_themistoklea,Kl. Themistoklea,Athenian,Athens,Female,t,t,Praxagorid,Claudii of Melite,,Claudia,,Themistokleia,,Melite,f
-kl_philippos,Kl. Philippos,Athenian,Athens,Male,t,t,Praxagorid,Claudii of Melite,,Claudius,,Philippos,,Melite,f
-kl_menandra_1,Kl. Menandra,Athenian,Athens,Female,t,t,Praxagorid,Claudii of Melite,,Claudia,,Menandra,Philippou,Melite,f
-nikostrate_meneou,Nikostrate Meneou,Athenian,Athens,Female,t,f,,,,,,Nikostrate,Meneou,Berenikidai,f
-g_kasios_semakhidai,G. Kasios Semakhidai,Uncertain,Uncertain,Male,t,t,,,Gasius,Cassius,,,,Semakhidai,f
-ail_epilampsis_gelotos,Ail. Epilampsis Gelotos,Athenian,Athens,Female,t,t,,,,Aelia,,Epilampsis,Gelotos,Phaleron,f
-ail_gelo_1,Ail. Gelo,Athenian,Athens,Male,t,t,,,,Aelius,,Gelo,,Phaleron,f
-diokles,Diokles,Athenian,Athens,Male,t,f,,,,,,Diokles,,Phaleron,f
-ail_alexandros,Ail. Alexandros,Athenian,Athens,Male,t,t,,,,Aelius,,Alexandros,,Phaleron,f
-ail_ardys,Ail. Ardys,Athenian,Athens,Male,t,t,,,,Aelius,,Ardys,,Phaleron,f
-ail_kallikrates,Ail. Kallikrates,Athenian,Athens,Male,t,t,,,,Aelius,,Kallikrates,,Phaleron,f
-ail_alexandros_2,Ail. Alexandros II,Athenian,Athens,Male,t,t,,,,Aelius,,Alexandros,,Phaleron,f
-onesimou_besaieus,Onesimou Besaieus,Athenian,Athens,Male,t,f,,,,,,Onesimou,,,f
-ail_gelo_2,Ail Gelo II,Athenian,Athens,Male,t,t,,,,Aelius,,Gelo,,Phaleron,f
-p_pom_hegios_1,P. Pom. Hegios,Athenian,Athens,Male,t,t,,,Publius,Pompeius,,Hegios,,Phaleron,f
-p_pom_hegios_2,P. Pom. Hegios II,Athenian,Athens,Male,t,t,,,Publius,Pompeius,,Hegios,,Phaleron,f
-pom_epilampsis,Pom. Epilampsis,Athenian,Athens,Male,f,t,,,,Pompeius,,Epilampsis,,Phaleron,f
-t_fl_leosthenes_2,T. Fl. Leosthenes II,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Leosthenes,,Paiania,f
-unc_daughter_of_t_fl_leosthenes_2,Daughter of T. Fl. Leosthenes II,Athenian,Athens,Female,t,t,,,,Flavia,,,,Paiania,f
-ail_sossianos_prospaltios,Ail. Sossianos Prospaltios,Athenian,Athens,Male,t,t,,,,Aeilius,,Sossianos,,Prospalta,f
-glaukos,Glaukos,Athenian,Athens,Male,t,f,,,,,,Glaukos,,,f
-hagne,Hagne,Athenian,Athens,Female,t,f,,,,,,Hagne,,,f
-threption,Threption,Athenian,Athens,Male,t,f,,,,,,Threption,,,f
-tereus,Tereus,Athenian,Athens,Male,t,f,,,,,,Tereus,,,f
-hermione_1,Hermione,Athenian,Athens,Female,t,f,,,,,,Hermione,,,f
-eutykhides,Eutykhides,Athenian,Athens,Male,t,f,,,,,,Eutykhides,,,f
-euodos,Euodos,Athenian,Athens,Male,t,f,,,,,,Euodos,,,f
-aiskhylos,Aiskhylos,Athenian,Athens,Male,t,f,,,,,,Aiskhylos,,,f
-zoeilos,Zoeilos,Athenian,Athens,Male,t,f,,,,,,Zoeilos,,,f
-neokleides,Neokleides,Athenian,Athens,Male,t,f,,,,,,Neokleides,,,f
-iun_agathopodos,Iun. Agathopodos,Athenian,Athens,Male,t,t,,,,Iunius,,Agathopodos,,Marathon,f
-demetrios_apolloniou,Demetrios Apolloniou,Athenian,Athens,Male,t,f,,,,,,Demetrios,Apolloniou,Marathon,f
-alkamenes_pyrphoros,"Alkamenes, Pyrphoros",Athenian,Athens,Male,t,f,,,,,,Alkamenes,,,f
-unc_exegete_of_eumolpidai_2,[?] Exegete of Eumolpidai,Athenian,Athens,Male,t,f,,,,,,,,,t
-aristaios,Aristaios,Athenian,Athens,Male,t,f,,,,,,Aristaios,,,f
-unc_ti_kl_lianou,[?] High Priest Ti. Kl. Lianou,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,Lianos,,Gargettos,t
-unc_mmios,[.]mmios,Uncertain,Uncertain,Male,f,t,,,,,,,,,t
-q_fronto_marathonios,Q. Fronto Marathonios,Athenian,Uncertain,Uncertain,t,t,,,Quintus,Fronto,,,,Marathon,f
-lolliane_glaukou,Lolliane Glaukou,Athenian,Athens,Female,t,f,,,,,,Lolliane,Glaukou,,f
-unc_kl_2,[?] Claudius,Athenian,Athens,Male,t,t,,,,Claudius,,,,,t
-unc_exegete,[?] Exegete,Athenian,Athens,Male,t,f,,,,,,,,,t
-unc_exegete_of_eumolpidai_3,[?] Exegete of Eumolpidai,Athenian,Athens,Male,t,f,,,,,,,,,t
-unc_praxagoras_of_melite,Praxagoras? Of Melite,Athenian,Athens,Male,t,f,Praxagorid,Claudii of Melite,,Aelius,,Praxagoras,,Melite,f
-unc_epaphroditas,[Epaphro]dit[as]?,Athenian,Athens,Male,t,f,,,,,,,,,f
-unc_polliona,"Poll[io]n[a?], Hearth-Initiate",Athenian,Athens,Female,t,t,,,,,,,,,f
-unc_child_of_nummius,Son or Daughter of a [N]um[ius],Athenian,Athens,Uncertain,t,t,,,,,,,,,f
-athenagoras,[A]thenago[ras],Athenian,Athens,Male,t,f,,,,,,Athenagoras,,,f
-t_fl_ateimetos_peiraieus,T. Fl. Ateimetos Peiraieus,Athenian,Athens,Male,t,t,,,,,,Ateimetos,,Peiraius,f
-t_fl_agathonos_peiraieus,T. Fl. Agathonos Peiraieus,Athenian,Athens,Male,t,t,,,,,,Agathonos,,Peiraius,f
-onesime_papiou,Onesime Papiou,Athenian,Athens,Female,t,f,,,,Papia,,Onesime,Onesimou,Besa,f
-oapiou_onesimou,Oapiou Onesimou,Athenian,Athens,Male,t,f,,,,Papius,,Onesimos,,Besa,f
-sabeiniane_hamillo,Sabeiniane Hamillo,Athenian,Athens,Female,t,t,,,,Sabiniana,,Hamillo,,,f
-thoinos,Thoinos,Athenian,Athens,Male,t,f,,,,,,Thoinos,,,f
-ariston,Ariston,Athenian,Athens,Male,t,f,,,,,,Ariston,,,f
-andreas,Andreas,Athenian,Athens,Male,t,f,,,,,,Andreas,,,f
-unc_daughter_of_pythokhrestos_exegete,[?] Daughter of Pythokhrestos Exegete,Athenian,Athens,Female,t,f,,,,,,,,,t
-herennios,Herennios,Athenian,Athens,Male,t,f,,,,,,Herennios,,,f
-unc_daughter_of_kyklobols,[?] Daughter of Kyklobols Hagnousios,Athenian,Athens,Female,t,f,,,,,,,,,f
-unc_memmius,[?] Memmius,Athenian,Athens,Male,t,t,,,,Memmius,,,,,f
-unc_ompeia,Pompeia A[.],Athenian,Athens,Female,t,t,,,,Pompeia,,,,,f
-unc_emperor_7,[?] Emperor,Imperial Family Member,Rome,Male,f,f,,,,,,,,,t
-unc_p_ail,P. Ail. [.],Athenian,Athens,Male,t,t,,,Publius,Aelius,,,,,f
-apollonios_sphettios,Apollonios Sphettios,Athenian,Athens,Male,t,f,,,,,,Apollonios,,Sphettos,f
-lysiades,Lysiades,Athenian,Athens,Male,t,f,,,,,,Lysiades,,,f
-p_ail_herennia_1,P. Ail. Herennia P. Ail. Apolloniou,Athenian,Athens,Female,t,t,Publii Aelii Dionysii,Publii Aelii Dionysii,Publia,Aelia,,Herennia,,,f
-p_ail_apollonios,P. Ail Apollonios,Athenian,Athens,Male,t,t,Publii Aelii Dionysii,Publii Aelii Dionysii,Publius,Aelius,,Apollonios,,,f
-p_ail_herennia_2,P. Ail. Herennia,Athenian,Athens,Female,t,t,Publii Aelii Dionysii,Publii Aelii Dionysii,Publia,Aelia,,Herennia,,,f
-konon,Konon,Athenian,Athens,Male,t,f,,,,,,Konon,,,f
-kallimakhos_2,Kallimakhos,Athenian,Athens,Male,t,f,,,,,,Kallimakhos,,,f
-p_ail_dionysos,P. Ail. Dionysos,Athenian,Athens,Male,t,t,Publii Aelii Dionysii,Publii Aelii Dionysii,Publius,Aelius,,Dionysios,,,f
-unc_grandson_of_ti_kl_sospis,[?] Grandson of Ti. Kl. Sospis,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,,,Melite,t
-ti_kl_lysiades_leonidou,Ti. Kl. Lysiades Leonidou,Athenian,Athens,Male,t,t,Leonid,Claudii of Melite,Tiberius,Claudius,,Lysiades,Leonidou,Melite,f
-ti_kl_leonides_lysiadou,Ti. Kl. Leonides Lysiadou,Athenian,Athens,Male,t,t,Leonid,Claudii of Melite,Tiberius,Claudius,,Leonides,Lysiadou,Melite,f
-unc_kanephoros_3,UNC Kanephoros,Athenian,Athens,Male,t,f,,,,,,,,,t
-ameinokleia_philanthou,Ameinokleia Philanthou,Athenian,Athens,Female,t,f,,,,,,Ameinokleia,Philanthou,Phlya,f
-theophilos,Theophilos,Athenian,Athens,Male,t,f,,,,,,Theophilos,Diodorou,Halai Aixonides,f
-philanthes,Philanthes,Athenian,Athens,Male,t,f,,,,,,Philanthes,Diodorou,Halai Aixonides,f
-diopeithes,Diopeithes,Athenian,Athens,Male,t,f,,,,,,Diopeithes,Diodorou,Halai Aixonides,f
-eurydike,Eurydike,Athenian,Athens,Female,t,f,,,,,,Eurydike,Diodorou,Halai Aixonides,f
-unc_hearth_initiate_1,[?] Heath-Initiate,Athenian,Athens,Uncertain,t,f,,,,,,,,,t
-unc_father,[?] Father,Athenian,Athens,Male,t,f,,,,,,,,,t
-unc_mother,[?] Mother,Athenian,Athens,Female,t,f,,,,,,,,,t
-dionysios_dionysiou,Dionysios Dionysiou,Athenian,Athens,Male,t,f,,,,,,Dionysios,Dionysiou,Sphettos,f
-epiphaneia_hermolykou,Epiphaneia Hermolykou,Athenian,Athens,Female,t,f,,,,,,Epiphaneia,Hermolykou,Marathon,f
-epiphaneia_2_athenagorou,Epiphaneia II Athenagorou,Athenian,Athens,Female,t,f,Athenagoridai,,,,,Epiphaneia,Athenagorou,Melite,f
-philemon,Philemon,Athenian,Athens,Male,t,f,,,,,,Philemon,,,f
-eusebeia_ariobarzanou,Eusebeia Ariobarzanou,Other Greek,Cappadocia,Female,f,f,,,,,,Eusebeia,,,f
-ariobarzanes_2_ariobarzanou_1,Ariobarzanes II Ariobarzanou I,Other Greek,Cappadocia,Male,f,f,,,,,,Aribarzanes,,,f
-athenais_2_ariobazanou_1,Athenais II Ariobazanou I,Other Greek,Cappadocia,Female,f,f,,,,,,Athenais,,,f
-ariobarzanes_1_philoromaios,Ariobarzanes I Philoromaios,Other Greek,Cappadocia,Male,f,f,,,,,,Ariobarzanes,,,f
-athenais_1_philostorgos,Athenais I Philostorgos,Other Greek,Cappadocia,Female,f,f,,,,,,Athenais,,,f
-athenais_3_ariobarzanou_2,Athenais III Ariobarzanou II,Other Greek,Cappadocia,Female,f,f,,,,,,Athenais,,,f
-medeios_medeiou,Medeios Medeiou,Athenian,Athens,Male,t,f,Medeiotes,,,,,Medeios,Medeiou,Peiraius,f
-diphila_diokleous,Diphila Diokleous,Athenian,Athens,Female,t,f,Medeiotes,,,,,Diphila,Diokleous,Melite,f
-timothea_medeiou,Timothea Medeiou,Athenian,Athens,Female,t,f,Medeiotes,,,,,Timothea,Medeiou,Peiraius,f
-unc_tamias,[?] Tamias,Athenian,Athens,Male,t,f,,,,,,,,,f
-t_pinarius,T. Pinarius,Roman,Rome,Male,f,t,,,Titus,Pinarius,,,,,f
-ktesikleia_apollonioiu,Ktesikleia Apollonioiu,Athenian,Athens,Female,t,f,,,,,,Ktesikleia,Apolloniou,,f
-sophokles_xenokleous,Sophokles Xenokleous,Athenian,Athens,Male,t,f,,,,,,Sophokles,Xenokleous,Akharnai,f
-kleokrateia_oinophilou,Kleokrateia Oinophilou,Athenian,Athens,Female,t,f,,,,,,Kleokrateia,Oinophilou,Aphidnai,f
-kleo_dionysiou,Kleo Dionysiou,Athenian,Athens,Female,t,f,,,,,,Kleo,Dionysiou,Ikarion,f
-sekoundos_the_eumolpid,Sekoundos the Eumolpid,Roman,Rome,Male,t,t,,,,Secundus,,Sekoundos,,,f
-attikos_eudoxou,Attikos Eudoxou,Athenian,Athens,Male,t,f,,,,,,Attikos,Eudoxou,Sphettos,f
-m_aur_prosdektos_pistokrates,M. Aur. Prosdektos Pistokrates,Athenian,Athens,Male,t,t,,,Marcus,Aurelius,,Prosdektos,Pistokratous,Kephale,f
-m_gavius_gallicanus,M Gavius Gallicanus,Roman,Rome,Male,f,t,,,Marcus,Gavius,Gallicanus,,,,f
-m_gavius_scyillos_1,M Gavius Scyillos,Roman,Rome,Male,f,t,,,Marcus,Gavius,Scyillus,M,,,f
-m_gavius_skyillos_2,M. Gavius Skyillos II,Roman,Rome,Male,f,t,,,Marcus,Gavius,Scyillus,M,,,f
-p_perennios_ptolemaios,P. Perennios Ptolemaios P. Herenniou,Athenian,Athens,Male,t,t,,,Publius,Herennios,,Ptolemaios,Herennios,,f
-xenagoras_2_xenagorou,Xenagoras II  Xenagorou,Athenian,Athens,Male,t,f,Praxagorid,Claudii of Melite,,,,Xenagoras,,Melite,f
-xenagoras_1,Xenagoras I,Athenian,Athens,Male,t,f,Praxagorid,Claudii of Melite,,,,Xenagoras,,Melite,f
-unc_praxagora,Praxagora [?],Athenian,Athens,Female,t,f,Praxagorid,Claudii of Melite,,,,Praxagora,,Melite,f
-licinius_kallistomakhos,Licinius Kallistomakhos,Athenian,Athens,Male,t,t,,,,Licinius,,Kallistomakhos,,,f
-kl_kallistomakhos,Kl. Kallistomakhos,Athenian,Athens,Male,t,t,,,,Claudius,,Kallistomakhos,,,f
-emperor_carracalla,Emperor Carracalla,Imperial Family Member,Rome,Male,f,t,,,Lucius,Septimius,Bassianus,Carracalla,,,f
-emperor_geta,Emperor Geta,Imperial Family Member,Rome,Male,f,t,,,Publius,Septimius,Geta,Geta,,,f
-fl_plautianos,Fl. Plautianos,Athenian,Athens,Male,t,t,,,,Flavius,,Plautianos,,,f
-hierophant_apollinarios,Hierophant Apollinarios,Athenian,Athens,Male,t,f,,,,,,Apollinarios,,,f
-kl_menandra_2,Kl. Menandra II,Athenian,Athens,Female,t,t,Praxagorid,Claudii of Melite,,Claudia,,Menandra,,Melite,f
-roupheina,Roupheina,Roman,Rome,Female,f,t,,,,Rufina,,,,,f
-iul_mousonios,Iul. Mousonios,Athenian,Athens,Male,t,t,,,,Iulius,,Mousonios,,Steiria,f
-iul_hierokeryx,Iul. Hierokeryx,Athenian,Athens,Male,t,t,,,,Iulius,,,,,f
-ptolemais_serenou_gaza,Ptolemais Serenou Gaza,Other Greek,Syria,Male,t,f,,,,,,Ptolemais,Serenou,,f
-aur_magna_1,Aur. Magna,Athenian,Athens,Female,t,t,,,,Aurelia,,Magna,,Pithos,f
-hermione_2,Hermione II,Athenian,Athens,Female,t,f,,,,,,Hermione,,Pithos,f
-aur_epaphrodeitos_asklepiadou,Aur. Epaphrodeitos Asklepiadou,Athenian,Athens,Male,t,t,,,,Aurelius,,Epaphrodeitos,Asklepiadou,Pithos,f
-aur_magna_2_magnou,Aur. Magna II Magnou,Athenian,Athens,Female,t,t,,,,Aurelia,,Magna,,Pithos,f
-aur_paramona_paramonou,Aur. Paramona Paramonou,Athenian,Athens,Female,t,t,,,,Aurelia,,Paramona,Paramonou,Lamptrai,f
-aur_deidameia,Aur. Deidameia,Athenian,Athens,Female,t,t,,,,Aurelia,,Deidameia,,Lamptrai,f
-apollonios_2_apolloniou,Apollonios Apolloniou II,Athenian,Athens,Male,t,t,,,,,,Apollonios,,,f
-arabianus,Arabianus,Athenian,Athens,Male,f,t,,,,,,Arabianus,,,f
-eutykhos,Eutykhos,Athenian,Athens,Male,t,f,,,,,,Eutykhos,,,f
-dryantianos,Dryantianos,Athenian,Athens,Male,t,f,,,,,,Dryantianos,,,f
-honoratiane_polykharmis_polykharmou,Honoratiane Polykharmis Polykharmou,Athenian,Athens,Female,t,t,Praxagorid,Claudii of Melite,,Honoratiana,,Polykharmis,Polykharmidos,,f
-unc_fabius,Fabius [.],Uncertain,Uncertain,Uncertain,f,t,,,,Fabius,,,,,t
-flavia_prokleiane,Flavia Prokleiane,Athenian,Athens,Female,t,t,,,,Flavia,,Prokleiane,,,f
-fabius_demetrios,Fabius Demetrios,Athenian,Athens,Male,t,t,,,,Fabius,,Demetrios,,,f
-fabius_aemelianos,Fabius Aemelianos,Athenian,Athens,Male,t,t,,,,Fabius,,Aimelianos,,,f
-fabius_proclus,Fabius Proclus,Athenian,Athens,Male,t,t,,,,Fabius,,Proklus,,,f
-eunnike_kallaiskhros,Eunnike Kallaiskhros,Athenian,Athens,Female,t,f,,,,,,Eunnike,Kallaiskhrou,,f
-sedata,Sedata,Roman,Rome,Female,f,f,,,,Sedata,,,,,f
-polyzelos_xeinagorou,Polyzelos Xeinagorou,Athenian,Athens,Male,t,f,,,,,,Polyzelos,Xeinagorou,,f
-hermippis,Hermippis,Athenian,Athens,Male,t,f,,,,,,Hermippis,,,f
-m_ulpius_eubiotos_leuros_gargettios,M. Ulpius Eubiotos Leuros Gargettios,Athenian,Athens,Male,t,t,,,Marcus,Ulpius,,Eubiotos Leuros,,Gargettos,f
-casianus_hierokeryx,Casianus Hierokeryx,Athenian,Athens,Male,t,t,Casiani of Steiria,Casiani of Steiria,,,,Casianus,,Steiria,f
-t_fl_glaukos_glaukou,T. Fl. Glaukos Glaukou,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Glaukos,Glaukou,,f
-emperor_maximinus,Emperor Maximinus,Roman,Rome,Male,f,t,,,Gaius,Iulius,Verus Maximinus Thrax,,,,f
-iun_themistokles_polykharmidos,Iun. Themistokles Polykharmidos,Athenian,Athens,Male,t,t,Praxagorid,Claudii of Melite,,Inius,,Themistokles,Polykharmidos,,f
-perikles,Perikles,Athenian,Athens,Male,t,f,,,,,,Perikles,Xanthippos,Kholargos,f
-alexander_the_great,Alexander the Great,Other Greek,Macedon,Male,t,f,,,,,,Alexander,Philippou,,f
-unc_hierophant_1,[?] Hierophant,Athenian,Athens,Male,t,f,,,,,,[?] Hierophant,,,t
-unc_daughter_of_glaukos,[?] Daughter of Glaukos,Athenian,Athens,Female,t,f,,,,,,[?] Daughter,Glaukou,,t
-nikagoras_hierokeryx,"Nikagoras, Hierokeryx",Athenian,Athens,Male,t,f,,,,,,Nikagoras,,,f
-plutarch,Plutarch,Other Greek,Boiotia,Male,f,t,,,Lucius,Mestrius,,Ploutarkhos,,,f
-sextus,Sextus,Other Greek,Boiotia,Male,f,t,,,Sextus,,,,,,f
-dionysia_hermippidos,Dionysia Hermippidos,Athenian,Athens,Female,t,f,,,,,,Dionysia,Hermippidos,,f
-unc_relative_of_orator,[?] Relative of an Orator,Uncertain,Uncertain,Uncertain,f,f,,,,,,,,,t
-t_fl_altar_priest,"T. Fl., Altar-Priest",Athenian,Athens,Male,t,t,,,Titus,Flavius,,,,,f
-aerarius_sospatros,"Aerarius Sospatros, Daduch",Athenian,Athens,Male,t,t,,,,Aerarius,,Sospatros,,,f
-damoteles,Damoteles,Athenian,Athens,Male,t,f,,,,,,Damoteles,,,f
-thisbianos,Thisbianos,Athenian,Athens,Male,t,f,,,,,,Thisbianos,,,f
-emperor_gallienus,Emperor Gallienus,Imperial Family Member,Rome,Male,f,t,,,Publius,Licinius,Egnatius Gallienus,,,,f
-iun_minucianus,Iun. Minucianus,Roman,Rome,Male,f,t,,,,Iunius,Minucianus,Iun,,,f
-p_ail_herennius_dexippos,P. Ail. Herennius Dexippos,Athenian,Athens,Male,t,t,Publii Aelii Dionysii,,Publia,Aelia,,Herennios Dexippos,,,f
-pyrros,Pyrros,Athenian,Athens,Male,t,f,,,,,,Pyrros,,,f
-roupheinos,Roupheinos,Athenian,Athens,Male,t,t,,,,,,Roupheinos,,,f
-eunike_kallaiskhrou,Eunike Kallaiskhrou,Athenian,Athens,Male,t,f,,,,,,Eunike,Kallaiskhrou,Marathon,f
-thaleia,Thaleia,Athenian,Athens,Female,t,f,,,,,,Thaleia,,,f
-kallaiskhros,Kallaiskhros,Athenian,Athens,Male,t,f,,,,,,Kallaiskhros,,Marathon,f
-eisaios_3,Eisaios,Athenian,Athens,Male,t,f,,,,,,Eisaios,,,f
-isidote,Isidote,Athenian,Athens,Female,t,f,,,,,,Isidote,,,f
-zoilos,Zoilos,Athenian,Athens,Male,t,f,,,,,,Zoilos,,,f
-hierophant_glaukos,Hierophant Glaukos,Athenian,Athens,Male,t,f,,,,,,Glaukos,,,f
-emperor_diocletian,Emperor Diocletian,Imperial Family Member,Rome,Male,f,t,,,Gaius,Aurelius,Valerius Diocletianus,Emperor,,,f
-emperor_maximianus,Emperor Maximianus,Imperial Family Member,Rome,Male,f,t,,,Marcus,Aurelius,Valerius Maximianus,Emperor,,,f
-unc_proconsul,[?] Proconsul,Uncertain,Rome,Male,f,t,,,,,,,,,t
-unc_ptolemaios,[?] Ptolemaios,Athenian,Athens,Male,t,f,,,,,,Ptolemaios,,,t
-unc_exegete_of_eumolpidai_4,[?] Exegete of Eumolpidai?,Athenian,Athens,Male,t,f,,,,,,,,,t
-unc_gn,Gn. [?],Athenian,Athens,Male,f,t,,,,,,,,,t
-epigonos,Epigonos ,Athenian,Athens,Male,t,f,,,,,,Epigonos,,,f
-artemisia,Artemisia,Athenian,Athens,Male,t,f,,,,,,Artemisia,,,f
-unc_emperor_8,[?] Emperor,Imperial Family Member,Rome,Male,f,t,,,,,,,,,t
-t_kl_hierophantes_kallikratidou_trikorysios,T. Kl. Hierophantes Kallikratidou Trikorysios,Athenian,Athens,Male,t,t,,,Tiberius,Klaudius,,,Kallikratidou,Trikorysios,f
+﻿ID,Person,Category,Origin,Gender,Athenian Citizen,Roman Citizen,Family,Extended,Praenomen,Nomen,Cognomen,Onomos,Patronym,Deme,Uncertain Person,Notes
+kairion_dionysiou,Khairion Dionysiou,Athenian,Athens,Male,t,f,,,,,,Khairion,Dionysiou,Marathon,f,
+unc_hi_1,[?] Heath-Initiate,Athenian,Athens,Uncertain,t,f,,,,,,,,,f,
+unc_hi_2,[?] Heath-Initiate,Athenian,Athens,Uncertain,t,f,,,,,,,,,f,
+unc_priestess_to_demeter_and_kore_1,[?] Priestess of Demeter & Kore,Athenian,Athens,Female,t,f,,,,,,,,,f,
+unc_daduch,[?] Daduch from Hagnous,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,,,Hagnous,f,
+dionysios_athenagorou,Dionysios Athenagorou,Athenian,Athens,Male,t,f,Athenagoridai,,,,,Dionysios,Athenagorou,Melite,f,
+quintus_pompeius,Quintus Pompeius son of Aulus,Roman,Rome,Male,f,t,,,Quintus,Pompeius,Aulus,,Auli,,f,
+aulus_pompeius,Aulus Pompeius son of Aulus,Roman,Rome,Male,f,t,,,Aulus,Pompeius,Aulus,,Auli,,f,
+sextus_pompeius,Sextus Pompeius son of Aulus,Roman,Rome,Male,f,t,,,Sextus,Pompeius,Aulus,,Auli,,f,
+unc_hierophantis_1,[?] Hierophantis Amphiou,Athenian,Athens,Female,t,f,,,,,,,Amphiou,,f,
+l_munatius_plancus,L. Munatius Plancus,Roman,Rome,Male,f,t,,,Lucius,Munatius,Plancus,,,,f,
+appius_claudius_pulcher,Ap. Claudius Pulcher,Roman,Rome,Male,f,t,,,Appius,Claudius,Pulcher,,,,f,
+pulcher_claudius,Pulcher Claudius,Roman,Rome,Male,f,t,,,Pulcher,Claudius,,,,,f,
+rex_marcius,Rex Marcius,Roman,Rome,Male,f,t,,,Rex,Marcius,,,,,f,
+khrysothemis_phaidrou,Khrysothemis Phaidrou,Athenian,Athens,Female,t,f,Lysiadidai,,,,,Khrysothemis,Phaidrou,Berenikidai,f,
+phaidros_lysiadou,Phaidros Lysiadou,Athenian,Athens,Male,t,f,Lysiadidai,,,,,Phaidros,Lysiadou,Berenikidai,f,
+pomponianus_atticus,Pomponianus Atticus,Roman,Rome,Male,f,t,,,Quintus,Pomponianus,Atticus,,,,f,
+lysiades_phaidrou,Lysiades Phaidrou,Athenian,Athens,Female,t,f,Lysiadidai,,,,,Lysiades,Phaidrou,Berenikidai,f,
+sempronia,Sempronia,Roman,Rome,Female,f,t,,,Sempronia,,,,Lucii,,f,
+l_gellius_publicola,L. Gellius Publicola,Roman,Rome,Male,f,t,,,Lucius,Gellius,Publicola,,,,f,
+gaius_creperius,G. Creperius,Roman,Rome,Male,f,t,,,Gaius,Creperius,,,,,f,
+marcus_titius,M. Titius,Roman,Rome,Male,f,t,,,Marcus,Titius,,,,,f,
+kallikratides_syndromou,Kallikratides Syndromou,Athenian,Athens,Male,t,f,Oinophileid,,,,,Kallikratides,Syndromou,,f,
+livia_drusilla,Livia Drusilla,Imperial Family Member,Rome,Female,f,t,,,Livia,Drusilla,,,,,f,
+emperor_augustus,Emperor Augustus,Imperial Family Member,Rome,Male,f,t,,,Gaius,Iulius,Caesar Augustus,,,,f,
+theophrastos_themistokleous,Theophrastos Themistokleous,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Theophrastos,Themistokleous,Hagnous,f,
+lamidion_apolexidos,Lamidion Apolexidos,Athenian,Athens,Male,t,f,,,,,,Lamidion,Apolexidos,Oion,f,
+apolexis_1,Apolexis I,Athenian,Athens,Male,t,f,,,,,,Apolexis,,Oion,f,
+ladameia_lysandrou,Ladameia Lysandrou,Athenian,Athens,Female,t,f,,,,,,Ladameia,Lysandrou,Peiraius,f,
+apolexis_2,Apolexis II,Athenian,Athens,Male,t,f,,,,,,Apolexis,Apolexidos,Oion,f,
+metrophanes_dionysiou,Metrophanes Dionysiou,Athenian,Athens,Male,t,f,,,,,,Metrophanes,Dionysiou,Athmonon,f,
+menophilos_satyrou,Menophilos Satyrou,Athenian,Athens,Male,t,f,,,,,,Menophilos,Satyrou,Berenikidai,f,
+diotimos_diodorou,Diotimos Diodorou,Athenian,Athens,Male,t,f,,,,,,Diotimos,Diodorou,Halai Aixonides,f,
+epikrates_kallimakhou,Epikrates Kallimakhou,Athenian,Athens,Male,t,f,,,,,,Epikrates,Kallimakhou,Leukonion,f,
+leontios_timarkhou_kephesieos,Leontios Timarkhou Kephesieos,Athenian,Athens,Male,t,f,,,,,,Leontios,Timarkhou,Kephesia,f,
+dionysios_demostratos,Dionysios Demostratos,Athenian,Athens,Male,t,f,,,,,,Dionysios,Demostratou,Pallene,f,
+theophilos_menekrates,Theophilos Menekrates,Athenian,Athens,Male,t,f,,,,,,Theophilos,Menekratous,Kholleidai,f,
+gorgippos_eudemos,Gorgippos Eudemos,Athenian,Athens,Male,t,f,,,,,,Gorgippos,Eudemou,Melite,f,
+dositheos_kleomenes,Dositheos Kleomenes,Athenian,Athens,Male,t,f,,,,,,Dositheos,Kleomenous,Marathon,f,
+aristodemos_argeiou,Aristodemos Argeiou,Athenian,Athens,Male,t,f,,,,,,Aristodemos,Argeiou,Trikorysios,f,
+menneos_menneou,Menneos Menneou,Athenian,Athens,Male,t,f,,,,,,Menneos,Menneou,Azenia,f,
+philemon_philemonos,Philemon Philemonos,Athenian,Athens,Male,t,f,,,,,,Philemon,Philemonos,Melite,f,
+apolexis_apellikontos,Apolexis Apellikontos,Athenian,Athens,Male,t,f,,,,,,Apolexis,Apellikon,Oion,f,
+demokhares_menandros,Demokhares Menandros,Athenian,Athens,Male,t,f,,,,,,Demokhares,Menandros,Azenia,f,
+sarapion_diokleous,Sarapion Diokleous,Athenian,Athens,Male,t,f,,,,,,Sarapion,Diokleous,Melite,f,
+diokles_diokleous,Diokles Diokleous,Athenian,Athens,Male,t,f,,,,,,Diokles,Diokleous,Melite,f,
+arkhitimos_arkhitimou,Arkhitimos Arkhitimou,Athenian,Athens,Male,t,f,,,,,,Arkhitimos,Arkhitimou,Sphettos,f,
+themistokles_xenokleous,Themistokles Xenokleous,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Themistokles,Xenokleous,Melite,f,
+dionysodoros_dionysodorou,Dionysodoros Dionysodorou,Athenian,Athens,Male,t,f,,,,,,Dionysodoros,Dionysodorou,Deiradiotai,f,
+kikhesias_leontos,Kikhesias Leontos,Athenian,Athens,Male,t,f,,,,,,Kikhesias,Leontou,Aixone,f,
+apollonios_ktesikleous,Apollonios Ktesikleous,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Apollonios,Ktesikleous,Akharnai,f,
+demostratos_dionysiou,Demostratos Dionysiou,Athenian,Athens,Male,t,f,,,,,,Demostratos,Dionysiou,Pallene,f,
+timosthenes_timarkhou,Timosthenes Timarkhou,Athenian,Athens,Male,t,f,,,,,,Timosthenes,Timarkhou,Kephesia,f,
+menandros_demokharous,Menandros Demokharous,Athenian,Athens,Male,t,f,,,,,,Menandros,Demkharous,Azenia,f,
+aristaikhmos_ammoniou,Aristaikhmos Ammoniou,Athenian,Athens,Male,t,f,,,,,,Aristaikhmos,Ammoniou,Anaphlystos,f,
+sophokles_philotou,Sophokles Philotou,Athenian,Athens,Male,t,f,,,,,,Sophokles,Philotou,Sounion,f,
+dionysodoros_deiradiotou,Dionysodoros Deiradiotou,Athenian,Athens,Male,t,f,,,,,,Dionysodoros,,Deiradiotai,f,
+iophon_dionysodoros_deiradiotes,Iophon Dionysodoros Deiradiotes,Athenian,Athens,Male,t,f,,,,,,Iophon,Dionysodorou,Deiradiotai,f,
+alexandros_agathokleous,Alexandros Agathokleous,Athenian,Athens,Male,t,f,,,,,,Alexandros,Agathokleous,Leukonion,f,
+euphron_euphrontos,Euphron Euphrontos,Athenian,Athens,Male,t,f,,,,,,Euphron,Euphrontos,Marathon,f,
+seleukos_demeou,Seleukos Demeou,Athenian,Athens,Male,t,f,,,,,,Seleukos,Demeou,Halai Aixonides,f,
+mikion_philokratou,Mikion Philokratou,Athenian,Athens,Male,t,f,,,,,,Mikion,Philokratou,Peiraius,f,
+themistokles_theophrastou_2,Themistokles II Theophrastou,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Themistokles,Theophrastou,Hagnous,f,
+themistokles_theophrastou_1,Themistokles I Theophrastou,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Themistokles,Theophrastou,Hagnous,f,
+leontios_sophokleous,Leontios Sophokleous,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Leontios,Sophokleous,Akharnai,f,
+philoxenidos_sophokleous,Philoxenidos (Sophokleous),Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Philoxenidos,Sophokleous,Akharnai,f,
+kephisodoros,Kephisodoros,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Kephisodoros,,Hagnous,f,
+philistides,Philistides,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Philistides,,Hagnous,f,
+philoxenis,Philoxenis,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Philoxenis,,Hagnous,f,
+themistokles,Themistokles A(TBD),Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Themistokles,,Hagnous,f,
+antiphon,Antiphon,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Antiphon,,Hagnous,f,
+hermoteimos,Hermoteimos,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Hermoteimos,,,f,
+hierokleides,Hierokleides,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Hierokleides,,,f,
+semon,Semon,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Semon,,,f,
+sophokles_theophrastou,Sophokles Theophrastou,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Sophokles,Leontiou,Akharnai,f,
+unc_hearth_initiate_themistokleous,[?] Hearth-Initiate Themistokleous,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,,Themistokleous,Hagnous,f,
+antiokhos_demetriou,Antiokhos Demetriou,Athenian,Athens,Male,t,f,,,,,,Antiokhos,Demetriou,,f,
+polyainos_nikandrou,Polyainos Nikandrou,Athenian,Athens,Male,t,f,,,,,,Polyainos,Nikandrou,Sounion,f,
+theophile,Theophile,Athenian,Athens,Female,t,f,,,,,,Theophile,,,f,
+unc_kleides,[.]kleides,Athenian,Athens,Male,t,f,,,,,,,,,t,
+phainarete,Phainarete Att[.],Athenian,Athens,Female,t,f,,,,,,Phainarete,,,t,
+diotima,Diotima,Athenian,Athens,Female,t,f,,,,,,Diotima,,,f,
+diodotos_kalliphontos,Diodotos Kalliphontos,Athenian,Athens,Male,t,f,,,,,,Diodotos,Kalliphontos,Pambotadai,f,
+sosibios,Sosibios,Uncertain,Uncertain,Male,f,f,,,,,,Sosibios,,,f,
+hipparkhos,Hipparkhos,Athenian,Athens,Male,t,f,,,,,,Hipparkhos,,,f,
+dionysios_dionysiou_2,Dionysios Dionysiou,Athenian,Athens,Male,t,f,,,,,,Dionysios,Dionysiou,,f,
+unc_diodot,Diodot[.],Athenian,Athens,Male,t,f,,,,,,Diodot,,,t,
+unc_heath_initiate_2,[?] Heath-Initiate,Athenian,Athens,Male,t,f,,,,,,,,,t,
+ithake,Ithake,Athenian,Athens,Female,t,f,,,,,,Ithake,,,f,
+unc_heath_initiate_3,[?] Heath-Initiate,Athenian,Athens,Uncertain,t,f,,,,,,,,,t,
+unc_hearth_initiate_4,[?] Hearth-Initiate,Athenian,Athens,Uncertain,t,f,,,,,,,,,t,
+attikos_attikou,Attikos Attikou,Athenian,Athens,Male,t,f,,,,,,Attikos,Attikou,,f,
+atheno_niketou,Atheno Niketou,Athenian,Athens,Male,t,f,,,,,,Atheno,Niketou,Hagnous,f,
+pammenes_pammenous,Pammenes Pammenous,Athenian,Athens,Male,t,f,,,,,,Pammenes,Pammenous,Marathon,f,
+hierophantis_mos_unc,Hierophantis Mos[kh.],Athenian,Athens,Female,t,f,,,,,,Hierophantis,,,t,
+antamenes_leontikhou,Antamenes Leontikhou,Athenian,Athens,Male,t,f,,,,,,Antamenes,Leontikhou,Epieikidai,f,
+dione_pasikratous,Dione Pasikratous,Athenian,Athens,Female,t,f,,,,,,Dione,Pasikratous,,f,
+unc_kourotrophos,[?] Kourotrophos,Athenian,Athens,Male,t,f,,,,,,,,,t,
+oknia_polykharmou,[O?]knia Polykharmou,Athenian,Athens,Female,f,f,,,,,,Oknia,Polykharmou,,t,
+polykharmos_polykritos,Polykharmos Polykritos,Athenian,Athens,Male,t,f,,,,,,Polykharmos,Polykritou,,f,
+emperor_tiberius,Emperor Tiberius,Imperial Family Member,Rome,Male,f,t,,,Tiberius,Claudius,Caesar Augustus,,,,f,
+theophilos_eudoxou,Theophilos Eudoxou,Athenian,Athens,Male,t,f,,,,,,Theophilos,Eudoxou,Eleusis,f,
+menandros_asklepiodotou,Menandros Asklepiodotou,Athenian,Athens,Male,t,f,,,,,,Menandros,Asklepiodotou,Gargettos,f,
+kleo_eukleous,Kleo Eukleous,Athenian,Athens,Female,t,f,,,,,,Kleo,Eukleous,Phlya,f,
+papios_marathonios,Papios Marathonios,Uncertain,Uncertain,Male,t,f,,,,,,Papios,,Marathon,f,
+iulia_augusta,Iulia Augusta,Imperial Family Member,Rome,Female,f,t,,,,Iulia,Augusta,,,,f,
+nikodemos_hermeiou,Nikodemos Hermeiou,Athenian,Athens,Male,t,f,,,,,,Nikodemos,Hermeiou,,f,
+praxagoras_of_melite,Praxagoras,Athenian,Athens,Male,t,f,,,,,,Praxagoras,,,f,
+unc_aulus_marathonios,[.]ios Aulus Marathonios,Roman,Rome,Male,t,t,,,,Aulus,,,,Marathon,t,
+polykharmos_eukleous,Polykharmos Eukleous,Athenian,Athens,Male,t,f,Eukleid,Herodian-Eukleid,,,,Polykharmos,Eukleous,Marathon,f,
+eimertos_polykharmos,Eimertos Polykharmos,Athenian,Athens,Male,t,f,Eukleid,Herodian-Eukleid,,,,Eimertos,Polykharmou,Marathon,f,
+t_statilius_lamprias,T. Statilius Lamprias,Other Greek,Epidaurus,Male,f,t,,,Titus,Statilius,,Lamprias,,,f,
+kleophatra_iophontos,Kleophatra Iophontos,Athenian,Athens,Female,t,f,,,,,,Kleopatra,Iophontos,Deiradiotai,f,
+publius_papinius_statius,P. Papinius Statius,Roman,Rome,Male,f,t,,,Publius,Papinius,Statius,,,,f,
+unc_consul,"[.]on, Consul",Roman,Rome,Male,f,t,,,,,,,,,f,
+diokles_themistokles_hagnousios,Diokles Themistokles Hagnousios,Athenian,Athens,Male,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Diokles,Themistokleous,Hagnous,f,
+athenais_diokleous,Athenais Diokleous,Athenian,Athens,Female,t,f,Hagnous/Akharnid Daduchs,Hagnous/Akharnid Daduchs,,,,Athenais,Dioleous,Hagnous,f,
+marcus_porcius_cato,M. Porcius Cato,Roman,Rome,Male,f,t,,,Marcus,Porcius,Cato,,,,f,
+seilon_apolloniou,Seilon Apolloniou,Athenian,Athens,Male,t,f,,,,,,Seilon,Apolloniou,Melite,f,
+apollonios_seilonos,Apollonios Seilonos,Athenian,Athens,Male,t,f,,,,,,Apollonios,Seilonos,Melite,f,
+gaius_caecilius_cassius,G. Caecilius Cassius,Roman,Rome,Male,f,t,,,Gaius,Caecilius,Cassius,,,,f,
+statilia,Statilia [.],Athenian,Athens,Female,f,t,,,,Statilia,,,,Sphettos,t,
+ti_kl_eukles_sostratou,Ti. Kl. Eukles Sostratou,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,Eukles,Sostratou,,f,
+iulia_agrippina,Iulia Agrippina,Roman,Rome,Female,f,t,,,,Iulia,Agrippina,,,,f,
+unc_bro_of_ti_kl_eukles_sostratou,[?] Brother of Ti. Kl. Eukles Sostratou,Athenian,Athens,Male,t,t,,,,,,,,,t,
+ti_kl_nouios_philinou,Ti. Kl. Nouios Philinou,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,Nouios,Philinou,Oion,f,
+g_iul_polkhos_sounieus,G. Iul. Polkhos Sounieus,Athenian,Athens,Male,t,t,,,Gaius,Iulius,,Polkhos,,Sounion,f,
+ti_kl_demostratos,Ti. Kl. Demostratos,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,Demostratos,Neikotelous,Sounion,f,
+ti_kl_neikotelous,Ti. Kl. Neikotelous,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,Neikoteles,,Sounion,f,
+kl_philippe,Klaudia Philippe,Athenian,Athens,Female,t,t,,,,Claudia,,Klaudia,Philippe,Pallene,f,
+kl_asklepiodoros,Kl. Asklepiodoros,Athenian,Athens,Male,t,t,,,,Claudius,,Aklepiodoros,,,f,
+kl_unc_asklepiodorou,Kl. [?] Asklepiodorou,Athenian,Athens,Female,t,t,,,,Claudia,,,Aklepiodorou,,t,
+unc_exegete_of_eumolpidai_1,[?] Exegete of Eumolpidai,Athenian,Athens,Male,f,f,,,,,,,,,t,
+iul_nikanor,Iul. Nikanor,Other Greek,Syria,Male,f,t,,,,Iulius,,Nikanor,,,f,
+unc_emperor_1,[?] Emperor,Imperial Family Member,Rome,Male,f,t,,,,,,,,,t,
+unc_imperial_priest,[?] Imperial Priest,Athenian,Athens,Male,t,f,,,,,,,,,t,
+ti_kl_hipparkhos_herodou,Ti. Kl. Hipparkhos Herodou,Athenian,Athens,Male,t,t,Herodian,Herodian-Eukleid,Tiberius,Claudius,,Hipparkhos,Herodou,Marathon,f,
+kl_alkia,Kl. Alkia,Athenian,Athens,Female,t,t,Herodian,Herodian-Eukleid,,Claudia,,Alkia,Hipparkou,Marathon,f,
+t_fl_sophokles_kononos,T. Fl. Sophokles T. Fl. Kononos,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Sophokles,,Sounion,f,
+fl_sophia,Fl. Sophia,Athenian,Athens,Female,t,t,,,,Flavia,,Sophia,,Sounion,f,
+t_fl_konon_kononos,T. Fl. Konon Kononos,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Konon,Kononos,Sounion,f,
+kl_tartarion_menandrou,Kl. Tartarion Menandrou,Athenian,Athens,Female,t,t,,,,Claudia,,Tartarion,Menandrou,Gargettos,f,
+p_fulvius_maximos_sounieus,P. Fulvius Maximos Sounieus,Athenian,Athens,Male,t,t,,,Publius,Fulvius,,Maximos,,Sounion,f,
+p_fl_metrodoros,P. Fulvius Metrodoros,Athenian,Athens,Male,t,t,,,Publius,Fulvius,,Metrodoros,,Sounion,f,
+kl_philoxena_patronos,Kl. Philoxena Patronos,Athenian,Athens,Female,t,t,,,,Claudia,,Philoxena,Patronos,Melite,f,
+t_kl_lysiades_patronos,T. Kl. Lysiades Patronos,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,Lysiades,Patronos,Melite,f,
+kl_timothea,Kl. Timothea,Athenian,Athens,Female,t,t,,,,Claudia,,Teimothea,Teimotheou,Gargettos,f,
+g_kl_seilianos_polykritos,G. Kl. Seilianos Polykritos,Athenian,Athens,Male,t,t,,,Gaius,Claudius,,Seilianos Poilykritos,,,f,
+kl_unc_father_of_seilianos,Kl. [?] Father of Seilianos,Athenian,Athens,Male,t,t,,,,Claudius,,,,,t,
+kl_unc_mother_of_seilianos,Kl. [?] Mother of Seilianos,Athenian,Athens,Female,t,t,,,,Claudia,,,,,t,
+zophyros_zopyrou,Zophyros Zopyrou,Athenian,Athens,Male,t,f,,,,,,Zophyros,Zopyrou,Peiraius,f,
+ammonios_kholleides,Ammonios Kholleides,Athenian,Athens,Male,t,f,,,,,,Ammonios,,Kholleidai,f,
+unc_wife_of_ammonios_kholleides,[?] Wife of Ammonios Kholleides,Athenian,Athens,Female,t,f,,,,,,,,,t,
+thrasyllos_ammoniou,Thrasyllos Ammoniou,Athenian,Athens,Male,t,f,,,,,,Thrasyllos,Ammoniou,Kholleidai,f,
+eraton_eratonos,Eraton Eratonos,Athenian,Athens,Male,t,f,,,,,,Eraton,Eratonos,Besa,f,
+unc_priestess_to_demeter_and_kore_2,[?] Priestess of Demeter & Kore,Athenian,Athens,Female,f,f,,,,,,,,,t,
+athenais,Athenais,Athenian,Athens,Female,t,f,,,,,,Athenais,,,f,
+unc_herokleitou,[.]ppos Herokleitou,Athenian,Athens,Male,t,f,,,,,,[.]ppos,Herokleitou,Gargettos,f,
+kl_theophilos,Kl. Theophilos,Athenian,Athens,Female,t,t,,,,Claudius,,Theophilos,,,f,
+kl_sostratos,Kl. Sostratos,Athenian,Athens,Male,t,t,,,,Claudius,,Sostratos,,,f,
+t_fl_unc,T. Fl [?],Athenian,Uncertain,Uncertain,f,f,,,Titus,Flavius,,,,,t,
+l_pompeius_unc,L. Pompeius [?],Roman,Uncertain,Uncertain,f,t,,,Lucius,Pompeius,,,,,f,
+l_pompeius_pompeiou,L. Pompeius Pompeiou,Roman,Rome,Male,f,t,,,Lucius,Pompeius,,,,,f,
+agothokles_agothokleous,Agothokles Agothokleous,Athenian,Athens,Male,t,f,,,,,,Agothokles,Agothokleous,Kephesia,f,
+unc_daughter_of_dionysios,[?] Daughter of Dionysios,Athenian,Athens,Female,f,f,,,,,,,Dionysiou,Phaleron,t,
+unc_themistokl_unc,[?] Themistokl[.],Athenian,Athens,Male,f,f,,,,,,,,,t,
+unc_son_of_tryphon_phylasios,[?] Son of Tryphon Phylasios,Athenian,Athens,Male,t,f,,,,,,,Tryphonos,Phlya,t,
+tryphon_phylasios,Tryphon Phylasios,Athenian,Athens,Male,t,f,,,,,,Tryphon,,Phlya,f,
+unc_daughter_of_abans_akharneus,[?] Daughter of [A?]bans Akharneus,Athenian,Athens,Female,t,f,,,,,,Abans,,Akharnai,f,
+unc_kanephoros_1,[?] Kanephoros,Athenian,Athens,Male,t,f,,,,,,,,,f,
+unc_kl,Kl. [?],Athenian,Athens,Uncertain,t,t,,,,Claudia,,,,,t,
+dione,Dione,Athenian,Athens,Female,t,f,,,,,,Dione,,,f,
+unc_daughter_of_unc,[?] Daughter of [.]dous,Athenian,Athens,Female,t,f,,,,,,,[.]dous,,f,
+unc_wife_of_metrodoros,[.]okleia wife of Metrodoros,Athenian,Athens,Female,t,f,,,,,,[.]okleia,,,f,
+metrodoros_metrodorou_2,Metrodoros II Metrodorou,Athenian,Athens,Male,t,f,,,,,,Metrodoros,Metrodorou,Kydathenaion,f,
+antio_metrodorou,Antio Metrodorou,Athenian,Athens,Male,t,f,,,,,,Antio,Metrodorou,Kydathenaion,f,
+curtia_straontike,Curtia Straontike,Athenian,Athens,Female,t,t,,,,Curtia,,Stratonike,,Besa,f,
+kallisto_kallimakhou,Kallisto Kallimakhou,Athenian,Athens,Female,t,f,,,,,,Kallisto,Kallimakhou,,f,
+kallikleia,Kallikleia,Athenian,Athens,Female,t,f,,,,,,Kallikleia,,,f,
+kallimakhos_1,Kallimakhos,Athenian,Athens,Male,t,f,,,,,,Kallimakhos,,,f,
+areios,Areios,Athenian,Athens,Male,t,f,,,,,,Areios,,,f,
+apollonios_apolloniou,Apollonios Apolloniou,Athenian,Athens,Male,t,f,,,,,,Apollonios,Apolloniou,Phlya,f,
+fl_pamphilie,Fl. Pamphilie,Athenian,Athens,Female,t,t,,,,Flavia,,Pamphile,,,f,
+unc_t,T. [?],Athenian,Athens,Uncertain,f,t,,,,,,,,,t,
+unc_eubiou,[?] Eubiou,Athenian,Athens,Male,t,f,,,,,,,Eubiou,,t,
+unc_son_of_konon,[?] Son of Konon,Athenian,Athens,Male,f,f,,,,,,,Kononos,,t,
+unc_priestess_of_demeter_and_kore_3,[?] Priestess of Demeter & Kore,Athenian,Athens,Female,t,f,,,,,,,,,t,
+unc_priestess_of_demeter_and_kore_4,[?] Priestess of Demeter & Kore,Athenian,Athens,Female,t,f,,,,,,,,,t,
+kl_d_unc,Kl. D[?],Athenian,Athens,Uncertain,t,t,,,,Klaudius,,,,,t,
+unc_hearth_initiate_5,[?] Hearth-Initiate,Athenian,Athens,Uncertain,t,f,,,,,,,,,t,
+unc_woman,[?] Woman,Athenian,Athens,Female,f,f,,,,,,,,,t,
+unc_husband_of_woman,[?] Husband of Woman,Athenian,Athens,Male,t,f,,,,,,,,,t,
+hierophantis_perikleous,Hierophantis Perikleous,Athenian,Athens,Female,t,f,,,,,,,Perikleous,Oion,f,
+pose_poseous,Pose Poseous,Athenian,Athens,Female,t,f,,,,,,Pose,Poseous,Marathon,f,
+fl_laodameia_kleitou,Fl. Laodameia Kleitou,Athenian,Athens,Female,t,t,,,,Flavia,,Laodameia,Kleitou,Phlya,f,
+sotas_unc,Sotas And[.],Uncertain,Uncertain,Male,f,f,,,,,,Sotas,,,f,
+unc_priest,[?] Priest,Athenian,Athens,Male,t,f,,,,,,,,,t,
+ti_kl_herodes_attikos_attikou,Ti. Kl. Herodes Attikos Kl. Attikou,Athenian,Athens,Male,t,t,Herodian,Herodian-Eukleid,Tiberius,Claudius,,Herodes Atticus,Attikou,Marathon,f,
+kl_attikou,Kl. Attikou,Athenian,Athens,Male,t,t,Herodian,Herodian-Eukleid,,Claudiua,,,Attikou,Marathon,f,
+viboullia_alkia,Viboullia Alkia,Athenian,Athens,Female,t,t,Herodian,Herodian-Eukleid,,Vibullia,,Alkia,,,f,
+cocceius_censorinus,Cocceius Censorinus,Roman,Rome,Male,f,t,,,,Cocceius,Censorinus,,,,f,
+agrius_saturninus,Agrius Saturninus,Roman,Rome,Male,f,t,,,,Agrius,Saturninus,,,,f,
+ael_lysistrate,Ael. Lysistrate,Athenian,Athens,Female,t,t,,,,Aelia,,Lysistrate,,,f,
+unc_husband_of_ael_lysistrate,L. P[?] Husband of Ael. Lysistrate,Athenian,Athens,Male,t,t,,,Lucius,,,,,,t,
+athenaios_epaphrodeitos_athenaiou,Athenaios Epaphrodeitos Athenaiou,Athenian,Athens,Male,t,f,,,,,,Athenaios,Athenaiou,Phlya,f,
+athenaios_perikonikos,Athenaios Perikonikos,Athenian,Athens,Male,t,f,,,,,,Epaphrodeitos,Athenaiou,Phlya,f,
+vipsania_lailiane,Vipsania Lailiane,Athenian,Athens,Female,t,t,,,,Vipsania,,Lailiane,,Kephesia,f,
+t_vipsanius_flavianos,T. Vipsanius [.] Flavianos,Athenian,Athens,Male,t,t,,,Titus,Vipsanius,,Flavianos,,Kephesia,f,
+unc_son_of_heroxenos_marathonios,[?] Son of Heroxenos Marathonios,Athenian,Athens,Male,t,f,,,,,,,Heroxenou,Marathon,t,
+polemon_heroxenou,Polemon Heroxenou,Athenian,Athens,Male,t,f,,,,,,Polemon,Heroxenou,Marathon,f,
+olympius,Olympius,Athenian,Athens,Male,t,f,,,,,,Olympius,,,f,
+demetrios,Demetrios,Athenian,Athens,Male,t,f,,,,,,,,,f,
+marcianus,Marcianus,Roman,Rome,Male,f,t,,,,,,,,,f,
+g_memmius_sabeinos_peisandros,G. Memmius Sabeinos Peisandros,Athenian,Athens,Male,t,t,,,Gaius,Memmius,Sabinus,Peisandros,,,f,
+thrasyllos_kholleides,Thrasyllos Kholleides,Athenian,Athens,Male,t,f,,,,,,Thrasyllos,,Kholleidai,f,
+emperor_hadrian,Emperor Hadrian,Imperial Family Member,Rome,Male,f,t,,,Publius,Aelius,Hadrianus,,,,f,
+unc_emperor_2,[?] Emperor,Imperial Family Member,Rome,Male,f,t,,,,,,,,,t,
+unc_emperor_3,[?] Emperor,Imperial Family Member,Rome,Male,f,t,,,,,,,,,t,
+unc_emperor_4,[?] Emperor,Imperial Family Member,Rome,Male,f,t,,,,,,,,,t,
+unc_hierophantis_daughter_of_demetrios,Hierophantis Daughter of Demetrios,Athenian,Athens,Female,t,f,,,,,,,Demetriou,,f,
+l_vipsanius_aiolion,L. Vipsanius Aiolion,Athenian,Athens,Male,t,t,,,Lucius,Vipsanius,,Aiolion,,Phlya,f,
+l_vipsanius_lailianos,L. Vipsanius Lailianos,Athenian,Athens,Male,t,t,,,Lucius,Vipsanius,,Lailianos,,Phlya,f,
+unc_relative_of_l_vipsanius_aiolion,[?] Relative of L. Vipsanius Aiolion,Athenian,Athens,Uncertain,t,t,,,,,,[?] Relative,,,t,
+iunia_unc_iun_patronos,Iunia [?] Iun. Patronos,Athenian,Athens,Female,t,t,,,,Iunia,,,Patronos,Berenikidai,t,
+iun_patron,Iun. Patron,Athenian,Athens,Male,t,t,,,,Iunius,,Patron,,Berenikidai,f,
+annia_aristokleia,Annia Aristokleia,Athenian,Athens,Female,t,t,,,,Annia,,Aristokleia,Thrasylos,Kholleidai,f,
+annius_thrasyllos,Annius Thrasyllos,Athenian,Athens,Male,t,t,,,,Annius,,Thrasylos,,Kholleidai,f,
+l_nummius_andreas_menidos,L. Nummius Andreas Menidos,Athenian,Athens,Male,t,t,,,Lucius,Nummius,,Andreas,Menidos,Phaleron,f,
+nummia_bassa,Nummia Bassa,Athenian,Athens,Female,t,t,,,,Nummia,,Bassa,,Gargettos,f,
+l_nummius_hierokeryx,L. Nummius Hierokeryx,Athenian,Athens,Male,t,t,,,Lucius,Nummius,,,,Gargettos,f,
+nummia_kleo,Nummia Kleo,Athenian,Athens,Female,t,t,,,,Nummia,,Kleo,,,f,
+ti_kl_attikos_marathonios,Ti. Kl. Attikos Marathonios,Athenian,Athens,Male,t,t,Herodian,Herodian-Eukleid,Tiberius,Claudius,,Attikos,,Marathon,f,
+annia_faustina,Annia Faustina,Roman,Rome,Female,f,t,,,,Annia,Faustina,,,,f,
+emperor_antoninus_pius,Emperor Antoninus Pius,Imperial Family Member,Rome,Male,f,t,,,Titus,Aurelius,Fulvus,,,,f,
+emperor_marcus_aurelius,Emperor Marcus Aurelius,Imperial Family Member,Rome,Male,f,t,,,Marcus,Annius,Verus,,,,f,
+domitia_lucilla,Domitia Lucilla,Imperial Family Member,Rome,Female,f,t,,,,Domitia,Lucilla,,,,f,
+nummius_nigreinos,Nummius Nigreinos,Athenian,Athens,Male,t,t,,,,Nummius,,Nigreinos,,,f,
+menandra_of_ephesus,Menandra of Ephesus,Other Greek,Ephesus,Female,t,f,,,,,,Menandra,,,f,
+unc_relative_of_mindios_amynos,[?] Relative of Mindios Amynos,Athenian,Uncertain,Uncertain,t,f,,,,,,,,,t,
+g_kl_titianos,G. Kl. Titianos,Uncertain,Uncertain,Male,t,t,,,Gaius,Claudius,,Titianos,,,f,
+philipe_kl_demostratou,Philipe Kl. Demostratou,Athenian,Athens,Female,t,t,,,,,,Philipe,Demostratou,,f,
+d_iun_meanneas,D. Iun. Menneas,Athenian,Athens,Male,t,t,,,Decimus,Iunius,,Menneas,,,f,
+exegete_patron,Exegete Patron,Athenian,Athens,Male,t,f,,,,,,Patron,,,f,
+phirmus_gargettios,Phirmus Gargettios,Athenian,Athens,Male,t,t,,,,,,Phirmos,,Gargettos,f,
+d_iun_peiraieus,D. Iun. Peiraieus,Athenian,Athens,Male,t,t,,,Decimus,Iunius,,,,Peiraius,f,
+cornelia_unc,Cornelia [?],Athenian,Athens,Female,f,t,,,,Cornelia,,,,,t,
+unc_relative_of_ti_cl_lysiades,[?] Relative of Ti. Cl. Lysiades,Athenian,Athens,Male,t,t,Claudii of Melite,Claudii of Melite,Tiberius,Claudius,,,,,t,
+ail_praxagoras,Ail. Praxagoras,Athenian,Athens,Male,t,t,Praxagorid,Claudii of Melite,,Aelius,,Praxagoras,,Melite,f,
+unc_daughter_or_praxagoras_thorikos,[?] Daughter of Praxagoras Thorikos,Athenian,Athens,Female,t,f,Praxagorid,Claudii of Melite,,,,,,Thorikos,f,
+kl_themistokles,Kl. Themistokles,Athenian,Athens,Male,t,t,Leonid,Claudii of Melite,,Claudius,,Themistokles,,,f,
+klementiane,Klementiane,Athenian,Athens,Female,t,t,,,,,,Klementiane,,,f,
+arrian,Arrian,Other Greek,Nicomedia,Male,t,t,,,Lucius,Flavius,,Arrianos,,,f,
+unc_emperor_5,[?] Emperor,Imperial Family Member,Rome,Male,f,t,,,,,,[?] Emperor,,,f,
+unc_krateros,Ana[.]n Krateros,Athenian,Athens,Male,t,t,,,,Annia,,,,,f,
+unc_claudius_of_melite,[?] Claudius of Melite,Athenian,Athens,Male,t,t,,,,Claudius,,,,Melite,t,
+ti_kl_leonides,Ti. Kl. Leonides,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,Leonides,,Melite,f,
+sergius_salvidius_scipio_orfitus,Sergius Salvidius Scipio Orfitus,Roman,Rome,Male,f,t,,,Sergius,Salvidius Scipio,Orfitus,Sergius,,,f,
+calpurnia_lucia_lepida,Calpurnia L. Lepida,Roman,Rome,Female,f,t,,,,Calpurnia,Lepida,Calpurnia,,,f,
+sergius_calpurnius_scipio_orfitus,Sergius Calpurnius Scipio Orfitus,Roman,Rome,Male,f,t,,,Sergius,Calpurnius Scipio,Orfitus,Sergius,,,f,
+lucius_calpunius_piso,L. Calpurnius Piso,Roman,Rome,Male,f,t,,,Lucius,Calpurnius,Piso,,,,f,
+p_ail_timosthenes,P. Ail. Timosthenes,Athenian,Athens,Male,t,t,,,Publius,Aelius,,Teimosthenes,,Berenikidai,f,
+ail_zenonos,Ail. Zenonos,Athenian,Athens,Male,t,t,,,,Aelius,,Zenon,,,f,
+elpinike_atria,Elpinike Atria,Athenian,Athens,Female,t,t,Herodian,Herodian-Eukleid,,Appia Annia,Atilia Regilla,Elpinike,Herdou,Marathon,f,
+regilla,Regilla,Roman,Rome,Female,t,t,Herodian,Herodian-Eukleid,,Appia Annia Regilla Atilia,Caucidia Tertulla,Appia,,Marathon,f,
+appius,Appius,Roman,Rome,Male,f,t,Herodian,Herodian-Eukleid,,Appius,,,,Marathon,f,
+t_kl_appius_bradoua,T. Kl. Appius Bradoua,Athenian,Athens,Male,t,t,Herodian,Herodian-Eukleid,Tiberius,Claudius,Appius,Bradoua,,,f,
+themistokles_meliteus,Themistokles Meliteus,Athenian,Athens,Male,t,f,Leonid,Claudii of Melite,,,,Themistokles,,Melite,f,
+unc_son_of_p_ail_praxagoras,[?] Son of P. Ael. Praxagoras,Athenian,Athens,Male,t,t,Praxagorid,Claudii of Melite,,,,,,,t,
+fl_xenion,Fl. Xenion,Athenian,Athens,Male,t,t,,,,Flavius,,Xenion,,Marathon,f,
+fl_zenophilos,Fl. Zenophilos,Athenian,Athens,Male,t,t,,,,Flavius,,Zenophilos,,Marathon,f,
+emperor_verus,Emperor L. Verus,Imperial Family Member,Rome,Male,f,t,,,Lucius,Aurelius,Verus,,,,f,
+unc_ail,Ail. Kh[?],Athenian,Athens,Uncertain,t,t,,,,Aelius,,,,,f,
+t_kl_hierophant_alkibiadou,T. Kl. Hierophant Alkibiadou,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,,Alkibiadou,Paiania,f,
+t_fl_alkibiades_2,T. Fl. Alkibiades (II),Athenian,Athens,Male,t,t,,,Titus,Flavius,,Alkibiades,,Paiania,f,
+t_leosthenes,T. Fl. Leosthenes,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Leosthenes,,Paiania,f,
+f_fl_alkibiades_1,T. Fl. Alkibiades (I),Athenian,Athens,Male,t,t,,,Titus,Flavius,,Alkibiades,,Paiania,f,
+fl_eisidora,Fl. Eisidora,Athenian,Athens,Female,t,t,,,,Flavia,,Eisidora,,,f,
+fl_herakleitos,Fl. Herakleitos,Athenian,Athens,Male,t,t,,,,Flavius,,Herakleitos,,,f,
+domitia_laodameia,Domitia Laodameia,Athenian,Athens,Female,t,t,,,,Domitia,,Laodameia,,,f,
+krateros,Krateros,Athenian,Athens,Male,t,f,,,,,,Krateros,,,f,
+m_aur_miltiades,M. Aur. Miltiades,Athenian,Athens,Male,t,t,,,Marcus,Aurelius,,Miltiades,,Marathon,f,
+agothokles_marathonios,Agothokles Marathonios,Athenian,Athens,Male,t,f,,,,,,Agothokles,,Marathon,f,
+t_fl_euthykomas_1,T. Fl. Euthykomas,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Euthykomas,,Paiania,f,
+t_fl_straton_2,T. Fl. Straton II,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Starton,,Paiania,f,
+t_fl_straton_1,T. Fl Straton I,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Straton,,Paiania,f,
+fl_unc_krateia,Fl. [.]krateia,Athenian,Athens,Female,t,t,,,,Flavia,,,,,f,
+pompeia_polla,Pompeia Polla,Athenian,Athens,Female,t,t,,,,Pompeia,,Polla,,,f,
+pompeius_pleistarkhos,Pompeius Pleistarkhos,Athenian,Athens,Male,t,t,,,,Pompeius,,Pleistakhos,,,f,
+t_fl_menandros_paianieus,T. Fl. Menandros Paianieus,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Menandros,,Paiania,f,
+emperor_severus,Emperor Severus,Roman,Rome,Male,f,t,,,,Severus,,,,,f,
+m_iul_apellas,M. Iul Apellas,Athenian,Athens,Male,t,t,,,Marcus,Iulius,,Apellas,,Marathon,f,
+m_iul_damianos,M. Iul. Damianos,Athenian,Athens,Male,t,t,,,Marcus,Iulius,,Damianos,,,f,
+fl_apella_hypaipenou,Fl. Apella Hypaipenou,Athenian,Athens,Female,t,t,,,,Flavia,,Apellas,Hypaipenou,,f,
+fl_polla,Fl. Polla,Athenian,Athens,Female,t,t,,,,Flavia,,Polla,,,f,
+iul_apollodotos_meliteus,Iul. Apollodotos Meliteus,Athenian,Athens,Male,t,t,,,,Iulius,,Apollodotos,,Melite,f,
+iul_theodotos,Iul. Theodotos,Athenian,Athens,Male,t,t,,,,Iulius,,Theodotus,,Melite,f,
+ail_kephisodora,Ail. Kephisodora,Athenian,Athens,Female,t,t,Leonid,Claudii of Melite,,Aelia,,Kephisodora,,,f,
+kl_lysiades,Kl. Lysiades,Athenian,Athens,Male,t,t,Leonid,Claudii of Melite,,Claudius,,Lysiades,,,f,
+kl_sospis,Kl. Sospis,Athenian,Athens,Male,t,t,Leonid,Claudii of Melite,,Claudius,,Sospis,,,f,
+iul_kephisodora,Iul. Kephisodora,Athenian,Athens,Female,t,t,Praxagorid,Claudii of Melite,,Iulia,,Kephisodora,,,f,
+m_praxis,M. Iul. Praxis,Athenian,Athens,Male,t,t,,,Marcus,Iulius,,Praxis,,Pallene,f,
+unc_emperor_6,[?] Emperor,Imperial Family Member,Rome,Male,f,t,,,,,,,,,f,
+iun_melitine,[Iunia] Melitine,Athenian,Athens,Female,t,t,,,,Iunia,,Melitine,,,f,
+isidote_eisaiou,Isidote Eisaiou,Athenian,Athens,Female,t,f,,,,,,Isidote,Eisaiou,,f,
+eisaios_1,Eisaios I,Athenian,Athens,Male,t,f,,,,,,Eisaios,,,f,
+eisaios_2,Eisaios II,Athenian,Athens,Male,t,f,,,,,,Eisaios,Eisaiou,,f,
+emperor_commodous,Emperor Commodous,Imperial Family Member,Rome,Male,f,t,,,Lucius,Aurelius,Commodus,,,,f,
+l_memmius_altar_priest,L. Memmius Altar-Priest,Athenian,Athens,Male,t,t,,,Lucius,Memmius,,,,Thorikos,f,
+fl_amphikles,Fl. Amphikles,Athenian,Athens,Male,t,t,,,,Flavius,,Amphikles,,,f,
+lucilla,Lucilla,Imperial Family Member,Rome,Female,f,t,,,,Lucilla,,Lucilla,,,f,
+faustina,Faustina,Imperial Family Member,Rome,Female,f,t,,,,Faustina,,Faustina,,,f,
+sabina,Sabina,Imperial Family Member,Rome,Female,f,t,,,,Sabina,,Sabina,,,f,
+faustina_2,Faustina II,Imperial Family Member,Rome,Female,f,t,,,,Faustina,,Faustina,,,f,
+praxagora_demostratou,Praxagora Demostratou,Athenian,Athens,Female,t,f,Praxagorid,Claudii of Melite,,,,Praxagora,Demostratou,,f,
+t_kl_demostratos_sospidou,T. Kl. Demostratos Sospidou,Athenian,Athens,Male,t,t,Praxagorid,Claudii of Melite,Tiberius,Claudius,,Demostratos,Sospidou,,f,
+ail_philiste_praxagorou,Ail. Philiste Praxagorou,Athenian,Athens,Female,t,t,Praxagorid,Claudii of Melite,,Aelia,,Philiste,,,f,
+io_hierophantes,Io. Hierophantes,Athenian,Athens,Male,t,t,,,,Iulius,,,,,f,
+aiolion_phlyeos,Aiolion Phlyeos,Athenian,Athens,Male,t,t,,,,,,Aiolion,Aiolionos,Phlya,f,
+ail_leu_palleneus,Ail. Leu. Palleneus,Athenian,Athens,Male,t,t,,,,Aeilus,,,,Pallene,f,
+demosthenes_anthou,Demosthenes Anthou,Athenian,Athens,Male,t,f,,,,,,Demosthenes,Anthou,Pallene,f,
+attikos_anthou,Attikos Anthou,Athenian,Athens,Male,t,f,,,,,,Attikos,Anthou,Pallene,f,
+unc_iteles_,[.]iteles,Athenian,Athens,Male,f,f,,,,,,,,Pallene,t,
+unc_lo,Lo[.],Athenian,Athens,Male,f,f,,,,,,,,Pallene,t,
+unc_ai_f,Ai. F[.],Athenian,Athens,Male,f,f,,,,,,,,Pallene,t,
+unc_hiero,Hiero[.],Athenian,Athens,Male,f,f,,,,,,,,Pallene,t,
+unc_kl_m,Kl. M[.],Athenian,Athens,Male,f,f,,,,,,,,Pallene,t,
+unc_arist,Arist[.],Athenian,Athens,Male,f,f,,,,,,,,Pallene,t,
+kletos_epigonou,Kletos Epigonou,Athenian,Athens,Male,t,f,,,,,,Kletos,Epigonou,Pallene,f,
+dionysios_glaukou,Dionysios Glaukou,Athenian,Athens,Male,t,f,,,,,,Dionysios,Glaukou,Pallene,f,
+kl_nikephoros,Kl. Nikephoros,Athenian,Athens,Male,t,t,,,,Claudius,,Nikephoros,,Pallene,f,
+megalinos_aphrodisiou,Megalinos Aphrodisiou,Athenian,Athens,Male,t,f,,,,,,Megalinos,Aphrodisou,Pallene,f,
+khaireas_diogenous,Khaireas Diogenous,Athenian,Athens,Male,t,f,,,,,,Khaireas,Diogenous,Pallene,f,
+aristoboulos_zosimou,Aristoboulos Zosimou,Athenian,Athens,Male,t,f,,,,,,Aristoboulos,Zosimou,Pallene,f,
+fl_stephanos,Fl. Stephanos,Athenian,Athens,Male,t,t,,,,Flavius,,Stephanos,,Pallene,f,
+ai_markos,Ai. Markos,Athenian,Athens,Male,t,t,,,,Aelius,,Markos,,Pallene,f,
+kl_serapion,Kl. Serapion,Athenian,Athens,Male,t,t,,,,Claudius,,Serapion,,Pallene,f,
+iou_kaikilianos,Iou. Kaikilianos,Athenian,Athens,Male,t,t,,,,Iulius,,Kaikilianos,,Pallene,f,
+timokrates_kaprodorou,Timokrates Kaprodorou,Athenian,Athens,Male,t,f,,,,,,Timokrates,Kaprodorou,Pallene,f,
+eisidoros_eisidorou,Eisidoros Eisidorou,Athenian,Athens,Male,t,f,,,,,,Eisidoros,Eisidorou,Semakhidai,f,
+thrasyboulos_artemonos,Thrasyboulos Artemonos,Athenian,Athens,Male,t,f,,,,,,Thrasyboulos,Atemonos,Semakhidai,f,
+euripides_preimou,Euripides Preimou,Athenian,Athens,Male,t,f,,,,,,Euripides,Preimou,Semakhidai,f,
+epitunkhanon_epitunkhanonos,Epitunkhanon Epitunkhanonos,Athenian,Athens,Male,t,f,,,,,,Epitunkhanon,Epitunkhanonos,Semakhidai,f,
+onesimos_eiphikratous,Onesimos Eiphikratous,Athenian,Athens,Male,t,f,,,,,,Onesimos,Eiphikratos,Semakhidai,f,
+p_herennios_apolloniou,P. Herennios Apolloniou,Athenian,Athens,Male,t,t,,,Publius,Herennios,,Apolloniou,,Semakhidai,f,
+ti_kl_sospis_lysiadou_2,Ti. Kl. Sospis II Lysiadou,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,Sospis,Lysiadou,Semakhidai,f,
+unc_aim_1,Aim[.],Athenian,Athens,Male,f,f,,,,,,,,Semakhidai,t,
+unc_aim_2,Aim[.],Athenian,Athens,Male,f,f,,,,,,,,Semakhidai,t,
+titios_molossios_alopekethen,Titios Molossios Alopekethen,Athenian,Athens,Male,t,t,,,,,,Titios Molossios,,Alopeke,f,
+khryseros_khryserou,Khryseros Khryserou,Athenian,Athens,Male,t,f,,,,,,Khryseros,,Semakhidai,f,
+dephilos_khareisiou,Dephilos Khareisiou,Athenian,Athens,Male,t,f,,,,,,Dephilos,,Semakhidai,f,
+nikomakhos_mikomakhou,Nikomakhos Mikomakhou,Athenian,Athens,Male,t,f,,,,,,Nikomakhos,,Semakhidai,f,
+deiphilos_deiphilou,Deiphilos Deiphilou,Athenian,Athens,Male,t,f,,,,,,Deiphilos,,Semakhidai,f,
+hygeinos_arkhimhdous,Hygeinos Arkhimhdous,Athenian,Athens,Male,t,f,,,,,,Hygeinos,,Phyrrnesios,f,
+nikostratos_nikiou,Nikostratos Nikiou,Athenian,Athens,Male,t,f,,,,,,Nikostratos,,Krioa,f,
+emperor_septimius_severus,Emperor Septimius Severus,Imperial Family Member,Rome,Male,f,t,,,Lucius,Septimius,Severus,,,,f,
+iul_domna,Iul. Domna,Imperial Family Member,Rome,Female,f,t,,,,Iulia,Domna,,,,f,
+kl_themistoklea,Kl. Themistoklea,Athenian,Athens,Female,t,t,Praxagorid,Claudii of Melite,,Claudia,,Themistokleia,,Melite,f,
+kl_philippos,Kl. Philippos,Athenian,Athens,Male,t,t,Praxagorid,Claudii of Melite,,Claudius,,Philippos,,Melite,f,
+kl_menandra_1,Kl. Menandra,Athenian,Athens,Female,t,t,Praxagorid,Claudii of Melite,,Claudia,,Menandra,Philippou,Melite,f,
+nikostrate_meneou,Nikostrate Meneou,Athenian,Athens,Female,t,f,,,,,,Nikostrate,Meneou,Berenikidai,f,
+g_kasios_semakhidai,G. Kasios Semakhidai,Uncertain,Uncertain,Male,t,t,,,Gasius,Cassius,,,,Semakhidai,f,
+ail_epilampsis_gelotos,Ail. Epilampsis Gelotos,Athenian,Athens,Female,t,t,,,,Aelia,,Epilampsis,Gelotos,Phaleron,f,
+ail_gelo_1,Ail. Gelo,Athenian,Athens,Male,t,t,,,,Aelius,,Gelo,,Phaleron,f,
+diokles,Diokles,Athenian,Athens,Male,t,f,,,,,,Diokles,,Phaleron,f,
+ail_alexandros,Ail. Alexandros,Athenian,Athens,Male,t,t,,,,Aelius,,Alexandros,,Phaleron,f,
+ail_ardys,Ail. Ardys,Athenian,Athens,Male,t,t,,,,Aelius,,Ardys,,Phaleron,f,
+ail_kallikrates,Ail. Kallikrates,Athenian,Athens,Male,t,t,,,,Aelius,,Kallikrates,,Phaleron,f,
+ail_alexandros_2,Ail. Alexandros II,Athenian,Athens,Male,t,t,,,,Aelius,,Alexandros,,Phaleron,f,
+onesimou_besaieus,Onesimou Besaieus,Athenian,Athens,Male,t,f,,,,,,Onesimou,,,f,
+ail_gelo_2,Ail Gelo II,Athenian,Athens,Male,t,t,,,,Aelius,,Gelo,,Phaleron,f,
+p_pom_hegios_1,P. Pom. Hegios,Athenian,Athens,Male,t,t,,,Publius,Pompeius,,Hegios,,Phaleron,f,
+p_pom_hegios_2,P. Pom. Hegios II,Athenian,Athens,Male,t,t,,,Publius,Pompeius,,Hegios,,Phaleron,f,
+pom_epilampsis,Pom. Epilampsis,Athenian,Athens,Male,f,t,,,,Pompeius,,Epilampsis,,Phaleron,f,
+t_fl_leosthenes_2,T. Fl. Leosthenes II,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Leosthenes,,Paiania,f,
+unc_daughter_of_t_fl_leosthenes_2,Daughter of T. Fl. Leosthenes II,Athenian,Athens,Female,t,t,,,,Flavia,,,,Paiania,f,
+ail_sossianos_prospaltios,Ail. Sossianos Prospaltios,Athenian,Athens,Male,t,t,,,,Aeilius,,Sossianos,,Prospalta,f,
+glaukos,Glaukos,Athenian,Athens,Male,t,f,,,,,,Glaukos,,,f,
+hagne,Hagne,Athenian,Athens,Female,t,f,,,,,,Hagne,,,f,
+threption,Threption,Athenian,Athens,Male,t,f,,,,,,Threption,,,f,
+tereus,Tereus,Athenian,Athens,Male,t,f,,,,,,Tereus,,,f,
+hermione_1,Hermione,Athenian,Athens,Female,t,f,,,,,,Hermione,,,f,
+eutykhides,Eutykhides,Athenian,Athens,Male,t,f,,,,,,Eutykhides,,,f,
+euodos,Euodos,Athenian,Athens,Male,t,f,,,,,,Euodos,,,f,
+aiskhylos,Aiskhylos,Athenian,Athens,Male,t,f,,,,,,Aiskhylos,,,f,
+zoeilos,Zoeilos,Athenian,Athens,Male,t,f,,,,,,Zoeilos,,,f,
+neokleides,Neokleides,Athenian,Athens,Male,t,f,,,,,,Neokleides,,,f,
+iun_agathopodos,Iun. Agathopodos,Athenian,Athens,Male,t,t,,,,Iunius,,Agathopodos,,Marathon,f,
+demetrios_apolloniou,Demetrios Apolloniou,Athenian,Athens,Male,t,f,,,,,,Demetrios,Apolloniou,Marathon,f,
+alkamenes_pyrphoros,"Alkamenes, Pyrphoros",Athenian,Athens,Male,t,f,,,,,,Alkamenes,,,f,
+unc_exegete_of_eumolpidai_2,[?] Exegete of Eumolpidai,Athenian,Athens,Male,t,f,,,,,,,,,t,
+aristaios,Aristaios,Athenian,Athens,Male,t,f,,,,,,Aristaios,,,f,
+unc_ti_kl_lianou,[?] High Priest Ti. Kl. Lianou,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,Lianos,,Gargettos,t,
+unc_mmios,[.]mmios,Uncertain,Uncertain,Male,f,t,,,,,,,,,t,
+q_fronto_marathonios,Q. Fronto Marathonios,Athenian,Uncertain,Uncertain,t,t,,,Quintus,Fronto,,,,Marathon,f,
+lolliane_glaukou,Lolliane Glaukou,Athenian,Athens,Female,t,f,,,,,,Lolliane,Glaukou,,f,
+unc_kl_2,[?] Claudius,Athenian,Athens,Male,t,t,,,,Claudius,,,,,t,
+unc_exegete,[?] Exegete,Athenian,Athens,Male,t,f,,,,,,,,,t,
+unc_exegete_of_eumolpidai_3,[?] Exegete of Eumolpidai,Athenian,Athens,Male,t,f,,,,,,,,,t,
+unc_praxagoras_of_melite,Praxagoras? Of Melite,Athenian,Athens,Male,t,f,Praxagorid,Claudii of Melite,,Aelius,,Praxagoras,,Melite,f,
+unc_epaphroditas,[Epaphro]dit[as]?,Athenian,Athens,Male,t,f,,,,,,,,,f,
+unc_polliona,"Poll[io]n[a?], Hearth-Initiate",Athenian,Athens,Female,t,t,,,,,,,,,f,
+unc_child_of_nummius,Son or Daughter of a [N]um[ius],Athenian,Athens,Uncertain,t,t,,,,,,,,,f,
+athenagoras,[A]thenago[ras],Athenian,Athens,Male,t,f,,,,,,Athenagoras,,,f,
+t_fl_ateimetos_peiraieus,T. Fl. Ateimetos Peiraieus,Athenian,Athens,Male,t,t,,,,,,Ateimetos,,Peiraius,f,
+t_fl_agathonos_peiraieus,T. Fl. Agathonos Peiraieus,Athenian,Athens,Male,t,t,,,,,,Agathonos,,Peiraius,f,
+onesime_papiou,Onesime Papiou,Athenian,Athens,Female,t,f,,,,Papia,,Onesime,Onesimou,Besa,f,
+oapiou_onesimou,Oapiou Onesimou,Athenian,Athens,Male,t,f,,,,Papius,,Onesimos,,Besa,f,
+sabeiniane_hamillo,Sabeiniane Hamillo,Athenian,Athens,Female,t,t,,,,Sabiniana,,Hamillo,,,f,
+thoinos,Thoinos,Athenian,Athens,Male,t,f,,,,,,Thoinos,,,f,
+ariston,Ariston,Athenian,Athens,Male,t,f,,,,,,Ariston,,,f,
+andreas,Andreas,Athenian,Athens,Male,t,f,,,,,,Andreas,,,f,
+unc_daughter_of_pythokhrestos_exegete,[?] Daughter of Pythokhrestos Exegete,Athenian,Athens,Female,t,f,,,,,,,,,t,
+herennios,Herennios,Athenian,Athens,Male,t,f,,,,,,Herennios,,,f,
+unc_daughter_of_kyklobols,[?] Daughter of Kyklobols Hagnousios,Athenian,Athens,Female,t,f,,,,,,,,,f,
+unc_memmius,[?] Memmius,Athenian,Athens,Male,t,t,,,,Memmius,,,,,f,
+unc_ompeia,Pompeia A[.],Athenian,Athens,Female,t,t,,,,Pompeia,,,,,f,
+unc_emperor_7,[?] Emperor,Imperial Family Member,Rome,Male,f,f,,,,,,,,,t,
+unc_p_ail,P. Ail. [.],Athenian,Athens,Male,t,t,,,Publius,Aelius,,,,,f,
+apollonios_sphettios,Apollonios Sphettios,Athenian,Athens,Male,t,f,,,,,,Apollonios,,Sphettos,f,
+lysiades,Lysiades,Athenian,Athens,Male,t,f,,,,,,Lysiades,,,f,
+p_ail_herennia_1,P. Ail. Herennia P. Ail. Apolloniou,Athenian,Athens,Female,t,t,Publii Aelii Dionysii,Publii Aelii Dionysii,Publia,Aelia,,Herennia,,,f,
+p_ail_apollonios,P. Ail Apollonios,Athenian,Athens,Male,t,t,Publii Aelii Dionysii,Publii Aelii Dionysii,Publius,Aelius,,Apollonios,,,f,
+p_ail_herennia_2,P. Ail. Herennia,Athenian,Athens,Female,t,t,Publii Aelii Dionysii,Publii Aelii Dionysii,Publia,Aelia,,Herennia,,,f,
+konon,Konon,Athenian,Athens,Male,t,f,,,,,,Konon,,,f,
+kallimakhos_2,Kallimakhos,Athenian,Athens,Male,t,f,,,,,,Kallimakhos,,,f,
+p_ail_dionysos,P. Ail. Dionysos,Athenian,Athens,Male,t,t,Publii Aelii Dionysii,Publii Aelii Dionysii,Publius,Aelius,,Dionysios,,,f,
+unc_grandson_of_ti_kl_sospis,[?] Grandson of Ti. Kl. Sospis,Athenian,Athens,Male,t,t,,,Tiberius,Claudius,,,,Melite,t,
+ti_kl_lysiades_leonidou,Ti. Kl. Lysiades Leonidou,Athenian,Athens,Male,t,t,Leonid,Claudii of Melite,Tiberius,Claudius,,Lysiades,Leonidou,Melite,f,
+ti_kl_leonides_lysiadou,Ti. Kl. Leonides Lysiadou,Athenian,Athens,Male,t,t,Leonid,Claudii of Melite,Tiberius,Claudius,,Leonides,Lysiadou,Melite,f,
+unc_kanephoros_3,UNC Kanephoros,Athenian,Athens,Male,t,f,,,,,,,,,t,
+ameinokleia_philanthou,Ameinokleia Philanthou,Athenian,Athens,Female,t,f,,,,,,Ameinokleia,Philanthou,Phlya,f,
+theophilos,Theophilos,Athenian,Athens,Male,t,f,,,,,,Theophilos,Diodorou,Halai Aixonides,f,
+philanthes,Philanthes,Athenian,Athens,Male,t,f,,,,,,Philanthes,Diodorou,Halai Aixonides,f,
+diopeithes,Diopeithes,Athenian,Athens,Male,t,f,,,,,,Diopeithes,Diodorou,Halai Aixonides,f,
+eurydike,Eurydike,Athenian,Athens,Female,t,f,,,,,,Eurydike,Diodorou,Halai Aixonides,f,
+unc_hearth_initiate_1,[?] Heath-Initiate,Athenian,Athens,Uncertain,t,f,,,,,,,,,t,
+unc_father,[?] Father,Athenian,Athens,Male,t,f,,,,,,,,,t,
+unc_mother,[?] Mother,Athenian,Athens,Female,t,f,,,,,,,,,t,
+dionysios_dionysiou,Dionysios Dionysiou,Athenian,Athens,Male,t,f,,,,,,Dionysios,Dionysiou,Sphettos,f,
+epiphaneia_hermolykou,Epiphaneia Hermolykou,Athenian,Athens,Female,t,f,,,,,,Epiphaneia,Hermolykou,Marathon,f,
+epiphaneia_2_athenagorou,Epiphaneia II Athenagorou,Athenian,Athens,Female,t,f,Athenagoridai,,,,,Epiphaneia,Athenagorou,Melite,f,
+philemon,Philemon,Athenian,Athens,Male,t,f,,,,,,Philemon,,,f,
+eusebeia_ariobarzanou,Eusebeia Ariobarzanou,Other Greek,Cappadocia,Female,f,f,,,,,,Eusebeia,,,f,
+ariobarzanes_2_ariobarzanou_1,Ariobarzanes II Ariobarzanou I,Other Greek,Cappadocia,Male,f,f,,,,,,Aribarzanes,,,f,
+athenais_2_ariobazanou_1,Athenais II Ariobazanou I,Other Greek,Cappadocia,Female,f,f,,,,,,Athenais,,,f,
+ariobarzanes_1_philoromaios,Ariobarzanes I Philoromaios,Other Greek,Cappadocia,Male,f,f,,,,,,Ariobarzanes,,,f,
+athenais_1_philostorgos,Athenais I Philostorgos,Other Greek,Cappadocia,Female,f,f,,,,,,Athenais,,,f,
+athenais_3_ariobarzanou_2,Athenais III Ariobarzanou II,Other Greek,Cappadocia,Female,f,f,,,,,,Athenais,,,f,
+medeios_medeiou,Medeios Medeiou,Athenian,Athens,Male,t,f,Medeiotes,,,,,Medeios,Medeiou,Peiraius,f,
+diphila_diokleous,Diphila Diokleous,Athenian,Athens,Female,t,f,Medeiotes,,,,,Diphila,Diokleous,Melite,f,
+timothea_medeiou,Timothea Medeiou,Athenian,Athens,Female,t,f,Medeiotes,,,,,Timothea,Medeiou,Peiraius,f,
+unc_tamias,[?] Tamias,Athenian,Athens,Male,t,f,,,,,,,,,f,
+t_pinarius,T. Pinarius,Roman,Rome,Male,f,t,,,Titus,Pinarius,,,,,f,
+ktesikleia_apollonioiu,Ktesikleia Apollonioiu,Athenian,Athens,Female,t,f,,,,,,Ktesikleia,Apolloniou,,f,
+sophokles_xenokleous,Sophokles Xenokleous,Athenian,Athens,Male,t,f,,,,,,Sophokles,Xenokleous,Akharnai,f,
+kleokrateia_oinophilou,Kleokrateia Oinophilou,Athenian,Athens,Female,t,f,,,,,,Kleokrateia,Oinophilou,Aphidnai,f,
+kleo_dionysiou,Kleo Dionysiou,Athenian,Athens,Female,t,f,,,,,,Kleo,Dionysiou,Ikarion,f,
+sekoundos_the_eumolpid,Sekoundos the Eumolpid,Roman,Rome,Male,t,t,,,,Secundus,,Sekoundos,,,f,
+attikos_eudoxou,Attikos Eudoxou,Athenian,Athens,Male,t,f,,,,,,Attikos,Eudoxou,Sphettos,f,
+m_aur_prosdektos_pistokrates,M. Aur. Prosdektos Pistokrates,Athenian,Athens,Male,t,t,,,Marcus,Aurelius,,Prosdektos,Pistokratous,Kephale,f,
+m_gavius_gallicanus,M Gavius Gallicanus,Roman,Rome,Male,f,t,,,Marcus,Gavius,Gallicanus,,,,f,
+m_gavius_scyillos_1,M Gavius Scyillos,Roman,Rome,Male,f,t,,,Marcus,Gavius,Scyillus,M,,,f,
+m_gavius_skyillos_2,M. Gavius Skyillos II,Roman,Rome,Male,f,t,,,Marcus,Gavius,Scyillus,M,,,f,
+p_perennios_ptolemaios,P. Perennios Ptolemaios P. Herenniou,Athenian,Athens,Male,t,t,,,Publius,Herennios,,Ptolemaios,Herennios,,f,
+xenagoras_2_xenagorou,Xenagoras II  Xenagorou,Athenian,Athens,Male,t,f,Praxagorid,Claudii of Melite,,,,Xenagoras,,Melite,f,
+xenagoras_1,Xenagoras I,Athenian,Athens,Male,t,f,Praxagorid,Claudii of Melite,,,,Xenagoras,,Melite,f,
+unc_praxagora,Praxagora [?],Athenian,Athens,Female,t,f,Praxagorid,Claudii of Melite,,,,Praxagora,,Melite,f,
+licinius_kallistomakhos,Licinius Kallistomakhos,Athenian,Athens,Male,t,t,,,,Licinius,,Kallistomakhos,,,f,
+kl_kallistomakhos,Kl. Kallistomakhos,Athenian,Athens,Male,t,t,,,,Claudius,,Kallistomakhos,,,f,
+emperor_carracalla,Emperor Carracalla,Imperial Family Member,Rome,Male,f,t,,,Lucius,Septimius,Bassianus,Carracalla,,,f,
+emperor_geta,Emperor Geta,Imperial Family Member,Rome,Male,f,t,,,Publius,Septimius,Geta,Geta,,,f,
+fl_plautianos,Fl. Plautianos,Athenian,Athens,Male,t,t,,,,Flavius,,Plautianos,,,f,
+hierophant_apollinarios,Hierophant Apollinarios,Athenian,Athens,Male,t,f,,,,,,Apollinarios,,,f,
+kl_menandra_2,Kl. Menandra II,Athenian,Athens,Female,t,t,Praxagorid,Claudii of Melite,,Claudia,,Menandra,,Melite,f,
+roupheina,Roupheina,Roman,Rome,Female,f,t,,,,Rufina,,,,,f,
+iul_mousonios,Iul. Mousonios,Athenian,Athens,Male,t,t,,,,Iulius,,Mousonios,,Steiria,f,
+iul_hierokeryx,Iul. Hierokeryx,Athenian,Athens,Male,t,t,,,,Iulius,,,,,f,
+ptolemais_serenou_gaza,Ptolemais Serenou Gaza,Other Greek,Syria,Male,t,f,,,,,,Ptolemais,Serenou,,f,
+aur_magna_1,Aur. Magna,Athenian,Athens,Female,t,t,,,,Aurelia,,Magna,,Pithos,f,
+hermione_2,Hermione II,Athenian,Athens,Female,t,f,,,,,,Hermione,,Pithos,f,
+aur_epaphrodeitos_asklepiadou,Aur. Epaphrodeitos Asklepiadou,Athenian,Athens,Male,t,t,,,,Aurelius,,Epaphrodeitos,Asklepiadou,Pithos,f,
+aur_magna_2_magnou,Aur. Magna II Magnou,Athenian,Athens,Female,t,t,,,,Aurelia,,Magna,,Pithos,f,
+aur_paramona_paramonou,Aur. Paramona Paramonou,Athenian,Athens,Female,t,t,,,,Aurelia,,Paramona,Paramonou,Lamptrai,f,
+aur_deidameia,Aur. Deidameia,Athenian,Athens,Female,t,t,,,,Aurelia,,Deidameia,,Lamptrai,f,
+apollonios_2_apolloniou,Apollonios Apolloniou II,Athenian,Athens,Male,t,t,,,,,,Apollonios,,,f,
+arabianus,Arabianus,Athenian,Athens,Male,f,t,,,,,,Arabianus,,,f,
+eutykhos,Eutykhos,Athenian,Athens,Male,t,f,,,,,,Eutykhos,,,f,
+dryantianos,Dryantianos,Athenian,Athens,Male,t,f,,,,,,Dryantianos,,,f,
+honoratiane_polykharmis_polykharmou,Honoratiane Polykharmis Polykharmou,Athenian,Athens,Female,t,t,Praxagorid,Claudii of Melite,,Honoratiana,,Polykharmis,Polykharmidos,,f,
+unc_fabius,Fabius [.],Uncertain,Uncertain,Uncertain,f,t,,,,Fabius,,,,,t,
+flavia_prokleiane,Flavia Prokleiane,Athenian,Athens,Female,t,t,,,,Flavia,,Prokleiane,,,f,
+fabius_demetrios,Fabius Demetrios,Athenian,Athens,Male,t,t,,,,Fabius,,Demetrios,,,f,
+fabius_aemelianos,Fabius Aemelianos,Athenian,Athens,Male,t,t,,,,Fabius,,Aimelianos,,,f,
+fabius_proclus,Fabius Proclus,Athenian,Athens,Male,t,t,,,,Fabius,,Proklus,,,f,
+eunnike_kallaiskhros,Eunnike Kallaiskhros,Athenian,Athens,Female,t,f,,,,,,Eunnike,Kallaiskhrou,,f,
+sedata,Sedata,Roman,Rome,Female,f,f,,,,Sedata,,,,,f,
+polyzelos_xeinagorou,Polyzelos Xeinagorou,Athenian,Athens,Male,t,f,,,,,,Polyzelos,Xeinagorou,,f,
+hermippis,Hermippis,Athenian,Athens,Male,t,f,,,,,,Hermippis,,,f,
+m_ulpius_eubiotos_leuros_gargettios,M. Ulpius Eubiotos Leuros Gargettios,Athenian,Athens,Male,t,t,,,Marcus,Ulpius,,Eubiotos Leuros,,Gargettos,f,
+casianus_hierokeryx,Casianus Hierokeryx,Athenian,Athens,Male,t,t,Casiani of Steiria,Casiani of Steiria,,,,Casianus,,Steiria,f,
+t_fl_glaukos_glaukou,T. Fl. Glaukos Glaukou,Athenian,Athens,Male,t,t,,,Titus,Flavius,,Glaukos,Glaukou,,f,
+emperor_maximinus,Emperor Maximinus,Roman,Rome,Male,f,t,,,Gaius,Iulius,Verus Maximinus Thrax,,,,f,
+iun_themistokles_polykharmidos,Iun. Themistokles Polykharmidos,Athenian,Athens,Male,t,t,Praxagorid,Claudii of Melite,,Inius,,Themistokles,Polykharmidos,,f,
+perikles,Perikles,Athenian,Athens,Male,t,f,,,,,,Perikles,Xanthippos,Kholargos,f,
+alexander_the_great,Alexander the Great,Other Greek,Macedon,Male,t,f,,,,,,Alexander,Philippou,,f,
+unc_hierophant_1,[?] Hierophant,Athenian,Athens,Male,t,f,,,,,,[?] Hierophant,,,t,
+unc_daughter_of_glaukos,[?] Daughter of Glaukos,Athenian,Athens,Female,t,f,,,,,,[?] Daughter,Glaukou,,t,
+nikagoras_hierokeryx,"Nikagoras, Hierokeryx",Athenian,Athens,Male,t,f,,,,,,Nikagoras,,,f,
+plutarch,Plutarch,Other Greek,Boiotia,Male,f,t,,,Lucius,Mestrius,,Ploutarkhos,,,f,
+sextus,Sextus,Other Greek,Boiotia,Male,f,t,,,Sextus,,,,,,f,
+dionysia_hermippidos,Dionysia Hermippidos,Athenian,Athens,Female,t,f,,,,,,Dionysia,Hermippidos,,f,
+unc_relative_of_orator,[?] Relative of an Orator,Uncertain,Uncertain,Uncertain,f,f,,,,,,,,,t,
+t_fl_altar_priest,"T. Fl., Altar-Priest",Athenian,Athens,Male,t,t,,,Titus,Flavius,,,,,f,
+aerarius_sospatros,"Aerarius Sospatros, Daduch",Athenian,Athens,Male,t,t,,,,Aerarius,,Sospatros,,,f,
+damoteles,Damoteles,Athenian,Athens,Male,t,f,,,,,,Damoteles,,,f,
+thisbianos,Thisbianos,Athenian,Athens,Male,t,f,,,,,,Thisbianos,,,f,
+emperor_gallienus,Emperor Gallienus,Imperial Family Member,Rome,Male,f,t,,,Publius,Licinius,Egnatius Gallienus,,,,f,
+iun_minucianus,Iun. Minucianus,Roman,Rome,Male,f,t,,,,Iunius,Minucianus,Iun,,,f,
+p_ail_herennius_dexippos,P. Ail. Herennius Dexippos,Athenian,Athens,Male,t,t,Publii Aelii Dionysii,,Publia,Aelia,,Herennios Dexippos,,,f,
+pyrros,Pyrros,Athenian,Athens,Male,t,f,,,,,,Pyrros,,,f,
+roupheinos,Roupheinos,Athenian,Athens,Male,t,t,,,,,,Roupheinos,,,f,
+eunike_kallaiskhrou,Eunike Kallaiskhrou,Athenian,Athens,Male,t,f,,,,,,Eunike,Kallaiskhrou,Marathon,f,
+thaleia,Thaleia,Athenian,Athens,Female,t,f,,,,,,Thaleia,,,f,
+kallaiskhros,Kallaiskhros,Athenian,Athens,Male,t,f,,,,,,Kallaiskhros,,Marathon,f,
+eisaios_3,Eisaios,Athenian,Athens,Male,t,f,,,,,,Eisaios,,,f,
+isidote,Isidote,Athenian,Athens,Female,t,f,,,,,,Isidote,,,f,
+zoilos,Zoilos,Athenian,Athens,Male,t,f,,,,,,Zoilos,,,f,
+hierophant_glaukos,Hierophant Glaukos,Athenian,Athens,Male,t,f,,,,,,Glaukos,,,f,
+emperor_diocletian,Emperor Diocletian,Imperial Family Member,Rome,Male,f,t,,,Gaius,Aurelius,Valerius Diocletianus,Emperor,,,f,
+emperor_maximianus,Emperor Maximianus,Imperial Family Member,Rome,Male,f,t,,,Marcus,Aurelius,Valerius Maximianus,Emperor,,,f,
+unc_proconsul,[?] Proconsul,Uncertain,Rome,Male,f,t,,,,,,,,,t,
+unc_ptolemaios,[?] Ptolemaios,Athenian,Athens,Male,t,f,,,,,,Ptolemaios,,,t,
+unc_exegete_of_eumolpidai_4,[?] Exegete of Eumolpidai?,Athenian,Athens,Male,t,f,,,,,,,,,t,
+unc_gn,Gn. [?],Athenian,Athens,Male,f,t,,,,,,,,,t,
+epigonos,Epigonos ,Athenian,Athens,Male,t,f,,,,,,Epigonos,,,f,
+artemisia,Artemisia,Athenian,Athens,Male,t,f,,,,,,Artemisia,,,f,
+unc_emperor_8,[?] Emperor,Imperial Family Member,Rome,Male,f,t,,,,,,,,,t,
+t_kl_hierophantes_kallikratidou_trikorysios,T. Kl. Hierophantes Kallikratidou Trikorysios,Athenian,Athens,Male,t,t,,,Tiberius,Klaudius,,,Kallikratidou,Trikorysios,f,
