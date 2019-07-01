@@ -4,8 +4,8 @@ DROP TABLE IF EXISTS public."Person in Inscription";
 
 CREATE TABLE public."Person in Inscription"
 (
-  "Person ID" character varying(100) NOT NULL,
-  "Inscription ID" character varying(100) NOT NULL,
+  "Person ID" integer NOT NULL,
+  "Inscription ID" integer NOT NULL,
   "Role" character varying(50),
   "Notes" character varying(500),
   CONSTRAINT "People in Inscriptions_pkey" PRIMARY KEY ("Inscription ID", "Person ID"),

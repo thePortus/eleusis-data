@@ -1,5 +1,5 @@
 CREATE FUNCTION public."Person Full"(
-    OUT "ID" CHARACTER VARYING,
+    OUT "ID" INTEGER,
     OUT "Person" CHARACTER VARYING,
     OUT "Category" CHARACTER VARYING,
     OUT "Origin" CHARACTER VARYING,
@@ -44,12 +44,12 @@ SELECT person."ID" AS "ID",
        person."Patronym" AS "Patronym",
        person."Deme" AS "Deme",
        public."Earliest Date"(person."ID") AS "Earliest Date",
-       public."Person is Institution Officer"(person."ID", 'areopagus') AS "Areopagus Officer",
-       public."Person is Institution Officer"(person."ID", 'boule') AS "Boule Officer",
-       public."Person is Institution Officer"(person."ID", 'demos') AS "Demos Officer",
-       public."Person is Institution Officer"(person."ID", 'kerykes') AS "Kerykes Officer",
-       public."Person is Institution Officer"(person."ID", 'eumolpidai') AS "Eumolpidai Officer",
-       public."Person is Institution Officer"(person."ID", 'philleidai') AS "Phileidai Officer",
+       public."Person is Institution Officer"(person."ID", 1000) AS "Areopagus Officer",
+       public."Person is Institution Officer"(person."ID", 1001) AS "Boule Officer",
+       public."Person is Institution Officer"(person."ID", 1002) AS "Demos Officer",
+       public."Person is Institution Officer"(person."ID", 1016) AS "Kerykes Officer",
+       public."Person is Institution Officer"(person."ID", 1015) AS "Eumolpidai Officer",
+       public."Person is Institution Officer"(person."ID", 1007) AS "Phileidai Officer",
        person."Uncertain Person" AS "Uncertain Person"
 -- Person
 FROM public."Person" AS person

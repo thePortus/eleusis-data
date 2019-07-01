@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS public."Text";
 
 CREATE TABLE public."Text"
 (
-  "ID" character varying(100) NOT NULL,
+  "ID" integer NOT NULL,
   "Raw Text" text,
   "Text" text,
   "Lemmata" text,

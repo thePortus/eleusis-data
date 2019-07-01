@@ -4,8 +4,8 @@ DROP TABLE IF EXISTS public."Honor in Inscription";
 
 CREATE TABLE public."Honor in Inscription"
 (
-  "Honor ID" character varying(100) NOT NULL,
-  "Inscription ID" character varying(10) NOT NULL,
+  "Honor ID" integer NOT NULL,
+  "Inscription ID" integer NOT NULL,
   "Appearances" integer,
   "Notes" character varying(1000),
   CONSTRAINT "Honor in Inscription_pkey" PRIMARY KEY ("Inscription ID", "Honor ID"),

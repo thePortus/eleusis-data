@@ -4,8 +4,8 @@ DROP TABLE IF EXISTS public."Institution Honor";
 
 CREATE TABLE public."Institution Honor"
 (
-  "Institution ID" character varying(100) NOT NULL,
-  "Honor ID" character varying(100) NOT NULL,
+  "Institution ID" integer NOT NULL,
+  "Honor ID" integer NOT NULL,
   "Notes" character varying(1000),
   CONSTRAINT "Institution Honor_pkey" PRIMARY KEY ("Honor ID", "Institution ID"),
   CONSTRAINT "Ref_Institution Honor_to_Honor" FOREIGN KEY ("Honor ID")

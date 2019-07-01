@@ -11,7 +11,7 @@ DROP TABLE IF EXISTS public."Inscription";
 
 CREATE TABLE public."Inscription"
 (
-  "ID" character varying(100),
+  "ID" integer NOT NULL,
   "IE" character varying(10),
   "Inscription" character varying(500),
   "Object Type" character varying(200),
@@ -23,10 +23,6 @@ CREATE TABLE public."Inscription"
   "Date Span" real,
   "Low Date Uncertain" boolean,
   "High Date Uncertain" boolean,
-  "IG II2" character varying(10),
-  "IG II3" character varying(10),
-  "SEG" character varying(10),
-  "Schmalz" character varying(10),
   "Notes" character varying(1000),
   CONSTRAINT "Inscriptions_pkey" PRIMARY KEY ("ID")
 )
@@ -43,7 +39,7 @@ DROP TABLE IF EXISTS public."Text";
 
 CREATE TABLE public."Text"
 (
-  "ID" character varying(100) NOT NULL,
+  "ID" integer NOT NULL,
   "Raw Text" text,
   "Text" text,
   "Lemmata" text,
@@ -67,7 +63,7 @@ DROP TABLE IF EXISTS public."Inscription Reference";
 
 CREATE TABLE public."Inscription Reference"
 (
-  "Inscription ID" character varying(100) NOT NULL,
+  "Inscription ID" integer NOT NULL,
   "Publication" character varying(50),
   "Number" character varying(50),
   "Additional" character varying(50),
@@ -91,7 +87,7 @@ DROP TABLE IF EXISTS public."Inscription Feature";
 CREATE TABLE public."Inscription Feature"
 (
   "ID" integer NOT NULL,
-  "Inscription ID" character varying(100) NOT NULL,
+  "Inscription ID" integer,
   "Feature" Text,
   "Uncertain" boolean,
   "Notes" text,
@@ -99,24 +95,6 @@ CREATE TABLE public."Inscription Feature"
   CONSTRAINT "Ref_Inscription Feature_to_Inscription" FOREIGN KEY ("Inscription ID")
       REFERENCES public."Inscription" ("ID") MATCH SIMPLE
       ON UPDATE NO ACTION ON DELETE NO ACTION
-)
-WITH (
-  OIDS=FALSE
-);
-
-
--- Table from: build_db/sql/tables/Inscription Multistone.sql
-
--- Table: public."Inscription Multistone"
-
-DROP TABLE IF EXISTS public."Inscription Multistone";
-
-CREATE TABLE public."Inscription  Multistone"
-(
-  "ID" character varying(100),
-  "IE" character varying(10),
-  "Notes" integer,
-  CONSTRAINT "Inscription Multistone_pkey" PRIMARY KEY ("ID")
 )
 WITH (
   OIDS=FALSE
@@ -131,7 +109,7 @@ DROP TABLE IF EXISTS public."Inscription Macroscopic";
 
 CREATE TABLE public."Inscription Macroscopic"
 (
-  "ID" character varying(100) NOT NULL,
+  "ID" character varying(10) NOT NULL,
   "Title" character varying(500),
   "Date" integer,
   "Date Strength" character varying(100),
@@ -157,7 +135,7 @@ DROP TABLE IF EXISTS public."Institution";
 
 CREATE TABLE public."Institution"
 (
-  "ID" character varying(100) NOT NULL,
+  "ID" integer NOT NULL,
   "Institution" character varying(100),
   "Origin" character varying(200),
   "Type" character varying(200),
@@ -178,7 +156,7 @@ DROP TABLE IF EXISTS public."Honor";
 
 CREATE TABLE public."Honor"
 (
-  "ID" character varying(100) NOT NULL,
+  "ID" integer NOT NULL,
   "Honor" character varying(100),
   "Origin" character varying(100),
   "Category" character varying(100),
@@ -199,7 +177,7 @@ DROP TABLE IF EXISTS public."Person";
 
 CREATE TABLE public."Person"
 (
-  "ID" character varying(100) NOT NULL,
+  "ID" integer NOT NULL,
   "Person" character varying(500),
   "Category" character varying(100),
   "Origin" character varying(100),
@@ -230,8 +208,8 @@ DROP TABLE IF EXISTS public."Institution Honor";
 
 CREATE TABLE public."Institution Honor"
 (
-  "Institution ID" character varying(100) NOT NULL,
-  "Honor ID" character varying(100) NOT NULL,
+  "Institution ID" integer NOT NULL,
+  "Honor ID" integer NOT NULL,
   "Notes" character varying(1000),
   CONSTRAINT "Institution Honor_pkey" PRIMARY KEY ("Honor ID", "Institution ID"),
   CONSTRAINT "Ref_Institution Honor_to_Honor" FOREIGN KEY ("Honor ID")
@@ -254,8 +232,8 @@ DROP TABLE IF EXISTS public."Honor in Inscription";
 
 CREATE TABLE public."Honor in Inscription"
 (
-  "Honor ID" character varying(100) NOT NULL,
-  "Inscription ID" character varying(10) NOT NULL,
+  "Honor ID" integer NOT NULL,
+  "Inscription ID" integer NOT NULL,
   "Appearances" integer,
   "Notes" character varying(1000),
   CONSTRAINT "Honor in Inscription_pkey" PRIMARY KEY ("Inscription ID", "Honor ID"),
@@ -279,8 +257,8 @@ DROP TABLE IF EXISTS public."Institution Sponsorship";
 
 CREATE TABLE public."Institution Sponsorship"
 (
-  "Institution ID" character varying(100) NOT NULL,
-  "Inscription ID" character varying(100) NOT NULL,
+  "Institution ID" integer NOT NULL,
+  "Inscription ID" integer NOT NULL,
   "Role" character varying(20),
   "Uncertain" boolean,
   "Notes" character varying(1000),
@@ -305,8 +283,8 @@ DROP TABLE IF EXISTS public."Person in Inscription";
 
 CREATE TABLE public."Person in Inscription"
 (
-  "Person ID" character varying(100) NOT NULL,
-  "Inscription ID" character varying(100) NOT NULL,
+  "Person ID" integer NOT NULL,
+  "Inscription ID" integer NOT NULL,
   "Role" character varying(50),
   "Notes" character varying(500),
   CONSTRAINT "People in Inscriptions_pkey" PRIMARY KEY ("Inscription ID", "Person ID"),
@@ -330,9 +308,9 @@ DROP TABLE IF EXISTS public."Person Honor Display";
 
 CREATE TABLE public."Person Honor Display"
 (
-  "Person ID" character varying(100) NOT NULL,
-  "Honor ID" character varying(100) NOT NULL,
-  "Inscription ID" character varying(100) NOT NULL,
+  "Person ID" integer NOT NULL,
+  "Honor ID" integer NOT NULL,
+  "Inscription ID" integer NOT NULL,
   "Uncertain" boolean,
   "Appearances" integer,
   CONSTRAINT "Person Honor Display_pkey" PRIMARY KEY ("Honor ID", "Person ID", "Inscription ID"),
@@ -357,7 +335,7 @@ WITH (
 -- Function from: build_db/sql/functions/Inscription Full.sql
 
 CREATE FUNCTION public."Inscription Full"(
-    OUT "ID" CHARACTER VARYING,
+    OUT "ID" INTEGER,
     OUT "IE" CHARACTER VARYING,
     OUT "Inscription" CHARACTER VARYING,
     OUT "Object Type" CHARACTER VARYING,
@@ -420,7 +398,7 @@ LANGUAGE sql STABLE NOT LEAKPROOF;
 -- Function from: build_db/sql/functions/Inscription Honors Stats.sql
 
 CREATE FUNCTION public."Inscription Honors Stats"(
-    OUT "Inscription ID" CHARACTER VARYING,
+    OUT "Inscription ID" integer,
     OUT "Total Honors" bigint,
     OUT "Different Honors" bigint,
     OUT "Magistracies" bigint,
@@ -477,7 +455,7 @@ SELECT honor_appearance."Inscription ID" AS "Inscription ID",
 -- Function from: build_db/sql/functions/Inscription Institutions Stats.sql
 
 CREATE FUNCTION public."Inscription Institutions Stats"(
-    OUT "Inscription ID" CHARACTER VARYING,
+    OUT "Inscription ID" integer,
     OUT "Total Institutions" bigint,
     OUT "Institution Sponsors" bigint,
     OUT "Public Institutions" bigint,
@@ -531,7 +509,7 @@ SELECT institution_sponsorship."Inscription ID" AS "Inscription ID",
 -- Function from: build_db/sql/functions/Inscription People Stats.sql
 
 CREATE FUNCTION public."Inscription People Stats"(
-    OUT "Inscription ID" CHARACTER VARYING,
+    OUT "Inscription ID" integer,
     OUT "People" bigint,
     OUT "Females" bigint,
     OUT "Males" bigint,
@@ -589,7 +567,7 @@ SELECT person_appearance."Inscription ID" AS "Inscription ID",
 -- Function from: build_db/sql/functions/Persons on Inscriptions Stats.sql
 
 CREATE FUNCTION public."Persons on Inscriptions Stats"(
-    OUT "Person ID" CHARACTER VARYING,
+    OUT "Person ID" integer,
     OUT "Total Inscriptions" bigint,
     OUT "Bases" bigint,
     OUT "Buildings/Monuments" bigint,
@@ -704,7 +682,7 @@ SELECT person_appearance."Person ID" AS "Person ID",
 -- Function from: build_db/sql/functions/Persons on Institution Inscriptions Stats.sql
 
 CREATE FUNCTION public."Persons on Institution Inscriptions Stats"(
-    OUT "Person ID" CHARACTER VARYING,
+    OUT "Person ID" integer,
     OUT "As Institution Honorand" bigint,
     OUT "As Institution Non-Honorand" bigint,
     OUT "As Public Honorand" bigint,
@@ -807,7 +785,7 @@ LANGUAGE sql STABLE NOT LEAKPROOF;
 -- Function from: build_db/sql/functions/Persons with Honor Stats.sql
 
 CREATE FUNCTION public."Persons with Honor Stats"(
-    OUT "Person ID" CHARACTER VARYING,
+    OUT "Person ID" integer,
     OUT "Total Honors" bigint,
     OUT "Different Honors" bigint,
     OUT "Magistracies" bigint,
@@ -864,7 +842,7 @@ SELECT person_honor."Person ID" AS "Person ID",
 -- Function from: build_db/sql/functions/Persons Combined Stats.sql
 
 CREATE FUNCTION public."Persons Combined Stats"(
-    OUT "ID" CHARACTER VARYING,
+    OUT "ID" INTEGER,
     OUT "Person" CHARACTER VARYING,
     OUT "Origin" CHARACTER VARYING,
     OUT "Gender" CHARACTER VARYING,
@@ -997,7 +975,7 @@ LANGUAGE sql STABLE NOT LEAKPROOF;
 -- Function from: build_db/sql/functions/Earliest Date.sql
 
 CREATE FUNCTION public."Earliest Date"(
-    IN thing_id CHARACTER VARYING,
+    IN thing_id INTEGER,
     OUT "Date" REAL
 ) RETURNS REAL AS
 $BODY$
@@ -1022,8 +1000,8 @@ LANGUAGE sql STABLE NOT LEAKPROOF;
 -- Function from: build_db/sql/functions/Person is Institution Officer.sql
 
 CREATE FUNCTION public."Person is Institution Officer"(
-    IN person_id CHARACTER VARYING,
-    IN institution_id CHARACTER VARYING,
+    IN person_id INTEGER,
+    IN institution_id INTEGER,
     OUT "Is Officer" BOOLEAN
 ) RETURNS BOOLEAN AS
 $BODY$
@@ -1048,7 +1026,7 @@ LANGUAGE sql STABLE NOT LEAKPROOF;
 -- Function from: build_db/sql/functions/Person Full.sql
 
 CREATE FUNCTION public."Person Full"(
-    OUT "ID" CHARACTER VARYING,
+    OUT "ID" INTEGER,
     OUT "Person" CHARACTER VARYING,
     OUT "Category" CHARACTER VARYING,
     OUT "Origin" CHARACTER VARYING,
@@ -1093,12 +1071,12 @@ SELECT person."ID" AS "ID",
        person."Patronym" AS "Patronym",
        person."Deme" AS "Deme",
        public."Earliest Date"(person."ID") AS "Earliest Date",
-       public."Person is Institution Officer"(person."ID", 'areopagus') AS "Areopagus Officer",
-       public."Person is Institution Officer"(person."ID", 'boule') AS "Boule Officer",
-       public."Person is Institution Officer"(person."ID", 'demos') AS "Demos Officer",
-       public."Person is Institution Officer"(person."ID", 'kerykes') AS "Kerykes Officer",
-       public."Person is Institution Officer"(person."ID", 'eumolpidai') AS "Eumolpidai Officer",
-       public."Person is Institution Officer"(person."ID", 'philleidai') AS "Phileidai Officer",
+       public."Person is Institution Officer"(person."ID", 1000) AS "Areopagus Officer",
+       public."Person is Institution Officer"(person."ID", 1001) AS "Boule Officer",
+       public."Person is Institution Officer"(person."ID", 1002) AS "Demos Officer",
+       public."Person is Institution Officer"(person."ID", 1016) AS "Kerykes Officer",
+       public."Person is Institution Officer"(person."ID", 1015) AS "Eumolpidai Officer",
+       public."Person is Institution Officer"(person."ID", 1007) AS "Phileidai Officer",
        person."Uncertain Person" AS "Uncertain Person"
 -- Person
 FROM public."Person" AS person

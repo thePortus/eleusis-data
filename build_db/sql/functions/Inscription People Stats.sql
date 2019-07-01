@@ -1,5 +1,5 @@
 CREATE FUNCTION public."Inscription People Stats"(
-    OUT "Inscription ID" CHARACTER VARYING,
+    OUT "Inscription ID" integer,
     OUT "People" bigint,
     OUT "Females" bigint,
     OUT "Males" bigint,
