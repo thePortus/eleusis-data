@@ -1,6 +1,6 @@
 # The Networks of Roman Eleusis
 
-By [David J. Thomas](mailto:dave.a.base@gmail.com), [thePortus](http://thePortus.com)
+By [David J. Thomas](mailto:dave.a.base@gmail.com), [thePortus](http://thePort.us)
 
 This repository contains data related to the dissertation of David J. Thomas for Brown University. Data is posted here for academic transparency. You may use this data according to Fair Use practice. You may distribute your own derived data and works, but please do not redistribute the raw data located here. If you notice any issues or wish to make corrections, fork this repository, make changes, and issue a pull request with comments. See the [contribution guidelines](CONTRIBUTING.md) for more information.
 
@@ -28,7 +28,7 @@ The installation directions below are intended for Digital Humanists who may or 
 
 ### Cloning the Repository
 
-Open your terminal (or command prompt), and navigate to the directory where you want to store this repository and enter `git clone https://github.com/thePortus/brown-diss.git`
+Open your terminal (or command prompt), and navigate to the directory where you want to store this repository and enter `git clone https://github.com/thePortus/eleusis-data.git`
 
 ### Installing PostgreSQL and PGAdmin
 
